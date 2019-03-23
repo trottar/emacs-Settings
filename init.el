@@ -37,21 +37,17 @@
   (when (and 
          (string-match "\\.\\([C]\\|cc\\|cpp\\)\\'" (buffer-file-name))
          (eq 1 (point-max)))
-    (insert-file "~/.emacs.d/insert/template.C"))
+    (insert-file "~/users/trottar/.emacs.d/insert/template.C"))
     (when (and 
          (string-match "\\.py" (buffer-file-name))
          (eq 1 (point-max)))
-      (insert-file "~/.emacs.d/insert/template.py"))
+      (insert-file "~/users/trottar/.emacs.d/insert/template.py"))
     (when (and 
 	   (string-match "\\.\\(sh\\|csh\\)\\'" (buffer-file-name))
 	   (eq 1 (point-max)))
-      (insert-file "~/.emacs.d/insert/template.sh")))
+      (insert-file "~/users/trottar/.emacs.d/insert/template.sh")))
 
-(package-initialize)
-(require 'org-bullets)
-(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
-
-(setq  backup-directory-alist '(("." . "~/.backups"))
+(setq  backup-directory-alist '(("." . "$HOME/users/trottar/.backups"))
  backup-by-copying t
  version-control t
  delete-old-versions t
