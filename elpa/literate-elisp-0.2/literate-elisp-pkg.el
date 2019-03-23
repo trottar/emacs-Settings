@@ -1,0 +1,1 @@
+(define-package "literate-elisp" "0.2" "literate program to write elisp codes in org mode" '((cl-lib "0.6") (emacs "24")) :commit "eadb8f4ae6d0eff65a6a82b4abfd129600413b7a" :keywords '("lisp" "docs" "extensions" "tools") :authors '(("Jingtao Xu" . "jingtaozf@gmail.com")) :maintainer '("Jingtao Xu" . "jingtaozf@gmail.com") :url "https://github.com/jingtaozf/literate-elisp")
