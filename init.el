@@ -26,6 +26,8 @@
 
 ;; (require 'auto-complete)
 
+(desktop-save-mode 1)
+
 (add-hook 'before-save-hook 'time-stamp)
 (setq time-stamp-pattern nil)
 
@@ -45,7 +47,11 @@
     (when (and 
 	   (string-match "\\.\\(sh\\|csh\\)\\'" (buffer-file-name))
 	   (eq 1 (point-max)))
-      (insert-file "~/.emacs.d/insert/template.sh")))
+      (insert-file "~/.emacs.d/insert/template.sh"))
+    (when (and 
+	   (string-match "\\.org\\'" (buffer-file-name))
+	   (eq 1 (point-max)))
+      (insert-file "~/.emacs.d/insert/template.org")))
 
 (package-initialize)
 (require 'org-bullets)
@@ -80,6 +86,8 @@
  '(custom-enabled-themes (quote (misterioso)))
  '(electric-pair-inhibit-predicate (quote ignore))
  '(electric-pair-mode t)
+ '(electric-pair-pairs (quote ((34 . 34))))
+ '(electric-pair-text-pairs (quote ((34 . 34))))
  '(global-auto-revert-mode t)
  '(ido-enable-flex-matching t)
  '(ido-mode (quote both) nil (ido))

@@ -1,0 +1,5 @@
+#+OPTIONS: ^:nil
+#+TITLE: Title
+#+AUTHOR: Richard L. Trotta III
+#+EMAIL: trotta@cua.edu
+#+latex_header: \hypersetup{colorlinks=true,linkcolor=blue}
