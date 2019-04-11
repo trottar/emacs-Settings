@@ -2,42 +2,64 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Tue Apr  9 23:44:09 2019
+;; Created Thu Apr 11 16:14:25 2019
 ;; Desktop file format version 206
 ;; Emacs version 24.5.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (23725 26249 598332 416000) (desktop . "206") "trottar@trottar-PC" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen . maximized) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 12) (alpha) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (frameset--id . "52A7-C71C-1F12-9FF0") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (visibility . t) (height . 41) (width . 144) (left . 34) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 54) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1332) (pixel-height . 720) (total-width . 148) (total-height . 40) (normal-height . 1.0) (normal-width . 1.0) (buffer "getTDISpionHisto.py" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars 12 2 t nil) (vscroll . 0) (dedicated) (point . 4492) (start . 3383))))])
+(setq desktop-saved-frameset [frameset 1 (23727 40993 112586 1000) (desktop . "206") "trottar@trottar-PC" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen . maximized) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 12) (alpha) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (frameset--id . "52A7-C71C-1F12-9FF0") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (visibility . t) (height . 41) (width . 144) (left . 34) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 54) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1332) (pixel-height . 720) (total-width . 148) (total-height . 40) (normal-height . 1.0) (normal-width . 1.0) (buffer "plotTDISpionHisto.py" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars 12 2 t nil) (vscroll . 0) (dedicated) (point . 415) (start . 1))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("nb" "look" "exec"))
+(setq search-ring '("y_D" "sigma" "MIon" "x_D" "mproton" "y_D" "s_e" "y_D" "x_D" "y_D" "invts" "print" "y_D" "TDISpion" "y/*" "xbj"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("/home/trottar/ResearchNP/JLEIC/eic_SF/plotTDISpionHisto.py.OLD" "/home/trottar/ResearchNP/JLEIC/eic_SF/getTDISpionHisto.py" "/home/trottar/ResearchNP/JLEIC/eic_SF/getTDISpionHisto.py.OLD" "~/.emacs.d/eic/" "~/.emacs.d/sessions/" "/home/trottar/.emacs.d/sessions/eic.state" "/home/trottar/ResearchNP/JLEIC/eic_SF/getTDISpionHisto.py" "/home/trottar/ResearchNP/JLEIC/eic_SF/batch.cc" "/home/trottar/ResearchNP/JLEIC/eic_SF/make_Plots.sh" "/home/trottar/ResearchNP/JLEIC/eic_SF/TDISMC_EIC.h" "/home/trottar/ResearchNP/JLEIC/eic_SF/TDISMC_EIC.cpp" "/home/trottar/ResearchNP/JLEIC/eic_SF/plotTDISpionHisto.py" "/home/trottar/ResearchNP/JLEIC/eic_SF/getTDISpionHisto.py"))
+(setq file-name-history '("~/.emacs.d/eic/" "/home/trottar/ResearchNP/JLEIC/eic_SF/batch.cc" "/home/trottar/ResearchNP/JLEIC/eic_SF/run_batch.sh" "/home/trottar/ResearchNP/JLEIC/eic_SF/plotTDISpionHisto.py.OLD" "/home/trottar/ResearchNP/JLEIC/eic_SF/getTDISpionHisto.py" "/home/trottar/ResearchNP/JLEIC/eic_SF/getTDISpionHisto.py.OLD" "~/.emacs.d/eic/" "~/.emacs.d/sessions/" "/home/trottar/.emacs.d/sessions/eic.state" "/home/trottar/ResearchNP/JLEIC/eic_SF/getTDISpionHisto.py" "/home/trottar/ResearchNP/JLEIC/eic_SF/batch.cc" "/home/trottar/ResearchNP/JLEIC/eic_SF/make_Plots.sh" "/home/trottar/ResearchNP/JLEIC/eic_SF/TDISMC_EIC.h" "/home/trottar/ResearchNP/JLEIC/eic_SF/TDISMC_EIC.cpp" "/home/trottar/ResearchNP/JLEIC/eic_SF/plotTDISpionHisto.py" "/home/trottar/ResearchNP/JLEIC/eic_SF/getTDISpionHisto.py"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
-(desktop-create-buffer 206
-  "/home/trottar/ResearchNP/JLEIC/eic_SF/getTDISpionHisto.py"
-  "getTDISpionHisto.py"
-  'python-mode
-  '(global-auto-revert-mode)
-  4492
-  '(782 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
-
 (desktop-create-buffer 206
   "/home/trottar/ResearchNP/JLEIC/eic_SF/plotTDISpionHisto.py"
   "plotTDISpionHisto.py"
   'python-mode
   '(global-auto-revert-mode)
-  624
-  '(5283 nil)
+  415
+  '(384 nil)
   nil
   nil
   '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/home/trottar/ResearchNP/JLEIC/eic_SF/TDISMC_EIC.cpp"
+  "TDISMC_EIC.cpp"
+  'c++-mode
+  '(abbrev-mode global-auto-revert-mode)
+  443
+  '(18395 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/trottar/ResearchNP/JLEIC/eic_SF/TDISMC_EIC.h"
+  "TDISMC_EIC.h"
+  'c-mode
+  '(abbrev-mode global-auto-revert-mode)
+  16187
+  '(1067 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/trottar/ResearchNP/JLEIC/eic_SF/getTDISpionHisto.py"
+  "getTDISpionHisto.py"
+  'python-mode
+  '(global-auto-revert-mode)
+  678
+  '(2105 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
   "/home/trottar/ResearchNP/JLEIC/eic_SF/plotTDISpionHisto.py.OLD"
@@ -62,32 +84,10 @@
   '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
-  "/home/trottar/ResearchNP/JLEIC/eic_SF/TDISMC_EIC.h"
-  "TDISMC_EIC.h"
-  'c-mode
-  '(abbrev-mode global-auto-revert-mode)
-  1515
-  '(1352 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
   "/home/trottar/ResearchNP/JLEIC/eic_SF/make_Plots.sh"
   "make_Plots.sh"
   'sh-mode
   '(global-auto-revert-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/trottar/ResearchNP/JLEIC/eic_SF/TDISMC_EIC.cpp"
-  "TDISMC_EIC.cpp"
-  'c++-mode
-  '(abbrev-mode global-auto-revert-mode)
   1
   '(nil nil)
   nil
