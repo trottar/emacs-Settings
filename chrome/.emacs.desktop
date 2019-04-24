@@ -2,62 +2,84 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Thu Apr 11 16:15:32 2019
+;; Created Tue Apr 23 19:46:36 2019
 ;; Desktop file format version 206
 ;; Emacs version 24.5.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (23727 41060 849250 39000) (desktop . "206") "trottar@trottar-PC" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen . maximized) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 12) (alpha) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (frameset--id . "E7E4-6619-4FFC-3C19") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (visibility . t) (height . 41) (width . 144) (left . 34) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 54) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1332) (pixel-height . 720) (total-width . 148) (total-height . 40) (normal-height . 1.0) (normal-width . 1.0) (buffer "kaonlt_pyPlot.py" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars 12 2 t nil) (vscroll . 0) (dedicated) (point . 413) (start . 1))))])
+(setq desktop-saved-frameset [frameset 1 (23743 41948 945069 500000) (desktop . "206") "trottar@trottar-PC" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen . maximized) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 12) (alpha) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (frameset--id . "E7E4-6619-4FFC-3C19") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (visibility . t) (height . 41) (width . 144) (left . 34) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 54) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1332) (pixel-height . 720) (total-width . 148) (total-height . 40) (normal-height . 1.0) (normal-width . 1.0) (buffer "test_pyPlot.py" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars 12 2 t nil) (vscroll . 0) (dedicated) (point . 4000) (start . 3044))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("leafName" "leaf" "loading" "prin" "augerid" "j" "for" "+1" "python" "print" "t1_leafdict" "[t1,t1_hist] = pullarray()" "t1_hist" "[t1,t1_hist] = pullarray()" "    [t1,t1_hist] = pullarray()" "t1_leafdict"))
+(setq search-ring '("binsce" "polar" "dens" "cuts" "polar" "cut" "xy" "appl" "cut" "cuts" "p_gtr_p" "progress" "p_gtr_p" "p_gtr_p[i]" "array" "h1mmissk"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("/home/trottar/bin/root2py.sh" "/home/trottar/bin/pyPlots.py" "~/.emacs.d/chrome/" "/home/trottar/bin/root2py.sh" "/home/trottar/bin/pyPlots.py" "/home/trottar/bin/root2py.sh" "/home/trottar/bin/pyPlots.py" "/home/trottar/bin/root2py.sh" "/home/trottar/bin/pyPlots.py" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_KaonYield/KaonYield.h" "/home/trottar/bin/pyPlots.py" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_KaonYield/KaonYield.C" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_KaonYield/KaonYield.h" "/home/trottar/bin/rootPy.py" "/home/trottar/bin/root2py.sh" "/home/trottar/bin/pyChain.py" "/home/trottar/bin/root2py.sh" "/home/trottar/bin/pyChain.py" "/home/trottar/bin/root2py.sh" "/home/trottar/bin/pyChain.py" "/home/trottar/bin/pyPlots.py" "/home/trottar/Analysis/ROOTfiles/KaonLT_coin_replay_production_8005_-1_pyChain.py" "/home/trottar/.cshrc" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/batch/run_batch.sh" "/home/trottar/bin/README.md" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/fill_runList" "/home/trottar/bin/pyChain.py" "/home/trottar/bin/copyFiles.sh" "/home/trottar/bin/bash_aliases" "/home/trottar/.cshrc" "~/.emacs.d/chrome/" "~/.emacs.d/sessions/" "~/.emacs.d/sessions/.chrome.desktop.lock" "~/.emacs.d/sessions/.chrome.desktop" "~/.emacs.d/sessions/" "~/.emacs.d/sessions/.emacs.desktop.lock" "~/.emacs.d/sessions/" "~/.emacs.d/sessions/.hallc.desktop.lock" "~/.emacs.d/sessions/.eic.desktop.lock" "~/.emacs.d/sessions/.chrome.desktop.lock" "~/.emacs.d/sessions/" "~/.emacs.d/sessions/." "/home/trottar/.emacs.d/sessions/chrome.state" "/home/trottar/.emacs.d/init.el" "~/Analysis/ROOTfiles/" "~/bin/pyChain.py" "/home/trottar/Analysis/ROOTfiles/kaonlt_pyPlot.py" "/home/trottar/bin/README.md" "/home/trottar/Analysis/ROOTfiles/kaonlt_pyPlot.py" "~/bin/" "/home/trottar/bin/root2py.sh" "/home/trottar/bin/pyPlots.py" "/home/trottar/ResearchNP/org_file/commands.org" "/home/trottar/$ORG" "/home/trottar/bin/rootPy.py" "/home/trottar/bin/root2py.sh" "/home/trottar/bin/root.root_pyPlot.py"))
+(setq file-name-history '("~/.emacs.d/chrome/" "/home/trottar/Analysis/ROOTfiles/python/test_rootPy.py" "/home/trottar/Analysis/ROOTfiles/test_pyPlot.py.OLD" "/home/trottar/Analysis/ROOTfiles/python/test_rootPy.py" "~/Analysis/ROOTfiles/test_rootPy.py" "~/Analysis/ROOTfiles/python/test_rootPy.py" "/home/trottar/Analysis/ROOTfiles/python/test_rootPy.py" "/home/trottar/bin/root2py.sh" "/home/trottar/bin/rootPy.py" "/home/trottar/Analysis/ROOTfiles/KaonLT_coin_replay_production_8005_-1_pyChain.py" "/home/trottar/bin/root2py.sh" "/home/trottar/bin/kaonlt_pyPlot.py" "/home/trottar/Analysis/ROOTfiles/python/test_rootPy.py" "/home/trottar/bin/rootPy.py" "~/Analysis/ROOTfiles/test_rootPy.py" "/home/trottar/Analysis/ROOTfiles/test_pyPlot.py" "/home/trottar/bin/rootPy.py" "/home/trottar/bin/root2py.sh" "/home/trottar/bin/pyChain.py" "/home/trottar/bin/rootPy.py" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_KaonYield/KaonYield.C" "/home/trottar/bin/root2py.sh" "/home/trottar/bin/pyPlots.py" "/home/trottar/bin/rootPy.py" "/home/trottar/bin/root2py.sh" "/home/trottar/bin/rootPy.py" "/home/trottar/bin/root2py.sh" "/home/trottar/bin/rootPy.py" "/home/trottar/bin/root2py.sh" "/home/trottar/bin/pyPlots.py" "/home/trottar/bin/root2py.sh" "/home/trottar/bin/pyPlots.py" "~/.emacs.d/chrome/" "/home/trottar/bin/root2py.sh" "/home/trottar/bin/pyPlots.py" "/home/trottar/bin/root2py.sh" "/home/trottar/bin/pyPlots.py" "/home/trottar/bin/root2py.sh" "/home/trottar/bin/pyPlots.py" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_KaonYield/KaonYield.h" "/home/trottar/bin/pyPlots.py" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_KaonYield/KaonYield.C" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_KaonYield/KaonYield.h" "/home/trottar/bin/rootPy.py" "/home/trottar/bin/root2py.sh" "/home/trottar/bin/pyChain.py" "/home/trottar/bin/root2py.sh" "/home/trottar/bin/pyChain.py" "/home/trottar/bin/root2py.sh" "/home/trottar/bin/pyChain.py" "/home/trottar/bin/pyPlots.py" "/home/trottar/Analysis/ROOTfiles/KaonLT_coin_replay_production_8005_-1_pyChain.py" "/home/trottar/.cshrc" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/batch/run_batch.sh" "/home/trottar/bin/README.md" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/fill_runList" "/home/trottar/bin/pyChain.py" "/home/trottar/bin/copyFiles.sh" "/home/trottar/bin/bash_aliases" "/home/trottar/.cshrc" "~/.emacs.d/chrome/" "~/.emacs.d/sessions/" "~/.emacs.d/sessions/.chrome.desktop.lock" "~/.emacs.d/sessions/.chrome.desktop" "~/.emacs.d/sessions/" "~/.emacs.d/sessions/.emacs.desktop.lock" "~/.emacs.d/sessions/" "~/.emacs.d/sessions/.hallc.desktop.lock" "~/.emacs.d/sessions/.eic.desktop.lock" "~/.emacs.d/sessions/.chrome.desktop.lock" "~/.emacs.d/sessions/" "~/.emacs.d/sessions/." "/home/trottar/.emacs.d/sessions/chrome.state" "/home/trottar/.emacs.d/init.el" "~/Analysis/ROOTfiles/" "~/bin/pyChain.py" "/home/trottar/Analysis/ROOTfiles/kaonlt_pyPlot.py" "/home/trottar/bin/README.md" "/home/trottar/Analysis/ROOTfiles/kaonlt_pyPlot.py" "~/bin/" "/home/trottar/bin/root2py.sh" "/home/trottar/bin/pyPlots.py" "/home/trottar/ResearchNP/org_file/commands.org" "/home/trottar/$ORG" "/home/trottar/bin/rootPy.py" "/home/trottar/bin/root2py.sh" "/home/trottar/bin/root.root_pyPlot.py"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
-  "/home/trottar/Analysis/ROOTfiles/kaonlt_pyPlot.py"
-  "kaonlt_pyPlot.py"
+  "/home/trottar/Analysis/ROOTfiles/test_pyPlot.py"
+  "test_pyPlot.py"
   'python-mode
   '(global-auto-revert-mode TeX-PDF-mode)
-  413
-  '(382 nil)
+  4000
+  '(3982 nil)
   nil
   nil
   '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Analysis/ROOTfiles/test_rootPy.py"
+  "test_rootPy.py"
+  'python-mode
+  '(global-auto-revert-mode TeX-PDF-mode)
+  3308
+  '(6478 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
   "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_KaonYield/KaonYield.C"
   "KaonYield.C"
   'c++-mode
   '(abbrev-mode global-auto-revert-mode TeX-PDF-mode)
-  7088
-  '(17066 nil)
+  24465
+  '(36853 nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_KaonYield/KaonYield.h"
-  "KaonYield.h"
-  'c-mode
-  '(abbrev-mode global-auto-revert-mode TeX-PDF-mode)
-  1067
+  "/home/trottar/Analysis/ROOTfiles/KaonLT_coin_replay_production_8005_-1_pyChain.py"
+  "KaonLT_coin_replay_production_8005_-1_pyChain.py"
+  'python-mode
+  '(global-auto-revert-mode TeX-PDF-mode)
+  1263
   '(nil nil)
   nil
   nil
-  '((buffer-file-coding-system . undecided-unix)))
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
   "/home/trottar/ResearchNP/org_file/commands.org"
   "commands.org"
   'org-mode
   '(global-auto-revert-mode TeX-PDF-mode)
-  17573
-  '(17554 nil)
+  1393
+  '(1344 nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Analysis/ROOTfiles/kaonlt_pyPlot.py"
+  "kaonlt_pyPlot.py"
+  'python-mode
+  '(global-auto-revert-mode TeX-PDF-mode)
+  1
+  '(5556 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode)))
 

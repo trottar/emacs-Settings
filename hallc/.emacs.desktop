@@ -2,40 +2,51 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Thu Apr 11 14:41:32 2019
+;; Created Tue Apr 23 19:47:01 2019
 ;; Desktop file format version 206
 ;; Emacs version 24.5.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (23727 35420 132117 83000) (desktop . "206") "trottar@trottar-PC" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen . maximized) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 12) (alpha) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (frameset--id . "CA4D-3D9F-4FA0-8908") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (visibility . t) (height . 41) (width . 144) (left . 34) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 54) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1332) (pixel-height . 720) (total-width . 148) (total-height . 40) (normal-height . 1.0) (normal-width . 1.0) (buffer "KaonYield.C" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars 12 2 t nil) (vscroll . 0) (dedicated) (point . 16826) (start . 16786))))])
+(setq desktop-saved-frameset [frameset 1 (23743 41973 482093 207000) (desktop . "206") "trottar@trottar-PC" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen . maximized) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 12) (alpha) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (frameset--id . "CA4D-3D9F-4FA0-8908") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (visibility . t) (height . 41) (width . 144) (left . 34) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 54) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1332) (pixel-height . 720) (total-width . 148) (total-height . 40) (normal-height . 1.0) (normal-width . 1.0) (buffer "spreadsheetUpdater.py" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars 12 2 t nil) (vscroll . 0) (dedicated) (point . 4606) (start . 4480))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring nil)
+(setq search-ring '(" h2wvsq2" "h2shmsk_kaon_cut" "h1hms_delta_cut"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("~/.emacs.d/hallc/" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_KaonYield/KaonYield.C" "~/.emacs.d/hallc/" "/home/trottar/.emacs.d/sessions/hallc.state"))
+(setq file-name-history '("~/.emacs.d/hallc/" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_KaonYield/KaonYield.h" "~/.emacs.d/hallc/" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_KaonYield/KaonYield.C" "~/.emacs.d/hallc/" "/home/trottar/.emacs.d/sessions/hallc.state"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_KaonYield/KaonYield.C"
-  "KaonYield.C"
-  'c++-mode
-  '(abbrev-mode global-auto-revert-mode)
-  16826
-  '(16842 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
 (desktop-create-buffer 206
   "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/spreadsheetUpdater.py"
   "spreadsheetUpdater.py"
   'python-mode
   '(global-auto-revert-mode)
-  70731
-  '(70669 nil)
+  4606
+  '(61446 nil)
   nil
   nil
   '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_KaonYield/KaonYield.C"
+  "KaonYield.C"
+  'c++-mode
+  '(abbrev-mode global-auto-revert-mode)
+  17066
+  '(10806 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_KaonYield/KaonYield.h"
+  "KaonYield.h"
+  'c-mode
+  '(abbrev-mode global-auto-revert-mode)
+  3880
+  '(5519 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
 
