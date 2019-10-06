@@ -89,6 +89,7 @@
  '(electric-pair-pairs (quote ((34 . 34))))
  '(electric-pair-text-pairs (quote ((34 . 34))))
  '(global-auto-revert-mode t)
+ '(global-company-mode t)
  '(ido-enable-flex-matching t)
  '(ido-mode (quote both) nil (ido))
  '(inhibit-startup-screen t)
@@ -153,6 +154,10 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(default ((t (:inherit nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 113 :width normal :foundry "unknown" :family "DejaVu Sans Mono"))))
+ '(company-scrollbar-bg ((t (:background "deep sky blue"))))
+ '(company-scrollbar-fg ((t (:background "dark cyan"))))
+ '(company-tooltip ((t (:background "cyan" :foreground "black"))))
+ '(company-tooltip-selection ((t (:background "dim gray"))))
  '(custom-button ((t (:background "black" :foreground "white smoke" :box (:line-width 2 :color "black" :style released-button))))))
 
 (provide 'init)

@@ -2,51 +2,238 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Tue Apr 23 19:47:01 2019
+;; Created Thu Oct  3 16:01:15 2019
 ;; Desktop file format version 206
 ;; Emacs version 24.5.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (23743 41973 482093 207000) (desktop . "206") "trottar@trottar-PC" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen . maximized) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 12) (alpha) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (frameset--id . "CA4D-3D9F-4FA0-8908") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (visibility . t) (height . 41) (width . 144) (left . 34) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 54) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1332) (pixel-height . 720) (total-width . 148) (total-height . 40) (normal-height . 1.0) (normal-width . 1.0) (buffer "spreadsheetUpdater.py" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars 12 2 t nil) (vscroll . 0) (dedicated) (point . 4606) (start . 4480))))])
+(setq desktop-saved-frameset [frameset 1 (23958 21387 179805 136000) (desktop . "206") "trottar@trottar-PC" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen . maximized) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 12) (alpha) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (frameset--id . "CA4D-3D9F-4FA0-8908") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (visibility . t) (display . ":0") (explicit-name) (height . 41) (width . 144) (left . 34) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 54) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1332) (pixel-height . 720) (total-width . 148) (total-height . 40) (normal-height . 1.0) (normal-width . 1.0) (buffer "timingCuts.C" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars 12 2 t nil) (vscroll . 0) (dedicated) (point . 17704) (start . 17031))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '(" h2wvsq2" "h2shmsk_kaon_cut" "h1hms_delta_cut"))
+(setq search-ring '("option" "pdf" "outputpdf" "pdf" "option" "mkdir" "option" "ht1_ref" "n_ht1_ref" "ht1_ref" "h_hodo_tref" "hodo" "hhod_trefcut" "cut" "hodo" "general"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("~/.emacs.d/hallc/" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_KaonYield/KaonYield.h" "~/.emacs.d/hallc/" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_KaonYield/KaonYield.C" "~/.emacs.d/hallc/" "/home/trottar/.emacs.d/sessions/hallc.state"))
+(setq file-name-history '("/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/setREF_cuts/timingCuts.h" "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/setREF_cuts/timingCuts.C" "~/Analysis/hallc_replay_kaonlt/CALIBRATION/setREF_cuts/DetTCuts_HMS.h" "~/Analysis/hallc_replay_kaonlt/CALIBRATION/setREF_cuts/DetTCuts_coin.h" "~/Analysis/hallc_replay_kaonlt/CALIBRATION/setREF_cuts/run_DetTCuts.C" "~/Analysis/hallc_replay_kaonlt/CALIBRATION/setREF_cuts/DetTCuts_SHMS.h" "~/Analysis/hallc_replay_kaonlt/CALIBRATION/setREF_cuts/DetTCuts_SHMS.C" "~/Analysis/hallc_replay_kaonlt/CALIBRATION/setREF_cuts/DetTCuts_HMS.h" "~/Analysis/hallc_replay_kaonlt/CALIBRATION/setREF_cuts/DetTCuts_HMS.C" "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/setREF_cuts/DetTCuts_coin.C" "~/Analysis/hallc_replay_kaonlt/CALIBRATION/setREF_cuts/DetTCuts_coin.h" "~/Analysis/hallc_replay_kaonlt/CALIBRATION/setREF_cuts/DetTCuts_coin.C" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/DBASE/COIN/general.param" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/DBASE/HMS/general.param" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/DBASE/COIN/general.param" "~/Analysis/hallc_replay_kaonlt/" "/home/trottar/Analysis/hallc_replay_kaonlt/PARAM/SHMS/GEN/p_reftime_cut.param" "/home/trottar/Analysis/hallc_replay_kaonlt/PARAM/HMS/GEN/h_reftime_cut.param" "/home/trottar/Analysis/hallc_replay_kaonlt/PARAM/TRIG/tcoin.param" "/home/trottar/Analysis/hallc_replay_kaonlt/PARAM/HMS/HODO/hhodo_tWin_6749.param" "/home/trottar/Analysis/hallc_replay_kaonlt/PARAM/HMS/HODO/hhodo_calib.param" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/Batch_Template.sh" "/home/trottar/Analysis/hallc_replay_kaonlt/DBASE/COIN/standard.database" "/home/trottar/Analysis/hallc_replay_kaonlt/SCRIPTS/COIN/PRODUCTION/replay_production_coin_hElec_pProt.C" "/home/trottar/Analysis/hallc_replay_kaonlt/DBASE/COIN/general.param" "/home/trottar/Analysis/hallc_replay_kaonlt/DBASE/SHMS/general.param" "~/Analysis/hallc_replay_kaonlt/" "~/Analysis/hcana/" "~/Analysis/" "~/Analysis/hallc_replay_kaonlt/CALIBRATION/setREF_cuts/ref_time_cuts.h" "~/Analysis/hallc_replay_kaonlt/CALIBRATION/setREF_cuts/setTimeWindows.C" "~/ResearchNP/ROOTfiles/kaon-coin/test" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_Luminosity/LumiYield.C" "/home/trottar/Analysis/hallc_replay/PARAM/SHMS/GEN/p_reftime_cut.param" "/home/trottar/Analysis/hallc_replay/PARAM/SHMS/HODO/phodo_cuts.param" "/home/trottar/Analysis/hallc_replay/PARAM/TRIG/tcoin.param" "/home/trottar/ResearchNP/ROOTfiles/test_pyPlot.py" "/home/trottar/ResearchNP/ROOTfiles/kaonlt_pyPlot.py" "~/ResearchNP/ROOTfiles/kaon-coin/plot_tcoin.py" "/home/trottar/ResearchNP/ROOTfiles/kaonlt_pyPlot.py" "/home/trottar/ResearchNP/ROOTfiles/KaonLT_coin_replay_production_8005_-1_pyPlot.py" "/home/trottar/ResearchNP/ROOTfiles/kaon-coin/getTDISpionHisto.py" "/home/trottar/ResearchNP/ROOTfiles/kaon-coin/roothist2numpy.py" "/home/trottar/ResearchNP/ROOTfiles/lumi/roothist2numpy.py" "~/.emacs.d/hallc/" "/home/trottar/Analysis/kaonlt_analysis/elastics/get_EvtNum_hms.C" "/home/trottar/Analysis/kaonlt_analysis/elastics/plot_Stat.C" "/home/trottar/Analysis/ROOTfiles/test_pyPlot.py.OLD" "/home/trottar/Analysis/ROOTfiles/rootPy.py.OLD" "/home/trottar/Analysis/ROOTfiles/time_pyPlot.py" "/home/trottar/Analysis/ROOTfiles/kaonlt_pyPlot.py" "/home/trottar/Analysis/kaonlt_analysis/lumiscan/yieldVar" "/home/trottar/Analysis/hallc_replay/UTIL_KAONLT/scripts_Luminosity/LumiYield.C" "/home/trottar/Analysis/kaonlt_analysis/lumiscan/misc/plot_Yield.C" "/home/trottar/Analysis/kaonlt_analysis/elastics/plot_Stat_hms.C" "/home/trottar/Analysis/kaonlt_analysis/lumiscan/plot_Yield.py" "/home/trottar/Analysis/hallc_replay/UTIL_KAONLT/README.md" "/home/trottar/Analysis/hallc_replay/README.md" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_KaonYield/run_KaonYield.C" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_KaonYield/KaonYield_all.C" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_Summaries/Q05W2Center.C" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/runlistGatherer.py" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/fill_runList" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/KaonYield.sh" "~/.emacs.d/hallc/" "~/Analysis/hallc_replay_kaonlt/" "~/.emacs.d/hallc/" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_KaonYield/KaonYield.h" "~/.emacs.d/hallc/" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_KaonYield/KaonYield.C" "~/.emacs.d/hallc/" "/home/trottar/.emacs.d/sessions/hallc.state"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/spreadsheetUpdater.py"
-  "spreadsheetUpdater.py"
-  'python-mode
-  '(global-auto-revert-mode)
-  4606
-  '(61446 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_KaonYield/KaonYield.C"
-  "KaonYield.C"
+  "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/setREF_cuts/timingCuts.C"
+  "timingCuts.C"
   'c++-mode
-  '(abbrev-mode global-auto-revert-mode)
-  17066
-  '(10806 nil)
+  '(abbrev-mode global-auto-revert-mode company-mode)
+  17704
+  '(17704 nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_KaonYield/KaonYield.h"
-  "KaonYield.h"
-  'c-mode
-  '(abbrev-mode global-auto-revert-mode)
-  3880
-  '(5519 nil)
+  "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/setREF_cuts/run_DetTCuts.C"
+  "run_DetTCuts.C"
+  'c++-mode
+  '(abbrev-mode global-auto-revert-mode company-mode)
+  3651
+  '(3643 nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/setREF_cuts/DetTCuts_SHMS.C"
+  "DetTCuts_SHMS.C"
+  'c++-mode
+  '(abbrev-mode global-auto-revert-mode company-mode)
+  883
+  '(12349 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/setREF_cuts/timingCuts.h"
+  "timingCuts.h"
+  'c-mode
+  '(abbrev-mode global-auto-revert-mode company-mode)
+  1
+  '(18536 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/setREF_cuts/DetTCuts_coin.C"
+  "DetTCuts_coin.C"
+  'c++-mode
+  '(abbrev-mode global-auto-revert-mode company-mode)
+  351
+  '(325 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/setREF_cuts/DetTCuts_coin.h"
+  "DetTCuts_coin.h"
+  'c-mode
+  '(abbrev-mode global-auto-revert-mode company-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/setREF_cuts/ref_time_cuts.h"
+  "ref_time_cuts.h"
+  'c-mode
+  '(abbrev-mode global-auto-revert-mode company-mode)
+  1
+  '(22447 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/setREF_cuts/setTimeWindows.C"
+  "setTimeWindows.C"
+  'c++-mode
+  '(abbrev-mode global-auto-revert-mode company-mode)
+  605
+  '(625 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/setREF_cuts/DetTCuts_SHMS.h"
+  "DetTCuts_SHMS.h"
+  'c-mode
+  '(abbrev-mode global-auto-revert-mode company-mode)
+  11662
+  '(299 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/setREF_cuts/DetTCuts_HMS.h"
+  "DetTCuts_HMS.h"
+  'c-mode
+  '(abbrev-mode global-auto-revert-mode company-mode)
+  10671
+  '(299 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/setREF_cuts/DetTCuts_HMS.C"
+  "DetTCuts_HMS.C"
+  'c++-mode
+  '(abbrev-mode global-auto-revert-mode company-mode)
+  298
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Analysis/hallc_replay_kaonlt/PARAM/SHMS/GEN/p_reftime_cut.param"
+  "p_reftime_cut.param"
+  'fundamental-mode
+  '(global-auto-revert-mode company-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Analysis/hallc_replay_kaonlt/PARAM/TRIG/tcoin.param"
+  "tcoin.param"
+  'fundamental-mode
+  '(global-auto-revert-mode company-mode)
+  181
+  '(182 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Analysis/hallc_replay_kaonlt/PARAM/HMS/GEN/h_reftime_cut.param"
+  "h_reftime_cut.param"
+  'fundamental-mode
+  '(global-auto-revert-mode company-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/Batch_Template.sh"
+  "Batch_Template.sh"
+  'sh-mode
+  '(global-auto-revert-mode company-mode)
+  954
+  '(954 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Analysis/hallc_replay_kaonlt/SCRIPTS/COIN/PRODUCTION/replay_production_coin_hElec_pProt.C"
+  "replay_production_coin_hElec_pProt.C"
+  'c++-mode
+  '(abbrev-mode global-auto-revert-mode company-mode)
+  1
+  '(8906 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/trottar/ResearchNP/ROOTfiles/kaon-coin/getTDISpionHisto.py"
+  "getTDISpionHisto.py"
+  'python-mode
+  '(global-auto-revert-mode company-mode)
+  677
+  '(723 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Analysis/kaonlt_analysis/elastics/plot_Stat.C"
+  "plot_Stat.C"
+  'c++-mode
+  '(abbrev-mode global-auto-revert-mode company-mode)
+  411
+  '(220 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/trottar/ResearchNP/ROOTfiles/kaon-coin/plot_tcoin.py"
+  "plot_tcoin.py"
+  'python-mode
+  '(global-auto-revert-mode company-mode)
+  11661
+  '(11162 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/trottar/ResearchNP/ROOTfiles/kaon-coin/roothist2numpy.py"
+  "roothist2numpy.py"
+  'python-mode
+  '(global-auto-revert-mode company-mode)
+  341
+  '(663 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
 

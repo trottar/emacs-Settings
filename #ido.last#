@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/trottar/ResearchNP/ROOTfiles/" . "kaon-coin/")
  ("/home/trottar/Analysis/hallc_replay_kaonlt/" . "UTIL_KAONLT/")
  ("/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/" . "scripts_KaonYield/")
  ("/home/trottar/Documents/talks/" . "EIC_talks/")
@@ -9,7 +10,7 @@
  ("/home/trottar/.emacs.d/" . "insert/")
  ("/home/trottar/ResearchNP/tensorflow/scripts/" . "numReader/")
  ("/home/trottar/ResearchNP/tensorflow/" . "scripts/")
- ("/home/trottar/ResearchNP/" . "JLEIC/")
+ ("/home/trottar/ResearchNP/" . "ROOTfiles/")
  ("/home/trottar/ResearchNP/JLEIC/eic_SF/" . "EIC_talks/")
  ("/home/trottar/ResearchNP/JLEIC/" . "talks/")
  ("/home/trottar/Analysis/hallc_replay/UTIL_KAONLT/scripts_Luminosity/" . "OUTPUT/")
@@ -23,26 +24,32 @@
  ("/home/trottar/Analysis/hallc_replay/" . "UTIL_KAONLT/")
  ("/etc/" . "ssh/")
  ("/" . "etc/")
- ("/home/trottar/Analysis/" . "hallc_replay_kaonlt/")
- ("/home/trottar/" . "Analysis/")
+ ("/home/trottar/Analysis/" . "hallc_replay/")
+ ("/home/trottar/" . "ResearchNP/")
  ("/home/trottar/Analysis/kaonlt_analysis/" . "lumiscan/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/trottar/ResearchNP/ROOTfiles/"
+ "/home/trottar/ResearchNP/ROOTfiles/kaon-coin/"
+ "/home/trottar/ResearchNP/ROOTfiles/lumi/"
+ "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/"
  "/home/trottar/ResearchNP/JLEIC/eic_SF/"
+ "/home/trottar/bin/"
+ "/home/trottar/Analysis/hallc_replay/UTIL_KAONLT/"
+ "/home/trottar/Analysis/hallc_replay/"
+ "/home/trottar/Documents/talks/EIC_talks/"
+ "/home/trottar/"
  "/home/trottar/ResearchNP/JLEIC/eic_SF/EIC_talks/"
  "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_KaonYield/"
- "/home/trottar/bin/"
  "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/batch/"
  "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/"
  "/home/trottar/.emacs.d/insert/"
  "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_Summaries/"
  "/home/trottar/.emacs.d/"
- "/home/trottar/Documents/talks/EIC_talks/"
  "/home/trottar/ResearchNP/JLEIC/talks/"
  "/home/trottar/ResearchNP/JLEIC/"
- "/home/trottar/"
  "/home/trottar/.emacs.d/plugins/"
  "/home/trottar/Documents/notes/"
  "/home/trottar/Analysis/kaonlt_analysis/lumiscan/"
@@ -51,7 +58,6 @@
  "/home/trottar/Documents/books/Nine_Wreaths/"
  "/home/trottar/ResearchNP/org_file/"
  "/home/trottar/ResearchNP/JLEIC/eic_SF/OUTPUT/"
- "/home/trottar/Analysis/hallc_replay/"
  "/home/trottar/Analysis/hallc_replay/UTIL_KAONLT/scripts_Luminosity/"
  "/home/trottar/ResearchNP/ROOTAnalysis/kaonlt_analysis/elastics/"
  "/home/trottar/Analysis/hallc_replay/UTIL_KAONLT/scripts_KaonYield/"
@@ -70,41 +76,55 @@
 
 ;; ----- ido-work-file-list -----
 (
- "plotTDISpionHisto.py.OLD"
- "TDISMC_EIC.cpp.OLD"
- "run_batch.sh"
- "eicSigma.pdf"
- "batch.cc"
- "TDISpion_20kd_pyChain.py"
- "TDISpion_20ka_pyChain.py"
- "KaonYield.h"
- "KaonYield.C"
- "fun_pyPlot.py"
+ "test_pyPlot.py"
+ "kaonlt_pyPlot.py"
+ "KaonLT_coin_replay_production_8005_-1_pyPlot.py"
+ "getTDISpionHisto.py"
+ "roothist2numpy.py"
+ "getTDISpionHisto.py.OLD"
+ "getTDISpionHisto.py.OLD.2"
+ "LuminosityTable.txt"
+ "xpiBin.txt"
+ "Q2-xpi_Bin.txt"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/trottar/ResearchNP/JLEIC/eic_SF/" (23742 3089 220167 843000) "RunTDIS_PhaseSpaceBatch.pl" "README" "TDISMC_EIC_cpp_ACLiC_dict_rdict.pcm" "TDISMC_EIC.h.OLD" "TDISpion_20kd.npz" "OUTPUT/" "run_batch.sh" "TDISMC_EIC.cpp" "TDISpion_20ka.npz" "TDISpion_80k.root" "hpl_err.C" "TDISpion_80k.pdf" "hpl_err_kaon.C" "make_Plots.sh" "chain_20kcd.npz" "TDISMC_EICK_cpp.d" "TDISMC_EICn.cpp" "yields_kaon_xbin.C" "TDISpion_20kb.npz" "TDISpion_20kd_pyChain.py" ".gitignore" "yields_kaon.C" "EIC_talks/" "TDISpion" "chain_20k.pdf" "TDISMC_EIC_cpp.so" "TDISMC_EICK.cpp" "plot_yield.py" "TDISpion.C" "TDISpion_C.d" "TDISpion.npz" "plotTDISpionHisto.py.OLD" "last.kumacold" "TDISMC_EIC.cpp.OLD" "TDISpion_20kc.root" "plot_q2_ev.kumac" "run_TDISpion.C" "getTDISpionHisto.py" "TDISkaon.root" "cteq-tbls/" "TDISpion.root" "cteq/" "TDISMC_EICK.h" "TDISpion_20ka.root" "TDISpion_C.so" "batchk.cc" "archive/" "exec_simk" "TDIS_lund.evio" "timhobbs.h" "TDISpion_C_ACLiC_dict_rdict.pcm" "tim_hobbs/" "chain_20kab.npz" "TDISpion_20kc.npz" "TDISMC_EICK_cpp.so" "cteqpdf.h" "TDISpion_20kb.root" "batchn.cc" "Yield_Data.dat" "TDISpion_80k.npz" "TDISMC_EICK_cpp_ACLiC_dict_rdict.pcm" "TDISMC_EIC_cpp.d" "TDIS_lund.txt" "RunTDIS_PhaseSpaceBatchK.pl" "run_gemc.sh" "TDISpion.h" "moment_ld2b.dat" "yields.C" "batch.cc" "TDISMC_EIC.h" "plotTDISpionHisto.py" "TDISMC_EICn.h" "chain_20k.npz" "TDISpion_20kd.root" "../" "./")
+ ("/home/trottar/ResearchNP/ROOTfiles/kaon-coin/" (23892 39761 548466 721000) "tcoin_4889_pass1.npz" "tcoin_8041_nocut.npz" "coin_replay_production_4889_nocut.root" "coin_replay_production_8041_pass1.root" "coin_replay_production_8041_nocut.root" "coin_replay_production_8041_online.root" "tcoin_6749_nocut.npz" "./" "coin_replay_production_6749_pass1.root" "coin_replay_production_4889_pass1.root" "tcoin_4889_nocut.npz" "coin_replay_production_4889_online.root" "roothist2numpy.py" "getTDISpionHisto.py" "tcoin_6749_pass1.npz" "tcoin_8041_pass1.npz" "plot_tcoin.py" "../" "coin_replay_production_6749_online.root" "tcoin.pdf" "coin_replay_production_6749_nocut.root")
+
+ ("/home/trottar/" (23889 56215 220186 402000) "Videos/" ".xinputrc" ".hplip/" ".bashrc" ".sudo_as_admin_successful" ".themes/" "Music/" ".nano/" ".wget-hsts" ".gksu.lock" "Pictures/" ".gitconfig" "Analysis/" ".dmrc" "Documents/" ".gnupg/" "Random-Scripts/" ".Xauthority" ".vnc/" "./" "Programs/" ".proof/" ".ipython/" ".emacs.d/" ".cache/" "pkglist" ".copyFiles.sh~" ".xsession-errors.old" ".synaptic/" ".profile" "Backup/" ".root_hist" ".pulse-cookie" "Public/" "Templates/" ".keras/" ".thumbnails/" ".gdrive/" ".gconf/" ".python_history" "ResearchNP/" ".gnome2/" ".wine/" ".steampid" "../" ".steam/" ".ssh/" ".bash_history" ".remmina/" ".local/" ".xsession-errors" ".pip/" ".history" ".pki/" ".cinnamon/" ".backups/" ".watershed/" ".config/" ".texmf-var/" ".mozilla/" ".npm/" "syncFiles.sh" "sendFile.sh" ".rnd" ".shutter/" ".gnome/" "Downloads/" ".linuxmint/" ".dbus/" ".icons/" "Desktop/" ".gnome2_private/" ".cshrc" "bin/" ".ICEauthority" ".bash_logout" ".xscreensaver")
+
+ ("/home/trottar/ResearchNP/ROOTfiles/lumi/" (23889 55269 101784 992000) "KaonLT_Luminosity_coin_replay_production_5157_-1.root" "KaonLT_Luminosity_coin_replay_production_5170_-1.root" "KaonLT_Luminosity_coin_replay_production_NOREF_5156_-1.root" "KaonLT_Luminosity_coin_replay_production_NOREF_5167_-1.root" "KaonLT_Luminosity_coin_replay_production_5178_-1.root" "KaonLT_Luminosity_coin_replay_production_5158_100000_pyPlot.py" "KaonLT_Luminosity_coin_replay_production_5158_100000.root" "KaonLT_Luminosity_coin_replay_production_5179_-1.root" "./" "KaonLT_Luminosity_coin_replay_production_5175_-1.root" "KaonLT_Luminosity_coin_replay_production_NOREF_5162_-1.root" "KaonLT_Luminosity_coin_replay_production_NOREF_5160_-1.root" "KaonLT_Luminosity_coin_replay_production_NOREF_5163_-1.root" "KaonLT_Luminosity_coin_replay_production_5155_-1.root" "roothist2numpy.py" "KaonLT_Luminosity_coin_replay_production_5169_-1.root" "KaonLT_Luminosity_coin_replay_production_NOREF_5168_-1.root" "KaonLT_Luminosity_coin_replay_production_5160_-1.root" "KaonLT_Luminosity_coin_replay_production_NOREF_5158_-1.root" "KaonLT_Luminosity_coin_replay_production_5171_-1.root" "../" "KaonLT_Luminosity_coin_replay_production_5158_100000.pdf" "KaonLT_Luminosity_coin_replay_production_5161_-1.root" "KaonLT_Luminosity_coin_replay_production_5154_-1.root" "KaonLT_Luminosity_coin_replay_production_5156_-1.root" "KaonLT_Luminosity_coin_replay_production_5158_-1.root" "KaonLT_Luminosity_coin_replay_production_5176_-1.root" "KaonLT_Luminosity_coin_replay_production_NOREF_5161_-1.root" "KaonLT_Luminosity_coin_replay_production_NOREF_5154_-1.root" "KaonLT_Luminosity_coin_replay_production_5167_-1.root" "KaonLT_Luminosity_coin_replay_production_5166_-1.root" "KaonLT_Luminosity_coin_replay_production_5168_-1.root" "KaonLT_Luminosity_coin_replay_production_5163_-1.root" "KaonLT_Luminosity_coin_replay_production_NOREF_5157_-1.root" "KaonLT_Luminosity_coin_replay_production_NOREF_5166_-1.root" "KaonLT_Luminosity_coin_replay_production_NOREF_5155_-1.root" "KaonLT_Luminosity_coin_replay_production_NOREF_5169_-1.root" "KaonLT_Luminosity_coin_replay_production_5181_-1.root")
+
+ ("/home/trottar/ResearchNP/ROOTfiles/" (23863 55478 197063 557000) "lumi/" "kaonlt_pyPlot.py" "8005.png" "KaonLT_coin_replay_production_8010_-1.npz" "KaonLT_coin_replay_production_8010_-1.root" "KaonLT_coin_replay_production_8005_-1_pyPlot.py" "KaonLT_coin_replay_production_8010_-1_pyPlot.py" "coin_replay_production_6749_online.npz" "coin_replay_production_4889_nocut.npz" "rootPy.py" "KaonLT_coin_replay_production_8010_-1.pdf" "./" "8010.png" "8005-8010.png" "chain_8005-8010.npz" "chain_8005-8010.pdf" "coin_replay_production_4889_pass1.npz" "coin_replay_production_4889_online.pdf" "coin_replay_production_4889_nocut.pdf" "coin_replay_production_4889_online.npz" "time_pyPlot.py" "KaonLT_coin_replay_production_8005_-1_pyChain.py" "python/" "coin_replay_production_8041_pass1.npz" "kaon-coin/" "KaonLT_coin_replay_production_8005_-1.pdf" "test_pyPlot.py.OLD" "../" "coin_replay_production_8041_nocut.npz" "coin_replay_production_6749_pass1.npz" "KaonLT_coin_replay_production_8005_-1.npz" "test_pyPlot.py" "coin_replay_production_8041_online.npz" "test_rootPy.py" "rootPy.py.OLD" "coin_replay_production_6749_nocut.npz" "chain.npz" "KaonLT_coin_replay_production_8005_-1.root" "test_rootPy.pyc" "coin_replay_production_4889_-1.pdf" "Kinematics_Run8010.pdf")
+
+ ("/home/trottar/ResearchNP/" (23791 62143 21818 589000) "OUTPUT/" "hallc_replay/" "gemc/" "./" "simc_gfortran/" "JLEIC/" "org_file/" "tensorflow/" "../" "deepLearn/" "HISTOGRAMS/" "MON_OUTPUT/" "REPORT_OUTPUT/" "ROOTfiles/" "NPS_crystalAnalysis/" "kaonlt_analysis/")
+
+ ("/home/trottar/Analysis/kaonlt_analysis/elastics/" (23704 14957 577561 730000) "README" "OUTPUT/" "get_EvtNum.C" "./" "heepSingle/" "plot_Stat_hms.C" "get_EvtNum_hms.C" "inputRuns" "get_EvtNum_shms.C" "carlosFiles/" "run_EvtNum.sh" "../" "plot_Stat.C" "tmp" "run_EvtNum_shms.sh" "run_EvtNum_hms.sh" "plot_Stat_shms.C")
+
+ ("/home/trottar/ResearchNP/JLEIC/Trotta-EIC/" (23867 57389 77404 170000) "plot_PhaseSpace.py" "getTDISpionHisto.py.OLD.2" "TDISMC_EIC_cpp_ACLiC_dict_rdict.pcm" "TDISpion.npzAwylWU-numpy.npy" "TDISpion_high.npz" "fpiPlot_tcut0p005.pdf" "fpiPlot_tcut0p5.pdf" "run_batch.sh" "fpiPlot.pdf" "TDISMC_EIC.cpp" "TDISpion_low.root" "TDISpion.npzkr8H_J-numpy.npy" "make_Plots.sh" "./" "TDISpion_4-8.npz" "TDISpion_20kd_pyChain.py" "cteqpdf.c" "TDISpion_100-800.npz" "TDISpion_10-100_OLD.npz" "chain_8005-8010.npz" "getTDISpionHisto.py.OLD.3" "TDISpion_med.root" "TDISpion_high.root" "TDISMC_EIC_cpp.so" "plot_yield.py" "TDISpion.npz" "TDISpion_10-100.root" "getTDISpionHisto.py" "TDISpion_10-100_OLD.root" "TDISpion_pyChain.py" "TDISpion_xpi.npz" "cteq-tbls/" "TDISpion.root" "fpiPlot_tcut0p05.pdf" "TDISpion_1-4.npz" "../" "timhobbs.h" "TDISpion_low.npz" "TDISpion.npzNw1Tq2-numpy.npy" "TDISpion_med.npz" "cteqpdf.h" "TDISpion_80k.npz" "TDISMC_EIC_cpp.d" "TDISpion_10-100.npz" "TDISpion.npzOfT2Kg-numpy.npy" "TDISpion_100-800.root" "TDIS_lund.txt" "TDISpion.npzhjofTd-numpy.npy" "run_gemc.sh" "getTDISpionHisto.py.OLD" "fpiPlot_tcut1.pdf" "batch.cc" "TDISMC_EIC.h" "plotTDISpionHisto.py" "chain_low.npz" "TDISpion_xpi.root")
+
+ ("/home/trottar/ResearchNP/JLEIC/eic_SF/" (23855 18084 775713 82000) "RunTDIS_PhaseSpaceBatch.pl" "LuminosityTable.txt" "plot_PhaseSpace.py" "README" "TDISMC_EIC_cpp_ACLiC_dict_rdict.pcm" "TDISMC_EIC.h.OLD" "TDISpion_high.npz" "OUTPUT/" "run_batch.sh" "xpiBin.txt" "fpiPlot.pdf" "TDISMC_EIC.cpp" "TDISpion_low.root" "hpl_err.C" "TDISpion_80k.pdf" "chain_low.pdf" "hpl_err_kaon.C" "TDISMC_EIC.cpp_OLD" "TDISpion_med.pdf" "make_Plots.sh" "sigmavxbj-xpi.pdf" "TDISMC_EICK_cpp.d" "TDISMC_EICn.cpp" "yields_kaon_xbin.C" "fpiPlot_xbj.pdf" "TDISpion_4-8.npz" "constfpi.pdf" "TDISpion_20kd_pyChain.py" ".gitignore" "yields_kaon.C" "EIC_talks/" "TDISpion_100-800.npz" "TDISpion_10-100_OLD.npz" "chain_8005-8010.npz" "TDISpion_med.root" "TDISpion_high.root" "TDISpion" "chain_20k.pdf" "TDISMC_EIC_cpp.so" "TDISMC_EICK.cpp" "TDISpion_low.pdf" "plot_yield.py" "TDISpion.C" "TDISpion_C.d" "TDISpion.npz" "plotTDISpionHisto.py.OLD" "last.kumacold" "phaseSpace.pdf" "TDISMC_EIC.cpp.OLD" "plot_q2_ev.kumac" "run_TDISpion.C" "TDISpion_10-100.root" "getTDISpionHisto.py" "TDISpion.err" "TDISpion_10-100_OLD.root" "TDISpion_pyChain.py" "TDISpion_xpi.npz" "cteq-tbls/" "TDISpion.root" "TDISpion.pdf" "Q2-xpi_Bin.txt" "cteq/" "TDISMC_EICK.h" "TDISpion_1-4.npz" "TDISpion_C.so" "batchk.cc" "archive/" "TDISpion_high.pdf" "exec_simk" "timhobbs.h" "TDISpion_low.npz" "TDISpion_C_ACLiC_dict_rdict.pcm" "tim_hobbs/" "TDISpion_med.npz" "TDISMC_EICK_cpp.so" "cteqpdf.h" "pionMCTable.pdf" "batchn.cc" "Yield_Data.dat" "TDISpion_80k.npz" "TDISMC_EICK_cpp_ACLiC_dict_rdict.pcm" "TDISMC_EIC_cpp.d" "TDISpion_10-100.npz" "TDISpion_100-800.root" "TDIS_lund.txt" "RunTDIS_PhaseSpaceBatchK.pl" "sigmaPlots.pdf" "run_gemc.sh" "TDISpion.h" "moment_ld2b.dat" "yields.C" "batch.cc" "TDISMC_EIC.h" "Q2vxpi-xbj.pdf" "fpiPlot_xpi.pdf" "plotTDISpionHisto.py" "chain_low.npz" "TDISMC_EICn.h" "sigmaDIS_80k.pdf" "TDISpion_xpi.root" "../" "./")
+
+ ("/home/trottar/Documents/talks/EIC_talks/" (23852 49157 399169 117000) "eicSigma.org" "leadingN_HeraPaper.pdf" "./" "leadingN_HeraPaper.org" "eicSigma.pdf" "../" "eicSigma.tex" "ltximg/" "leadingN_HeraPaper.tex")
+
+ ("/home/trottar/bin/" (23853 58047 916703 791000) "kaonlt_pyPlot.py" "nameTerm.csh" "help.csh" "bashrc" "README.md" "run_server.csh" "rootPy.py" "./" "copyFiles.sh" "pkglist" "pyPlots.py" "bash_aliases" ".git/" "../" "profile" "pyChain.py" "root2py.sh" "syncFiles.sh" "findHost.csh" "test_pyPlot.py" "sendFile.sh" "cshrc" "test_rootPy.py" "__init__.py")
+
+ ("/home/trottar/Analysis/" (23755 8779 105818 243000) "hcana/" "hallc_replay/" "./" "lambdaPlots/" "../" "hallc_replay_kaonlt/" "ROOTfiles/" "kaonlt_analysis/" "kaonlt/")
+
+ ("/home/trottar/Analysis/hallc_replay_kaonlt/" (23772 41844 684777 961000) "README" "macros/" ".gitmodules" "OUTPUT/" "DBASE/" "DEF-files/" "run_coin_hms.sh" "./" "run_charge_counter.csh" "run_shms.sh" ".gitignore" "setup.sh" "CALIBRATION/" "setup.csh" "scaler_parse.py" "onlineGUI/" "PARAM/" ".git/" "run_coin_shms.sh" "../" "db2/" "TEMPLATES/" "HISTOGRAMS/" ".rootrc" "MON_OUTPUT/" "SCRIPTS/" "hallc_replay_gui.py" "REPORT_OUTPUT/" "UTIL_OL/" "ROOTfiles/" "DATFILES/" "UTIL_SIDIS/" "run_hms.sh" "UTIL_KAONLT/" "MAPS/")
+
+ ("/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/" (23772 31719 160599 436000) "runlistGatherer_100k.py" "ADCWindowSHMS.sh" "fill_runList_100k" "ADCWindowHMS.sh" ".gitmodules" "OUTPUT/" "FixKaonRunList.sh" "kinematics/" "Batch_Template.sh" "DEF-files/" "README.md" "scripts_Luminosity/" "KaonYield_50000.sh" "get_stats" "get_stats.py" "ADCGates/" "./" "peepYield.sh" ".gitignore" "scripts_KaonYield/" "KaonYield_batch.sh" "scripts_Summaries/" "runlistGatherer.py" "test.xls" "PARAM/" ".git" "kaonlt_runlist_10p6.csv" "../" "peepYield_50000.sh" "fill_runList" "tmp" "get_charge_stats" "kaonlt_runlist_3p8-4p9.csv" "scripts_Replay/" "KaonLT_PhysicsSettings_82-62.ods" "KaonYield.sh" "TEMPLATES/" "HISTOGRAMS/" "Luminosity.sh" "batch/" "spreadsheetUpdater.py" "reportSummary.py" "REPORT_OUTPUT/" "ROOTfiles/" "test.ods" "Elastics.sh" "KaonLT_PhysicsSettings_38-49.ods" "kaonlt_runlist_8p2-6p2.csv")
+
+ ("/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_KaonYield/" (23827 51171 900671 626000) "run_chainQ4p4W2p74.sh" "SK_tmp/" "KaonYield_C_ACLiC_dict.o" "run_KaonYield.C" "KaonYield_dechigh.C" "run_KaonYield_adhoc.C" "KaonYield_declow.h" "#KaonYield.C#" "KaonYield_allfall.h" "run_peepYield.C" "./" "run_chainQ3W3p14.sh" "coin_cut.h" "HMS_Scalers.h" "run_chainQ5p5W3p02.sh" "run_chainQ3W2p32.sh" "KaonYield_C_ACLiC_map.in" "peepYield.h" "KaonYield_all.h.old" "../" "KaonYield_C_ACLiC_linkdef.h" "run_chainQ2p115W2p95.sh" "run_KaonYield_all_Mp.C" "KaonYield_dechigh.h" "KaonYield_C_ACLiC_map.out" "run_chainQ05W2p40.sh" "peepYield.C" "run_chainQ05W2.sh" "KaonYield_C_ACLiC_dict.cxx" "KaonYield_adhoc.h" "KaonYield_all.C.old" "KaonYield_C_ACLiC_mainC" "KaonYield.C" "KaonYield_adhoc.C" "compileAll.sh" "KaonYield_declow.C" "run_KaonYield_all.C" "KaonYield.h" "coin_cut.C" "KaonYield_allfall.C" "HMS_Scalers.C" "KaonYield_all.h" "KaonYield_all.C")
 
  ("/home/trottar/ResearchNP/JLEIC/eic_SF/EIC_talks/" (23716 34309 780721 584000) "eicSigma.org" "leadingN_HeraPaper.pdf" "./" "leadingN_HeraPaper.org" "eicSigma.pdf" "../" "eicSigma.tex" "ltximg/" "leadingN_HeraPaper.tex")
 
- ("/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_KaonYield/" (23719 53638 929976 128000) "run_chainQ4p4W2p74.sh" "KaonYield_C_ACLiC_dict.o" "run_KaonYield.C" "KaonYield_dechigh.C" "run_KaonYield_adhoc.C" "KaonYield_declow.h" "KaonYield_allfall.h" "run_peepYield.C" "./" "run_chainQ3W3p14.sh" "coin_cut.h" "HMS_Scalers.h" "run_chainQ5p5W3p02.sh" "run_chainQ3W2p32.sh" "KaonYield_C_ACLiC_map.in" "kaonyieldVar" "peepYield.h" "../" "KaonYield_C_ACLiC_linkdef.h" "run_chainQ2p115W2p95.sh" "KaonYield_dechigh.h" "KaonYield_C_ACLiC_map.out" "run_chainQ05W2p40.sh" "peepYield.C" "run_chainQ05W2.sh" "KaonYield_C_ACLiC_dict.cxx" "KaonYield_adhoc.h" "KaonYield_C_ACLiC_mainC" "KaonYield.C" "KaonYield_adhoc.C" "compileAll.sh" "KaonYield_declow.C" "run_KaonYield_all.C" "KaonYield.h" "coin_cut.C" "KaonYield_allfall.C" "HMS_Scalers.C" "KaonYield_all.h" "KaonYield_all.C")
-
- ("/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/" (23726 34476 806985 965000) "runlistGatherer_100k.py" "ADCWindowSHMS.sh" "fill_runList_100k" "ADCWindowHMS.sh" ".gitmodules" "FixKaonRunList.sh" "kinematics/" "DEF-files/" "README.md" "scripts_Luminosity/" "KaonYield_50000.sh" "get_stats" "get_stats.py" "ADCGates/" "./" "peepYield.sh" ".gitignore" "scripts_KaonYield/" "KaonYield_batch.sh" "scripts_Summaries/" "runlistGatherer.py" "test.xls" "PARAM/" ".git" "kaonlt_runlist_10p6.csv" "../" "peepYield_50000.sh" "fill_runList" "tmp" "get_charge_stats" "kaonlt_runlist_3p8-4p9.csv" "scripts_Replay/" "KaonLT_PhysicsSettings_82-62.ods" "KaonYield.sh" "TEMPLATES/" "Luminosity.sh" "batch/" "spreadsheetUpdater.py" "reportSummary.py" "test.ods" "Elastics.sh" "KaonLT_PhysicsSettings_38-49.ods" "kaonlt_runlist_8p2-6p2.csv")
-
- ("/home/trottar/bin/" (23722 55439 144094 544000) ", arr" "nameTerm.csh" "help.csh" "bashrc" "README.md" "run_server.csh" "rootPy.py" "./" "copyFiles.sh" "pyPlots.py" "bash_aliases" ".git/" "../" "fun_pyPlot.py" "root2py.sh" "findHost.csh" "cshrc")
-
  ("/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/batch/" (23719 53604 273897 249000) "hist.2019-03-26_13-48-31.log" "hist.2019-03-25_10-29-38.log" "KaonLT_7882.out" "hist.2019-03-25_10-31-12.log" "run_batch.sh" "augerID.tmp" "KaonLT_7886.out" "./" "hist.2019-03-25_11-46-05.log" "KaonLT_7872.out" "KaonLT_7883.out" "hist.2019-03-24_23-59-33.log" "KaonLT_7876.out" "inputRuns" "KaonLT_7887.out" "../" "hist.2019-03-24_23-37-04.log" "hist.2019-03-25_02-02-38.log" "KaonLT_7871.out" "tmp" "hist.2019-03-25_03-52-44.log" "KaonLT_7885.out" "KaonLT_7884.out" "hist.2019-03-25_00-31-07.log" "KaonLT_7874.out" "KaonLT_7875.out" "hist.2019-03-25_03-41-17.log" "hist.2019-03-25_01-57-33.log" "KaonLT_7873.out" "KaonLT_7877.out" "trotta_Job.txt" "hist.2019-03-25_10-40-22.log")
-
- ("/home/trottar/Analysis/hallc_replay_kaonlt/" (23704 16412 229903 158000) "macros/" ".gitmodules" "DBASE/" "DEF-files/" "run_coin_hms.sh" "./" "run_charge_counter.csh" "run_shms.sh" ".gitignore" "setup.sh" "CALIBRATION/" "setup.csh" "scaler_parse.py" "onlineGUI/" "PARAM/" ".git/" "run_coin_shms.sh" "../" "db2/" "TEMPLATES/" ".rootrc" "SCRIPTS/" "hallc_replay_gui.py" "UTIL_OL/" "DATFILES/" "UTIL_SIDIS/" "run_hms.sh" "UTIL_KAONLT/" "MAPS/")
-
- ("/home/trottar/Analysis/" (23713 26483 518978 194000) "hcana/" "hallc_replay/" "./" "lambdaPlots/" "../" "hallc_replay_kaonlt/" "ROOTfiles/" "kaonlt_analysis/")
 
  ("/home/trottar/.emacs.d/insert/" (23721 46519 287169 473000) "template.C" "./" "template.org" "template.h" "template.py" "template.sh" "../")
 
  ("/home/trottar/.emacs.d/" (23719 54697 308389 480000) "autoinsert.el" "./" "init.el" "snippets/" "session.2fd9a0ae7-bd13-404b-8393-b0d3b19c9afd" ".git/" "../" "insert/" "plugins/" "auto-save-list/" "elpa/" "ido.last" "#ido.last#" "session.2e3a29e60-7cf1-4a34-ad84-0f481386f1a9")
-
- ("/home/trottar/" (23721 60398 863924 558000) "Videos/" ".xinputrc" ".hplip/" ".bashrc~" ".bashrc" ".sudo_as_admin_successful" ".themes/" "Music/" ".nano/" ".wget-hsts" ".gksu.lock" "Pictures/" ".gitconfig" "Analysis/" ".dmrc" "Documents/" ".gnupg/" "Random-Scripts/" ".Xauthority" ".vnc/" "./" "Programs/" ".proof/" ".emacs.d/" ".cache/" ".copyFiles.sh~" ".xsession-errors.old" ".synaptic/" ".profile" "Backup/" ".root_hist" ".pulse-cookie" "Public/" "Templates/" ".keras/" ".thumbnails/" ".gdrive/" ".gconf/" ".python_history" "ResearchNP/" ".gnome2/" ".steampid" "../" ".steam/" ".ssh/" ".bash_history" ".local/" ".xsession-errors" ".pip/" ".history" ".pki/" ".cinnamon/" ".backups/" ".watershed/" ".config/" ".texmf-var/" ".mozilla/" ".npm/" ".rnd" ".shutter/" ".gnome/" "Downloads/" ".linuxmint/" ".dbus/" ".icons/" "Desktop/" ".gnome2_private/" ".cshrc" "bin/" ".ICEauthority" ".bash_logout" ".xscreensaver")
 
  ("/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_Summaries/" (23719 53479 61612 228000) "Q3W2p32right_highe.C" "Q5p5W3p02left_highe.C" "Q2p115W2p95right_highe.C" "Q05W2p40center_lowe.C" "./" "Q05W2p40center_highe.C" "Q5p5W3p02right_highe.C" "Q05W2p40right_highe.C" "Q2p115W2p95left_highe.C" "Q5p5W3p02center_highe.C" "Q4p4W2p74right_highe.C" "Q4p4W2p74center_lowe.C" "Q05W2p40left_lowe.C" "../" "Q3W3p14center_highe.C" "Q2p115W2p95left_lowe.C" "Q5p5W3p02left_lowe.C" "Q05W2Center.C" "Q2p115W2p95center_highe.C" "Q3W2p32left_lowe.C" "Q3W3p14right_highe.C" "Q05W2p40left_highe.C" "Q4p4W2p74left_highe.C" "Q2p115W2p95center_lowe.C" "#Q3W3p14center_highe.C#" "Q4p4W2p74left_lowe.C" "Q3W2p32center_highe.C" "Q5p5W3p02center_lowe.C" "Q3W3p14left_highe.C" "Q05W2Left.C" "Q3W2p32center_lowe.C" "Q05W2Right.C" "Q3W2p32left_highe.C" "Q4p4W2p74center_highe.C")
 
@@ -135,8 +155,6 @@
  ("/home/trottar/Documents/notes/" (23718 43410 738154 682000) "QCD/" "./" "qftNotes.pdf" "theses/" "QFT/" "HUGS/" "../" "qftNotes.tex" "qftNotes.org")
 
  ("/home/trottar/ResearchNP/JLEIC/" (23708 59009 820563 146000) "README.md" "./" "eic_SF/" ".gitignore" ".git/" "../" "gen_pipl.F" ".gitattributes" "Horn-EIC/")
-
- ("/home/trottar/Documents/talks/EIC_talks/" (23716 34309 780721 584000) "eicSigma.org" "leadingN_HeraPaper.pdf" "./" "leadingN_HeraPaper.org" "eicSigma.pdf" "../" "eicSigma.tex" "ltximg/" "leadingN_HeraPaper.tex")
 
  ("/home/trottar/Documents/talks/" (23708 16465 308470 927000) "./" "EIC_talks/" "../")
 
@@ -169,8 +187,6 @@
  ("/home/trottar/Analysis/hallc_replay/UTIL_KAONLT/TEMPLATES/COIN/" (23680 37916 173872 954000) "coin_production.template" "./" "../")
 
  ("/home/trottar/Analysis/hallc_replay/UTIL_KAONLT/scripts_KaonYield/" (23680 37916 177872 972000) "run_KaonYield.C" "run_peepYield.C" "./" "coin_cut.h" "HMS_Scalers.h" "KaonYield_Q3W2Center.C" "kaonyieldVar" "peepYield.h" "../" "peepYield.C" "KaonYield.C" "KaonYield.h" "coin_cut.C" "HMS_Scalers.C" "KaonYield_Q3W2Center.h")
-
- ("/home/trottar/ResearchNP/" (23682 465 559301 958000) "gemc/" "./" "simc_gfortran/" "ROOTAnalysis/" "JLEIC/" "org_file/" "tensorflow/" "../" "deepLearn/" "NPS_crystalAnalysis/")
 
  ("/home/trottar/Analysis/hallc_replay/UTIL_KAONLT/" (23680 37916 177872 972000) "ADCWindowSHMS.sh" "ADCWindowHMS.sh" ".gitmodules" "kinematics/" "DEF-files/" "README.md" "scripts_Luminosity/" "kaonlt_runlist.csv" "ADCGates/" "./" "peepYield.sh" ".gitignore" "scripts_KaonYield/" "PARAM/" "\\" "../" "scripts_Replay/" "KaonYield.sh" "TEMPLATES/" "KaonLT_PhysicsSettings_106.ods" "Luminosity.sh" "reportSummary.py")
 
