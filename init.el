@@ -101,8 +101,10 @@
     (("beamer" "\\documentclass[presentation]{beamer}"
       ("\\section{%s}" . "\\section*{%s}")
       ("\\subsection{%s}" . "\\subsection*{%s}")
-      ("\\subsubsection{%s}" . "\\subsubsection*{%s}"))
-     ("List" "\\documentclass[11pt]{article}"
+      ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+      ("\\paragraph{%s}" . "\\paragraph*{%s}")
+      ("\\subparagraph{%s}" . "\\subparagraph*{%s}"))
+     ("list" "\\documentclass[11pt]{article}"
       ("\\heading{%s}" . "\\heading*{%s}")
       ("\\heading{%s}" . "\\heading*{%s}"))
      ("article" "\\documentclass[11pt]{article}"
@@ -118,11 +120,11 @@
       ("\\subsection{%s}" . "\\subsection*{%s}")
       ("\\subsubsection{%s}" . "\\subsubsection*{%s}"))
      ("book" "\\documentclass[11pt]{book}"
-      ("\\part{%s}" . "\\part*{%s}")
       ("\\chapter{%s}" . "\\chapter*{%s}")
       ("\\section{%s}" . "\\section*{%s}")
       ("\\subsection{%s}" . "\\subsection*{%s}")
       ("\\subsubsection{%s}" . "\\subsubsection*{%s}")))))
+ '(org-latex-default-class "list")
  '(org-latex-prefer-user-labels nil)
  '(org-latex-remove-logfiles t)
  '(org-level-color-stars-only nil)
@@ -136,7 +138,11 @@
  '(package-archives
    (quote
     (("gnu" . "http://elpa.gnu.org/packages/")
+     ("org" . "http://orgmode.org/elpa/")
      ("melpa" . "https://stable.melpa.org/packages/"))))
+ '(package-selected-packages
+   (quote
+    (writeroom-mode writegood-mode auctex ox-json org-ref org-agenda-property visual-fill-column smooth-scroll orgtbl-show-header org-pdfview org-gcal org-edit-latex org-bullets org-beautify-theme literate-elisp latex-unicode-math-mode latex-math-preview latex-extra elpy common-lisp-snippets calfw-org avy autopair auto-yasnippet auctex-latexmk angular-snippets)))
  '(python-indent-guess-indent-offset nil)
  '(python-indent-offset 4)
  '(server-mode t)
@@ -147,6 +153,28 @@
  '(uniquify-buffer-name-style (quote post-forward) nil (uniquify))
  '(word-wrap t)
  '(xterm-mouse-mode t))
+
+(org-babel-do-load-languages
+   'org-babel-load-languages
+   '((R . t)
+     (org . t)
+     (ditaa . t)
+     (latex . t)
+     (dot . t)
+     (emacs-lisp . t)
+     (gnuplot . t)
+     (screen . nil)
+     (shell . t)
+     (sql . nil)
+     (sqlite . t)))
+
+(setq abbrev-file-name "~/.emacs.d/abbrev_defs")
+(add-hook 'text-mode-hook 'org-mode-hook)
+
+;; Add the path to the repo
+(add-to-list 'load-path "~/Programs/wc-mode/")
+;;; init.el ends here;; Suggested setting
+(global-set-key "\C-cw" 'wc-mode)
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

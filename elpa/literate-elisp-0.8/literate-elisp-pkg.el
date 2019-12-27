@@ -1,0 +1,2 @@
+;;; -*- no-byte-compile: t -*-
+(define-package "literate-elisp" "0.8" "literate program to write elisp codes in org mode" '((cl-lib "0.6") (emacs "24.4")) :commit "2c91d49be2450650236638a8100d9373ccd59d70" :keywords '("lisp" "docs" "extensions" "tools") :authors '(("Jingtao Xu" . "jingtaozf@gmail.com")) :maintainer '("Jingtao Xu" . "jingtaozf@gmail.com") :url "https://github.com/jingtaozf/literate-elisp")

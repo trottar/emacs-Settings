@@ -2,315 +2,90 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Thu Sep 26 14:00:16 2019
-;; Desktop file format version 206
-;; Emacs version 24.5.1
+;; Created Fri Dec 27 03:10:41 2019
+;; Desktop file format version 208
+;; Emacs version 25.2.2
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (23948 64688 971229 649000) (desktop . "206") "trottar@trottar-PC" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen . maximized) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 12) (alpha) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (frameset--id . "D35E-A125-8D62-0081") (frameset--mini t . t) (height . 41) (width . 144) (modeline . t) (minibuffer . t) (unsplittable) (left . 34) (top . 0) (icon-name) (visibility . t) (display . ":0") (explicit-name)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 54) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1332) (pixel-height . 720) (total-width . 148) (total-height . 40) (normal-height . 1.0) (normal-width . 1.0) (buffer ".gitignore|org_file" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars 12 2 t nil) (vscroll . 0) (dedicated) (point . 27) (start . 1))))])
+(setq desktop-saved-frameset [frameset 1 (24069 48257 770108 508000) (desktop . "208") "trottar@trottar" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars . t) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 12) (scroll-bar-height . 16) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (frameset--id . "D35E-A125-8D62-0081") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (visibility . t) (height . 57) (width . 205) (left . 40) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 54) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1880) (pixel-height . 1037) (total-width . 208) (total-height . 57) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars nil 2 t nil 1 t) (vscroll . 0) (dedicated) (point . 6180) (start . 5042))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("help" "head" "he" "head" "challen" "dein" "allowagentforwarding" "rootsys" "ROOTSys" "leafName1" "chainname"))
+(setq search-ring '("faces" "fit" "add-to" "pion" "pdf" "GRV" "help" "head" "he" "head" "challen" "dein" "allowagentforwarding" "rootsys" "ROOTSys" "leafName1"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/bin/upgradePython.sh" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "/home/trottar/bin/help.csh" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "/home/trottar/bin/help.csh" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/fill_runList" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/Analysis/ROOTfiles/python/test_rootPy.py" "~/Analysis/ROOTfiles/test_rootPy.py" "/home/trottar/syncFiles.sh" "/home/trottar/bin/copyFiles.sh" "~/test.txt" "~/syncFiles.sh" "/home/trottar/pkglist" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/eic/"))
+(setq file-name-history '("~/.emacs.d/chrome/" "/home/trottar/.emacs.d/abbrev_defs" "/home/trottar/.emacs.d/init.el" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "/home/trottar/.emacs.d/init.el" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/hms_cal_calib/howto.txt" "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/ref_times/DetTCuts.sh" "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/hms_cer_calib/run_cal.C" "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/hms_cal_calib/THcShHit.h" "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/dc_calib/README.md" "~/.emacs.d/chrome/" "~/.emacs.d/init.el" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "/home/trottar/.bashrc" "~/.bash_profile" "/home/trottar/.bash_logout" "/home/trottar/.cshrc" "/home/trottar/.profile" "/home/trottar/.bashrc" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/bin/upgradePython.sh" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "/home/trottar/bin/help.csh" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "/home/trottar/bin/help.csh" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/fill_runList" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/Analysis/ROOTfiles/python/test_rootPy.py" "~/Analysis/ROOTfiles/test_rootPy.py" "/home/trottar/syncFiles.sh" "/home/trottar/bin/copyFiles.sh" "~/test.txt" "~/syncFiles.sh" "/home/trottar/pkglist" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/eic/"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
-(desktop-create-buffer 206
-  "/home/trottar/ResearchNP/org_file/.gitignore"
-  ".gitignore"
+(desktop-create-buffer 208
+  "/home/trottar/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(global-auto-revert-mode company-mode)
+  6180
+  '(6180 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring (6181 6104 6104 6104 6104 6104 6014 6012 5763 6012 6012 1 6012 6012 4308 6012))))
+
+(desktop-create-buffer 208
+  "/home/trottar/.emacs.d/abbrev_defs"
+  "abbrev_defs"
   'fundamental-mode
   '(global-auto-revert-mode company-mode)
-  27
-  '(nil nil)
+  2467
+  '(2168 nil)
   nil
   nil
-  '((buffer-file-coding-system . utf-8-unix)))
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (24 81 2166 1))))
 
-(desktop-create-buffer 206
-  "/home/trottar/bin/upgradePython.sh"
-  "upgradePython.sh"
-  'sh-mode
-  '(global-auto-revert-mode company-mode)
-  335
-  '(352 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/trottar/bin/upgradePython.py"
-  "upgradePython.py"
-  'python-mode
-  '(global-auto-revert-mode company-mode)
-  74
-  '(38 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/trottar/sendFile.sh"
-  "sendFile.sh"
-  'sh-mode
-  '(global-auto-revert-mode company-mode)
-  1557
-  '(1551 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  nil
-  "kaonlt_analysis"
-  'dired-mode
-  '(global-auto-revert-mode company-mode)
-  382
-  '(nil nil)
-  t
-  '("/home/trottar/Analysis/kaonlt_analysis/")
-  nil)
-
-(desktop-create-buffer 206
-  "/home/trottar/bin/findHost.csh"
-  "findHost.csh"
-  'sh-mode
-  '(global-auto-revert-mode company-mode)
-  19
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/trottar/syncFiles.sh"
-  "syncFiles.sh"
-  'sh-mode
-  '(global-auto-revert-mode company-mode)
-  313
-  '(312 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/trottar/bin/pyChain.py"
-  "pyChain.py"
-  'python-mode
-  '(global-auto-revert-mode company-mode)
-  2692
-  '(674 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/trottar/.profile"
-  ".profile"
-  'sh-mode
-  '(global-auto-revert-mode company-mode)
-  753
-  '(752 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/trottar/bin/help.csh"
-  "help.csh"
-  'sh-mode
-  '(global-auto-revert-mode company-mode)
-  1630
-  '(1651 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/trottar/.cshrc"
-  ".cshrc"
-  'sh-mode
-  '(global-auto-revert-mode company-mode)
-  1992
-  '(2019 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/trottar/bin/run_server.csh"
-  "run_server.csh"
-  'sh-mode
-  '(global-auto-revert-mode company-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay/PARAM/TRIG/tcoin.param"
-  "tcoin.param"
-  'fundamental-mode
-  '(global-auto-revert-mode company-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_Replay/replay_production_coin.C"
-  "replay_production_coin.C"
-  'c++-mode
-  '(abbrev-mode global-auto-revert-mode company-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_Luminosity/Yield_Data.dat"
-  "Yield_Data.dat"
-  'fundamental-mode
-  '(global-auto-revert-mode company-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/scripts_KaonYield/KaonYield.C"
-  "KaonYield.C"
-  'c++-mode
-  '(abbrev-mode global-auto-revert-mode company-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/trottar/ResearchNP/JLEIC/eic_SF/TDISpion.C"
-  "TDISpion.C"
-  'c++-mode
-  '(abbrev-mode global-auto-revert-mode company-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/trottar/ResearchNP/JLEIC/eic_SF/TDISpion_20kd_pyChain.py"
-  "TDISpion_20kd_pyChain.py"
-  'python-mode
-  '(global-auto-revert-mode company-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/trottar/ResearchNP/JLEIC/eic_SF/.gitignore"
-  ".gitignore"
-  'fundamental-mode
-  '(global-auto-revert-mode company-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/home/trottar/ResearchNP/JLEIC/.gitignore"
-  ".gitignore"
-  'fundamental-mode
-  '(global-auto-revert-mode company-mode)
-  59
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/runlistGatherer.py"
-  "runlistGatherer.py"
-  'python-mode
-  '(global-auto-revert-mode company-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/fill_runList"
-  "fill_runList"
-  'sh-mode
-  '(global-auto-revert-mode company-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/ROOTfiles/rootPy.py"
-  "rootPy.py"
-  'python-mode
-  '(global-auto-revert-mode company-mode)
-  614
-  '(nil nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_kaonlt/.gitmodules"
+(desktop-create-buffer 208
+  "/home/trottar/Analysis/hallc_replay_lt/.gitmodules"
   ".gitmodules"
   'fundamental-mode
   '(global-auto-revert-mode company-mode)
-  218
-  '(103 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_kaonlt/.gitignore"
-  ".gitignore"
-  'fundamental-mode
-  '(global-auto-revert-mode company-mode)
-  135
+  1
   '(nil nil)
   nil
   nil
-  '((buffer-file-coding-system . undecided-unix)))
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
 
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/.gitignore"
-  ".gitignore"
+(desktop-create-buffer 208
+  "/home/trottar/Programs/MultiMarkdown-6-6.5/README.md"
+  "README.md"
   'fundamental-mode
   '(global-auto-revert-mode company-mode)
-  176
-  '(176 nil)
+  8813
+  '(8813 nil)
   nil
   nil
-  '((buffer-file-coding-system . undecided-unix)))
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
 
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/Luminosity.sh"
-  "Luminosity.sh"
-  'sh-mode
+(desktop-create-buffer 208
+  "/etc/ImageMagick-6/policy.xml"
+  "policy.xml"
+  'nxml-mode
   '(global-auto-revert-mode company-mode)
-  1320
-  '(1320 nil)
+  3489
+  '(3359 nil)
+  t
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (3295 3295 1 3489))))
+
+(desktop-create-buffer 208
+  "/home/trottar/Analysis/hallc_replay_lt/.git/config"
+  "config"
+  'conf-unix-mode
+  '(global-auto-revert-mode company-mode)
+  137
+  '(1 nil)
   nil
   nil
-  '((buffer-file-coding-system . undecided-unix)))
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1 1 1))))
 
