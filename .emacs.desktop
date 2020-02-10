@@ -2,90 +2,66 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Fri Dec 27 03:10:41 2019
+;; Created Thu Jan 30 12:47:41 2020
 ;; Desktop file format version 208
 ;; Emacs version 25.2.2
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (24069 48257 770108 508000) (desktop . "208") "trottar@trottar" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars . t) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 12) (scroll-bar-height . 16) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (frameset--id . "D35E-A125-8D62-0081") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (visibility . t) (height . 57) (width . 205) (left . 40) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 54) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1880) (pixel-height . 1037) (total-width . 208) (total-height . 57) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars nil 2 t nil 1 t) (vscroll . 0) (dedicated) (point . 6180) (start . 5042))))])
+(setq desktop-saved-frameset [frameset 1 (24115 5821 400484 256000) (desktop . "208") "trottar@trottar" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "red") (sticky) (environment) (frameset--id . "40D8-33E3-E938-D3E2") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (visibility . t) (height . 58) (width . 207) (left . 40) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 36) (min-pixel-width-ignore . 36) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1880) (pixel-height . 1037) (total-width . 208) (total-height . 57) (normal-height . 1.0) (normal-width . 1.0) (buffer "startinit.org" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 3074) (start . 1))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("faces" "fit" "add-to" "pion" "pdf" "GRV" "help" "head" "he" "head" "challen" "dein" "allowagentforwarding" "rootsys" "ROOTSys" "leafName1"))
+(setq search-ring '("trac" "track" "smart-return" "dired-mode-hook" "terminal" "shell" "ret" "gre" "frame" "window" "win" "window" "add-" "faces" "fit" "add-to"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("~/.emacs.d/chrome/" "/home/trottar/.emacs.d/abbrev_defs" "/home/trottar/.emacs.d/init.el" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "/home/trottar/.emacs.d/init.el" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/hms_cal_calib/howto.txt" "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/ref_times/DetTCuts.sh" "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/hms_cer_calib/run_cal.C" "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/hms_cal_calib/THcShHit.h" "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/dc_calib/README.md" "~/.emacs.d/chrome/" "~/.emacs.d/init.el" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "/home/trottar/.bashrc" "~/.bash_profile" "/home/trottar/.bash_logout" "/home/trottar/.cshrc" "/home/trottar/.profile" "/home/trottar/.bashrc" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/bin/upgradePython.sh" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "/home/trottar/bin/help.csh" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "/home/trottar/bin/help.csh" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/fill_runList" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/Analysis/ROOTfiles/python/test_rootPy.py" "~/Analysis/ROOTfiles/test_rootPy.py" "/home/trottar/syncFiles.sh" "/home/trottar/bin/copyFiles.sh" "~/test.txt" "~/syncFiles.sh" "/home/trottar/pkglist" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/eic/"))
+(setq file-name-history '("~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.pdf" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.org" "~/ResearchNP/org_file/" "/home/trottar/ResearchNP/org_file/commands.pdf" "~/Programs/" "/home/trottar/.emacs.d/learning-emacs.org" "~/.emacs.d/chrome/" "/home/trottar/.emacs.d/startinit.org" "/home/trottar/.emacs.d/startinit.el" "/home/trottar/ResearchNP/org_file/commands.org" "~/.emacs.d/chrome/" "/home/trottar/.emacs.d/abbrev_defs" "/home/trottar/.emacs.d/init.el" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "/home/trottar/.emacs.d/init.el" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/hms_cal_calib/howto.txt" "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/ref_times/DetTCuts.sh" "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/hms_cer_calib/run_cal.C" "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/hms_cal_calib/THcShHit.h" "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/dc_calib/README.md" "~/.emacs.d/chrome/" "~/.emacs.d/init.el" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "/home/trottar/.bashrc" "~/.bash_profile" "/home/trottar/.bash_logout" "/home/trottar/.cshrc" "/home/trottar/.profile" "/home/trottar/.bashrc" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/bin/upgradePython.sh" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "/home/trottar/bin/help.csh" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "/home/trottar/bin/help.csh" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/fill_runList" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/Analysis/ROOTfiles/python/test_rootPy.py" "~/Analysis/ROOTfiles/test_rootPy.py" "/home/trottar/syncFiles.sh" "/home/trottar/bin/copyFiles.sh" "~/test.txt" "~/syncFiles.sh" "/home/trottar/pkglist" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/eic/"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/trottar/.emacs.d/startinit.org"
+  "startinit.org"
+  'org-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  3074
+  '(42419 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (42789 42334 42438 42358 83 10445 76 47927 1 8245 8245 1 11190 11190 7549 7549))))
+
 (desktop-create-buffer 208
   "/home/trottar/.emacs.d/init.el"
   "init.el"
   'emacs-lisp-mode
-  '(global-auto-revert-mode company-mode)
-  6180
-  '(6180 nil)
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  5591
+  '(80 nil)
   nil
   nil
-  '((buffer-file-coding-system . prefer-utf-8-unix))
-  '((mark-ring (6181 6104 6104 6104 6104 6104 6014 6012 5763 6012 6012 1 6012 6012 4308 6012))))
+  '((buffer-file-coding-system . prefer-utf-8-unix) (truncate-lines))
+  '((mark-ring (3263 1 4620 421 1027 1303 1303 1303 169 922 897 844 1303 978 978 874))))
 
 (desktop-create-buffer 208
-  "/home/trottar/.emacs.d/abbrev_defs"
-  "abbrev_defs"
-  'fundamental-mode
-  '(global-auto-revert-mode company-mode)
-  2467
-  '(2168 nil)
+  "/home/trottar/ResearchNP/org_file/commands.org"
+  "commands.org"
+  'org-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  159
+  '(8632 nil)
   nil
   nil
-  '((buffer-file-coding-system . utf-8-unix))
-  '((mark-ring (24 81 2166 1))))
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (9280 9230 9230 9230 9230 9115 9230 11471 11239 1 8803 7084 1 7181 11239 11233))))
 
 (desktop-create-buffer 208
-  "/home/trottar/Analysis/hallc_replay_lt/.gitmodules"
-  ".gitmodules"
-  'fundamental-mode
-  '(global-auto-revert-mode company-mode)
+  "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.org"
+  "nine_wreaths.org"
+  'org-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
   1
   '(nil nil)
   nil
   nil
-  '((buffer-file-coding-system . undecided-unix))
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines))
   '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/home/trottar/Programs/MultiMarkdown-6-6.5/README.md"
-  "README.md"
-  'fundamental-mode
-  '(global-auto-revert-mode company-mode)
-  8813
-  '(8813 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/etc/ImageMagick-6/policy.xml"
-  "policy.xml"
-  'nxml-mode
-  '(global-auto-revert-mode company-mode)
-  3489
-  '(3359 nil)
-  t
-  nil
-  '((buffer-file-coding-system . utf-8-unix))
-  '((mark-ring (3295 3295 1 3489))))
-
-(desktop-create-buffer 208
-  "/home/trottar/Analysis/hallc_replay_lt/.git/config"
-  "config"
-  'conf-unix-mode
-  '(global-auto-revert-mode company-mode)
-  137
-  '(1 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix))
-  '((mark-ring (1 1 1))))
 

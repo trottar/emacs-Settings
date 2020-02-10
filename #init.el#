@@ -26,54 +26,18 @@
 
 ;; (require 'auto-complete)
 
-(desktop-save-mode 1)
-
-(add-hook 'before-save-hook 'time-stamp)
-(setq time-stamp-pattern nil)
-
-(auto-insert-mode 1)
-
-(add-hook 'find-file-hook 'auto-insert)
-(defun auto-insert ()
-  (interactive)
-  (when (and 
-         (string-match "\\.\\([C]\\|cc\\|cpp\\)\\'" (buffer-file-name))
-         (eq 1 (point-max)))
-    (insert-file "~/.emacs.d/insert/template.C"))
-    (when (and 
-         (string-match "\\.py" (buffer-file-name))
-         (eq 1 (point-max)))
-      (insert-file "~/.emacs.d/insert/template.py"))
-    (when (and 
-	   (string-match "\\.\\(sh\\|csh\\)\\'" (buffer-file-name))
-	   (eq 1 (point-max)))
-      (insert-file "~/.emacs.d/insert/template.sh"))
-    (when (and 
-	   (string-match "\\.org\\'" (buffer-file-name))
-	   (eq 1 (point-max)))
-      (insert-file "~/.emacs.d/insert/template.org")))
-
+;; Start org mode so we can use it for lisp files
 (package-initialize)
 (require 'org-bullets)
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 
-(setq  backup-directory-alist '(("." . "~/.backups"))
- backup-by-copying t
- version-control t
- delete-old-versions t
- kept-new-versions 20
- kept-old-versions 5)
+;; How to make org mode into an init file and run it with this bootstrap
+(org-babel-load-file (expand-file-name "~/.emacs.d/startinit.org"))
 
-(defun comment-or-uncomment-region-or-line ()
-  "Comments or uncomments the region or the current line if there's no active region."
-  (interactive)
-  (let (beg end)
-    (if (region-active-p)
-	(setq beg (region-beginning) end (region-end))
-      (setq beg (line-beginning-position) end (line-end-position)))
-    (comment-or-uncomment-region beg end)))
+;; Load other lisp files, pointless for now
+;; (add-to-list 'load-path "~/.emacs.d/lisp-files")
 
-(global-set-key "\M-;" 'comment-or-uncomment-region-or-line)
+(provide 'init)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -142,7 +106,7 @@
      ("melpa" . "https://stable.melpa.org/packages/"))))
  '(package-selected-packages
    (quote
-    (writeroom-mode writegood-mode auctex ox-json org-ref org-agenda-property visual-fill-column smooth-scroll orgtbl-show-header org-pdfview org-gcal org-edit-latex org-bullets org-beautify-theme literate-elisp latex-unicode-math-mode latex-math-preview latex-extra elpy common-lisp-snippets calfw-org avy autopair auto-yasnippet auctex-latexmk angular-snippets)))
+    (ox-pandoc define-word all auto-correct guide-key org-redmine org-ref olivetti writeroom-mode writegood-mode auctex ox-json org-agenda-property visual-fill-column smooth-scroll orgtbl-show-header org-pdfview org-gcal org-edit-latex org-bullets org-beautify-theme literate-elisp latex-unicode-math-mode latex-math-preview latex-extra elpy common-lisp-snippets calfw-org avy autopair auto-yasnippet auctex-latexmk angular-snippets)))
  '(python-indent-guess-indent-offset nil)
  '(python-indent-offset 4)
  '(server-mode t)
@@ -153,30 +117,6 @@
  '(uniquify-buffer-name-style (quote post-forward) nil (uniquify))
  '(word-wrap t)
  '(xterm-mouse-mode t))
-
-(org-babel-do-load-languages
-   'org-babel-load-languages
-   '((R . t)
-     (org . t)
-     (ditaa . t)
-     (latex . t)
-     (dot . t)
-     (emacs-lisp . t)
-     (gnuplot . t)
-     (screen . nil)
-     (shell . t)
-     (sql . nil)
-     (sqlite . t)))
-
-(setq abbrev-file-name "~/.emacs.d/abbrev_defs")
-(add-hook 'text-mode-hook 'org-mode-hook)
-
-;; Add the path to the repo
-(add-to-list 'load-path "~/Programs/wc-mode/")
-(require 'wc-mode')
-;;; init.el ends here;; Suggested setting
-(global-set-key "\C-cw" 'wc-mode)
-
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -188,7 +128,4 @@
  '(company-tooltip ((t (:background "cyan" :foreground "black"))))
  '(company-tooltip-selection ((t (:background "dim gray"))))
  '(custom-button ((t (:background "black" :foreground "white smoke" :box (:line-width 2 :color "black" :style released-button))))))
-
-(provide 'init)
-
 ;;; init.el ends here

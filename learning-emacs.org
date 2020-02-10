@@ -1,0 +1,1349 @@
+* most useful emacs features
+- search for string across multiple files
+- faster switching between files
+- move text from one file to the next automatically
+- search and replace across files
+- goto last change
+- export to PDF and to HTML
+
+* use-package
+
+#+BEGIN_EXAMPLE emacs-lisp
+(use-package foo
+
+ :init
+ (setq foo-variable t)
+
+ :config
+ (foo-mode 1)
+
+:bind
+(("M-o l" . highlight-lines-matching-regexp)
+     ("M-o r" . highlight-regexp)
+     ("M-o w" . highlight-phrase))
+
+
+)
+#+END_EXAMPLE
+
+** use-package
+
+config blocks run AFTER the package is loaded
+
+#+BEGIN_SRC emacs-lisp
+(use-package projectile
+:config
+(projectile-global-mode)
+
+:bind
+("s-l". whatever) 
+)
+
+#+END_SRC
+
+this means it only runs the config block AFTER projectile is loaded 
+
+bind keys
+
+* Spacemacs
+** Search for a package: 
+#+BEGIN_EXAMPLE
+] h SPC and search 
+#+END_EXAMPLE 
+
+
+* multi file search and replace across files
+1. ~M-x find-name-dired~: you will be prompted for a root directory and a filename pattern.
+2. Press ~t~ to "toggle mark" for all files found.
+3. Press ~Q~ for "Query-Replace in Files...": you will be prompted for query/substitution regexps.
+4. Proceed as with ~query-replace-regexp~: ~SPACE~ to replace and move to next match, ~n~ to skip a match, etc.
+
+* regexp
+Let Emacs Create Your Regexp
+One can use the function 'regexp-opt' to create elisp regexps. Suppose you want to find out the syntax for a regexp that matches both "end" and "endif". Enter the following in an elisp buffer, say *scratch*: 
+(regexp-opt '("end" "endif") t)
+Then put the cursor after the last parentesis and give the command 'C-x C-e'. The result "\\(end\\(?:if\\)?\\)" should appear in the minibuffer, and also in the buffer *Messages*.
+
+
+* org for academics 
+From: John Kitchin <jkitchin <at> andrew.cmu.edu>
+Subject: Re: Organizing and taming hectic Academia work (faculty	viewpoint)? Tips or a good guides sought after :)
+
+and
+https://www.youtube.com/watch?v=cRUCiF2MwP4
+
+See http://github.com/jkitchin/jmax for my Emacs setup for
+org-mode.
+
+My only other advice is start learning to program in emacs-lisp. It took
+me about four years to get proficient enough to write org-ref. I learned
+by solving lots of little problems, and building up to bigger
+problems. A lot of those are documented in my blog. Read the emacs and
+emacs-lisp manuals (read them in Emacs or in a browser). They take some
+time, so skip the stuff that doesn't make sense and come back to it
+later if you need to. 
+
+Consider getting the book at
+https://www.masteringemacs.org. It isn't about org-mode, but it will
+make you better at using Emacs. 
+
+Consider reading Land of Lisp. It isn't
+about Emacs or Emacs-lisp, but it might interest you in programming in a
+lispy language, and it is a fun read. 
+
+* word export
+With ox-pandoc you can export to .docx directly.  No need to go through
+LaTeX.  Ox-pandoc is pretty amazing.
+
+* where do you put content within a TODO list?
+For me the answer depends on the size of the text, and how you generate
+the final report. I would probably make a link like [[./big-report.org]]
+in the first section. That would make it pretty easy to have a
+standalone document with headlines at whatever level is appropriate that
+can be exported in the desired format.
+
+
+* shell
+Filtering text through a shell command in Emacs
+
+In vi[m] there is the ! command which lets me pipe text through a shell command -- like sort or indent -- and get the filtered text back into the buffer. Is there an equivalent in emacs?
+
+You can select a region and type `C-u M-| command RET', and it replaces the region with the command output in the same buffer due to the interactive prefix argument of shell-command-on-region. 
+
+I wrote this a few years back, it might help you:
+
+#+BEGIN_EXAMPLE emacs-lisp 
+(defun generalized-shell-command (command arg)
+  "Unifies `shell-command' and `shell-command-on-region'. If no region is
+selected, run a shell command just like M-x shell-command (M-!).  If
+no region is selected and an argument is a passed, run a shell command
+and place its output after the mark as in C-u M-x `shell-command' (C-u
+M-!).  If a region is selected pass the text of that region to the
+shell and replace the text in that region with the output of the shell
+command as in C-u M-x `shell-command-on-region' (C-u M-|). If a region
+is selected AND an argument is passed (via C-u) send output to another
+buffer instead of replacing the text in region."
+  (interactive (list (read-from-minibuffer "Shell command: " nil nil nil 'shell-command-history)
+                     current-prefix-arg))
+  (let ((p (if mark-active (region-beginning) 0))
+        (m (if mark-active (region-end) 0)))
+    (if (= p m)
+        ;; No active region
+        (if (eq arg nil)
+            (shell-command command)
+          (shell-command command t))
+      ;; Active region
+      (if (eq arg nil)
+          (shell-command-on-region p m command t t)
+        (shell-command-on-region p m command))))) 
+
+(global-set-key [f3] 'generalized-shell-command) 
+#+END_EXAMPLE
+
+I've found this function to be very helpful. If you find it useful as well, I suggest binding it to some function key for convenience, personally I use F3:
+
+
+
+* links to directories
+
+[[file+emacs:~/Downloads/]] 
+
+* Emacs allows you to build your own text editor
+[[http://mbork.pl/2014-07-25_What_is_Emacs%252c_really][Marcin Borkowski: 2014-07-25 What is Emacs, really]]
+
+This might be old news for more seasoned Emacs users, but as I have been using it for only a bit more than a decade, I feel like a, say, intermediate user.
+
+So, basically, some time ago I had a kind of revelation and I understood what Emacs really is. Many people think it's a text editor; that's not 100% true. There's also a joke that it is an operating system; this has some grain of truth in it, but it's also not the whole story.
+
+What is Emacs, then? It is a DIY kit for building Your Personal Text Editor™. It comes with a default one, which is decent (but not phenomenal, unless you tweak it a bit/a lot, depending on your preferences), but it's neither the only, nor necessarily the best one (there exists one other really good – maybe even better – editor, which we shall not name here). The real power of Emacs is that you can build your custom editor on top of it. And this is going to be the awesomest one, because, you know, it is the only one really suited to your needs.
+
+Pretty obvious, I know. But I guess it's important that you get that when you make the decision about which editor to choose, so maybe someone will find this post useful. 
+
+* org-one-to-many
+
+A few days ago I announced this on the Org-mode mailing list, and let me
+repeat it here. I started a small project,
+called [[https://github.com/mbork/org-one-to-many][org-one-to-many]],
+whose aim is to provide a way to split an Org file into subfiles.
+Currently, all sections at a given level are output to their own files,
+and the main file is transformed into a file with all those sections
+replaced by links to them. All the internal links in the source file are
+converted (as needed) to external links pointing to the newly created
+files.
+
+* dired filetypes
+
+(setq dired-guess-shell-alist-user
+      '(("\\.pdf\\'" "evince")
+	("\\.tex\\'" "pdflatex")
+	("\\.ods\\'\\|\\.xlsx?\\'\\|\\.docx?\\'\\|\\.csv\\'" "libreoffice"))) 
+
+
+* dired omit
+Another nice thing to know is the variable completion-ignored-extensions. It is a set of strings (not regexen!) which are "uninteresting" from completion point of view. (For example, it might be a good idea to put ".o" or ".aux" etc. there.) One might argue that this has little to do with Dired. Enter Dired-X, a built-in library enhancing Dired. One of the features of Dired-X is dired-omit-mode, which turns off displaying of "uninteresting" files. (Remember to set completion-ignored-extensions before you (require 'dired-x)!) You can turn it on and off with C-x M-o in Dired (assuming that you require 'dired-x in your init.el). (Notice: it used to be just M-o in older Emacsen.) 
+
+* define-word 
+Here is a version of the use-package expression that will load define-word only when necessary and not at emacs load time:
+
+(use-package define-word
+  :bind (("H-d" . define-word-at-point)
+         ("H-D" . define-word))) 
+
+
+
+
+
+* rx
+[[http://emacs.stackexchange.com/questions/2288/how-do-i-create-a-dynamic-regexp-with-rx?rq=1][regular expressions - How do I create a dynamic regexp with rx? - Emacs Stack Exchange]]
+
+
+* packages to check out 
+https://github.com/larstvei/Focus/blob/master/README.md
+
+
+
+* if-then-else
+
+More info: 
+- [[http://www.gnu.org/software/emacs/manual/html_node/elisp/Conditionals.html][GNU Emacs Lisp Reference Manual: Conditionals]]
+- [[http://emacswiki.org/emacs/WhenToUseIf][EmacsWiki: When To Use If]]
+- 
+
+** basic structure
+
+#+BEGIN_SRC emacs-lisp
+
+(if (> 4 5)                               ; if 
+    (message "4 falsely greater than 5!") ; then
+    (message "4 is not greater than 5!"))   ; else
+
+#+END_SRC
+
+
+** How to execute several expressions in 'else' block? 
+You don't need progn for this, as this is already the default behaviour: 
+
+ (if COND THEN ELSE...)
+
+ If COND yields non-nil, do THEN, else do ELSE...
+ Returns the value of THEN or the value of the last of the ELSE's.
+ THEN must be one expression, but ELSE... can be zero or more expressions.
+ If COND yields nil, and there are no ELSE's, the value is nil. 
+
+You would, of course, use progn if you wished to evaluate multiple expressions in the THEN form. 
+
+ #+BEGIN_SRC emacs-lisp
+(if (> 1 2)
+    (message "True")
+  (message "False")
+  (message "I repeat, completely false"))
+ #+END_SRC
+
+** How can you write multiple statements in elisp 'if' statement? 
+
+Use progn:
+
+#+BEGIN_EXAMPLE
+(if condition
+    (progn
+        (do-something)
+        (do-something-else))) 
+#+END_EXAMPLE
+
+** unless
+(unless condition a b c) 
+
+Unless A, do B and C.
+
+If A is not true, then do B and C.
+
+* convert paragraphs to org-headings
+~C-c *~
+
+* ibuffer
+C-x C-b") 'ibuffer
+
+
+* simplest find and replace
+
+#+BEGIN_SRC emacs-lisp
+;;fix ; typos
+(defun bjm-semicolon-to-l ()
+  "Change the most recent semicolon behind the point to an l character. Useful for fixing a common touch-typing error"
+  (interactive)
+  (save-excursion
+    (search-backward ";")
+    (delete-char 1)
+    (insert "l")))
+#+END_SRC
+
+* Hunspell personal dictionaries 
+file://~/.hunspell_en_US 
+file:///users/jay/.aspell.en.pws
+file:///~/Library/Spelling/LocalDictionary
+
+[[~/Library/Spelling/LocalDictionary]]
+
+[[~/.hunspell_en_US]]
+
+* tiny-expand syntax
+file:///users/jay/Dropbox/writing/notationaldata/accountability/tiny-syntax-examples.md
+
+
+* smtp change send-from address dynamically
+The below works!!!
+#+BEGIN_SRC emacs-lisp
+
+(require 'smtpmail)
+
+(setq message-send-mail-function 'smtpmail-send-it
+ smtpmail-stream-type 'starttls
+ smtpmail-default-smtp-server "smtp.gmail.com"
+ smtpmail-smtp-server "smtp.gmail.com"
+ smtpmail-auth-credentials
+  '(("smtp.gmail.com" 587 "jay@vivovii.com" nil))
+ smtpmail-smtp-service 587)
+
+#+END_SRC
+
+* cond otherwise
+
+#+BEGIN_SRC emacs-lisp 
+(defun query-user (x y)
+ "..."
+ (interactive "sEnter friend's name: \nnEnter friend's age: ")
+ (message "Name is: %s, Age is: %d" x y)
+ ) 
+
+
+
+(defun test-input-func (value)
+ (interactive "sEnter Message: ") 
+(cond
+ ((equal value "foo") ; case #1---notice it's a function call to `equal' so it's in parens
+ (message "got foo") ; action 1
+ (+ 2 2))    ; return value for case 1
+ ((equal value "bar") ; case #2---also a function call (to `+')
+ nil)     ; return value for case 2
+ (t     ; default case---not a function call, just literal true
+ (message "Your message was: %s" value)))    ; return symbol 'hello 
+) 
+#+END_SRC
+
+* replace-regexp
+19:04 <Guest53541> in replace-regexp, I'm trying to figure out what to put to
+          put in the text that got matched
+19:04 <Guest53541> I'm doing this
+19:04 *** sssilver JOIN
+19:04 *** nkabir JOIN
+19:05 <ham-peas> Guest53541: use \n for the contents of the Nth parenthesized
+         submatch, like \1, \2, etc.
+19:05 <Guest53541> M-x replace-regexp foo <RET> \1bar <RET>
+19:05 <macrobat> ow333n: does emacs work or is there just a warning?
+19:05 *** juanpablo_ JOIN
+19:05 *** nocd JOIN
+19:06 <Guest53541> but instead of getting "foobar" like I would expect, it
+          gets replaced just just "bar"
+
+: to substitute the entire match, use \&
+
+
+
+* regex
+#+BEGIN_EXAMPLE
+[:digit:] a digit, same as [0-9]
+[:alpha:] a letter (an alphabetic character)
+ [:alnum:] a letter or adigit (an alphanumeric character ()
+ [:upper:] a letter in uppercase
+ [[:space:]]+ a whitespace character, as defined by the syntax table
+[[:digit:]+] Any digit 
+
+#+END_EXAMPLE
+
+
+'[:ascii:]'
+This matches any ASCII character (codes 0–127).
+
+'[:alnum:]'
+This matches any letter or digit. (At present, for multibyte characters, it matches anything that has word syntax.)
+
+'[:alpha:]'
+This matches any letter. (At present, for multibyte characters, it matches anything that has word syntax.)
+
+'[:blank:]'
+This matches space and tab only.
+
+'[:cntrl:]'
+This matches any ASCII control character.
+
+'[:digit:]'
+This matches '0' through '9'. Thus, '[-+[:digit:]]' matches any digit, as well as '+' and '-'.
+
+'[:graph:]'
+This matches graphic characters---everything except ASCII control characters, space, and the delete character.
+
+'[:lower:]'
+This matches any lower-case letter, as determined by the current case table (see Case Tables). If case-fold-search is non-nil, this also matches any upper-case letter.
+
+'[:multibyte:]'
+This matches any multibyte character (see Text Representations).
+
+'[:nonascii:]'
+This matches any non-ASCII character.
+
+'[:print:]'
+This matches printing characters---everything except ASCII control characters and the delete character.
+
+'[:punct:]'
+This matches any punctuation character. (At present, for multibyte characters, it matches anything that has non-word syntax.)
+
+'[:space:]'
+This matches any character that has whitespace syntax (see Syntax Class Table).
+
+'[:unibyte:]'
+This matches any unibyte character (see Text Representations).
+
+'[:upper:]'
+This matches any upper-case letter, as determined by the current case table (see Case Tables). If case-fold-search is non-nil, this also matches any lower-case letter.
+
+'[:word:]'
+This matches any character that has word syntax (see Syntax Class Table).
+
+'[:xdigit:]'
+This matches the hexadecimal digits: '0' through '9', 'a' through 'f' and 'A' through 'F'. 
+
+* Special Characters in Regular Expressions
+
+Here is a list of the characters that are special in a regular expression.
+
+'.' (Period)
+is a special character that matches any single character except a newline. Using concatenation, we can make regular expressions like 'a.b', which matches any three-character string that begins with 'a' and ends with 'b'.
+
+'*'
+is not a construct by itself; it is a postfix operator that means to match the preceding regular expression repetitively as many times as possible. Thus, 'o*' matches any number of 'o's (including no 'o's).
+
+'*' always applies to the smallest possible preceding expression. Thus, 'fo*' has a repeating 'o', not a repeating 'fo'. It matches 'f', 'fo', 'foo', and so on.
+
+The matcher processes a '*' construct by matching, immediately, as many repetitions as can be found. Then it continues with the rest of the pattern. If that fails, backtracking occurs, discarding some of the matches of the '*'-modified construct in the hope that that will make it possible to match the rest of the pattern. For example, in matching 'ca*ar' against the string 'caaar', the 'a*' first tries to match all three 'a's; but the rest of the pattern is 'ar' and there is only 'r' left to match, so this try fails. The next alternative is for 'a*' to match only two 'a's. With this choice, the rest of the regexp matches successfully.
+
+Warning: Nested repetition operators can run for an indefinitely long time, if they lead to ambiguous matching. For example, trying to match the regular expression '\(x+y*\)*a' against the string 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxz' could take hours before it ultimately fails. Emacs must try each way of grouping the 'x's before concluding that none of them can work. Even worse, '\(x*\)*' can match the null string in infinitely many ways, so it causes an infinite loop. To avoid these problems, check nested repetitions carefully, to make sure that they do not cause combinatorial explosions in backtracking.
+
+'+'
+is a postfix operator, similar to '*' except that it must match the preceding expression at least once. So, for example, 'ca+r' matches the strings 'car' and 'caaaar' but not the string 'cr', whereas 'ca*r' matches all three strings.
+
+'?'
+is a postfix operator, similar to '*' except that it must match the preceding expression either once or not at all. For example, 'ca?r' matches 'car' or 'cr'; nothing else.
+
+'*?', '+?', '??'
+These are "non-greedy" variants of the operators '*', '+' and '?'. Where those operators match the largest possible substring (consistent with matching the entire containing expression), the non-greedy variants match the smallest possible substring (consistent with matching the entire containing expression).
+
+For example, the regular expression 'c[ad]*a' when applied to the string 'cdaaada' matches the whole string; but the regular expression 'c[ad]*?a', applied to that same string, matches just 'cda'. (The smallest possible match here for '[ad]*?' that permits the whole expression to match is 'd'.)
+
+'[ ... ]'
+is a character alternative, which begins with '[' and is terminated by ']'. In the simplest case, the characters between the two brackets are what this character alternative can match.
+
+Thus, '[ad]' matches either one 'a' or one 'd', and '[ad]*' matches any string composed of just 'a's and 'd's (including the empty string). It follows that 'c[ad]*r' matches 'cr', 'car', 'cdr', 'caddaar', etc.
+
+You can also include character ranges in a character alternative, by writing the starting and ending characters with a '-' between them. Thus, '[a-z]' matches any lower-case ASCII letter. Ranges may be intermixed freely with individual characters, as in '[a-z$%.]', which matches any lower case ASCII letter or '$', '%' or period.
+
+If case-fold-search is non-nil, '[a-z]' also matches upper-case letters. Note that a range like '[a-z]' is not affected by the locale's collation sequence, it always represents a sequence in ASCII order.
+
+Note also that the usual regexp special characters are not special inside a character alternative. A completely different set of characters is special inside character alternatives: ']', '-' and '^'.
+
+To include a ']' in a character alternative, you must make it the first character. For example, '[]a]' matches ']' or 'a'. To include a '-', write '-' as the first or last character of the character alternative, or put it after a range. Thus, '[]-]' matches both ']' and '-'. (As explained below, you cannot use '\]' to include a ']' inside a character alternative, since '\' is not special there.)
+
+To include '^' in a character alternative, put it anywhere but at the beginning.
+
+If a range starts with a unibyte character c and ends with a multibyte character c2, the range is divided into two parts: one spans the unibyte characters 'c..?\377', the other the multibyte characters 'c1..c2', where c1 is the first character of the charset to which c2 belongs.
+
+A character alternative can also specify named character classes (see Char Classes). This is a POSIX feature. For example, '[[:ascii:]]' matches any ASCII character. Using a character class is equivalent to mentioning each of the characters in that class; but the latter is not feasible in practice, since some classes include thousands of different characters.
+
+'[^ ... ]'
+'[^' begins a complemented character alternative. This matches any character except the ones specified. Thus, '[^a-z0-9A-Z]' matches all characters except letters and digits.
+
+'^' is not special in a character alternative unless it is the first character. The character following the '^' is treated as if it were first (in other words, '-' and ']' are not special there).
+
+A complemented character alternative can match a newline, unless newline is mentioned as one of the characters not to match. This is in contrast to the handling of regexps in programs such as grep.
+
+You can specify named character classes, just like in character alternatives. For instance, '[^[:ascii:]]' matches any non-ASCII character. See Char Classes.
+
+'^'
+When matching a buffer, '^' matches the empty string, but only at the beginning of a line in the text being matched (or the beginning of the accessible portion of the buffer). Otherwise it fails to match anything. Thus, '^foo' matches a 'foo' that occurs at the beginning of a line.
+
+When matching a string instead of a buffer, '^' matches at the beginning of the string or after a newline character.
+
+For historical compatibility reasons, '^' can be used only at the beginning of the regular expression, or after '\(', '\(?:' or '\|'.
+
+'$'
+is similar to '^' but matches only at the end of a line (or the end of the accessible portion of the buffer). Thus, 'x+$' matches a string of one 'x' or more at the end of a line.
+
+When matching a string instead of a buffer, '$' matches at the end of the string or before a newline character.
+
+For historical compatibility reasons, '$' can be used only at the end of the regular expression, or before '\)' or '\|'.
+
+'\'
+has two functions: it quotes the special characters (including '\'), and it introduces additional special constructs.
+
+Because '\' quotes special characters, '\$' is a regular expression that matches only '$', and '\[' is a regular expression that matches only '[', and so on.
+
+Note that '\' also has special meaning in the read syntax of Lisp strings (see String Type), and must be quoted with '\'. For example, the regular expression that matches the '\' character is '\\'. To write a Lisp string that contains the characters '\\', Lisp syntax requires you to quote each '\' with another '\'. Therefore, the read syntax for a regular expression matching '\' is "\\\\". 
+
+
+
+
+("anydigit" "\\([0-9]\\)+" nil 10) 
+("anydigit" "[[:digit:]+]" nil 1)
+
+
+
+* lisp cookbook
+
+This worked:
+#+BEGIN_SRC emacs-lisp 
+ (while (re-search-forward "Tip:" nil t)
+(goto-char (match-end 0))
+(endless/capitalize)
+) 
+#+END_SRC
+
+As did this, same thing.
+#+BEGIN_SRC emacs-lisp
+(while (re-search-forward "•" nil t)
+(goto-char (match-beginning 0))
+(kill-word-correctly-and-capitalize)
+(end-of-line)
+(delete-backward-char 1)
+) 
+#+END_SRC
+
+
+
+* Emacs learning 
+<<<radio targets>>>
+Jumping back with pop-mark
+
+Jumping between files with path/project files (projectile) with fuzzy auto-completion (flx-ido.el) or registers
+
+I just typed "%" in plain dired, the first key in some of the regular expression commands. It just sat there, of course, waiting for another key. I know that I can type C-h to see a list of the next keys that are supported for the "%" prefix key, but for a new user it might not be self-evident. It would be cool if Emacs could automatically popup that list, formatted as nicely as in your package, either after a slight delay, or directly.
+
+
+have a way to shortcut back to the previous document
+C-x SPC (pop-global-mark) has your back. C-x r SPC (point-to-register) and C-x r j (jump-to-register) have his.
+
+
+
+* Emacs learning
+- [[http://ergoemacs.org/emacs/eshell.html][Emacs: M-x eshell]]
+- [[http://ergoemacs.org/emacs/elisp.html][Practical Emacs Lisp]]
+- [[chrome-extension://klbibkeccnjlkjkiokjodocebajanakg/suspended.html#uri%3Dhttp://ergoemacs.org/emacs/emacs_unix.html][Emacs Shell Tutorial (Bash, cmd.exe, PowerShell)]]
+- [[chrome-extension://klbibkeccnjlkjkiokjodocebajanakg/suspended.html#uri%3Dhttp://ergoemacs.org/emacs/emacs_shell_vs_terminal.html][Emacs Inferior Shell vs Terminal: What's the advantage of running shell inside emacs?]]
+- [[chrome-extension://klbibkeccnjlkjkiokjodocebajanakg/suspended.html#uri%3Dhttp://ergoemacs.org/misc/emacs_abbrev_shell_elisp.html][Emacs: Interactive Abbrev in Shell]]
+- [[chrome-extension://klbibkeccnjlkjkiokjodocebajanakg/suspended.html#uri%3Dhttp://xahlee.info/linux/linux_common_commands.html][Linux Tutorial by Example: Most Frequently Used Shell Commands]]
+- [[chrome-extension://klbibkeccnjlkjkiokjodocebajanakg/suspended.html#uri%3Dhttp://ergoemacs.org/emacs/emacs_shell_vs_term_vs_ansi-term_vs_eshell.html][Emacs: What's the difference between {shell, term, ansi-term, eshell}?]]
+
+* documentation
+
+2
+down vote
+accepted
+See the variable display-time-default-load-average
+
+n.b. I found that very quickly using C-hd to search for "load average". 
+
+* conditionals
+Next: Combining Conditions, Previous: Sequencing, Up: Control Structures  [Contents][Index]
+
+10.2 Conditionals
+
+Conditional control structures choose among alternatives. Emacs Lisp has four conditional forms: if, which is much the same as in other languages; when and unless, which are variants of if; and cond, which is a generalized case statement.
+
+Special Form: if condition then-form else-forms...
+if chooses between the then-form and the else-forms based on the value of condition. If the evaluated condition is non-nil, then-form is evaluated and the result returned. Otherwise, the else-forms are evaluated in textual order, and the value of the last one is returned. (The else part of if is an example of an implicit progn. See Sequencing.)
+
+If condition has the value nil, and no else-forms are given, if returns nil.
+
+if is a special form because the branch that is not selected is never evaluated---it is ignored. Thus, in this example, true is not printed because print is never called:
+
+(if nil
+  (print 'true)
+ 'very-false)
+⇒ very-false
+Macro: when condition then-forms...
+This is a variant of if where there are no else-forms, and possibly several then-forms. In particular,
+
+(when condition a b c)
+is entirely equivalent to
+
+(if condition (progn a b c) nil)
+Macro: unless condition forms...
+This is a variant of if where there is no then-form:
+
+(unless condition a b c)
+is entirely equivalent to
+
+(if condition nil
+  a b c)
+Special Form: cond clause...
+cond chooses among an arbitrary number of alternatives. Each clause in the cond must be a list. The CAR of this list is the condition; the remaining elements, if any, the body-forms. Thus, a clause looks like this:
+
+(condition body-forms...)
+cond tries the clauses in textual order, by evaluating the condition of each clause. If the value of condition is non-nil, the clause succeeds; then cond evaluates its body-forms, and returns the value of the last of body-forms. Any remaining clauses are ignored.
+
+If the value of condition is nil, the clause fails, so the cond moves on to the following clause, trying its condition.
+
+A clause may also look like this:
+
+(condition)
+Then, if condition is non-nil when tested, the cond form returns the value of condition.
+
+If every condition evaluates to nil, so that every clause fails, cond returns nil.
+
+The following example has four clauses, which test for the cases where the value of x is a number, string, buffer and symbol, respectively:
+
+(cond ((numberp x) x)
+   ((stringp x) x)
+   ((bufferp x)
+    (setq temporary-hack x) ; multiple body-forms
+    (buffer-name x))    ; in one clause
+   ((symbolp x) (symbol-value x)))
+Often we want to execute the last clause whenever none of the previous clauses was successful. To do this, we use t as the condition of the last clause, like this: (t body-forms). The form t evaluates to t, which is never nil, so this clause never fails, provided the cond gets to it at all. For example:
+
+(setq a 5)
+(cond ((eq a 'hack) 'foo)
+   (t "default"))
+⇒ "default"
+This cond expression returns foo if the value of a is hack, and returns the string "default" otherwise.
+
+Any conditional construct can be expressed with cond or with if. Therefore, the choice between them is a matter of style. For example:
+
+(if a b c)
+≡
+(cond (a b) (t c))
+- Pattern matching case statement:	 	
+Next: Combining Conditions, Previous: Sequencing, Up: Control Structures  [Contents][Index] 
+
+* word boundaries
+Whole words only
+
+: \bfoo\b 
+
+
+
+
+
+* command line learning
+
+<ctrl>-R to reverse search through history,
+
+cd -
+It's the command-line equivalent of the back button (takes you to the previous directory you were in).
+
+prefer to use pushd and popd to maintain a directory stack, myself.
+
+
+^U and ^K to delete before and after the cursor, respectively.
+
+
+
+* escape the alias
+I often have aliases for vi, ls, etc. but sometimes you want to escape the alias. Just add a back slash to the command in front:
+
+Eg:
+
+$ alias vi=vim
+$ # To escape the alias for vi:
+$ \vi # This doesn't open VIM
+Cool, isn't it?
+
+* beginning and ending words in regex lists
+
+\' (or escaped \\') is a regular expression for a word's end. So
+
+
+    "\\.t\\(ex\\|xt\\)\\'"
+
+stands for all words which end in '.tex' or '.txt'.
+
+
+A way to make recentf ignore some files is to add appropriate regexps to recentf-exclude list:
+
+(add-to-list 'recentf-exclude "\\.windows\\'")
+(add-to-list 'recentf-exclude "\\.revive\\'")
+
+: "\\'" just marks the end of the string
+
+
+
+
+* css learning
+[[http://stackoverflow.com/questions/19928722/how-to-target-devices-smaller-than-a-certain-screen-size][html - How to target devices smaller than a certain screen size - Stack Overflow]]
+
+@media all and (max-width: 750px) {
+/* this CSS targets only screens lower than 750px */
+
+.some-class
+{
+display: none;
+}
+
+}
+
+@media all and (min-width: 750px) {
+/* this CSS targets only screens above 750px */
+
+.some-class
+{
+display: none;
+}
+
+}
+
+* Spotify
+** go to current track
+
+You should be able to go to the location of the current playing track by clicking on the album artwork in the bottom left corner of the client.
+
+
+* install packages using use package
+
+#+BEGIN_SRC emacs-lisp
+(unless (package-installed-p 'use-package)
+ (package-refresh-contents)
+ (package-install 'use-package))
+
+(require 'use-package)
+(setq use-package-always-ensure t)
+
+; then define packages you use
+(use-package ace-jump-mode
+ :bind ("M-SPC" . ace-jump-mode))
+etc
+#+END_SRC
+
+[[https://www.reddit.com/r/emacs/comments/4fqu0a/automatically_install_packages_on_startup/][Automatically Install Packages On Startup : emacs]]
+
+[[https://emacs.stackexchange.com/questions/28932/how-to-automatically-install-all-packages-loaded-by-my-emacs-file-in-the-minimu][How to automatically install all packages loaded by my .emacs file in the minimum of lines? - Emacs Stack Exchange]]
+
+
+
+* tramp
+- syntax: ~/username@hostname.com:~
+- start with slash, end with colon
+- don't have to go to beginning of line and kill it. Just type slash
+- M-x shell works even on remote machines
+
+* use-package
+
+[[https://github.com/jwiegley/use-package/issues/121][How to bind keys with use-package bind in mode maps? · Issue #121 · jwiegley/use-package]]
+
+#+BEGIN_SRC emacs-lisp
+
+(use-package term
+ :bind (:map term-mode-map
+     ("M-p" . term-send-up)
+     ("M-n" . term-send-down)
+     :map term-raw-map
+     ("M-o" . other-window)
+     ("M-p" . term-send-up)
+     ("M-n" . term-send-down)))
+
+
+#+END_SRC
+
+
+* changing the case in regex search and replace
+
+
+<h2 class="calibre27"><span class="calibre28">\(.*?\)</span></h2>
+
+<h2 class="calibre27"><span class="calibre28">\,(capitalize \1)</span></h2>
+
+
+* org table
+
+
+
+** sum
+The last row of a table is @> For example to get the sum for the third column in the last line, you can use the formula
+
+@>$3=vsum(@2..@-1)
+
+
+** math
+#+TBLFM: $3=$2/300;%.0f
+
+;%.0f means number of decimal places. 0
+;%.2f would be 2
+
+
+* add Emacs to open-with for .html files
+
+Add this to the CFBundleDocumentTypes array in file:///usr/local/Cellar/emacs-mac/emacs-25.1-rc1-mac-5.90/Emacs.app/Contents/Info.plist
+
+
+#+BEGIN_EXPORT xml
+<dict>
+ <key>CFBundleTypeExtensions</key>
+ <array>
+  <string>html</string>
+ </array>
+</dict>
+#+END_EXPORT
+
+Then do this:
+
+#+BEGIN_SRC sh
+/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -f /usr/local/Cellar/emacs-mac/emacs-25.1-rc1-mac-5.90/Emacs.app/
+
+killall Finder
+#+END_SRC
+
+
+* web design
+
+Image result for facebook og image size aspect ratio
+Facebook recommends 1200 x 630 pixels for the og:image dimensions (info), which is an approximate aspect ratio of 1.91:1.Aug 19, 2014
+
+
+
+* magic emacs button - edit search and replace history
+
+[[http://endlessparentheses.com/new-in-emacs-25-1-query-replace-history-is-enhanced.html][New in Emacs 25.1: Query-replace history is enhanced. · Endless Parentheses]]
+
+** M-p
+Yah, try ~M-p~!
+
+Thank you! M-p was indeed the magic button I did not know about. Experiment and emacswiki confirm that M-p gives the previous command in the minibuffer history---so by varying the number of "M-p"'s it is possible to edit the query, replacement string or both.---Alice Lesser May 2 '13 at 15:24
+
+
+M-p brings back the minibuffer history for past invocations of the specific command you're executing. It can be any of a number of commands, not just query-replace. So using it with ido-find-file brings back only strings that were used with ido-find-file, etc. Even more magic!---Alan Oct 8
+
+** C-r
+I can also use C-r. It shows me all the entries in minibuffer and I can select from that. I have C-r binded to M-x anything-minibuffer-history. After M-x query-replace, hit C-h b and search for major-mode in the Help buffer. That will give full list of command. Here is my bindings.
+
+
+* YouTube embeds
+
+#+BEGIN_SRC
+&rel=0
+
+?end=20&autoplay=1&
+#+END_SRC
+
+
+* Shell
+
+Sustitute last argument
+
+: !$
+
+#+BEGIN_SRC sh
+e .jay-scripts.sh 
+. $!
+#+END_SRC
+
+
+** other 
+!!	previous command
+!$	last argument of previous command
+!^	first argument of previous command
+!*	all arguments of previous command
+!0	previous command without arguments
+
+** Lots of good shell jiu jitsu
+[[https://www.icloud.com/keynote/0DJ8qlqoWv6fYwmSuHwv6GdsQ#MacAD.UK_-_AB_-_Witchcraft][MacAD.UK - AB - Witchcraft]]
+
+
+
+* learning html 
+#+BEGIN_EXPORT html
+<a href="javascript:void(0)" class="btn btn-default" data-toggle="tooltip" title="Preview" onclick="aud_play_pause()"><i id="stateicon" class="fa fa-play"></i></a>
+
+
+#+END_EXPORT
+
+
+* SEDusage 
+
+[[https://stackoverflow.com/questions/9704020/recursive-search-and-replace-in-text-files-on-mac-and-linux/19861378][macos - Recursive search and replace in text files on Mac and Linux - Stack Overflow]]
+
+#+BEGIN_SRC sh
+
+LC_ALL=C find . -type f -exec sed -i '' s/search/replace/g {} +
+
+LC_ALL=C find . -type f -exec sed -i '' s/Preset/GR_Preset/g {} +
+
+LC_ALL=C find . -type f -exec sed -i '' s/GR_Preset/GR_Skin_Retouching/g {} +
+
+LC_ALL=C find . -type f -exec sed -i '' s/Skin_Retouching/Pro_Portrait/g {} +
+
+
+LC_ALL=C find . -type f -exec sed -i '' s/title\ =\ \"Skin_Retouching/title = \"Nightlife_/g {} +
+
+LC_ALL=C find . -type f -exec sed -i '' s/title\ =\ \"/title\ =\ \"Nightlife_/g {} +
+
+LC_ALL=C find . -type f -exec sed -i '' s/SO\ \-\ //g {} + 
+
+
+LC_ALL=C find . -type f -exec sed -i '' s/title\ =\ \"/title\ =\ \"z_/g {} + 
+
+
+
+#+END_SRC 
+[[https://stackoverflow.com/questions/11392478/how-to-replace-a-string-in-multiple-files-in-linux-command-line][How to replace a string in multiple files in linux command line - Stack Overflow]]
+
+* Google docs
+#+begin_src emacs-lisp
+
+\*\*\*\*\(.*?\)$
+<h4>****\1<\\h4>
+
+\*\*\*\(.*?\)$
+<h3>****\1<\\h3>
+
+#+end_src
+
+[[http://pythontesting.net/python/regex-search-replace-examples/#in_python][regex search and replace example scripts - Python Testing]]
+
+[[https://stackoverflow.com/questions/17140886/how-to-search-and-replace-text-in-a-file-using-python][How to search and replace text in a file using Python? - Stack Overflow]]
+
+
+
+* sed cheat sheet
+#+begin_src 
+
+FILE SPACING:
+
+ # double space a file
+ sed G
+
+ # double space a file which already has blank lines in it. Output file
+ # should contain no more than one blank line between lines of text.
+ sed '/^$/d;G'
+
+ # triple space a file
+ sed 'G;G'
+
+ # undo double-spacing (assumes even-numbered lines are always blank)
+ sed 'n;d'
+
+ # insert a blank line above every line which matches "regex"
+ sed '/regex/{x;p;x;}'
+
+ # insert a blank line below every line which matches "regex"
+ sed '/regex/G'
+
+ # insert a blank line above and below every line which matches "regex"
+ sed '/regex/{x;p;x;G;}'
+
+NUMBERING:
+
+ # number each line of a file (simple left alignment). Using a tab (see
+ # note on '\t' at end of file) instead of space will preserve margins.
+ sed = filename | sed 'N;s/\n/\t/'
+
+ # number each line of a file (number on left, right-aligned)
+ sed = filename | sed 'N; s/^/   /; s/ *\(.\{6,\}\)\n/\1 /'
+
+ # number each line of file, but only print numbers if line is not blank
+ sed '/./=' filename | sed '/./N; s/\n/ /'
+
+ # count lines (emulates "wc -l")
+ sed -n '$='
+
+TEXT CONVERSION AND SUBSTITUTION:
+
+ # IN UNIX ENVIRONMENT: convert DOS newlines (CR/LF) to Unix format.
+ sed 's/.$//'        # assumes that all lines end with CR/LF
+ sed 's/^M$//'       # in bash/tcsh, press Ctrl-V then Ctrl-M
+ sed 's/\x0D$//'      # works on ssed, gsed 3.02.80 or higher
+
+ # IN UNIX ENVIRONMENT: convert Unix newlines (LF) to DOS format.
+ sed "s/$/`echo -e \\\r`/"      # command line under ksh
+ sed 's/$'"/`echo \\\r`/"       # command line under bash
+ sed "s/$/`echo \\\r`/"        # command line under zsh
+ sed 's/$/\r/'            # gsed 3.02.80 or higher
+
+ # IN DOS ENVIRONMENT: convert Unix newlines (LF) to DOS format.
+ sed "s/$//"             # method 1
+ sed -n p               # method 2
+
+ # IN DOS ENVIRONMENT: convert DOS newlines (CR/LF) to Unix format.
+ # Can only be done with UnxUtils sed, version 4.0.7 or higher. The
+ # UnxUtils version can be identified by the custom "--text" switch
+ # which appears when you use the "--help" switch. Otherwise, changing
+ # DOS newlines to Unix newlines cannot be done with sed in a DOS
+ # environment. Use "tr" instead.
+ sed "s/\r//" infile >outfile     # UnxUtils sed v4.0.7 or higher
+ tr -d \r <infile >outfile      # GNU tr version 1.22 or higher
+
+ # delete leading whitespace (spaces, tabs) from front of each line
+ # aligns all text flush left
+ sed 's/^[ \t]*//'          # see note on '\t' at end of file
+
+ # delete trailing whitespace (spaces, tabs) from end of each line
+ sed 's/[ \t]*$//'          # see note on '\t' at end of file
+
+ # delete BOTH leading and trailing whitespace from each line
+ sed 's/^[ \t]*//;s/[ \t]*$//'
+
+ # insert 5 blank spaces at beginning of each line (make page offset)
+ sed 's/^/   /'
+
+ # align all text flush right on a 79-column width
+ sed -e :a -e 's/^.\{1,78\}$/ &/;ta' # set at 78 plus 1 space
+
+ # center all text in the middle of 79-column width. In method 1,
+ # spaces at the beginning of the line are significant, and trailing
+ # spaces are appended at the end of the line. In method 2, spaces at
+ # the beginning of the line are discarded in centering the line, and
+ # no trailing spaces appear at the end of lines.
+ sed -e :a -e 's/^.\{1,77\}$/ & /;ta'           # method 1
+ sed -e :a -e 's/^.\{1,77\}$/ &/;ta' -e 's/\( *\)\1/\1/' # method 2
+
+ # substitute (find and replace) "foo" with "bar" on each line
+ sed 's/foo/bar/'       # replaces only 1st instance in a line
+ sed 's/foo/bar/4'      # replaces only 4th instance in a line
+ sed 's/foo/bar/g'      # replaces ALL instances in a line
+ sed 's/\(.*\)foo\(.*foo\)/\1bar\2/' # replace the next-to-last case
+ sed 's/\(.*\)foo/\1bar/'      # replace only the last case
+
+ # substitute "foo" with "bar" ONLY for lines which contain "baz"
+ sed '/baz/s/foo/bar/g'
+
+ # substitute "foo" with "bar" EXCEPT for lines which contain "baz"
+ sed '/baz/!s/foo/bar/g'
+
+ # change "scarlet" or "ruby" or "puce" to "red"
+ sed 's/scarlet/red/g;s/ruby/red/g;s/puce/red/g'  # most seds
+ gsed 's/scarlet\|ruby\|puce/red/g'        # GNU sed only
+
+ # reverse order of lines (emulates "tac")
+ # bug/feature in HHsed v1.5 causes blank lines to be deleted
+ sed '1!G;h;$!d'        # method 1
+ sed -n '1!G;h;$p'       # method 2
+
+ # reverse each character on the line (emulates "rev")
+ sed '/\n/!G;s/\(.\)\(.*\n\)/&\2\1/;//D;s/.//'
+
+ # join pairs of lines side-by-side (like "paste")
+ sed '$!N;s/\n/ /'
+
+ # if a line ends with a backslash, append the next line to it
+ sed -e :a -e '/\\$/N; s/\\\n//; ta'
+
+ # if a line begins with an equal sign, append it to the previous line
+ # and replace the "=" with a single space
+ sed -e :a -e '$!N;s/\n=/ /;ta' -e 'P;D'
+
+ # add commas to numeric strings, changing "1234567" to "1,234,567"
+ gsed ':a;s/\B[0-9]\{3\}\>/,&/;ta'           # GNU sed
+ sed -e :a -e 's/\(.*[0-9]\)\([0-9]\{3\}\)/\1,\2/;ta' # other seds
+
+ # add commas to numbers with decimal points and minus signs (GNU sed)
+ gsed -r ':a;s/(^|[^0-9.])([0-9]+)([0-9]{3})/\1\2,\3/g;ta'
+
+ # add a blank line every 5 lines (after lines 5, 10, 15, 20, etc.)
+ gsed '0~5G'         # GNU sed only
+ sed 'n;n;n;n;G;'       # other seds
+
+SELECTIVE PRINTING OF CERTAIN LINES:
+
+ # print first 10 lines of file (emulates behavior of "head")
+ sed 10q
+
+ # print first line of file (emulates "head -1")
+ sed q
+
+ # print the last 10 lines of a file (emulates "tail")
+ sed -e :a -e '$q;N;11,$D;ba'
+
+ # print the last 2 lines of a file (emulates "tail -2")
+ sed '$!N;$!D'
+
+ # print the last line of a file (emulates "tail -1")
+ sed '$!d'          # method 1
+ sed -n '$p'         # method 2
+
+ # print the next-to-the-last line of a file
+ sed -e '$!{h;d;}' -e x       # for 1-line files, print blank line
+ sed -e '1{$q;}' -e '$!{h;d;}' -e x # for 1-line files, print the line
+ sed -e '1{$d;}' -e '$!{h;d;}' -e x # for 1-line files, print nothing
+
+ # print only lines which match regular expression (emulates "grep")
+ sed -n '/regexp/p'      # method 1
+ sed '/regexp/!d'       # method 2
+
+ # print only lines which do NOT match regexp (emulates "grep -v")
+ sed -n '/regexp/!p'     # method 1, corresponds to above
+ sed '/regexp/d'       # method 2, simpler syntax
+
+ # print the line immediately before a regexp, but not the line
+ # containing the regexp
+ sed -n '/regexp/{g;1!p;};h'
+
+ # print the line immediately after a regexp, but not the line
+ # containing the regexp
+ sed -n '/regexp/{n;p;}'
+
+ # print 1 line of context before and after regexp, with line number
+ # indicating where the regexp occurred (similar to "grep -A1 -B1")
+ sed -n -e '/regexp/{=;x;1!p;g;$!N;p;D;}' -e h
+
+ # grep for AAA and BBB and CCC (in any order)
+ sed '/AAA/!d; /BBB/!d; /CCC/!d'
+
+ # grep for AAA and BBB and CCC (in that order)
+ sed '/AAA.*BBB.*CCC/!d'
+
+ # grep for AAA or BBB or CCC (emulates "egrep")
+ sed -e '/AAA/b' -e '/BBB/b' -e '/CCC/b' -e d  # most seds
+ gsed '/AAA\|BBB\|CCC/!d'            # GNU sed only
+
+ # print paragraph if it contains AAA (blank lines separate paragraphs)
+ # HHsed v1.5 must insert a 'G;' after 'x;' in the next 3 scripts below
+ sed -e '/./{H;$!d;}' -e 'x;/AAA/!d;'
+
+ # print paragraph if it contains AAA and BBB and CCC (in any order)
+ sed -e '/./{H;$!d;}' -e 'x;/AAA/!d;/BBB/!d;/CCC/!d'
+
+ # print paragraph if it contains AAA or BBB or CCC
+ sed -e '/./{H;$!d;}' -e 'x;/AAA/b' -e '/BBB/b' -e '/CCC/b' -e d
+ gsed '/./{H;$!d;};x;/AAA\|BBB\|CCC/b;d'     # GNU sed only
+
+ # print only lines of 65 characters or longer
+ sed -n '/^.\{65\}/p'
+
+ # print only lines of less than 65 characters
+ sed -n '/^.\{65\}/!p'    # method 1, corresponds to above
+ sed '/^.\{65\}/d'      # method 2, simpler syntax
+
+ # print section of file from regular expression to end of file
+ sed -n '/regexp/,$p'
+
+ # print section of file based on line numbers (lines 8-12, inclusive)
+ sed -n '8,12p'        # method 1
+ sed '8,12!d'         # method 2
+
+ # print line number 52
+ sed -n '52p'         # method 1
+ sed '52!d'          # method 2
+ sed '52q;d'         # method 3, efficient on large files
+
+ # beginning at line 3, print every 7th line
+ gsed -n '3~7p'        # GNU sed only
+ sed -n '3,${p;n;n;n;n;n;n;}' # other seds
+
+ # print section of file between two regular expressions (inclusive)
+ sed -n '/Iowa/,/Montana/p'       # case sensitive
+
+SELECTIVE DELETION OF CERTAIN LINES:
+
+ # print all of file EXCEPT section between 2 regular expressions
+ sed '/Iowa/,/Montana/d'
+
+ # delete duplicate, consecutive lines from a file (emulates "uniq").
+ # First line in a set of duplicate lines is kept, rest are deleted.
+ sed '$!N; /^\(.*\)\n\1$/!P; D'
+
+ # delete duplicate, nonconsecutive lines from a file. Beware not to
+ # overflow the buffer size of the hold space, or else use GNU sed.
+ sed -n 'G; s/\n/&&/; /^\([ -~]*\n\).*\n\1/d; s/\n//; h; P'
+
+ # delete all lines except duplicate lines (emulates "uniq -d").
+ sed '$!N; s/^\(.*\)\n\1$/\1/; t; D'
+
+ # delete the first 10 lines of a file
+ sed '1,10d'
+
+ # delete the last line of a file
+ sed '$d'
+
+ # delete the last 2 lines of a file
+ sed 'N;$!P;$!D;$d'
+
+ # delete the last 10 lines of a file
+ sed -e :a -e '$d;N;2,10ba' -e 'P;D'  # method 1
+ sed -n -e :a -e '1,10!{P;N;D;};N;ba' # method 2
+
+ # delete every 8th line
+ gsed '0~8d'              # GNU sed only
+ sed 'n;n;n;n;n;n;n;d;'        # other seds
+
+ # delete lines matching pattern
+ sed '/pattern/d'
+
+ # delete ALL blank lines from a file (same as "grep '.' ")
+ sed '/^$/d'              # method 1
+ sed '/./!d'              # method 2
+
+ # delete all CONSECUTIVE blank lines from file except the first; also
+ # deletes all blank lines from top and end of file (emulates "cat -s")
+ sed '/./,/^$/!d'     # method 1, allows 0 blanks at top, 1 at EOF
+ sed '/^$/N;/\n$/D'    # method 2, allows 1 blank at top, 0 at EOF
+
+ # delete all CONSECUTIVE blank lines from file except the first 2:
+ sed '/^$/N;/\n$/N;//D'
+
+ # delete all leading blank lines at top of file
+ sed '/./,$!d'
+
+ # delete all trailing blank lines at end of file
+ sed -e :a -e '/^\n*$/{$d;N;ba' -e '}' # works on all seds
+ sed -e :a -e '/^\n*$/N;/\n$/ba'    # ditto, except for gsed 3.02.*
+
+ # delete the last line of each paragraph
+ sed -n '/^$/{p;h;};/./{x;/./p;}'
+
+SPECIAL APPLICATIONS:
+
+ # remove nroff overstrikes (char, backspace) from man pages. The 'echo'
+ # command may need an -e switch if you use Unix System V or bash shell.
+ sed "s/.`echo \\\b`//g"  # double quotes required for Unix environment
+ sed 's/.^H//g'       # in bash/tcsh, press Ctrl-V and then Ctrl-H
+ sed 's/.\x08//g'      # hex expression for sed 1.5, GNU sed, ssed
+
+ # get Usenet/e-mail message header
+ sed '/^$/q'        # deletes everything after first blank line
+
+ # get Usenet/e-mail message body
+ sed '1,/^$/d'       # deletes everything up to first blank line
+
+ # get Subject header, but remove initial "Subject: " portion
+ sed '/^Subject: */!d; s///;q'
+
+ # get return address header
+ sed '/^Reply-To:/q; /^From:/h; /./d;g;q'
+
+ # parse out the address proper. Pulls out the e-mail address by itself
+ # from the 1-line return address header (see preceding script)
+ sed 's/ *(.*)//; s/>.*//; s/.*[:<] *//'
+
+ # add a leading angle bracket and space to each line (quote a message)
+ sed 's/^/> /'
+
+ # delete leading angle bracket & space from each line (unquote a message)
+ sed 's/^> //'
+
+ # remove most HTML tags (accommodates multiple-line tags)
+ sed -e :a -e 's/<[^>]*>//g;/</N;//ba'
+
+ # extract multi-part uuencoded binaries, removing extraneous header
+ # info, so that only the uuencoded portion remains. Files passed to
+ # sed must be passed in the proper order. Version 1 can be entered
+ # from the command line; version 2 can be made into an executable
+ # Unix shell script. (Modified from a script by Rahul Dhesi.)
+ sed '/^end/,/^begin/d' file1 file2 ... fileX | uudecode  # vers. 1
+ sed '/^end/,/^begin/d' "$@" | uudecode          # vers. 2
+
+ # sort paragraphs of file alphabetically. Paragraphs are separated by blank
+ # lines. GNU sed uses \v for vertical tab, or any unique char will do.
+ sed '/./{H;d;};x;s/\n/={NL}=/g' file | sort | sed '1s/={NL}=//;s/={NL}=/\n/g'
+ gsed '/./{H;d};x;y/\n/\v/' file | sort | sed '1s/\v//;y/\v/\n/'
+
+ # zip up each .TXT file individually, deleting the source file and
+ # setting the name of each .ZIP file to the basename of the .TXT file
+ # (under DOS: the "dir /b" switch returns bare filenames in all caps).
+ echo @echo off >zipup.bat
+ dir /b *.txt | sed "s/^\(.*\)\.TXT/pkzip -mo \1 \1.TXT/" >>zipup.bat
+
+TYPICAL USE: Sed takes one or more editing commands and applies all of
+them, in sequence, to each line of input. After all the commands have
+been applied to the first input line, that line is output and a second
+input line is taken for processing, and the cycle repeats. The
+preceding examples assume that input comes from the standard input
+device (i.e, the console, normally this will be piped input). One or
+more filenames can be appended to the command line if the input does
+not come from stdin. Output is sent to stdout (the screen). Thus:
+
+ cat filename | sed '10q'    # uses piped input
+ sed '10q' filename       # same effect, avoids a useless "cat"
+ sed '10q' filename > newfile  # redirects output to disk
+
+For additional syntax instructions, including the way to apply editing
+commands from a disk file instead of the command line, consult "sed &
+awk, 2nd Edition," by Dale Dougherty and Arnold Robbins (O'Reilly,
+1997; http://www.ora.com), "UNIX Text Processing," by Dale Dougherty
+and Tim O'Reilly (Hayden Books, 1987) or the tutorials by Mike Arst
+distributed in U-SEDIT2.ZIP (many sites). To fully exploit the power
+of sed, one must understand "regular expressions." For this, see
+"Mastering Regular Expressions" by Jeffrey Friedl (O'Reilly, 1997).
+The manual ("man") pages on Unix systems may be helpful (try "man
+sed", "man regexp", or the subsection on regular expressions in "man
+ed"), but man pages are notoriously difficult. They are not written to
+teach sed use or regexps to first-time users, but as a reference text
+for those already acquainted with these tools.
+
+QUOTING SYNTAX: The preceding examples use single quotes ('...')
+instead of double quotes ("...") to enclose editing commands, since
+sed is typically used on a Unix platform. Single quotes prevent the
+Unix shell from intrepreting the dollar sign ($) and backquotes
+(`...`), which are expanded by the shell if they are enclosed in
+double quotes. Users of the "csh" shell and derivatives will also need
+to quote the exclamation mark (!) with the backslash (i.e., \!) to
+properly run the examples listed above, even within single quotes.
+Versions of sed written for DOS invariably require double quotes
+("...") instead of single quotes to enclose editing commands.
+
+USE OF '\t' IN SED SCRIPTS: For clarity in documentation, we have used
+the expression '\t' to indicate a tab character (0x09) in the scripts.
+However, most versions of sed do not recognize the '\t' abbreviation,
+so when typing these scripts from the command line, you should press
+the TAB key instead. '\t' is supported as a regular expression
+metacharacter in awk, perl, and HHsed, sedmod, and GNU sed v3.02.80.
+
+VERSIONS OF SED: Versions of sed do differ, and some slight syntax
+variation is to be expected. In particular, most do not support the
+use of labels (:name) or branch instructions (b,t) within editing
+commands, except at the end of those commands. We have used the syntax
+which will be portable to most users of sed, even though the popular
+GNU versions of sed allow a more succinct syntax. When the reader sees
+a fairly long command such as this:
+
+  sed -e '/AAA/b' -e '/BBB/b' -e '/CCC/b' -e d
+
+it is heartening to know that GNU sed will let you reduce it to:
+
+  sed '/AAA/b;/BBB/b;/CCC/b;d'   # or even
+  sed '/AAA\|BBB\|CCC/b;d'
+
+In addition, remember that while many versions of sed accept a command
+like "/one/ s/RE1/RE2/", some do NOT allow "/one/! s/RE1/RE2/", which
+contains space before the 's'. Omit the space when typing the command.
+
+OPTIMIZING FOR SPEED: If execution speed needs to be increased (due to
+large input files or slow processors or hard disks), substitution will
+be executed more quickly if the "find" expression is specified before
+giving the "s/.../.../" instruction. Thus:
+
+  sed 's/foo/bar/g' filename     # standard replace command
+  sed '/foo/ s/foo/bar/g' filename  # executes more quickly
+  sed '/foo/ s//bar/g' filename   # shorthand sed syntax
+
+On line selection or deletion in which you only need to output lines
+from the first part of the file, a "quit" command (q) in the script
+will drastically reduce processing time for large files. Thus:
+
+  sed -n '45,50p' filename      # print line nos. 45-50 of a file
+  sed -n '51q;45,50p' filename    # same, but executes much faster
+
+======================================================================
+-------------------------------------------------------------------------
+USEFUL ONE-LINE SCRIPTS FOR SED (Unix stream editor)    Dec. 29, 2005
+Compiled by Eric Pement - pemente[at]northpark[dot]edu    version 5.5
+
+Latest version of this file (in English) is usually at:
+  http://sed.sourceforge.net/sed1line.txt
+  http://www.pement.org/sed/sed1line.txt
+
+This file will also available in other languages:
+ Chinese   - http://sed.sourceforge.net/sed1line_zh-CN.html
+ Czech    - http://sed.sourceforge.net/sed1line_cz.html
+ Dutch    - http://sed.sourceforge.net/sed1line_nl.html
+ French   - http://sed.sourceforge.net/sed1line_fr.html
+ German   - http://sed.sourceforge.net/sed1line_de.html
+ Italian   - (pending)
+ Portuguese---http://sed.sourceforge.net/sed1line_pt-BR.html
+ Spanish   - (pending)
+
+#+end_src
