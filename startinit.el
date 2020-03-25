@@ -1,5 +1,7 @@
 (desktop-save-mode 1)
 
+(setq org-agenda-files (quote ("/home/trottar/ResearchNP/org_file/google_calendar/google_calendar.org")))
+
 (fset 'yes-or-no-p 'y-or-n-p)
 
 (add-hook 'before-save-hook 'time-stamp)
@@ -2207,3 +2209,6 @@ subsequent sends."
 ;; (end-of-buffer)
 )
 ))
+
+(setq org-html-validation-link nil)
+(setq org-export-html-postamble nil)

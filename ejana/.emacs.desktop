@@ -1,0 +1,91 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Wed Mar 25 15:32:14 2020
+;; Desktop file format version 208
+;; Emacs version 25.2.2
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (24187 45502 986121 236000) (desktop . "208") "trottar@trottar" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "red") (sticky) (environment) (frameset--id . "B043-1CA4-08E9-375B") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (visibility . t) (height . 58) (width . 207) (left . 40) (top . 0)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 72) (min-pixel-width . 180) (min-pixel-height-ignore . 36) (min-pixel-width-ignore . 72) (min-pixel-height-safe . 18) (min-pixel-width-safe . 36)) hc (pixel-width . 1880) (pixel-height . 1037) (total-width . 209) (total-height . 58) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 936) (pixel-height . 1037) (total-width . 104) (total-height . 58) (normal-height . 1.0) (normal-width . 0.49787234042553197) (buffer "ffi_ZDC.hh" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 757) (start . 436))) (leaf (last . t) (pixel-width . 944) (pixel-height . 1037) (total-width . 105) (total-height . 58) (normal-height . 1.0) (normal-width . 0.502127659574468) (buffer "ffi_RPOT_D2.hh" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 295) (start . 230)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("Zpos" "root" "h2_rp_xy" "root_out" "RP" "plugin_root_dir" "rpot" "ffi_zdc" "g4e" "tex" "derived" "gmail" "trac" "track" "smart-return" "dired-mode-hook"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/home/trottar/ResearchNP/gemc/eic/g4e/g4e-dev/src/subdetectors/ffi_RPOT_D3/ffi_RPOT_D3.hh" "/home/trottar/ResearchNP/gemc/eic/g4e/g4e-dev/src/subdetectors/ffi_RPOT_D2/ffi_RPOT_D2.hh" "/home/trottar/ResearchNP/gemc/eic/g4e/g4e-dev/src/subdetectors/ffi_ZDC/ffi_ZDC.hh" "/home/trottar/ResearchNP/gemc/eic/g4e/g4e-dev/src/SubDetectorConstruction.cc" "~/.emacs.d/ejana/" "~/.emacs.d/" "/home/trottar/ResearchNP/gemc/eic/ejana/dev/src/plugins/analysis/meson_structure/README.md" "/home/trottar/ResearchNP/gemc/eic/ejana/dev/src/plugins/analysis/meson_structure/MesonStructureRootOutput.h" "/home/trottar/ResearchNP/gemc/eic/ejana/dev/src/plugins/analysis/meson_structure/meson_structure.cc" "/home/trottar/ResearchNP/gemc/eic/ejana/dev/src/plugins/analysis/meson_structure/MesonStructureProcessor.h" "/home/trottar/ResearchNP/gemc/eic/ejana/dev/src/plugins/analysis/meson_structure/MesonStructureProcessor.cc" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "/home/trottar/.emacs.d/lisp-files/edit-server.el" "~/.emacs.d/chrome/" "~/.emacs.d/lisp-files/edit-server.el" "~/.emacs.d/chrome/" "~/.emacs.d/startinit.org" "~/.emacs.d/eic/" "~/Programs/easyloggingpp-9.96.7/" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.pdf" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.org" "~/ResearchNP/org_file/" "/home/trottar/ResearchNP/org_file/commands.pdf" "~/Programs/" "/home/trottar/.emacs.d/learning-emacs.org" "~/.emacs.d/chrome/" "/home/trottar/.emacs.d/startinit.org" "/home/trottar/.emacs.d/startinit.el" "/home/trottar/ResearchNP/org_file/commands.org" "~/.emacs.d/chrome/" "/home/trottar/.emacs.d/abbrev_defs" "/home/trottar/.emacs.d/init.el" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "/home/trottar/.emacs.d/init.el" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/hms_cal_calib/howto.txt" "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/ref_times/DetTCuts.sh" "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/hms_cer_calib/run_cal.C" "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/hms_cal_calib/THcShHit.h" "/home/trottar/Analysis/hallc_replay_kaonlt/CALIBRATION/dc_calib/README.md" "~/.emacs.d/chrome/" "~/.emacs.d/init.el" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "/home/trottar/.bashrc" "~/.bash_profile" "/home/trottar/.bash_logout" "/home/trottar/.cshrc" "/home/trottar/.profile" "/home/trottar/.bashrc" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/bin/upgradePython.sh" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "/home/trottar/bin/help.csh" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "/home/trottar/bin/help.csh" "/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/fill_runList" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/trottar/ResearchNP/gemc/eic/g4e/g4e-dev/src/subdetectors/ffi_RPOT_D2/ffi_RPOT_D2.hh"
+  "ffi_RPOT_D2.hh"
+  'c++-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  295
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/trottar/ResearchNP/gemc/eic/ejana/dev/src/plugins/analysis/meson_structure/MesonStructureRootOutput.h"
+  "MesonStructureRootOutput.h"
+  'c-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  7512
+  '(5787 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (7027 1 6823 6808 2406 2786 8605 8590 8590))))
+
+(desktop-create-buffer 208
+  "/home/trottar/ResearchNP/gemc/eic/g4e/g4e-dev/src/subdetectors/ffi_ZDC/ffi_ZDC.hh"
+  "ffi_ZDC.hh"
+  'c++-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  757
+  '(354 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/trottar/ResearchNP/gemc/eic/ejana/dev/src/plugins/analysis/meson_structure/MesonStructureProcessor.cc"
+  "MesonStructureProcessor.cc"
+  'c++-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  72
+  '(11944 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (5623 1 5333 4255 4006 1 4092 4084 1 9085 4255 3948 3933 3861 4121 4146))))
+
+(desktop-create-buffer 208
+  "/home/trottar/ResearchNP/gemc/eic/ejana/dev/src/plugins/analysis/meson_structure/MesonStructureProcessor.h"
+  "MesonStructureProcessor.h"
+  'c-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  2113
+  '(2131 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (2131 34 9))))
+
+(desktop-create-buffer 208
+  "/home/trottar/ResearchNP/gemc/eic/ejana/dev/src/plugins/analysis/meson_structure/meson_structure.cc"
+  "meson_structure.cc"
+  'c++-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  134
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+

@@ -8,6 +8,12 @@
 
 #+END_SRC
 
+* Org Agenda
+#+BEGIN_SRC emacs-lisp 
+
+(setq org-agenda-files (quote ("/home/trottar/ResearchNP/org_file/google_calendar/google_calendar.org")))
+
+#+END_SRC
 * Promt yes to y and no to n
 
 #+BEGIN_SRC emacs-lisp 
@@ -3241,4 +3247,9 @@ subsequent sends."
 ;; (end-of-buffer)
 )
 ))
+#+END_SRC
+* Remove footer in html conversion
+#+BEGIN_SRC emacs-lisp 
+(setq org-html-validation-link nil)
+(setq org-export-html-postamble nil)
 #+END_SRC

@@ -2,94 +2,182 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Thu Jan 30 16:02:13 2020
+;; Created Wed Mar 25 17:32:05 2020
 ;; Desktop file format version 206
 ;; Emacs version 25.2.2
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (24115 17493 597281 590000) (desktop . "208") "trottar@trottar" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars . t) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 16) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (frameset--id . "52A7-C71C-1F12-9FF0") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (fullscreen-restore . maximized) (visibility . t) (height . 57) (width . 206) (left . 40) (top . 0)) ((min-height . 4) (min-width . 20) (min-height-ignore . 3) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 72) (min-pixel-width . 180) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 72) (min-pixel-height-safe . 18) (min-pixel-width-safe . 36)) hc (pixel-width . 1880) (pixel-height . 1037) (total-width . 209) (total-height . 57) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 936) (pixel-height . 1037) (total-width . 104) (total-height . 57) (normal-height . 1.0) (normal-width . 0.49787234042553197) (buffer "plot_PhaseSpace.py" (selected) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars nil 0 t nil 1 t) (vscroll . 0) (dedicated) (point . 1) (start . 1))) (leaf (last . t) (pixel-width . 944) (pixel-height . 1037) (total-width . 105) (total-height . 57) (normal-height . 1.0) (normal-width . 0.502127659574468) (buffer "getTDISpionHisto.py" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars nil 0 t nil 1 t) (vscroll . 0) (dedicated) (point . 665) (start . 1)))))])
+(setq desktop-saved-frameset [frameset 1 (24187 52693 748289 740000) (desktop . "208") "trottar@trottar" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars . t) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 16) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (frameset--id . "52A7-C71C-1F12-9FF0") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (visibility . t) (fullscreen-restore . maximized) (height . 57) (width . 206) (left . 40) (top . 0)) ((min-height . 4) (min-width . 20) (min-height-ignore . 3) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 72) (min-pixel-width . 180) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 72) (min-pixel-height-safe . 18) (min-pixel-width-safe . 36)) hc (pixel-width . 1880) (pixel-height . 1037) (total-width . 209) (total-height . 57) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 936) (pixel-height . 1037) (total-width . 104) (total-height . 57) (normal-height . 1.0) (normal-width . 0.49787234042553197) (buffer "TDISMC_EIC.h" (selected) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars nil 0 t nil 1 t) (vscroll . 0) (dedicated) (point . 2454) (start . 2433))) (leaf (last . t) (pixel-width . 944) (pixel-height . 1037) (total-width . 105) (total-height . 57) (normal-height . 1.0) (normal-width . 0.502127659574468) (buffer "TDISMC_EICn.cpp" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars nil 0 t nil 1 t) (vscroll . 0) (dedicated) (point . 15598) (start . 15485)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("import" "bi" "look" "binwid" "set" "s" "[0]" "setbin" "look" "lookup" "look" "bin" "print" "look" "t1_leafdict" "look"))
+(setq search-ring '("gc" "kincident_vertex" "kincident_rest" "HERE" "kincident_vertex" "HERE" "sig_ethx" "edkoverk" "kincident_vertex" "kincident_rest" "HERE" "twopdotq" "pdotq" "HERE" "y_d" "HERE"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("/home/trottar/bin/shareDocker.sh" "~/bin/plotRoot.sh" "~/bin/plotRoot.py" "/home/trottar/bin/python/root2numpy.py" "/home/trottar/bin/python/archive/kaonlt_pyPlot.py" "/home/trottar/bin/python/root2numpy.py" "~/Random-Scripts/testing_Grounds/testRoot2Numpy.py" "/home/trottar/bin/root2numpy.py" "/home/trottar/ResearchNP/ROOTfiles/python/rootPy.py" "/home/trottar/ResearchNP/ROOTfiles/python/test_pyPlot.py" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/plot_PhaseSpace.py.OLD" "~/bin/root2numpy.py" "/home/trottar/bin/pyChain.py" "/home/trottar/bin/rootPy.py" "/home/trottar/bin/pyPlots.py" "/home/trottar/bin/kaonlt_pyPlot.py" "/home/trottar/ResearchNP/ROOTfiles/kaon-coin/roothist2numpy.py" "/home/trottar/ResearchNP/ROOTfiles/test_rootPy.py" "/home/trottar/ResearchNP/ROOTfiles/rootPy.py" "~/ResearchNP/gemc/detectors_JLab/eic/" "/home/trottar/ResearchNP/gemc/detectors_JLab/eic/script/det1_dual_full.gcard" "/home/trottar/ResearchNP/gemc/detectors_JLab/basic_examples/exampleCentralTOF/ctof.gcard" "/home/trottar/ResearchNP/gemc/detectors_JLab/basic_examples/exampleCentralTOF/ctof.pl" "/home/trottar/ResearchNP/gemc/detectors_JLab/eic/geometry/det1_beamline_magnet/det1_beamline_magnet.pl" "/home/trottar/ResearchNP/gemc/detectors_JLab/basic_examples/1_Simple_detector/ex1_2_add_digitization/example__geometry_original.txt" "/home/trottar/ResearchNP/gemc/detectors_JLab/basic_examples/1_Simple_detector/ex1_2_add_digitization/example.gcard" "/home/trottar/ResearchNP/gemc/detectors_JLab/basic_examples/my_example/example.gcard" "/home/trottar/ResearchNP/gemc/detectors_JLab/basic_examples/my_example/example__geometry_original.txt" "/home/trottar/ResearchNP/gemc/detectors_JLab/basic_examples/my_example/cylinder_example.gcard" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/det1_beamline.gcard" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/example__geometry_original.txt" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/example.gcard" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/example__geometry_original.txt" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/run_gemc.sh" "/home/trottar/bin/pyChain.py" "/home/trottar/bin/pyPlots.py" "/home/trottar/bin/pyChain.py" "~/.emacs.d/init.el" "/home/trottar/ResearchNP/JLEIC/eic_SF/README" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/batch.cc" "/home/trottar/ResearchNP/JLEIC/eic_SF/run_batch.sh" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/tim_hobbs/wally/3Var_x.f" "~/ResearchNP/JLEIC/Trotta-EIC/README" "/home/trottar/ResearchNP/JLEIC/eic_SF/timhobbs.h" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/roothist2numpy.py.OLD_2" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/roothist2numpy.py" "~/ResearchNP/JLEIC/Trotta-EIC/hist2root.py" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/TDISMC_EIC.cpp" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/getTDISpionHisto.py.OLD" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/getTDISpionHisto.py.OLD.2" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/getTDISpionHisto.py.OLD" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/getTDISpionHisto.py.OLD.2" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/getTDISpionHisto.py.OLD" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/getTDISpionHisto.py.OLD.2" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/getTDISpionHisto.py.OLD" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/getTDISpionHisto.py.OLD.2" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/getTDISpionHisto.py.OLD" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/getTDISpionHisto.py.OLD.2" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/make_Plots.sh" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/getTDISpionHisto.py" "~/ResearchNP/JLEIC/Trotta-EIC/getTDISpionHisto.py.OLD" "~/ResearchNP/JLEIC/Trotta-EIC/getTDISpionHisto.py" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/getTDISpionHisto.py.OLD.2" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/run_batch.sh" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/getTDISpionHisto.py" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/TDISpion_pyChain.py" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/cteqpdf.h" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/cteqpdf.c" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/batch.cc" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/plot_yield.py" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/plot_PhaseSpace.py" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/plotTDISpionHisto.py" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/TDISMC_EIC.h" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/TDISMC_EIC.cpp" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/cteqpdf.h" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/cteqpdf.c" "~/ResearchNP/JLEIC/eic_SF/" "/home/trottar/ResearchNP/JLEIC/eic_SF/cteqpdf.h" "/home/trottar/ResearchNP/JLEIC/eic_SF/cteq/Makefile" "/home/trottar/ResearchNP/JLEIC/eic_SF/RunTDIS_PhaseSpaceBatch.pl" "/home/trottar/ResearchNP/JLEIC/eic_SF/pionMCTable.pdf" "/home/trottar/ResearchNP/JLEIC/eic_SF/cteq/README" "/home/trottar/ResearchNP/JLEIC/eic_SF/cteq-tbls/ctq66m/ctq66.00.pds" "/home/trottar/ResearchNP/JLEIC/eic_SF/TDISMC_EICK.h" "/home/trottar/ResearchNP/JLEIC/eic_SF/LuminosityTable.txt" "/home/trottar/ResearchNP/JLEIC/eic_SF/xpiBin.txt" "/home/trottar/ResearchNP/JLEIC/eic_SF/Q2-xpi_Bin.txt" "/home/trottar/ResearchNP/JLEIC/eic_SF/Q2vxpi-xbj.pdf" "/home/trottar/ResearchNP/JLEIC/eic_SF/xpiBin.txt" "/home/trottar/ResearchNP/JLEIC/eic_SF/Q2-xpi_Bin.txt" "/home/trottar/ResearchNP/JLEIC/eic_SF/xpiBin.txt" "/home/trottar/ResearchNP/JLEIC/eic_SF/LuminosityTable.txt" "~/ResearchNP/JLEIC/eic_SF/" "/home/trottar/ResearchNP/JLEIC/eic_SF/LuminosityTable.txt" "/home/trottar/Documents/talks/EIC_talks/eicSigma.log" "/home/trottar/ResearchNP/JLEIC/eic_SF/make_Plots.sh" "/home/trottar/ResearchNP/JLEIC/eic_SF/plot_PhaseSpace.py" "/home/trottar/Documents/talks/EIC_talks/eicSigma.pdf" "/home/trottar/ResearchNP/JLEIC/eic_SF/run_batch.sh" "/home/trottar/ResearchNP/JLEIC/eic_SF/hpl_err.C"))
+(setq file-name-history '("/home/trottar/bin/python/root2py/root2py.py" "/home/trottar/bin/python/root2py/__init__.py" "/home/trottar/bin/python/root2py/root2py.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/g4e/plot_MC.py" "/home/trottar/bin/python/root2py/root2py.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/g4e/plot_MC.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/g4e/.gitignore" "~/ResearchNP/JLEIC/USERS/trottar/g4e/.gitignore" "/home/trottar/ResearchNP/JLEIC/.gitignore" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/g4e/plot_g4e.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/g4e/eicMC_g4e.py" "/home/trottar/ResearchNP/JLEIC/.gitignore" "/home/trottar/bin/python/root2py/root2py.py" "~/ResearchNP/JLEIC/USERS/trottar/g4e_files/plot_g4e.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/scripts/plotTDISpionHisto.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/OUTPUTS/LuminosityTable.txt" "/home/trottar/bin/python/root2py/root2py.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/scripts/plot_PhaseSpace.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/scripts/plot_mesonStructure.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/inputs/kinematics.input" "/home/trottar/ResearchNP/JLEIC/eic_SF/g4e_files/eicMC_g4e.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/g4e_files/eicMC_g4e.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/g4e_files/meson_structure/g4e_mesonStructure.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/scripts/meson_structure/g4e_mesonStructure.py" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICK.cpp" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICn.cpp" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/README" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICK.cpp" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EIC.cpp" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICK.cpp" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EIC.cpp" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICK.cpp" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EIC.cpp" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICn.cpp" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EIC.h" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICK.h" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EIC.h" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICK.h" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICK.cpp" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICn.cpp" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EIC.cpp" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICn.cpp.OLD" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/batchn.cc" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICn.h" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EIC.h" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICn.h" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EIC.h" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICn.cpp" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EIC.cpp" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICn.cpp" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EIC.cpp" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICn.cpp" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EIC.cpp" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICn.cpp" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EIC.cpp" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/README" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICn.h" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EIC.h" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICn.cpp" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EIC.cpp" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICn.cpp" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EIC.cpp" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICK.cpp" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICn.h" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EIC.h" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICn.h" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EIC.h" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICn.cpp" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EIC.cpp" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICn.cpp" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EIC.cpp" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICn.h" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EIC.h" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICn.h" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EIC.h" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICn.h" "~/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EIC.h" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICn.h" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICn.cpp" "/home/trottar/ResearchNP/JLEIC/eic_SF/src/TDISMC_EIC.cpp" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/README" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/inputs/kinematics.input" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/README" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/inputs/constants.input" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/mcInputs.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/constants.input" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/TDISMC_constants.input" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/run_batch.sh" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/make_Plots.sh" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/update_eic_SF.sh" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EIC.h" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EIC.cpp" "~/ResearchNP/JLEIC/USERS/trottar/mcInputs.py" "~/ResearchNP/JLEIC/USERS/trottar/run_batchTest.sh" "~/ResearchNP/JLEIC/USERS/trottar/TDISMC_constants.input" "~/ResearchNP/JLEIC/USERS/trottar/inputs.txt" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/run_batch.sh" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/Log.h" "~/ResearchNP/JLEIC/USERS/trottar/log.h" "~/ResearchNP/JLEIC/USERS/trottar/debugger.h"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
-  "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/plot_PhaseSpace.py"
-  "plot_PhaseSpace.py"
-  'python-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  1
-  '(51211 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/getTDISpionHisto.py"
-  "getTDISpionHisto.py"
-  'python-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  665
-  '(676 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/run_gemc.sh"
-  "run_gemc.sh"
-  'sh-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  161
-  '(15 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/TDISMC_EIC.h"
-  "TDISMC_EIC.h"
-  'c-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  582
-  '(18363 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/TDISMC_EIC.cpp"
-  "TDISMC_EIC.cpp"
+  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICn.cpp"
+  "TDISMC_EICn.cpp"
   'c++-mode
   '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  12817
+  15598
   '(1 nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
 
 (desktop-create-buffer 206
-  "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/make_Plots.sh"
-  "make_Plots.sh"
-  'sh-mode
+  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/scripts/plot_mesonStructure.py"
+  "plot_mesonStructure.py"
+  'python-mode
   '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  14
-  '(14 nil)
+  382
+  '(415 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EIC.h"
+  "TDISMC_EIC.h"
+  'c-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  2454
+  '(1 nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
 
 (desktop-create-buffer 206
-  "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/batch.cc"
-  "batch.cc"
+  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/g4e/plot_MC.py"
+  "plot_MC.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  567
+  '(479 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EIC.cpp"
+  "TDISMC_EIC.cpp"
   'c++-mode
   '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  488
-  '(684 nil)
+  19803
+  '(10721 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/g4e/plot_g4e.py"
+  "plot_g4e.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  4127
+  '(1746 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/g4e/eicMC_g4e.py"
+  "eicMC_g4e.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  384
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/inputs/kinematics.input"
+  "kinematics.input"
+  'fundamental-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  65
+  '(62 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/TDISMC_EICK.cpp"
+  "TDISMC_EICK.cpp"
+  'c++-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  75
+  '(24 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/scripts/plot_PhaseSpace.py"
+  "plot_PhaseSpace.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  10766
+  '(10900 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/OUTPUTS/LuminosityTable.txt"
+  "LuminosityTable.txt"
+  'text-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  18968
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/run_batch.sh"
+  "run_batch.sh"
+  'sh-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  189
+  '(359 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/mcInputs.py"
+  "mcInputs.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  308
+  '(543 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/update_eic_SF.sh"
+  "update_eic_SF.sh"
+  'sh-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  675
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/make_Plots.sh"
+  "make_Plots.sh"
+  'sh-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  28
+  '(nil nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
