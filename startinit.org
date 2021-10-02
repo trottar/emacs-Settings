@@ -3253,3 +3253,10 @@ subsequent sends."
 (setq org-html-validation-link nil)
 (setq org-export-html-postamble nil)
 #+END_SRC
+* markdown
+#+BEGIN_SRC emacs-lisp 
+(require 'package)
+(add-to-list 'package-archives
+             '("melpa-stable" . "https://stable.melpa.org/packages/"))
+(package-initialize)
+#+END_SRC

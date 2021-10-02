@@ -2212,3 +2212,8 @@ subsequent sends."
 
 (setq org-html-validation-link nil)
 (setq org-export-html-postamble nil)
+
+(require 'package)
+(add-to-list 'package-archives
+             '("melpa-stable" . "https://stable.melpa.org/packages/"))
+(package-initialize)

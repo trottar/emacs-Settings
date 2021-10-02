@@ -2,72 +2,50 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Wed Mar 25 17:28:32 2020
+;; Created Fri Sep 24 17:03:28 2021
 ;; Desktop file format version 206
 ;; Emacs version 25.2.2
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (24187 52480 955025 718000) (desktop . "208") "trottar@trottar" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . fullboth) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (frameset--id . "7314-8D8C-4D51-7988") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (visibility . t) (fullscreen-restore . maximized) (height . 60) (width . 211) (left . 0) (top . 0)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 72) (min-pixel-width . 180) (min-pixel-height-ignore . 36) (min-pixel-width-ignore . 72) (min-pixel-height-safe . 18) (min-pixel-width-safe . 36)) hc (pixel-width . 1920) (pixel-height . 1062) (total-width . 213) (total-height . 59) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 954) (pixel-height . 1062) (total-width . 106) (total-height . 59) (normal-height . 1.0) (normal-width . 0.49787234042553197) (buffer "organizer.org" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1638) (start . 1))) (leaf (last . t) (pixel-width . 966) (pixel-height . 1062) (total-width . 107) (total-height . 59) (normal-height . 1.0) (normal-width . 0.502127659574468) (buffer "nine_wreaths.pdf" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 1) (dedicated) (point . 1) (start . 1)))))])
+(setq desktop-saved-frameset [frameset 1 (24910 15648 993723 297000) (desktop . "208") "trottar@trottar" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (frameset--id . "7314-8D8C-4D51-7988") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (visibility . t) (fullscreen-restore . maximized) (height . 58) (width . 207) (left . 40) (top . 0)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 72) (min-pixel-width . 180) (min-pixel-height-ignore . 36) (min-pixel-width-ignore . 72) (min-pixel-height-safe . 18) (min-pixel-width-safe . 36)) hc (pixel-width . 1880) (pixel-height . 1037) (total-width . 209) (total-height . 58) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 936) (pixel-height . 1037) (total-width . 104) (total-height . 58) (normal-height . 1.0) (normal-width . 0.49787234042553197) (buffer "translucent_skies.org" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 8340) (start . 117))) (leaf (last . t) (pixel-width . 944) (pixel-height . 1037) (total-width . 105) (total-height . 58) (normal-height . 1.0) (normal-width . 0.502127659574468) (buffer "nine_wreaths.pdf" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("class" "ipcon" "serv" "hospital" "future" "quantum war" "length" "cls" "and and" "Vector3" "isp" "hide" "wave function" "mary" "tight" "billion"))
+(setq search-ring '("dante" "logis" "approxim" "better" "provid" "table" "comple" "ball" "culm" "conc" "freed" "alice" "contra" "ground cl" "leop" "as she"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("/home/trottar/Programs/my_programs/physics_engine/test_calculator.py" "/home/trottar/bin/python/root2py/root2py.py" "/home/trottar/bin/python/root2py/__init__.py" "/home/trottar/bin/findHost.csh" "/home/trottar/bin/run_server.csh" "/home/trottar/.cshrc" "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_1/nine_wreaths.org" "/home/trottar/Programs/my_programs/physics_engine/src/physics_calc/__init__.py" "~/Programs/my_programs/physics_engine/src/physics_calc/physics_rules.py" "/home/trottar/Programs/my_programs/physics_engine/src/vector_math/physics_vectormath/physics_vectormath/vector.py" "/home/trottar/Programs/my_programs/physics_engine/src/vector_math/test_vectors.py" "/home/trottar/Programs/my_programs/physics_engine/test_calculator.py" "~/Programs/my_programs/physics_engine/test_calculator.py" "/home/trottar/Programs/my_programs/physics_engine/vector_math/physics_vectormath/physics_vectormath/__init__.py" "/home/trottar/Programs/my_programs/physics_engine/vector_math/physics_vectormath/physics_vectormath/vector.py" "/home/trottar/Programs/my_programs/physics_engine/vector_math/physics_vectormath/physics_vectormath/__init__.py" "/home/trottar/Programs/my_programs/physics_engine/vector_math/physics_vectormath/physics_vectormath/vector.py" "/home/trottar/Programs/my_programs/physics_engine/vector_math/test_vectors.py" "~/Programs/my_programs/physics_engine/test_vectors.py" "/home/trottar/Programs/my_programs/physics_engine/FeynmanDiagrams/test_feynman.py" "/home/trottar/Programs/my_programs/physics_engine/test.py" "~/Programs/my_programs/physics_engine/drell_yan_test.py" "/home/trottar/.config/htop/htoprc" "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_1/nine_wreaths.org" "/home/trottar/.cshrc" "/home/trottar/Programs/my_programs/google_email/src/write_email.py" "/home/trottar/Programs/my_programs/google_email/src/send_gmail.py" "/home/trottar/bin/shareDocker.sh" "/home/trottar/.cshrc" "/home/trottar/bin/shareDocker.sh" "/home/trottar/.cshrc" "/home/trottar/bin/shareDocker.sh" "/home/trottar/.cshrc" "/home/trottar/.profile" "/home/trottar/.cshrc" "/home/trottar/bin/shareDocker.sh" "/home/trottar/.cshrc" "~/ResearchNP/org_file/google_email/send_gmail.sh" "~/ResearchNP/org_file/google_email/src/write_email.py" "/home/trottar/ResearchNP/org_file/google_email/src/gmail_pdf.py" "/home/trottar/ResearchNP/org_file/google_email/src/gmail_image.py" "/home/trottar/.bash_profile" "~/ResearchNP/org_file/google_email/user_emails/email_groups.input" "/home/trottar/ResearchNP/org_file/google_email/src/gmail_pdf.py" "/home/trottar/ResearchNP/org_file/google_email/src/gmail_image.py" "/home/trottar/ResearchNP/org_file/google_email/src/html/signature.org" "/home/trottar/ResearchNP/org_file/google_email/src/html/gmail_body.org" "/home/trottar/ResearchNP/org_file/google_email/src/gmail_text.py" "/home/trottar/$ORG" "/home/trottar/.emacs.d/startinit.org" "/home/trottar/ResearchNP/org_file/google_email/gmail.html" "/home/trottar/ResearchNP/org_file/google_email/signature.html" "~/ResearchNP/org_file/google_email/signature.org" "/home/trottar/ResearchNP/org_file/google_email/gmail.html" "/home/trottar/.emacs.d/startinit.org" "/home/trottar/Documents/notes/QCD/qcdNotes.org" "/home/trottar/Documents/papers/thesis/hallc_replay_outline.org" "/home/trottar/ResearchNP/org_file/google_email/gmail_text.py" "/home/trottar/ResearchNP/org_file/google_email/gmail_pdf.py" "/home/trottar/ResearchNP/org_file/google_email/gmail_image.py" "/home/trottar/ResearchNP/org_file/google_email/gmail.html" "/home/trottar/.bash_profile" "/home/trottar/.bash_logout" "/home/trottar/.bash_profile" "/home/trottar/.cshrc" "/home/trottar/.bash_profile" "/home/trottar/.cshrc" "/home/trottar/.bash_profile" "~/ResearchNP/org_file/google_email/gmail_send.py" "/home/trottar/ResearchNP/org_file/google_email/gmail.html" "/home/trottar/ResearchNP/org_file/google_email/gmail.org" "/home/trottar/.emacs.d/startinit.org" "/home/trottar/ResearchNP/org_file/google_email/edit-server" "/home/trottar/.emacs.d/startinit.org" "/home/trottar/.emacs.d/startinit.el" "~/ResearchNP/org_file/google_email/gmail.org" "/home/trottar/ResearchNP/org_file" "/home/trottar/$ORG" "/home/trottar/.emacs.d/startinit.org" "/home/trottar/.cshrc" "/home/trottar/bin/shareDocker.sh" "/home/trottar/.cshrc" "/home/trottar/bin/python/upgradePython.py" "/home/trottar/.profile" "/home/trottar/.cshrc" "/home/trottar/ResearchNP/org_file/google_calendar/update_calendar.sh" "~/.emacs.d/chrome/" "/home/trottar/ResearchNP/org_file/google_calendar/google_calendar.org" "/home/trottar/.cshrc" "/home/trottar/ResearchNP/org_file/google-calendar.org" "~/.emacs.d/chrome/" "/home/trottar/.emacs.d/startinit.org" "/home/trottar/Programs/ical2org" "/home/trottar/bin/shareDocker.sh" "/home/trottar/.cshrc" "/home/trottar/bin/physics_dict/physics_dict.py" "~/.emacs.d/chrome/" "/home/trottar/ResearchNP/JLEIC/Trotta-EIC/roothist2numpy.py" "/home/trottar/ResearchNP/ROOTfiles/python/test_pyPlot.py" "/home/trottar/ResearchNP/ROOTfiles/python/rootPy.py"))
+(setq file-name-history '("/home/trottar/.cshrc" "/home/trottar/Documents/books/NW2_Translucent_Skies/translucent_skies.org" "/home/trottar/Documents/org_file/organizer.org" "/home/trottar/.cshrc" "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_3/nine_wreaths.pdf" "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_3/nine_wreaths.org" "/home/trottar/Documents/fellowships/JSA_2019/summary_JSA.pdf" "/home/trottar/Documents/papers/thesis/dissertation/phd_thesis.org" "/home/trottar/Documents/fellowships/JSA_2019/summary_JSA.pdf" "~/Documents/fellowships/JSA_2019/summary_JSA.org" "/home/trottar/Documents/random/xmas_bingo/christmas_Bingo.py" "/home/trottar/Documents/notes/QCD/qcdNotes.org" "/home/trottar/Documents/papers/thesis/dissertation/phd_thesis.org" "/home/trottar/Documents/notes/QCD/qcdNotes.org" "/home/trottar/Documents/random/fourforts/rules.pdf" "/home/trottar/Documents/random/fourforts/rules.org" "/home/trottar/.cshrc" "~/Documents/papers/EIC_YR_2020/meson_structure.org" "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_2/nine_wreaths.pdf" "/home/trottar/Documents/books/Nine_Wreaths/clean_copy/nine_wreaths.pdf" "/home/trottar/Documents/books/Nine_Wreaths/clean_copy/nine_wreaths.org" "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_2/nine_wreaths.pdf" "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_2/nine_wreaths.org" "/home/trottar/Documents/books/random/ThoughtsofSanity.org" "/home/trottar/bin/python/archive/test_rootPy.py" "/home/trottar/bin/python/archive/pyPlots.py" "/home/trottar/bin/archive/root2py.sh" "/home/trottar/Analysis/kaonlt_analysis/lumiscan/plot_Yield.py" "/home/trottar/bin/python/archive/kaonlt_pyPlot.py" "/home/trottar/bin/python/archive/test_rootPy.py" "/home/trottar/bin/python/archive/test_pyPlot.py" "/home/trottar/bin/python/archive/rootPy.py" "~/Analysis/ROOTfiles/root2npz.py" "/home/trottar/bin/python/archive/rootPy.py" "/home/trottar/Documents/books/NW_book_2/book2.pdf" "/home/trottar/.cshrc" "~/Documents/random/DnD/tellifer.org" "~/Documents/books/NW_book_2/book2.org" "/home/trottar/Documents/books/Nine_Wreaths/clean_copy/nine_wreaths.pdf" "/home/trottar/Documents/books/Nine_Wreaths/clean_copy/nine_wreaths.org" "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_2/nine_wreaths.org" "/home/trottar/Documents/books/Nine_Wreaths/clean_copy/nine_wreaths.org" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.pdf" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.org" "/home/trottar/.cshrc" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.org" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.pdf" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.org" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.pdf" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.org" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.pdf" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.org" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.pdf" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.org" "/home/trottar/.cshrc" "/home/trottar/syncFiles.sh" "/home/trottar/sendFile.sh" "/home/trottar/.emacs.d/init.el" "/home/trottar/.emacs.d/startinit.org" "~/syncPackages.sh" "/home/trottar/syncFiles.sh" "/home/trottar/bin/run_server.csh" "/home/trottar/bin/findHost.csh" "/home/trottar/.cshrc" "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_1/nine_wreaths.org" "/home/trottar/bin/copyFiles.sh" "~/bin/kindle_files.sh" "/home/trottar/bin/copyFiles.sh" "/home/trottar/.cshrc" "/home/trottar/Programs/my_programs/COVID-19/covid-19-data/public/data/testing/covid-testing-latest-data-source-details.csv" "/home/trottar/Programs/my_programs/COVID-19/covid-19-data/public/data/testing/covid-testing-all-observations.csv" "/home/trottar/bin/shareDocker.sh" "/home/trottar/.cshrc" "/home/trottar/Programs/my_programs/COVID-19/run_covid.sh" "/home/trottar/Programs/my_programs/COVID-19/.gitmodules" "/home/trottar/Programs/my_programs/COVID-19/.gitignore" "/home/trottar/Programs/my_programs/COVID-19/.gitmodules" "/home/trottar/Programs/my_programs/COVID-19/run_covid.sh" "/home/trottar/Programs/my_programs/COVID-19/README.md" "/home/trottar/Programs/my_programs/COVID-19/src/plot_covid.py" "~/Programs/my_programs/COVID-19/.gitmodules" "~/Programs/my_programs/COVID-19/.gitignore" "/home/trottar/Programs/my_programs/COVID-19/README.md" "/home/trottar/Programs/my_programs/COVID-19/src/plot_covid.py" "~/Programs/my_programs/COVID-19/run_covid.sh" "~/Programs/my_programs/COVID-19/src/plot_covid.py" "/home/trottar/.cshrc" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.org" "/home/trottar/.cshrc" "/home/trottar/Programs/my_programs/deepLearn/create_numModel.py" "/home/trottar/ResearchNP/deepLearn/create_numModel.py" "/home/trottar/.cshrc" "/home/trottar/Programs/my_programs/google_email/src/write_email.py" "/home/trottar/Programs/my_programs/google_email/src/send_gmail.py" "/home/trottar/bin/python/root2py/root2py.py" "/home/trottar/.cshrc" "/home/trottar/Programs/my_programs/google_email/src/write_email.py" "/home/trottar/Programs/my_programs/google_email/src/send_gmail.py" "/home/trottar/.cshrc" "/etc/ssh/sshd_config"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
-  "/home/trottar/ResearchNP/org_file/organizer.org"
-  "organizer.org"
+  "/home/trottar/Documents/books/NW2_Translucent_Skies/translucent_skies.org"
+  "translucent_skies.org"
   'org-mode
   '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  1638
-  '(2876 nil)
+  8340
+  '(8126 nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
 
 (desktop-create-buffer 206
-  "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_1/nine_wreaths.pdf"
+  "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_3/nine_wreaths.pdf"
   "nine_wreaths.pdf"
   'doc-view-mode
-  '(abbrev-mode visual-line-mode outline-minor-mode global-auto-revert-mode company-mode)
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
   1
-  '(1 nil)
+  '(nil nil)
   t
-  '((page . 62) (slice))
+  '((page . 2) (slice))
   '((buffer-file-coding-system . no-conversion) (truncate-lines)))
 
 (desktop-create-buffer 206
-  "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_1/nine_wreaths.org"
+  "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_3/nine_wreaths.org"
   "nine_wreaths.org"
   'org-mode
-  '(abbrev-mode visual-line-mode wc-mode global-auto-revert-mode company-mode)
-  143768
-  '(124724 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Programs/my_programs/physics_engine/src/physics_calc/physics_rules.py"
-  "physics_rules.py"
-  'python-mode
   '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  1924
-  '(1769 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/ResearchNP/org_file/commands.org"
-  "commands.org"
-  'org-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  5571
-  '(4209 nil)
+  374
+  '(353 nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix) (truncate-lines)))
@@ -77,9 +55,75 @@
   "physics_dict.py"
   'python-mode
   '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  10982
-  '(10982 nil)
+  12723
+  '(13847 nil)
   nil
   nil
   '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Programs/my_programs/physics_engine/src/physics_calc/physics_rules.py"
+  "physics_rules.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  1789
+  '(1953 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Documents/books/random/ThoughtsofSanity.org"
+  "ThoughtsofSanity.org"
+  'org-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  10212
+  '(10212 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/.emacs.d/startinit.el"
+  "startinit.el"
+  'emacs-lisp-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  2073
+  '(1290 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/syncFiles.sh"
+  "syncFiles.sh"
+  'sh-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  2759
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/syncPackages.sh"
+  "syncPackages.sh"
+  'sh-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  537
+  '(439 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/.emacs.d/ido.last"
+  "ido.last"
+  'fundamental-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  39121
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines)))
 

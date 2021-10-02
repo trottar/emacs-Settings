@@ -2,238 +2,40 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Tue Mar 17 17:17:01 2020
+;; Created Sat Oct  2 00:30:04 2021
 ;; Desktop file format version 206
 ;; Emacs version 25.2.2
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (24177 15949 467391 865000) (desktop . "208") "trottar@trottar" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars . t) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 16) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (frameset--id . "CA4D-3D9F-4FA0-8908") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (visibility . t) (fullscreen-restore . maximized) (height . 57) (width . 206) (left . 40) (top . 0)) ((min-height . 4) (min-width . 20) (min-height-ignore . 3) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 72) (min-pixel-width . 180) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 72) (min-pixel-height-safe . 18) (min-pixel-width-safe . 36)) hc (pixel-width . 1880) (pixel-height . 1037) (total-width . 209) (total-height . 58) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 936) (pixel-height . 1037) (total-width . 104) (total-height . 58) (normal-height . 1.0) (normal-width . 0.49787234042553197) (buffer "FullReplay_Lumi_Offline.C" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars nil 0 t nil 1 t) (vscroll . 0) (dedicated) (point . 9725) (start . 8516))) (leaf (last . t) (pixel-width . 944) (pixel-height . 1037) (total-width . 105) (total-height . 58) (normal-height . 1.0) (normal-width . 0.502127659574468) (buffer "luminosity_coin_production.def" (selected) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars nil 0 t nil 1 t) (vscroll . 0) (dedicated) (point . 68) (start . 68)))))])
+(setq desktop-saved-frameset [frameset 1 (24919 57420 799877 923000) (desktop . "208") "trottar@trottar" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars . t) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 16) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (frameset--id . "CA4D-3D9F-4FA0-8908") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (visibility . t) (fullscreen-restore . maximized) (height . 57) (width . 206) (left . 40) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 36) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1880) (pixel-height . 1037) (total-width . 208) (total-height . 57) (normal-height . 1.0) (normal-width . 1.0) (buffer "heep_HMS_fall18.inp" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars nil 0 t nil 1 t) (vscroll . 0) (dedicated) (point . 3821) (start . 2233))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("tree" "bcm" "helic" "bcm" "heli" "helic" "heli" "L1ACC" "L" "decd" "analyzer" "acctrig_sum" "decode" "%i" "%" "error in <tgspeedo::tgspeedo::build>: speedo.gif not found"))
+(setq search-ring '("scaler re" "starting lumsca" "KaonLT" "pion" "inputfile" "${" "utilpath" "tape_file" "tapefil" "utilpath" "util" "initroot" "input" "outfiles" "out" "ranl"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DEF-files/luminosity_coin_production.def" "/home/trottar/Analysis/hallc_replay_lt/TEMPLATES/COIN/PRODUCTION/coin_production_new.template" "/home/trottar/Analysis/hallc_replay_lt/DEF-files/COIN/PRODUCTION/CUTS/coin_production_cuts.def" "/home/trottar/Analysis/hallc_replay_lt/DEF-files/COIN/PRODUCTION/CUTS/coin_production_ep_cuts.def" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DEF-files/coin_production.def" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Replay/replay_production_coin.C" "/home/trottar/Analysis/hallc_replay_lt/UTIL_BATCH/Analysis_Scripts/Full_KaonLT_Batch.sh" "/home/trottar/Analysis/hallc_replay_lt/DEF-files/COIN/PRODUCTION/coin_production.def" "/home/trottar/Analysis/hallc_replay_lt/DEF-files/COIN/PRODUCTION/CUTS/coin_production_cuts.def" "/home/trottar/Analysis/hallc_replay_lt/DEF-files/COIN/PRODUCTION/coin_production_hElec_pProt.def" "/home/trottar/Analysis/hallc_replay_lt/SCRIPTS/COIN/PRODUCTION/FullReplay.C" "/home/trottar/Analysis/hallc_replay_lt/DEF-files/COIN/PRODUCTION/coin_production_hElec_pProt.def" "/home/trottar/Analysis/hallc_replay_lt/MAPS/db_cratemap.dat" "/home/trottar/Analysis/hallc_replay_lt/SCRIPTS/COIN/PRODUCTION/replay_production_coin_hElec_pProt.C" "/home/trottar/Analysis/hallc_replay_lt/SCRIPTS/COIN/PRODUCTION/FullReplay.C" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Luminosity/LumiYield.h" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Luminosity/Scalers.h" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Luminosity/LumiYield.h" "/home/trottar/Analysis/hallc_replay_lt/CALIBRATION/dc_calib/Calibration_Checker/run_DC_Calib_Check.C" "~/Analysis/hallc_replay_lt/SCRIPTS/COIN/PRODUCTION/FullReplay_Lumi_Offline.C" "~/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Replay/replay_luminosity.C" "/home/trottar/Analysis/hallc_replay_lt/SCRIPTS/COIN/PRODUCTION/FullReplay.C" "/home/trottar/Analysis/hallc_replay_lt/CALIBRATION/dc_calib/Calibration_Checker/run_DC_Calib_Check.C" "/home/trottar/Analysis/hallc_replay_lt/CALIBRATION/dc_calib/DC_calib.C" "/home/trottar/Analysis/hallc_replay_lt/CALIBRATION/dc_calib/main_calib.C" "/home/trottar/Analysis/hallc_replay_lt/UTIL_BATCH/Analysis_Scripts/DCCalib_Batch.sh" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/runlistGatherer.py" "~/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Luminosity/run_LumiYield.py" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/runlistGatherer.py" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/fill_runList" "/home/trottar/Analysis/hallc_replay_lt/UTIL_BATCH/Analysis_Scripts/DCCalib_Batch.sh" "/home/trottar/Analysis/hallc_replay_lt/CALIBRATION/dc_calib/DC_calib.C" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Luminosity/Scalers.C" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Replay/replay_luminosity.C" "~/Analysis/hallc_replay_lt/" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_KaonYield/run_KaonYield.C" "/home/trottar/Analysis/hallc_replay_lt/SCRIPTS/COIN/SCALERS/replay_coin_scalers.C" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Replay/replay_production_coin.C" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Luminosity/Yield_Data.dat" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/Luminosity.sh" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Luminosity/inputRuns" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Luminosity/FullReplay_Batch.sh" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Luminosity/Full_Replay_Lumi_Lark.csh" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Luminosity/run_batch_FullReplay_Lumi.sh" "/home/trottar/Analysis/hallc_replay_lt/SCRIPTS/COIN/PRODUCTION/FullReplay_Lumi_Offline.C" "/home/trottar/Analysis/hallc_replay_lt/SCRIPTS/COIN/PRODUCTION/FullReplay_Lumi.C" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Luminosity/run_LumiScript.sh" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Luminosity/run_LumiYield.C" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Luminosity/Yield_Data.csv" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Luminosity/Yield_Data.dat" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/yieldVar" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Luminosity/Yield_Data.csv" "/home/trottar/Analysis/kaonlt_analysis/lumiscan/plot_Yield.py" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/plot_Yield.py" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Luminosity/LumiYield.h" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Luminosity/LumiYield.C" "~/Analysis/hallc_replay_lt/UTIL_KAONLT/" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/batch/inputRuns" "/home/trottar/Analysis/hallc_replay_lt/UTIL_BATCH/batch_scripts/run_batch_CalCalib.sh" "/home/trottar/Analysis/hallc_replay_lt/UTIL_BATCH/Analysis_Scripts/Batch_Template.sh" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/batch/run_batch_PID_eff.sh" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/batch/run_batch_template.sh" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/batch/run_batch_PID_eff.sh" "/home/trottar/Analysis/hallc_replay_lt/SCRIPTS/COIN/PRODUCTION/replay_PID_eff.C" "/home/trottar/Analysis/hallc_replay_lt/SCRIPTS/COIN/PRODUCTION/replay_production_coin_hElec_pProt.C" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/batch/run_batch_PID_eff.sh" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/runlistGatherer.py" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_PID/go_PID.sh" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/Batch_Template.sh" "~/Analysis/hallc_replay_lt/UTIL_KAONLT/pid_eff.sh" "~/Analysis/hallc_replay_lt/UTIL_KAONLT/batch/run_batch_PID_eff.sh" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/batch/run_batch_template.sh" "~/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_PID/numEvts_PID" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_KaonYield/run_KaonYield.C" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_KaonYield/KaonYield.C" "~/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_PID/go_PID.sh" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_KaonYield/KaonYield.C" "~/.emacs.d/init.el" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_PID/hms_cer_efficiency.h" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_PID/hms_cer_efficiency.C" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_PID/hms_cal_efficiency.C" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_PID/shms_cer_efficiency.h" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_PID/shms_cal_efficiency.h" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_PID/shms_aero_efficiency.h" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_PID/shms_cer_efficiency.C" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_PID/shms_cal_efficiency.C" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_PID/shms_aero_efficiency.C" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_PID/shms_cer_efficiency.h" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_PID/shms_cal_efficiency.h" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_PID/hms_cer_efficiency.h" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_PID/hms_cal_efficiency.h" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_PID/shms_aero_efficiency.h" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_PID/shms_cer_efficiency.h" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_PID/shms_aero_efficiency.h" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_PID/shms_cal_efficiency.h" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_PID/shms_aero_efficiency.h" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_KaonYield/KaonYield.C" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_PID/hms_cal_efficiency.h" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_PID/hms_cal_efficiency.C" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_PID/hms_cer_efficiency.h"))
+(setq file-name-history '("/home/trottar/Analysis/UTIL_KAONLT/scripts/luminosity/replay_lumi.sh" "/home/trottar/Analysis/UTIL_KAONLT/scripts/luminosity/README" "/home/trottar/Analysis/simc_gfortran/input/heep_HMS_fall18.inp" "/home/trottar/Analysis/UTIL_KAONLT/scripts/replay/replay_luminosity.C" "/home/trottar/Analysis/UTIL_KAONLT/scripts/luminosity/src/lumiyield.py" "/home/trottar/Analysis/UTIL_KAONLT/scripts/luminosity/replay_lumi.sh" "/home/trottar/Analysis/UTIL_KAONLT/scripts/replay/replay_luminosity.C" "/home/trottar/Analysis/UTIL_KAONLT/scripts/luminosity/replay_lumi.sh" "/home/trottar/Analysis/UTIL_BATCH/Analysis_Scripts/online_pionlt/FullReplay_Batch.sh" "/home/trottar/Analysis/UTIL_BATCH/InputRunLists/Kaon_Data/Lumi_Test" "/home/trottar/Analysis/UTIL_BATCH/batch_scripts/online_pionlt/run_batch_FullReplay.sh" "~/Analysis/UTIL_BATCH/batch_scripts/batch_KaonLT.sh" "/home/trottar/Analysis/UTIL_BATCH/Analysis_Scripts/online_pionlt/Batch_Template.sh" "/home/trottar/Analysis/UTIL_KAONLT/scripts/online_kaon_physics/kaon_prod_replay_analysis_sw.sh" "/home/trottar/Analysis/UTIL_KAONLT/scripts/luminosity/replay_lumi.sh" "/home/trottar/Analysis/UTIL_BATCH/Analysis_Scripts/run_KaonLT.sh" "/home/trottar/Analysis/UTIL_BATCH/Analysis_Scripts/online_pionlt/PionLT.sh" "~/Analysis/UTIL_BATCH/Analysis_Scripts/KaonLT.py" "~/Analysis/UTIL_BATCH/Analysis_Scripts/KaonLT.sh" "/home/trottar/Analysis/UTIL_BATCH/Analysis_Scripts/KaonLT.sh" "/home/trottar/Analysis/simc_gfortran/run_simc_tree" "/home/trottar/Analysis/simc_gfortran/run_simc_ntup" "/home/trottar/Analysis/simc_gfortran/src/util/ntuple/make_ntuple.f" "/home/trottar/Analysis/simc_gfortran/run_simc_ntup" "/home/trottar/Analysis/simc_gfortran/src/dbase.f" "/home/trottar/Analysis/simc_gfortran/src/util/root_tree/make_root_tree.f" "/home/trottar/Analysis/simc_gfortran/src/util/root_tree/froot.c" "/home/trottar/Analysis/simc_gfortran/run_simc_tree" "/home/trottar/Analysis/simc_gfortran/run_simc_ntup" "/home/trottar/Analysis/simc_gfortran/README.md" "/home/trottar/Analysis/simc_gfortran/src/simc.f" "/home/trottar/Analysis/simc_gfortran/src/poltar/gaw_code/simc.f" "/home/trottar/Analysis/simc_gfortran/src/dbase.f" "/home/trottar/Analysis/simc_gfortran/src/simc.f" "/home/trottar/Analysis/simc_gfortran/run_simc_tree" "/home/trottar/Analysis/simc_gfortran/run_simc_ntup" "/home/trottar/Analysis/simc_gfortran/README.md" "/home/trottar/Analysis/simc_gfortran/runout/.gitignore" "/home/trottar/Analysis/simc_gfortran/run_simc" "/home/trottar/Analysis/simc_gfortran/run_simc_tree" "/home/trottar/Analysis/simc_gfortran/run_simc_ntup" "/home/trottar/Analysis/simc_gfortran/run_simc" "~/Analysis/simc_gfortran/" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts/luminosity/src/scaler.py" "~/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts/luminosity/src/scaler.py" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/bin/python/kaonlt/kaonlt.py" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/CUTS/general/current.cuts" "~/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts/luminosity/src/makecutDict.py" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/PARAM/PID_Parameters.csv" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/PARAM/Acceptance_Parameters.csv" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/PARAM/PID_Parameters.csv" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/PARAM/Timing_Parameters.csv" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts/luminosity/OUTPUTS/lumi_data.csv" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/CUTS/general/pid.cuts" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/PARAM/Tracking_Parameters.csv" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/PARAM/Timing_Parameters.csv" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/PARAM/PID_Parameters.csv" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/PARAM/Misc_Parameters.csv" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/PARAM/Timing_Parameters.csv" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/PARAM/Acceptance_Parameters.csv" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts/luminosity/OUTPUTS/lumi_data.csv" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/batch/run_batch_PID_eff.sh" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts/luminosity/OUTPUTS/lumi_data.csv" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts/luminosity/OUTPUTS/yield_data.csv" "~/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/CUTS/general/misc.cuts" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/bin/python/kaonlt/kaonlt.py" "~/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/PARAM/Misc_Parameters.csv" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/PARAM/PID_Parameters.csv" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/CUTS/general/track.cuts" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/PARAM/Timing_Parameters.csv" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/CUTS/general/coin_time.cuts" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/PARAM/Tracking_Parameters.csv" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/CUTS/general/track.cuts" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/CUTS/general/pid.cuts" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/PARAM/PID_Parameters.csv" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts/kaonyield/archive/KaonYield.C" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/CUTS/general/current.cuts" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/bin/python/kaonlt/kaonlt.py" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/CUTS/run_type/lumi.cuts.TRUE" "/home/trottar/Analysis/hallc_replay_lt/UTIL_PROTON/DB/CUTS/general/pid.cuts" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts/luminosity/src/csv2root.py" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/CUTS/general/pid.cuts" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/PARAM/PID_Parameters.csv" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/Production_Config" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/bin/python/kaonlt/kaonlt.py" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/Production_Config" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/CUTS/general/current.cuts" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/CUTS/general/accept.cuts" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/CUTS/run_type/lumi.cuts.TRUE" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/PARAM/Tracking_Parameters.csv" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/PARAM/Acceptance_Parameters.csv" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/Production_Config" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/CUTS/general/pid.cuts" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/CUTS/run_type/lumi.cuts.TRUE" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/CUTS/general/accept.cuts" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts/luminosity/OUTPUTS/lumi_data.csv" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/PARAM/Tracking_Parameters.csv" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/CUTS/general/track.cuts" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/PARAM/Timing_Parameters.csv" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/CUTS/general/current.cuts"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_lt/SCRIPTS/COIN/PRODUCTION/FullReplay_Lumi_Offline.C"
-  "FullReplay_Lumi_Offline.C"
-  'c++-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  9725
-  '(10428 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DEF-files/luminosity_coin_production.def"
-  "luminosity_coin_production.def"
+  "/home/trottar/Analysis/simc_gfortran/input/heep_HMS_fall18.inp"
+  "heep_HMS_fall18.inp"
   'fundamental-mode
   '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  68
-  '(1153 nil)
+  3821
+  '(3828 nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
 
 (desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_lt/DEF-files/COIN/PRODUCTION/coin_production.def"
-  "coin_production.def"
+  "/home/trottar/Analysis/simc_gfortran/run_simc_tree"
+  "run_simc_tree"
   'fundamental-mode
   '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  318
-  '(703 nil)
+  186
+  '(162 nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Luminosity/LumiYield.C"
-  "LumiYield.C"
-  'c++-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  1525
-  '(1 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_lt/DEF-files/COIN/PRODUCTION/CUTS/coin_production_cuts.def"
-  "coin_production_cuts.def"
-  'fundamental-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  1554
-  '(1554 t)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_lt/UTIL_BATCH/Analysis_Scripts/Full_KaonLT_Batch.sh"
-  "Full_KaonLT_Batch.sh"
-  'sh-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Replay/replay_production_coin.C"
-  "replay_production_coin.C"
-  'c++-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  10036
-  '(10020 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Luminosity/run_LumiScript.sh"
-  "run_LumiScript.sh"
-  'sh-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  611
-  '(476 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Luminosity/run_LumiYield.py"
-  "run_LumiYield.py"
-  'python-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  1188
-  '(369 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_lt/SCRIPTS/COIN/PRODUCTION/FullReplay.C"
-  "FullReplay.C"
-  'c++-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  4161
-  '(10338 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_lt/SCRIPTS/COIN/PRODUCTION/replay_production_coin_hElec_pProt.C"
-  "replay_production_coin_hElec_pProt.C"
-  'c++-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  10521
-  '(1 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Luminosity/FullReplay_Batch.sh"
-  "FullReplay_Batch.sh"
-  'sh-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  2113
-  '(1242 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Luminosity/Scalers.C"
-  "Scalers.C"
-  'c++-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  1221
-  '(1237 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Luminosity/Scalers.h"
-  "Scalers.h"
-  'c-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  1
-  '(7187 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Luminosity/LumiYield.h"
-  "LumiYield.h"
-  'c-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  841
-  '(9664 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Luminosity/run_LumiYield.C"
-  "run_LumiYield.C"
-  'c++-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  2533
-  '(2298 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts_Luminosity/run_batch_FullReplay_Lumi.sh"
-  "run_batch_FullReplay_Lumi.sh"
-  'sh-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  2763
-  '(4584 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_lt/SCRIPTS/COIN/SCALERS/replay_coin_scalers.C"
-  "replay_coin_scalers.C"
-  'c++-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  5698
-  '(5686 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/Luminosity.sh"
-  "Luminosity.sh"
-  'sh-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  1274
-  '(1137 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/plot_Yield.py"
-  "plot_Yield.py"
-  'python-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  1471
-  '(4438 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
 
