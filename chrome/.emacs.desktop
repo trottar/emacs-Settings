@@ -2,59 +2,169 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Sat Oct  2 01:42:33 2021
+;; Created Thu May 26 02:48:26 2022
 ;; Desktop file format version 206
 ;; Emacs version 25.2.2
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (24919 61769 126893 615000) (desktop . "208") "trottar@trottar" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (frameset--id . "7314-8D8C-4D51-7988") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (visibility . t) (fullscreen-restore . maximized) (height . 58) (width . 207) (left . 40) (top . 0)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 72) (min-pixel-width . 180) (min-pixel-height-ignore . 36) (min-pixel-width-ignore . 72) (min-pixel-height-safe . 18) (min-pixel-width-safe . 36)) hc (pixel-width . 1880) (pixel-height . 1037) (total-width . 209) (total-height . 58) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 944) (pixel-height . 1037) (total-width . 105) (total-height . 58) (normal-height . 1.0) (normal-width . 0.5) (buffer "translucent_skies.org" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 8340) (start . 1))) (leaf (last . t) (pixel-width . 936) (pixel-height . 1037) (total-width . 104) (total-height . 58) (normal-height . 1.0) (normal-width . 0.5) (buffer "nine_wreaths.pdf" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1) (start . 1)))))])
+(setq desktop-saved-frameset [frameset 1 (25231 8890 677684 416000) (desktop . "208") "trottar@trottar" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (frameset--id . "7314-8D8C-4D51-7988") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (visibility . t) (fullscreen-restore . maximized) (height . 58) (width . 207) (left . 40) (top . 0)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 72) (min-pixel-width . 180) (min-pixel-height-ignore . 36) (min-pixel-width-ignore . 72) (min-pixel-height-safe . 18) (min-pixel-width-safe . 36)) hc (pixel-width . 1880) (pixel-height . 1037) (total-width . 209) (total-height . 57) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 945) (pixel-height . 1037) (total-width . 105) (total-height . 57) (normal-height . 1.0) (normal-width . 0.5026595744680851) (buffer "alias.el" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 25) (start . 1))) (leaf (last . t) (pixel-width . 935) (pixel-height . 1037) (total-width . 104) (total-height . 57) (normal-height . 1.0) (normal-width . 0.4973404255319149) (buffer "fixed_collider_physics.pdf" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("git-all" "git-" "git-all" "dante" "logis" "approxim" "better" "provid" "table" "comple" "ball" "culm" "conc" "freed" "alice" "contra"))
+(setq search-ring '(".el" "el" "(add-to-list 'package-archives '(\"melpa\" . \"https://melpa.org/packages/\"))" "org_g" "org-gcal" "org-gc" "org_ca" "orgca" "request-deferred" "request" "request-deferred-0.2.0" "dash" "tramp" "find-file" "tramp" "alert"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("/home/trottar/bin/gitcheck.sh" "~/bin/gitcheck.sh" "/home/trottar/.cshrc" "/home/trottar/Documents/books/NW2_Translucent_Skies/translucent_skies.org" "/home/trottar/Documents/org_file/organizer.org" "/home/trottar/.cshrc" "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_3/nine_wreaths.pdf" "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_3/nine_wreaths.org" "/home/trottar/Documents/fellowships/JSA_2019/summary_JSA.pdf" "/home/trottar/Documents/papers/thesis/dissertation/phd_thesis.org" "/home/trottar/Documents/fellowships/JSA_2019/summary_JSA.pdf" "~/Documents/fellowships/JSA_2019/summary_JSA.org" "/home/trottar/Documents/random/xmas_bingo/christmas_Bingo.py" "/home/trottar/Documents/notes/QCD/qcdNotes.org" "/home/trottar/Documents/papers/thesis/dissertation/phd_thesis.org" "/home/trottar/Documents/notes/QCD/qcdNotes.org" "/home/trottar/Documents/random/fourforts/rules.pdf" "/home/trottar/Documents/random/fourforts/rules.org" "/home/trottar/.cshrc" "~/Documents/papers/EIC_YR_2020/meson_structure.org" "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_2/nine_wreaths.pdf" "/home/trottar/Documents/books/Nine_Wreaths/clean_copy/nine_wreaths.pdf" "/home/trottar/Documents/books/Nine_Wreaths/clean_copy/nine_wreaths.org" "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_2/nine_wreaths.pdf" "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_2/nine_wreaths.org" "/home/trottar/Documents/books/random/ThoughtsofSanity.org" "/home/trottar/bin/python/archive/test_rootPy.py" "/home/trottar/bin/python/archive/pyPlots.py" "/home/trottar/bin/archive/root2py.sh" "/home/trottar/Analysis/kaonlt_analysis/lumiscan/plot_Yield.py" "/home/trottar/bin/python/archive/kaonlt_pyPlot.py" "/home/trottar/bin/python/archive/test_rootPy.py" "/home/trottar/bin/python/archive/test_pyPlot.py" "/home/trottar/bin/python/archive/rootPy.py" "~/Analysis/ROOTfiles/root2npz.py" "/home/trottar/bin/python/archive/rootPy.py" "/home/trottar/Documents/books/NW_book_2/book2.pdf" "/home/trottar/.cshrc" "~/Documents/random/DnD/tellifer.org" "~/Documents/books/NW_book_2/book2.org" "/home/trottar/Documents/books/Nine_Wreaths/clean_copy/nine_wreaths.pdf" "/home/trottar/Documents/books/Nine_Wreaths/clean_copy/nine_wreaths.org" "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_2/nine_wreaths.org" "/home/trottar/Documents/books/Nine_Wreaths/clean_copy/nine_wreaths.org" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.pdf" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.org" "/home/trottar/.cshrc" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.org" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.pdf" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.org" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.pdf" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.org" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.pdf" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.org" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.pdf" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.org" "/home/trottar/.cshrc" "/home/trottar/syncFiles.sh" "/home/trottar/sendFile.sh" "/home/trottar/.emacs.d/init.el" "/home/trottar/.emacs.d/startinit.org" "~/syncPackages.sh" "/home/trottar/syncFiles.sh" "/home/trottar/bin/run_server.csh" "/home/trottar/bin/findHost.csh" "/home/trottar/.cshrc" "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_1/nine_wreaths.org" "/home/trottar/bin/copyFiles.sh" "~/bin/kindle_files.sh" "/home/trottar/bin/copyFiles.sh" "/home/trottar/.cshrc" "/home/trottar/Programs/my_programs/COVID-19/covid-19-data/public/data/testing/covid-testing-latest-data-source-details.csv" "/home/trottar/Programs/my_programs/COVID-19/covid-19-data/public/data/testing/covid-testing-all-observations.csv" "/home/trottar/bin/shareDocker.sh" "/home/trottar/.cshrc" "/home/trottar/Programs/my_programs/COVID-19/run_covid.sh" "/home/trottar/Programs/my_programs/COVID-19/.gitmodules" "/home/trottar/Programs/my_programs/COVID-19/.gitignore" "/home/trottar/Programs/my_programs/COVID-19/.gitmodules" "/home/trottar/Programs/my_programs/COVID-19/run_covid.sh" "/home/trottar/Programs/my_programs/COVID-19/README.md" "/home/trottar/Programs/my_programs/COVID-19/src/plot_covid.py" "~/Programs/my_programs/COVID-19/.gitmodules" "~/Programs/my_programs/COVID-19/.gitignore" "/home/trottar/Programs/my_programs/COVID-19/README.md" "/home/trottar/Programs/my_programs/COVID-19/src/plot_covid.py" "~/Programs/my_programs/COVID-19/run_covid.sh" "~/Programs/my_programs/COVID-19/src/plot_covid.py" "/home/trottar/.cshrc" "/home/trottar/Documents/books/Nine_Wreaths/nine_wreaths.org" "/home/trottar/.cshrc" "/home/trottar/Programs/my_programs/deepLearn/create_numModel.py" "/home/trottar/ResearchNP/deepLearn/create_numModel.py" "/home/trottar/.cshrc" "/home/trottar/Programs/my_programs/google_email/src/write_email.py" "/home/trottar/Programs/my_programs/google_email/src/send_gmail.py" "/home/trottar/bin/python/root2py/root2py.py" "/home/trottar/.cshrc" "/home/trottar/Programs/my_programs/google_email/src/write_email.py" "/home/trottar/Programs/my_programs/google_email/src/send_gmail.py"))
+(setq file-name-history '("/home/trottar/.emacs.d/startinit.org" "/home/trottar/.emacs.d/init.el" "/home/trottar/.emacs.d/startinit.el" "~/.emacs.d/alias.el" "/home/trottar/.emacs.d/startinit.el" "/home/trottar/.emacs.d/init.el" "/home/trottar/.emacs.d/startinit.el" "~/.emacs.d/lisp/tramp.el" "/home/trottar/.emacs.d/startinit.el" "/home/trottar/.gdrive/token_v2.json" "/gdrive:papatrott@gmail.com:/" "/home/trottar/Documents/papers/thesis/scattering/fixed_collider_physics.pdf" "~/bin/set_env.sh" "/home/trottar/.profile" "/home/trottar/.bash_profile" "/home/trottar/bin/auto_mail.sh" "/etc/profile.d/01-locale-fix.sh" "/etc/profile.d/apps-bin-path.sh" "/etc/profile.d/auto_mail.sh" "/etc/profile.d/01-locale-fix.sh" "/home/trottar/.config/autostart/email.desktop" "/home/trottar/.profile" "/home/trottar/.config/autostart/mintwelcome.desktop" "/home/trottar/.config/autostart/email.desktop" "/home/trottar/.profile" "/home/trottar/.bash_profile" "/home/trottar/.profile" "/home/trottar/Documents/papers/thesis/dissertation/phd_thesis.org" "~/Documents/papers/thesis/scattering/fixed_collider_physics.org" "/home/trottar/.cshrc" "/home/trottar/Documents/misc/shiftsummary_template.txt" "~/Documents/misc/shiftsummary_template.txt" "/home/trottar/.cshrc" "/opt/jlab_software/2.2/ce/versions.env" "/opt/jlab_software/2.2/ce/qt.env" "/home/trottar/.cshrc" "/opt/jlab_software/2.2/ce/versions.env" "/opt/jlab_software/2.2/ce/jlab.csh" "/opt/jlab_software/2.2/ce/checkSoftware.py" "/opt/jlab_software/2.2/ce/xercesc.env" "/opt/jlab_software/2.2/ce/versions.env" "/opt/jlab_software/2.2/ce/osrelease.pl" "/opt/jlab_software/2.2/ce/scons.env" "/opt/jlab_software/2.2/ce/xercesc.env" "/opt/jlab_software/2.2/ce/settings.xcconfig" "/opt/jlab_software/2.2/ce/checkSoftware.py" "/home/trottar/.cshrc" "/opt/jlab_software/2.2/ce/versions.env" "/opt/jlab_software/2.2/ce/getVersion.py" "/opt/jlab_software/2.2/ce/qt.env" "/opt/jlab_software/2.2/ce/versions.env" "/opt/jlab_software/2.2/ce/osrelease.pl" "/opt/jlab_software/2.2/ce/root.env" "/opt/jlab_software/2.2/ce/osrelease.pl" "/opt/jlab_software/2.2/ce/jlab.csh" "/home/trottar/.cshrc" "/opt/jlab_software/2.2/ce/versions.env" "/home/trottar/.cshrc" "/home/trottar/Documents/fellowships/JSA_2020/summary_JSA.pdf" "/opt/jlab_software/2.2/Linux__LinuxMint19.3-x86_64-gcc7/root/6.18.04/install/bin/thisroot.csh" "/opt/jlab_software/2.2/ce/root.env" "/opt/jlab_software/2.2/ce/versions.env" "/opt/jlab_software/2.2/ce/osrelease.pl" "/opt/jlab_software/2.2/ce/getVersion.py" "/opt/jlab_software/2.2/ce/checkSoftware.py" "/opt/jlab_software/2.2/ce/getVersion.py" "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_3/nine_wreaths.pdf" "/opt/jlab_software/2.2/ce/getVersion.py" "/opt/jlab_software/2.2/ce/checkSoftware.py" "/opt/jlab_software/2.2/ce/root.env" "/opt/jlab_software/2.2/ce/jlab.csh" "/home/trottar/.cshrc" "~/Documents/books/Nine_Wreaths/DRAFT_1/nine_wreaths.org" "~/Documents/books/Nine_Wreaths/DRAFT_3/nine_wreaths.org" "/home/trottar/.emacs.d/init.el" "~/.emacs.d/startinit.org" "/home/trottar/.emacs.d/startinit.org" "/home/trottar/Documents/fellowships/JSA_2020/summary_JSA.org" "~/Documents/fellowships/JSA_2020/summary_JSA.org" "/home/trottar/Documents/fellowships/JSA_2019/summary_JSA.org" "/home/trottar/.cshrc" "/home/trottar/bin/gitcheck.sh" "~/bin/gitcheck.sh" "/home/trottar/.cshrc" "/home/trottar/Documents/books/NW2_Translucent_Skies/translucent_skies.org" "/home/trottar/Documents/org_file/organizer.org" "/home/trottar/.cshrc" "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_3/nine_wreaths.pdf" "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_3/nine_wreaths.org" "/home/trottar/Documents/fellowships/JSA_2019/summary_JSA.pdf" "/home/trottar/Documents/papers/thesis/dissertation/phd_thesis.org" "/home/trottar/Documents/fellowships/JSA_2019/summary_JSA.pdf" "~/Documents/fellowships/JSA_2019/summary_JSA.org" "/home/trottar/Documents/random/xmas_bingo/christmas_Bingo.py" "/home/trottar/Documents/notes/QCD/qcdNotes.org" "/home/trottar/Documents/papers/thesis/dissertation/phd_thesis.org" "/home/trottar/Documents/notes/QCD/qcdNotes.org" "/home/trottar/Documents/random/fourforts/rules.pdf" "/home/trottar/Documents/random/fourforts/rules.org" "/home/trottar/.cshrc"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
-  "/home/trottar/Documents/books/NW2_Translucent_Skies/translucent_skies.org"
-  "translucent_skies.org"
+  "/home/trottar/.emacs.d/alias.el"
+  "alias.el"
+  'emacs-lisp-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  25
+  '(56 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Documents/papers/thesis/scattering/fixed_collider_physics.org"
+  "fixed_collider_physics.org"
   'org-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  8340
-  '(8126 nil)
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  4574
+  '(3647 nil)
   nil
   nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Documents/papers/thesis/scattering/fixed_collider_physics.pdf"
+  "fixed_collider_physics.pdf"
+  'doc-view-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  1
+  '(1 nil)
+  t
+  '((page . 3) (slice))
+  '((buffer-file-coding-system . no-conversion) (truncate-lines)))
 
 (desktop-create-buffer 206
   "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_3/nine_wreaths.pdf"
   "nine_wreaths.pdf"
   'doc-view-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  1
-  '(nil nil)
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  386792
+  '(1 nil)
   t
-  '((page . 2) (slice))
+  '((page . 40) (slice))
   '((buffer-file-coding-system . no-conversion) (truncate-lines)))
 
 (desktop-create-buffer 206
   "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_3/nine_wreaths.org"
   "nine_wreaths.org"
   'org-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  374
-  '(353 nil)
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  110
+  '(95325 nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix) (truncate-lines)))
 
 (desktop-create-buffer 206
+  "/home/trottar/.emacs.d/ido.last"
+  "ido.last"
+  'fundamental-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  42042
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Documents/papers/thesis/dissertation/phd_thesis.org"
+  "phd_thesis.org"
+  'org-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  839
+  '(47 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/opt/jlab_software/2.2/ce/versions.env"
+  "versions.env"
+  'fundamental-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  543
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Documents/books/random/ThoughtsofSanity.org"
+  "ThoughtsofSanity.org"
+  'org-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  10212
+  '(10212 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/syncFiles.sh"
+  "syncFiles.sh"
+  'sh-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  2759
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/opt/jlab_software/2.2/ce/jlab.csh"
+  "jlab.csh"
+  'sh-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  931
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/syncPackages.sh"
+  "syncPackages.sh"
+  'sh-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  537
+  '(439 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Documents/books/NW2_Translucent_Skies/translucent_skies.org"
+  "translucent_skies.org"
+  'org-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  15883
+  '(8126 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
   "/home/trottar/bin/physics_dict/physics_dict.py"
   "physics_dict.py"
   'python-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
   12723
   '(13847 nil)
   nil
@@ -65,7 +175,7 @@
   "/home/trottar/Programs/my_programs/physics_engine/src/physics_calc/physics_rules.py"
   "physics_rules.py"
   'python-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
   1789
   '(1953 nil)
   nil
@@ -73,55 +183,11 @@
   '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
 
 (desktop-create-buffer 206
-  "/home/trottar/Documents/books/random/ThoughtsofSanity.org"
-  "ThoughtsofSanity.org"
-  'org-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  10212
-  '(10212 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/.emacs.d/startinit.el"
-  "startinit.el"
+  "/home/trottar/.emacs.d/elpa/org-20210929/org-loaddefs.el"
+  "org-loaddefs.el"
   'emacs-lisp-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  2073
-  '(1290 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/syncFiles.sh"
-  "syncFiles.sh"
-  'sh-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  2759
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/syncPackages.sh"
-  "syncPackages.sh"
-  'sh-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  537
-  '(439 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/.emacs.d/ido.last"
-  "ido.last"
-  'fundamental-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  39121
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  117333
   '(nil nil)
   nil
   nil

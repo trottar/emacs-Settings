@@ -3260,3 +3260,7 @@ subsequent sends."
              '("melpa-stable" . "https://stable.melpa.org/packages/"))
 (package-initialize)
 #+END_SRC
+* alias
+#+BEGIN_SRC emacs-lisp 
+(load-file "~/.emacs.d/alias.el")
+#+END_SRC

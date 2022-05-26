@@ -2217,3 +2217,5 @@ subsequent sends."
 (add-to-list 'package-archives
              '("melpa-stable" . "https://stable.melpa.org/packages/"))
 (package-initialize)
+
+(load-file "~/.emacs.d/alias.el")

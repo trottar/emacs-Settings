@@ -1,0 +1,20 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("nw"
+ (filename . "/gdrive:papatrott@gmail.com:/Book Stuff/Scrivener Files/Nine Wreaths/")
+ (front-context-string . "Draft\n  drwx----")
+ (rear-context-string . "N 0 05-26 00:25 ")
+ (position . 262))
+("book"
+ (filename . "/gdrive:papatrott@gmail.com:/Book Stuff/")
+ (front-context-string . "Hymns of Grievan")
+ (rear-context-string . "  0 2018-10-18  ")
+ (position . 319))
+(""
+ (filename . "/gdrive:papatrott@gmail.com:/")
+ (front-context-string . "10-22-20_lumi_51")
+ (rear-context-string . "147 2020-10-14  ")
+ (position . 291))
+)

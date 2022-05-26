@@ -1,0 +1,151 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Dec  9 19:07:23 2021
+;; Desktop file format version 208
+;; Emacs version 25.2.2
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (25010 39483 68597 854000) (desktop . "208") "trottar@trottar" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "red") (sticky) (environment) (frameset--id . "12C6-426B-EC0A-0CCE") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (visibility . t) (height . 58) (width . 207) (left . 40) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 36) (min-pixel-width-ignore . 36) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1880) (pixel-height . 1037) (total-width . 208) (total-height . 57) (normal-height . 1.0) (normal-width . 1.0) (buffer "run_gui.sh" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 343) (start . 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("error" "execu" ".log" "log" "vta" "reset" "sys." "window wil" "yero" "yerp" "too" "tools." "tools" "build" "exists" "no new"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/home/trottar/Programs/my_programs/customsearch/.gitignore" "/home/trottar/Programs/my_programs/customsearch/src/log/search_history.log" "/home/trottar/Programs/my_programs/customsearch/src/youtube.py" "/home/trottar/Programs/my_programs/customsearch/src/log/search_history.log" "/home/trottar/Programs/my_programs/customsearch/database/test/search_database_1.csv" "/home/trottar/Programs/my_programs/customsearch/database/test/search_database_0.csv" "/home/trottar/Programs/my_programs/customsearch/database/test/_0.cfx" "/home/trottar/Programs/my_programs/customsearch/database/test/search_database_2.csv" "/home/trottar/Programs/my_programs/customsearch/database/test/search_database_0.csv" "/home/trottar/Programs/my_programs/customsearch/src/youtube.py" "/home/trottar/Programs/my_programs/customsearch/src/log/database_topics.log" "/home/trottar/Programs/my_programs/customsearch/src/log/search_history.log" "/home/trottar/Programs/my_programs/customsearch/src/Genius/run_genius.sh" "/home/trottar/Programs/my_programs/customsearch/src/log/search_history.log" "~/Programs/my_programs/customsearch/src/Genius/run_genius.sh" "/home/trottar/Programs/my_programs/customsearch/.gitignore" "~/Programs/my_programs/customsearch/src/pdf.py" "/home/trottar/Programs/my_programs/customsearch/src/log/database_topics.log" "/home/trottar/Programs/my_programs/customsearch/src/log/search_history.log" "/home/trottar/Programs/my_programs/customsearch/src/log/database_topics.log" "/home/trottar/Programs/my_programs/customsearch/database/must_read/search_database_8.csv" "/home/trottar/Programs/my_programs/customsearch/database/log/database_titles.txt" "/home/trottar/Programs/my_programs/customsearch/src/searchfiles.py" "/home/trottar/Programs/my_programs/customsearch/database/log/database_titles.txt" "/home/trottar/Programs/my_programs/customsearch/src/searchfiles.py" "/home/trottar/Programs/my_programs/customsearch/database/log/.gitignore" "/home/trottar/Programs/my_programs/customsearch/database/log/database_titles.txt" "~/Programs/my_programs/customsearch/database/log/database_titles.txt" "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/src/searchDB.sh" "/home/trottar/Programs/my_programs/customsearch/src/searchfiles.py" "/home/trottar/Programs/my_programs/customsearch/database/search_database_59.csv" "/home/trottar/Programs/my_programs/customsearch/database/search_database_126.csv" "/home/trottar/Programs/my_programs/customsearch/database/search_database_336.csv" "/home/trottar/Programs/my_programs/customsearch/src/tools.py" "/home/trottar/Analysis/ltsep/ltsep.py" "~/Programs/my_programs/customsearch/src/tools.py" "/home/trottar/Programs/my_programs/customsearch/src/youtube.py" "/home/trottar/Programs/my_programs/customsearch/database/search_database_234.csv" "/home/trottar/Programs/my_programs/customsearch/database/search_database_260.csv" "/home/trottar/Programs/my_programs/customsearch/database/search_database_234.csv" "/home/trottar/Programs/my_programs/customsearch/src/database.py" "/home/trottar/Programs/my_programs/customsearch/src/youtube.py" "/home/trottar/Programs/my_programs/customsearch/src/bookmarks.py" "/home/trottar/Programs/my_programs/customsearch/database/search_database_272.csv" "/home/trottar/Programs/my_programs/customsearch/database/search_database_227.csv" "/home/trottar/Programs/my_programs/customsearch/src/searchfiles.py" "/home/trottar/Programs/my_programs/customsearch/src/run_gui.sh" "/home/trottar/Programs/my_programs/customsearch/src/setgui.py" "/home/trottar/Programs/my_programs/customsearch/src/youtube.py" "~/Programs/my_programs/customsearch/src/gui/run_gui.sh" "/home/trottar/Programs/my_programs/customsearch/requirements.txt" "~/Programs/my_programs/customsearch/src/gui/setgui.py" "/home/trottar/Programs/my_programs/customsearch/database/search_database_55.csv" "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/src/searchDB.sh" "~/Programs/my_programs/customsearch/src/searchfiles.py" "/home/trottar/Programs/my_programs/customsearch/.gitignore" "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/src/searchDB.sh" "~/Programs/my_programs/customsearch/src/LucenePlusPlus/src/searchDB.sh" "/home/trottar/Programs/my_programs/customsearch/src/bookmarks.py" "~/Programs/my_programs/customsearch/src/LucenePlusPlus/build/test/search_database_94.csv" "~/Programs/my_programs/customsearch/src/LucenePlusPlus/build/test/search_database_88.csv" "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/build/test/search_database_88.csv" "/home/trottar/Programs/my_programs/customsearch/src/youtube.py" "~/Programs/my_programs/customsearch/src/LucenePlusPlus/build/test/search_database_101.csv" "~/Programs/my_programs/customsearch/src/LucenePlusPlus/build/test/search_database_4.csv" "~/Programs/my_programs/customsearch/src/LucenePlusPlus/build/test/search_database_9.csv" "~/Programs/my_programs/customsearch/src/LucenePlusPlus/build/test/search_database_4.csv" "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/build/test/test.txt" "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/build/test/search_database_100.csv" "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/build/test/search_database_10.csv" "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/build/test/search_database_1.csv" "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/build/test/search_database_0.csv" "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/build/test/search_database_98.csv" "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/build/test/search_database_1.csv" "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/build/test/search_database_gx.csv" "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/build/test/search_database_aa.csv" "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/build/test/search_database.csv" "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/build/test/segments_j" "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/build/test/search_database_gy.csv" "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/build/test/search_database_gx.csv" "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/build/test/search_database.csv" "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/build/test/search_database_aa.csv" "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/build/test/search_database.csv" "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/README.md" "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/src/demo/indexfiles/main.cpp" "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/src/demo/searchfiles/main.cpp" "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/build/test/search_database.csv" "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/src/demo/searchfiles/main.cpp" "/home/trottar/Programs/my_programs/customsearch/src/clucene/build/test/search_database.csv" "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/README.md" "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/README.PACKAGE" "/home/trottar/Programs/my_programs/customsearch/src/clucene/build/search_database.csv" "/home/trottar/Programs/my_programs/customsearch/src/clucene/src/demo/IndexFiles.cpp" "/home/trottar/Programs/my_programs/customsearch/src/clucene/src/demo/Statistics.cpp" "/home/trottar/Programs/my_programs/customsearch/src/clucene/src/demo/Main.cpp" "/home/trottar/Programs/my_programs/customsearch/src/clucene/build/search_database.csv" "/home/trottar/Programs/my_programs/customsearch/src/clucene/build/test/test.txt" "/home/trottar/Programs/my_programs/customsearch/src/clucene/build/search_database.csv" "/home/trottar/Programs/my_programs/customsearch/src/clucene/build/test/test.txt" "/home/trottar/Programs/my_programs/customsearch/src/clucene/build/test/test2"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/trottar/Programs/my_programs/customsearch/src/run_gui.sh"
+  "run_gui.sh"
+  'sh-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  343
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/trottar/Programs/my_programs/customsearch/src/setgui.py"
+  "setgui.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  24667
+  '(24562 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (24786 24336 24336 24562 3145 3128 3128 3093 3145 3078 8421 8411 8404 3274 3128 3110))))
+
+(desktop-create-buffer 208
+  "/home/trottar/Programs/my_programs/customsearch/src/database.py"
+  "database.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  2964
+  '(978 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (576 1 2969 1543 1516 755 745 2230 2226 2112 2516 2208 2208 2230 2230 2215))))
+
+(desktop-create-buffer 208
+  "/home/trottar/Programs/my_programs/customsearch/src/log/database_topics.log"
+  "database_topics.log"
+  'fundamental-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  3383
+  '(3106 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (3031 2972 2897 2822 2747 2672 2597 2522 2447 2446 2212 2137 2062 1987 1912 1837))))
+
+(desktop-create-buffer 208
+  "/home/trottar/Programs/my_programs/customsearch/src/youtube.py"
+  "youtube.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  1501
+  '(1443 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (1 3290 3367 3324 3250 3309 2643 3423 547 463 3746 3859 4000 3576 3576 3324))))
+
+(desktop-create-buffer 208
+  "/home/trottar/Programs/my_programs/customsearch/src/bookmarks.py"
+  "bookmarks.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  2222
+  '(2169 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
+  '((mark-ring (1995 1995 1995 1995 1829 1995 1995 1995 1995 1973 1995 1995 1994 1920 1920 1920))))
+
+(desktop-create-buffer 208
+  "/home/trottar/Programs/my_programs/customsearch/database/log/database_titles.txt"
+  "database_titles.txt"
+  'text-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  34521
+  '(34521 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (13530 34521 22281 1 34521 7568 7568 7568 7568 1 7568 1 7568 7568 7568 7568))))
+
+(desktop-create-buffer 208
+  "/home/trottar/Programs/my_programs/customsearch/src/pdf.py"
+  "pdf.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  2222
+  '(2091 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (2032 2016 1916 2000 795 693 2597 1461 2597 3007 3007 795 795 1762 1762 2000))))
+
+(desktop-create-buffer 208
+  "/home/trottar/Programs/my_programs/customsearch/requirements.txt"
+  "requirements.txt"
+  'text-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  244
+  '(231 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (231 231 224 200 186 169 124 142 142 142 142))))
+
+(desktop-create-buffer 208
+  "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/src/demo/searchfiles/main.cpp"
+  "main.cpp"
+  'c++-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  3420
+  '(3482 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (3194 1 3906 1 10226 6088))))
+
+(desktop-create-buffer 208
+  "/home/trottar/Programs/my_programs/customsearch/src/LucenePlusPlus/build/test/test.txt"
+  "test.txt"
+  'text-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  127740
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
