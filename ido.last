@@ -59,7 +59,7 @@
  ("/home/trottar/bin/" . "python/")
  ("/home/trottar/ResearchNP/org_file/" . "google_email/")
  ("/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/" . "bin/")
- ("/home/trottar/.emacs.d/elpa/" . "org-ref-1.1.1/")
+ ("/home/trottar/.emacs.d/elpa/" . "auctex-latexmk-20170618.1636/")
  ("/home/trottar/Documents/notes/" . "QCD/")
  ("/home/trottar/Documents/papers/thesis/" . "dissertation/")
  ("/home/trottar/Documents/papers/" . "thesis/")
@@ -68,7 +68,7 @@
  ("/home/trottar/Analysis/hallc_replay_kaonlt/UTIL_KAONLT/" . "scripts_KaonYield/")
  ("/home/trottar/Documents/talks/" . "EIC_talks/")
  ("/home/" . "trottar/")
- ("/home/trottar/.emacs.d/" . "lisp-files/")
+ ("/home/trottar/.emacs.d/" . "elpa/")
  ("/home/trottar/ResearchNP/tensorflow/scripts/" . "numReader/")
  ("/home/trottar/ResearchNP/tensorflow/" . "scripts/")
  ("/home/trottar/ResearchNP/" . "gemc/")
@@ -81,18 +81,23 @@
  ("/home/trottar/ResearchNP/ROOTAnalysis/kaonlt_analysis/lumiscan/" . "scripts_Luminosity/")
  ("/home/trottar/Documents/books/Nine_Wreaths/" . "DRAFT_2/")
  ("/home/trottar/Documents/books/" . "Nine_Wreaths/")
- ("/home/trottar/Documents/" . "fellowships/")
+ ("/home/trottar/Documents/" . "adulthood/")
  ("/home/trottar/Analysis/hallc_replay/" . "UTIL_KAONLT/")
  ("/etc/" . "ssh/")
  ("/" . "opt/")
  ("/home/trottar/Analysis/" . "hallc_replay_lt/")
- ("/home/trottar/" . "bin/")
+ ("/home/trottar/" . ".emacs.d/")
  ("/home/trottar/Analysis/kaonlt_analysis/" . "lumiscan/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/trottar/.emacs.d/"
+ "/home/trottar/.emacs.d/elpa/auctex-latexmk-20170618.1636/"
+ "/home/trottar/.emacs.d/elpa/org-9.5.4/"
  "/home/trottar/Documents/random/obscura/"
+ "/home/trottar/.emacs.d/elpa/org-20210929/"
+ "/home/trottar/.emacs.d/elpa/org-edit-latex-20170908.1522/"
  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/process/"
  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/"
  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/"
@@ -102,7 +107,6 @@
  "/home/trottar/.config/autostart/"
  "/home/trottar/Programs/my_programs/customsearch/src/"
  "/opt/jlab_software/2.2/ce/"
- "/home/trottar/.emacs.d/"
  "/home/trottar/Documents/fellowships/JSA_2020/"
  "/home/trottar/Documents/fellowships/JSA_2019/"
  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/"
@@ -138,33 +142,45 @@
  "/home/trottar/ResearchNP/gemc/escalate/escalate/ejana/ejana-dev/"
  "/home/trottar/ResearchNP/gemc/escalate/escalate/ejana/ejana-dev/src/plugins/"
  "/home/trottar/ResearchNP/gemc/escalate/escalate/ejana/ejana-dev/src/plugins/io/lund_reader/"
- "/home/trottar/ResearchNP/gemc/my_plugins/ejana/src/plugins/analysis/meson_structure/"
- "/home/trottar/ResearchNP/gemc/my_plugins/ejana/"
- "/home/trottar/ResearchNP/gemc/my_plugins/ejana/src/plugins/"
- "/home/trottar/ResearchNP/gemc/my_plugins/ejana/src/plugins/analysis/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "ivan_dostoevsky.tex.tex"
- "bindata.py"
- "dict.py"
- "binInputs.py"
- "run_mesonMC.sh"
- "fixed_collider_physics.pdf"
- ".profile"
- ".bash_profile"
- "auto_mail.sh"
- "mintwelcome.desktop"
+ "startinit.org"
+ "auctex-latexmk.el"
+ "auctex-latexmk-pkg.el"
+ "ob-latex.el"
+ "ivan_dostoevsky.tex"
+ "ox-latex.el"
+ "org-edit-latex.el"
+ "org-edit-latex-pkg.el"
+ "org-edit-latex-autoloads.el"
+ "ivan_dostoevsky.pdf"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/trottar/.emacs.d/" (25252 27757 259541 217000) "gnus.org" "session.10f8ff7d245bc9844f156157744980011800000017170064" "session.1039990a9a8952805f155399728158012900000020330089" "spacemacs-config.org" "ltximg/" "learning-emacs.org" "snippets/" "koma-letter-template.org" "fonts-and-themes.org" "session.104973d73d62861f0215708902763844200000012240071" "session.10f5b903282de84163157462710511577100000013810100" "session.10d9372ada6e6d7cca155623832813643800000021480065" "shared-functions.org" "lisp/" "org-plain-list-bug.org" "./" "tramp" "key-chord.org" ".gitignore" "plugins/" "cosmetics.org" "url/" "startinit.org" "serj-question.org" "requests.org" "startinit.tex" "lisp-files/" ".emacs.desktop" "hallc/" ".git/" "eric-got-it-working.org" "bookmarks" "session.105a60f877c299622d157125397888847100000013730068" "insert/" "session.105a60f877c299622d157125398176886600000013730069" "ido.last" "alias.el" "session.10440bcf46e2f96c15155479414360572600000015440069" "startinit.el" "init.el" "ejana/" ".abbrev_defs" "session.10d9372ada6e6d7cca155623830449526300000021480064" "session.2e3a29e60-7cf1-4a34-ad84-0f481386f1a9" "chrome/" "auto-save-list/" "session.2fd9a0ae7-bd13-404b-8393-b0d3b19c9afd" "evil-leader.org" "eic/" "gnu-emacs-startup.org" "cosmetics.el" "emacs-nyc-test-file.org" "elpa/" "session.105a60f877c299622d157125397563424800000013730067" "../" "hydras.org" "customsearch/")
+
+ ("/home/trottar/Documents/random/obscura/" (25252 27827 145541 101000) "ivan_dostoevsky.org" "ivan_dostoevsky.tex" "./" "ivan_dostoevsky.pdf" "../")
+
+ ("/home/trottar/.emacs.d/elpa/auctex-latexmk-20170618.1636/" (25252 16583 847293 132000) "./" "auctex-latexmk.elc" "auctex-latexmk-pkg.el" "auctex-latexmk.el" "auctex-latexmk-autoloads.el" "../")
+
+ ("/home/trottar/.emacs.d/elpa/org-9.5.4/" (25252 23773 78915 591000) "org-num.el" "oc-natbib.el" "ox-odt.el" "ol-gnus.elc" "ob-sqlite.el" "org-pkg.el" "ol-w3m.elc" "org-mouse.el" "org.info" "ox-md.elc" "ob-groovy.elc" "ob-ruby.elc" "ob-org.elc" "doc/" "ob-table.el" "ob-eval.elc" "org-capture.elc" "org-timer.elc" "ob-exp.el" "ob-R.elc" "ob-maxima.el" "ox-texinfo.elc" "oc-csl.el" "ob-emacs-lisp.elc" "ob-perl.el" "ol-docview.el" "ob-scheme.el" "org-footnote.el" "ob-lisp.el" "org-crypt.el" "ob-lob.elc" "org-table.elc" "ol-bbdb.elc" "org-mobile.el" "oc-basic.el" "ob-ditaa.el" "ob-fortran.el" "ol-rmail.elc" "org-colview.el" "org.el" "org-inlinetask.elc" "org.elc" "ob-comint.el" "org-colview.elc" "org-attach.el" "ol-irc.elc" "org-indent.elc" "ob-shell.elc" "ob.elc" "ob.el" "ob-makefile.el" "ox-koma-letter.el" "ob-ref.elc" "org-tempo.el" "ol-w3m.el" "ol.el" "org-src.elc" "ol-mhe.elc" "ob-screen.el" "org-ctags.el" "ol-doi.el" "org-agenda.elc" "ob-groovy.el" "ob-matlab.el" "ob-tangle.elc" "org-attach-git.el" "ob-dot.el" "ob-table.elc" "org-src.el" "org-mobile.elc" "ol.elc" "ol-mhe.el" "oc-biblatex.elc" "ob-eshell.el" "ox-latex.el" "ob-ocaml.el" "org-keys.el" "ob-haskell.el" "CONTRIBUTE" "org-capture.el" "org-archive.elc" "org-list.el" "org-goto.el" "org-clock.el" "ox-beamer.elc" "ox-html.el" "ol-man.el" "org-timer.el" "ob-shell.el" "ob-lob.el" "org-autoloads.el" "ob-sass.el" "org-macro.elc" "ob-dot.elc" "ob-calc.el" "org-faces.el" "org-duration.el" "ob-sass.elc" "ob-awk.el" "ob-screen.elc" "org-faces.elc" "ob-C.el" "ob-org.el" "ol-irc.el" "ob-maxima.elc" "ob-css.el" "org-clock.elc" "ol-bibtex.elc" "org-ctags.elc" "org-refile.elc" "oc-biblatex.el" "COPYING" "dir" "ox-icalendar.elc" "ob-processing.el" "org-pcomplete.elc" "ob-lilypond.el" "org-attach.elc" "ol-doi.elc" "ob-sed.elc" "ox-texinfo.el" "ob-latex.elc" "ob-lilypond.elc" ".dir-locals.el" "ob-haskell.elc" "ox-publish.el" "ox-man.elc" "ob-plantuml.elc" "org-archive.el" "ox-ascii.el" "ob-gnuplot.elc" "ob-C.elc" "ob-matlab.elc" "ob-js.elc" "org-loaddefs.el" "oc-natbib.elc" "ob-forth.elc" "ol-bibtex.el" "ol-eww.el" "org-tempo.elc" "org-list.elc" "ox-odt.elc" "ox-beamer.el" "ob-exp.elc" "ob-calc.elc" "org-refile.el" "ox-org.elc" "oc-basic.elc" "ob-lisp.elc" "org-protocol.el" "ob-julia.el" "ox.el" "org-plot.elc" "org-datetree.elc" "ol-info.elc" "ol-eww.elc" "org-duration.elc" "ox-publish.elc" "org-inlinetask.el" "ob-awk.elc" "ob-julia.elc" "ob-octave.el" "org-attach-git.elc" "ob-python.elc" "ob-latex.el" "ob-emacs-lisp.el" "ob-ref.el" "org-entities.el" "ol-rmail.el" "ol-docview.elc" "oc-csl.elc" "ol-man.elc" "ob-comint.elc" "org-crypt.elc" "README_ELPA" "ob-eshell.elc" "ox-org.el" "org-lint.elc" "ox-md.el" "org-macs.el" "org-habit.elc" "ox-html.elc" "org-num.elc" "org-feed.elc" "org-macs.elc" "ob-eval.el" "org-indent.el" "ol-bbdb.el" "ob-plantuml.el" "ob-sqlite.elc" "ob-R.el" "org-table.el" "ob-perl.elc" "org-keys.elc" "ob-forth.el" "oc.el" "orgguide.info" "org-compat.el" "README" "org-id.el" "ob-java.elc" "ox-icalendar.el" "ob-java.el" "ob-core.el" "ob-makefile.elc" "ob-js.el" "org-entities.elc" "oc.elc" "org-element.el" "ox-man.el" "ob-lua.elc" "org-id.elc" "local.mk" "org-lint.el" "ob-tangle.el" "org-pcomplete.el" "ob-core.elc" "ob-sed.el" "ob-ocaml.elc" "ol-info.el" "ob-sql.el" "ob-lua.el" "ox-koma-letter.elc" "ol-eshell.el" "ob-clojure.elc" "org-feed.el" "Makefile" "ob-fortran.elc" "ox.elc" "ob-ditaa.elc" "etc/" "org-element.elc" "ob-scheme.elc" "ox-ascii.elc" "ob-octave.elc" "request-assign-future.txt" "ob-ruby.el" "org-macro.el" "org-habit.el" "ob-clojure.el" "ol-gnus.el" "org-footnote.elc" "ox-latex.elc" "ob-processing.elc" "org-agenda.el" "ob-sql.elc" "org-plot.el" "org-mouse.elc" "ol-eshell.elc" "org-version.el" "org-compat.elc" "ob-python.el" "org-datetree.el" "org-goto.elc" "org-protocol.elc" "ob-gnuplot.el" "ob-css.elc" "../" "./")
+
+ ("/home/trottar/.emacs.d/elpa/" (25252 12016 852458 935000) "company-20220425.1145/" "anki-editor-readme.txt" "all-readme.txt" "yasnippet-20200604.246/" "auto-correct-readme.txt" "latex-math-preview-readme.txt" "anki-connect-readme.txt" "visual-fill-column-readme.txt" "parsebib-20220426.2049/" "auctex-12.2.0/" "let-alist-readme.txt" "all-1.0/" "company-jedi-20200324.25/" "org-pdfview-readme.txt" "rubik-readme.txt" "anki-connect-20191123.1858/" "chinese-word-at-point-20170811.941/" "writeroom-mode-readme.txt" "auto-correct-1.1.4/" "org-edit-latex-readme.txt" "org-edit-latex-20170908.1522/" "toc-org-readme.txt" "org-readme.txt" "langtool-20200529.230/" "org-ref-readme.txt" "lua-mode-20210809.1320/" "borg-readme.txt" "calfw-org-20160303.258/" "writegood-mode-readme.txt" "olivetti-20220330.635/" "auctex-12.1.1/" "ctable-20210128.629/" "log4e-20211019.948/" "dash-readme.txt" "jedi-core-20210503.1315/" "html-to-markdown-20151105.840/" "org-9.5.4/" "company-auctex-20200529.1835/" "auctex-latexmk-20170618.1636/" "common-lisp-snippets-readme.txt" "angular-snippets-readme.txt" "markdown-mode-2.5/" "literate-elisp-0.2/" "epc-20140610.534/" "archives/" "request-deferred-20210214.37/" "auctex-latexmk-readme.txt" "calfw-org-readme.txt" "orgtbl-show-header-readme.txt" "alert-20200303.2118/" "org-gcal-readme.txt" "avy-readme.txt" "ham-mode-20150811.1306/" "org-pdfview-0.4/" "autopair-readme.txt" "company-readme.txt" "smooth-scroll-readme.txt" "company-math-20210731.2019/" "dash-20220608.1931/" "tablist-20200427.2205/" "gmail-message-mode-20160627.1847/" "ox-json-20210928.347/" "writegood-mode-20220511.2109/" "anki-vocabulary-20200103.325/" "0blayout-readme.txt" "auctex-12.1.1.signed" "elpy-readme.txt" "org-bullets-readme.txt" "org-gcal-0.2/" "ox-json-readme.txt" "auto-yasnippet-20191015.942/" "let-alist-1.0.6/" "avy-20220102.805/" "ox-pandoc-20220419.750/" "latex-unicode-math-mode-readme.txt" "let-alist-1.0.5.signed" "flymake-readme.txt" "gnupg/" "company-auctex-readme.txt" "org-agenda-property-readme.txt" "let-alist-1.0.5/" "define-word-20220104.1848/" "auto-org-md-20180213.2343/" "literate-elisp-readme.txt" "company-lua-20171108.2306/" "ox-pandoc-readme.txt" "pos-tip-20191227.1356/" "names-20180321.1155/" "gntp-20141025.250/" "f-20220608.943/" "org-beautify-theme-20170908.2218/" "ht-20210119.741/" "elpy-20220322.41/" "visual-fill-column-20220519.1959/" "highlight-indentation-20210221.1418/" "anki-vocabulary-readme.txt" "latex-math-preview-20211228.641/" "request-20211107.1907/" "define-word-readme.txt" "gmail-message-mode-readme.txt" "popup-20211231.1823/" "latex-extra-20170817.147/" "anki-editor-20190922.1223/" "latex-extra-readme.txt" "smooth-scroll-20130322.414/" "autopair-0.6.1/" "python-environment-20150310.853/" "company-c-headers-readme.txt" "company-lua-readme.txt" "auto-yasnippet-readme.txt" "company-math-readme.txt" "langtool-readme.txt" "company-c-headers-20190825.1631/" "common-lisp-snippets-20180226.1523/" "math-symbol-lists-20200131.2338/" "deferred-20170901.1330/" "concurrent-20161229.330/" "latex-unicode-math-mode-20170123.1816/" "s-20210616.619/" "pdf-tools-20220522.13/" "literate-elisp-0.8/" "pyvenv-20211014.707/" "company-jedi-readme.txt" "auctex-readme.txt" "tramp-readme.txt" "writeroom-mode-20220426.2046/" "angular-snippets-20140514.523/" "youdao-dictionary-20200722.1705/" "auctex-13.1.3/" "org-agenda-property-20140626.2116/" "nadvice-0.3/" "org-beautify-theme-readme.txt" "company-bibtex-20171105.644/" "orgtbl-show-header-20141023.837/" "company-bibtex-readme.txt" "org-bullets-20200317.1740/" "../" "./")
+
+ ("/home/trottar/.emacs.d/elpa/org-edit-latex-20170908.1522/" (25252 4786 972326 347000) "./" "org-edit-latex.el" "org-edit-latex-autoloads.el" "org-edit-latex.elc" "org-edit-latex-pkg.el" "../")
+
+ ("/home/trottar/Documents/adulthood/" (24372 11008 859183 343000) "./" "signedlease_4th.pdf" "../")
+
+ ("/home/trottar/Documents/papers/" (24397 10539 88364 800000) "allFiles.bib" "./" "thesis/" "EIC_YR_2020/" "rescaQCD/" "../")
+
+ ("/home/trottar/.emacs.d/elpa/org-20210929/" (25252 5764 654865 541000) "org-num.el" "oc-natbib.el" "ox-odt.el" "ol-gnus.elc" "orgcard.pdf" "ob-sqlite.el" "org-pkg.el" "ol-w3m.elc" "org-mouse.el" "org.info" "ox-md.elc" "ob-groovy.elc" "ob-ruby.elc" "ob-org.elc" "ob-table.el" "ob-eval.elc" "org-capture.elc" "ob-exp.el" "ob-R.elc" "ob-maxima.el" "ox-texinfo.elc" "oc-csl.el" "ob-emacs-lisp.elc" "ob-perl.el" "ol-docview.el" "ob-scheme.el" "org-footnote.el" "ob-lisp.el" "org-crypt.el" "ob-lob.elc" "org-table.elc" "ol-bbdb.elc" "org-mobile.el" "oc-basic.el" "ob-ditaa.el" "ob-fortran.el" "ol-rmail.elc" "org-colview.el" "org.el" "org-inlinetask.elc" "org.elc" "ob-comint.el" "org-colview.elc" "org-attach.el" "ol-irc.elc" "org-indent.elc" "ob-shell.elc" "ob.elc" "ob.el" "ob-makefile.el" "ox-koma-letter.el" "ob-ref.elc" "org-tempo.el" "ol-w3m.el" "ol.el" "org-src.elc" "ol-mhe.elc" "ob-screen.el" "org-ctags.el" "ol-doi.el" "org-agenda.elc" "ob-groovy.el" "ob-matlab.el" "ob-tangle.elc" "org-attach-git.el" "ob-dot.el" "ob-table.elc" "org-src.el" "org-mobile.elc" "ol.elc" "ol-mhe.el" "oc-biblatex.elc" "ob-eshell.el" "ox-latex.el" "ob-ocaml.el" "org-keys.el" "ob-haskell.el" "org-capture.el" "org-archive.elc" "org-list.el" "org-goto.el" "org-clock.el" "ox-beamer.elc" "ox-html.el" "org-timer.el" "ob-shell.el" "ob-lob.el" "org-autoloads.el" "ob-sass.el" "org-macro.elc" "ob-dot.elc" "ob-calc.el" "org-faces.el" "org-duration.el" "ob-sass.elc" "ob-awk.el" "ob-screen.elc" "org-faces.elc" "ob-C.el" "ob-org.el" "ol-irc.el" "ob-maxima.elc" "ob-css.el" "org-clock.elc" "ol-bibtex.elc" "org-ctags.elc" "org-refile.elc" "oc-biblatex.el" "COPYING" "dir" "ox-icalendar.elc" "ob-processing.el" "org-pcomplete.elc" "ob-lilypond.el" "org-attach.elc" "ol-doi.elc" "ob-sed.elc" "ox-texinfo.el" "ob-latex.elc" "ob-lilypond.elc" "ob-haskell.elc" "ox-publish.el" "ox-man.elc" "ob-plantuml.elc" "org-archive.el" "ox-ascii.el" "ob-gnuplot.elc" "ob-C.elc" "ob-matlab.elc" "ob-js.elc" "org-loaddefs.el" "oc-natbib.elc" "ob-forth.elc" "ol-bibtex.el" "ol-eww.el" "org-tempo.elc" "org-list.elc" "ox-odt.elc" "ox-beamer.el" "ob-exp.elc" "ob-calc.elc" "org-refile.el" "ox-org.elc" "oc-basic.elc" "ob-lisp.elc" "org-protocol.el" "ob-julia.el" "ox.el" "org-plot.elc" "org-datetree.elc" "ol-info.elc" "ol-eww.elc" "org-duration.elc" "ox-publish.elc" "org-inlinetask.el" "ob-awk.elc" "org-install.el" "ob-julia.elc" "ob-octave.el" "org-attach-git.elc" "ob-python.elc" "ob-latex.el" "ob-emacs-lisp.el" "ob-ref.el" "org-entities.el" "ol-rmail.el" "ol-docview.elc" "oc-csl.elc" "ob-comint.elc" "org-crypt.elc" "README_ELPA" "ob-eshell.elc" "ox-org.el" "org-lint.elc" "ox-md.el" "org-macs.el" "org-habit.elc" "ox-html.elc" "org-num.elc" "org-feed.elc" "org-macs.elc" "ob-eval.el" "org-indent.el" "ol-bbdb.el" "ob-plantuml.el" "ob-sqlite.elc" "ob-R.el" "org-table.el" "ob-perl.elc" "org-keys.elc" "ob-forth.el" "oc.el" "orgguide.info" "org-compat.el" "org-id.el" "ob-java.elc" "ox-icalendar.el" "ob-java.el" "ob-core.el" "ob-makefile.elc" "ob-js.el" "org-entities.elc" "oc.elc" "org-element.el" "ox-man.el" "ob-lua.elc" "org-id.elc" "org-lint.el" "ob-tangle.el" "org-pcomplete.el" "ob-core.elc" "ob-sed.el" "ob-ocaml.elc" "ol-info.el" "ob-sql.el" "ob-lua.el" "ox-koma-letter.elc" "ol-eshell.el" "ob-clojure.elc" "org-feed.el" "ob-fortran.elc" "ox.elc" "ob-ditaa.elc" "etc/" "org-element.elc" "ob-scheme.elc" "ox-ascii.elc" "ob-octave.elc" "ob-ruby.el" "org-macro.el" "org-habit.el" "ob-clojure.el" "ol-gnus.el" "org-footnote.elc" "ox-latex.elc" "ob-processing.elc" "org-agenda.el" "ob-sql.elc" "org-plot.el" "org-mouse.elc" "ol-eshell.elc" "org-version.el" "org-compat.elc" "ob-python.el" "org-datetree.el" "org-goto.elc" "org-protocol.elc" "ob-gnuplot.el" "ob-css.elc" "../" "./")
+
+ ("/home/trottar/" (25251 11300 891399 632000) ".texmf-var/" ".history.10990887" ".cinnamon/" ".wine/" "phys_prod_efficiencies.pdf" ".gnome/" ".wget-hsts" ".history.9903607" ".history.3898716" ".history.9737420" ".history.5041426" ".bashrc" ".gtkrc-xfce" ".history.14567910" ".backups/" ".ICEauthority" ".rpmdb/" ".gtkrc-2.0" "pipwin/" ".history.8750225" ".history.6452507" "Downloads/" ".history.1142296" ".history.3415449" ".history.1403558" ".proof/" ".history.12267086" ".keras/" ".mozilla/" "./" "Pictures/" ".Xauthority" ".hplip/" ".nano/" ".history.8151327" ".history.4615809" ".gimp-2.8/" ".history.8233221" ".gksu.lock" ".history.14076267" ".xinputrc" "Public/" "FullAnalysis_10p6.pdf" ".jupyter/" ".npm/" ".gdrive/" ".icons/" ".bash_history" ".history.7015208" ".java/" ".pki/" ".config/" ".history.7350673" ".dbus/" ".history" ".history.9645468" ".history.5145978" ".history.12956740" ".history.7542655" ".profile" ".dmrc" ".history.9528753" ".history.11658630" ".history.1688236" ".gitconfig" ".history.11482770" ".history.4682781" ".bash_profile" ".selected_editor" "Templates/" ".sudo_as_admin_successful" ".history.13664537" ".emacs.d/" ".vnc/" "bin/" ".ssh/" ".conda/" ".pip/" ".history.2622507" ".aspell.en.pws" ".history.7688513" ".history.12711623" "Music/" "nltk_data/" ".aptitude/" "sendFile.sh" ".history.7868340" ".history.5171881" ".zoom/" ".pipwin" "Documents/" ".history.1661165" "Backup/" ".history.9916773" ".bash_logout" ".history.8982668" ".history.15925378" "Programs/" ".themes/" ".thumbnails/" ".history.7784846" ".yarn/" ".steam/" ".synaptic/" ".history.12209451" ".xscreensaver" ".gphoto/" ".elfeed/" ".xsession-errors" ".history.9987926" ".history.9258979" ".history.8731894" "pkglist" ".cache/" "seaborn-data/" ".history.14938672" ".history.10480931" ".history.11786345" ".CLion2019.3/" ".history.8961705" ".gnupg/" ".history.9322994" ".history.4911351" ".remmina/" ".python_history" ".history.6619426" ".history.91658" ".history.9856851" ".cmake/" ".gnome2_private/" "Analysis/" ".history.864539" ".ipython/" ".history.1765472" ".history.11949970" ".julia/" ".watershed/" ".gconf/" ".history.12772650" ".history.9752297" ".gnome2/" ".history.112937" ".history.5321713" ".dvisvgm/" ".root_hist" ".history.3161923" ".steampid" ".history.9537195" ".rnd" ".history.6348075" ".pulse-cookie" ".idea/" "Videos/" ".cshrc" "syncFiles.sh" ".zotero/" ".history.12192478" ".history.15885664" ".xsession-errors.old" "Desktop/" ".shutter/" ".history.15005775" ".history.7132260" "syncPackages.sh" "../" ".aspell.en.prepl" ".local/" "ResearchNP/" ".history.13576654" ".history.4560675" ".linuxmint/")
+
  ("/home/trottar/Documents/random/" (25250 51387 623608 115000) "DnD/" "Phillis.pdf" "conspiracy/" "./" "Steward.pdf" "testing_Grounds/" "roleplay_Steward.pdf" "obscura/" "xmas_bingo/" "fourforts/" "../")
-
- ("/home/trottar/Documents/random/obscura/" (25252 12535 857476 629000) "ivan_dostoevsky.org" "ivan_dostoevsky.toc" "ivan_dostoevsky.fdb_latexmk" "ivan_dostoevsky.tex" "ivan_dostoevsky.fls" "./" "ivan_dostoevsky.pdf" "ivan_dostoevsky.out" "ivan_dostoevsky.log" "ivan_dostoevsky.aux" "../")
-
- ("/home/trottar/.emacs.d/" (25252 8532 773898 242000) "gnus.org" "session.10f8ff7d245bc9844f156157744980011800000017170064" "session.1039990a9a8952805f155399728158012900000020330089" "spacemacs-config.org" "ltximg/" "learning-emacs.org" "snippets/" "koma-letter-template.org" "fonts-and-themes.org" "session.104973d73d62861f0215708902763844200000012240071" "session.10f5b903282de84163157462710511577100000013810100" "session.10d9372ada6e6d7cca155623832813643800000021480065" "shared-functions.org" "lisp/" "org-plain-list-bug.org" "./" "tramp" "key-chord.org" ".gitignore" "plugins/" "cosmetics.org" "url/" "startinit.org" "serj-question.org" "requests.org" "startinit.tex" "lisp-files/" ".emacs.desktop" "hallc/" ".git/" "eric-got-it-working.org" "bookmarks" "session.105a60f877c299622d157125397888847100000013730068" "insert/" "#startinit.el#" "session.105a60f877c299622d157125398176886600000013730069" "ido.last" "alias.el" "session.10440bcf46e2f96c15155479414360572600000015440069" "startinit.el" "init.el" "ejana/" ".abbrev_defs" "session.10d9372ada6e6d7cca155623830449526300000021480064" "session.2e3a29e60-7cf1-4a34-ad84-0f481386f1a9" "chrome/" "auto-save-list/" "session.2fd9a0ae7-bd13-404b-8393-b0d3b19c9afd" "evil-leader.org" "eic/" "gnu-emacs-startup.org" "cosmetics.el" "emacs-nyc-test-file.org" "elpa/" ".emacs.desktop.lock" "session.105a60f877c299622d157125397563424800000013730067" "../" "hydras.org" "#ido.last#" "customsearch/")
 
  ("/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/process/" (24972 2985 462130 17000) "run_test.sh" "root2py.py" "luminosity.py" "./" "function_progressbar.py" "__pycache__/" "cuts/" "dict.py" "bindata.py" "../" "datafiles/")
 
@@ -179,8 +195,6 @@
  ("/home/trottar/Documents/papers/thesis/scattering/" (25226 43824 875168 993000) "./" "fixed_collider_physics.org" "fixed_collider_physics.tex" "fixed_collider_physics.pdf" "../")
 
  ("/home/trottar/bin/" (25214 38622 246755 196000) "cshrc" "findHost.csh" "python/" "./" "copyFiles.sh" "README.md" "profile" "bash_aliases" ".git/" "sendFile.sh" "quick_plot/" "nameTerm.csh" "log/" "help.csh" "pkglist" "gitcheck.sh" "shareDocker.sh" "bashrc" "upgradePython.sh" "physics_dict/" "run_server.csh" "syncFiles.sh" "../" "auto_mail.sh" "archive/")
-
- ("/home/trottar/" (25214 37333 605208 544000) ".texmf-var/" ".history.10990887" ".cinnamon/" ".wine/" ".gnome/" ".wget-hsts" ".history.9903607" ".history.3898716" ".history.9737420" ".history.5041426" ".bashrc" ".gtkrc-xfce" ".history.14567910" ".backups/" ".ICEauthority" ".rpmdb/" ".gtkrc-2.0" "pipwin/" ".history.8750225" ".history.6452507" "Downloads/" ".history.1142296" ".history.3415449" ".history.1403558" ".proof/" ".history.12267086" ".keras/" ".mozilla/" "./" "Pictures/" ".Xauthority" ".hplip/" ".nano/" ".history.8151327" ".history.4615809" ".gimp-2.8/" ".history.8233221" ".gksu.lock" ".history.14076267" ".xinputrc" "Public/" ".jupyter/" ".npm/" ".gdrive/" ".icons/" ".bash_history" ".history.7015208" ".java/" ".pki/" ".config/" ".history.7350673" ".dbus/" ".history" ".history.9645468" ".history.5145978" ".history.12956740" ".history.7542655" ".profile" ".dmrc" ".history.9528753" ".history.11658630" ".history.1688236" ".gitconfig" ".history.4682781" ".bash_profile" ".selected_editor" "Templates/" ".sudo_as_admin_successful" ".history.13664537" ".emacs.d/" ".vnc/" "bin/" ".ssh/" ".conda/" ".pip/" ".history.2622507" ".aspell.en.pws" ".history.7688513" ".history.12711623" "Music/" "nltk_data/" ".aptitude/" "sendFile.sh" ".history.7868340" ".history.5171881" ".zoom/" ".pipwin" "Documents/" ".history.1661165" "Backup/" ".history.9916773" ".bash_logout" ".history.8982668" ".history.15925378" "Programs/" ".themes/" ".thumbnails/" ".history.7784846" ".yarn/" ".steam/" ".synaptic/" ".history.12209451" ".xscreensaver" ".gphoto/" ".elfeed/" ".xsession-errors" ".history.9987926" ".history.9258979" ".history.8731894" "pkglist" ".cache/" "seaborn-data/" ".history.14938672" ".history.10480931" ".history.11786345" ".CLion2019.3/" ".gnupg/" ".history.9322994" ".history.4911351" ".remmina/" ".python_history" ".history.6619426" ".history.91658" ".history.9856851" ".cmake/" ".gnome2_private/" "Analysis/" ".history.864539" ".ipython/" ".history.1765472" ".history.11949970" ".julia/" ".watershed/" ".gconf/" ".history.12772650" ".history.9752297" ".gnome2/" ".history.112937" ".history.5321713" ".dvisvgm/" ".root_hist" ".history.3161923" ".steampid" ".history.9537195" ".rnd" ".history.6348075" ".pulse-cookie" ".idea/" "Videos/" ".cshrc" "syncFiles.sh" ".zotero/" ".history.12192478" ".history.15885664" ".xsession-errors.old" "Desktop/" ".shutter/" ".history.15005775" ".history.7132260" "syncPackages.sh" "../" ".aspell.en.prepl" ".local/" "ResearchNP/" ".history.13576654" ".history.4560675" ".linuxmint/")
 
  ("/home/trottar/Documents/books/Nine_Wreaths/DRAFT_3/" (25095 64207 24941 982000) "nine_wreaths.tex" "ltximg/" "nine_wreaths.lot" "./" "nine_wreaths.org" "nine_wreaths.lof" "nine_wreaths.pdf" "../")
 
@@ -345,20 +359,6 @@
  ("/home/trottar/ResearchNP/gemc/eic/g4e/g4e-dev/src/subdetectors/ffi_RPOT_D2/" (24207 32176 830125 96000) "./" "ffi_RPOT_D2.hh" "../")
 
  ("/home/trottar/ResearchNP/gemc/eic/g4e/g4e-dev/src/subdetectors/ffi_RPOT_D3/" (24207 32176 830125 96000) "./" "ffi_RPOT_D3.hh" "../")
-
- ("/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/CUTS/run_type/" (24286 41296 379531 859000) "coin_prod.cuts" "pSing_prod.cuts" "./" "hSing_optics.cuts" "pid_eff.cuts" "lumi.cuts" "test/" "pSing_optics.cuts" "test.cuts" "hSing_prod.cuts" "../")
-
- ("/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/online_archive/" (24198 10322 348256 742000) "get_charge_stats" "KaonLT_PhysicsSettings_38-49.ods" "runlistGatherer.py" "reportSummary.py" "Batch_Template.sh" "./" "ADCWindowSHMS.sh" "Luminosity.sh" "KaonYield_batch.sh" "KaonYield_50000.sh" "Elastics.sh" "peepYield.sh" "get_stats" "kaonlt_runlist_8p2-6p2.csv" "ADCGates/" "peepYield_50000.sh" "FixKaonRunList.sh" "runlistGatherer_100k.py" "kaonlt_runlist_3p8-4p9.csv" "fill_runList" "KaonYield.sh" "spreadsheetUpdater.py" "KaonLT_PhysicsSettings_82-62.ods" "macros/" "pid_eff.sh" "onlineGUI/" "ADCWindowHMS.sh" "get_stats.py" "kaonlt_runlist_10p6.csv" "../" "test.ods" "fill_runList_100k")
-
- ("/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/CUTS/general/" (24286 40393 838727 26000) "./" "track.cuts" "coin_time.cuts" "accept.cuts" "current.cuts" "pid.cuts" "../")
-
- ("/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/CUTS/run_type/test/" (24236 24935 162130 753000) "lumi.cuts.tmp" "./" "pid.cuts.tmp" "../")
-
- ("/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/" (24286 20194 889448 659000) "PARAM/" "./" "CUTS/" "Production_Config" "../")
-
- ("/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts/" (24198 10863 47774 206000) "replay/" "luminosity/" "summaries/" "kaonyield/" "./" "kinematics/" "pid/" "../")
-
- ("/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/" (24233 42549 941296 586000) "./" "batch/" "README.md" "OUTPUT/" "bin/" "ROOTfiles/" "DB/" "REPORT_OUTPUT/" "online_archive/" "README" "HISTOGRAMS/" "config/" "scripts/" "../")
 )
 
 ;; ----- ido-unc-hosts-cache -----

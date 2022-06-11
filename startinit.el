@@ -2221,3 +2221,5 @@ subsequent sends."
 (load-file "~/.emacs.d/alias.el")
 
 (setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3")
+
+(load-file "~/.emacs.d/elpa/org-9.5.4/ox-latex.el")

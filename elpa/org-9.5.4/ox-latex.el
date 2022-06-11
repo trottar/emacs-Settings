@@ -765,7 +765,7 @@ link's path.
 
 Note that, by default, the image extension *actually* allowed
 depend on the way the LaTeX file is processed.  When used with
-pdflatex, pdf, jpg and png images are OK.  When processing
+pdf, pdf, jpg and png images are OK.  When processing
 through dvi to Postscript, only ps and eps are allowed.  The
 default we use here encompasses both."
   :group 'org-export-latex
@@ -957,7 +957,7 @@ using customize, or with
 In addition, it is necessary to install pygments
 \(URL `https://pygments.org>'), and to configure the variable
 `org-latex-pdf-process' so that the -shell-escape option is
-passed to pdflatex.
+passed to pdf.
 
 The minted choice has possible repercussions on the preview of
 latex fragments (see `org-preview-latex-fragment').  If you run
@@ -1146,7 +1146,7 @@ See also `org-latex-compiler'."
   :version "26.1"
   :package-version '(Org . "9.0"))
 
-(defcustom org-latex-compiler "pdflatex"
+(defcustom org-latex-compiler "pdf"
   "LaTeX compiler to use.
 
 Must be an element in `org-latex-compilers' or the empty quote.
@@ -1154,14 +1154,14 @@ Can also be set in buffers via #+LATEX_COMPILER.  See also
 `org-latex-compiler-file-string'."
   :group 'org-export-latex
   :type '(choice
-	  (const :tag "pdfLaTeX" "pdflatex")
+	  (const :tag "pdf" "pdf")
 	  (const :tag "XeLaTeX"  "xelatex")
 	  (const :tag "LuaLaTeX" "lualatex")
 	  (const :tag "Unset" ""))
   :version "26.1"
   :package-version '(Org . "9.0"))
 
-(defconst org-latex-compilers '("pdflatex" "xelatex" "lualatex")
+(defconst org-latex-compilers '("pdf" "xelatex" "lualatex")
   "Known LaTeX compilers.
 See also `org-latex-compiler'.")
 
@@ -1197,7 +1197,7 @@ output file, %latex is the LaTeX compiler (see
 `org-latex-bib-compiler').
 
 The reason why this is a list is that it usually takes several
-runs of `pdflatex', maybe mixed with a call to `bibtex'.  Org
+runs of `pdf', maybe mixed with a call to `bibtex'.  Org
 does not have a clever mechanism to detect which of these
 commands have to be run to get to a stable result, and it also
 does not do any error checking.
@@ -3706,7 +3706,7 @@ Return PDF file's name."
   (let ((outfile (org-export-output-file-name ".tex" subtreep)))
     (org-export-to-file 'latex outfile
       async subtreep visible-only body-only ext-plist
-      #'org-latex-compile)))
+      'org-latex-compile)))
 
 (defun org-latex-compile (texfile &optional snippet)
   "Compile a TeX file.
@@ -3731,7 +3731,7 @@ produced."
 					    t)
 		     (progn (beginning-of-line) (looking-at-p "%"))
 		     (match-string 0)))
-	      "pdflatex"))
+	      "pdf"))
 	 (process (if (functionp org-latex-pdf-process) org-latex-pdf-process
 		    ;; Replace "%latex" with "%L" and "%bib" and
 		    ;; "%bibtex" with "%B" to adhere to `format-spec'
@@ -3769,7 +3769,7 @@ produced."
     outfile))
 
 (defun org-latex--collect-warnings (buffer)
-  "Collect some warnings from \"pdflatex\" command output.
+  "Collect some warnings from \"pdf\" command output.
 BUFFER is the buffer containing output.  Return collected
 warnings types as a string, `error' if a LaTeX error was
 encountered or nil if there was none."

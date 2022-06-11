@@ -3269,3 +3269,7 @@ subsequent sends."
 #+begin_SRC emacs-lisp 
 (setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3")
 #+end_SRC
+* fix latex to pdf conversion
+#+begin_SRC emacs-lisp 
+(load-file "~/.emacs.d/elpa/org-9.5.4/ox-latex.el")
+#+end_SRC
