@@ -11,7 +11,7 @@
 (when (>= emacs-major-version 24)
   (require 'package)
   (package-initialize)
-  (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
+  (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
   )
 
 (auto-insert-mode 1)
@@ -2072,13 +2072,13 @@ export that region, otherwise export the entire body."
  (require 'ox-html)
  (let* ((region-p (org-region-active-p))
      (html-start (or (and region-p (region-beginning))
-             (save-excursion
-              (goto-char (point-min))
-              (search-forward mail-header-separator)
-              (+ (point) 1))))
+	     (save-excursion
+	      (goto-char (point-min))
+	      (search-forward mail-header-separator)
+	      (+ (point) 1))))
      (html-end (or (and region-p (region-end))
-            ;; TODO: should catch signature...
-            (point-max)))
+	    ;; TODO: should catch signature...
+	    (point-max)))
      (raw-body (concat org-mime-default-header
 			  (buffer-substring html-start html-end)))
      (tmp-file (make-temp-name (expand-file-name
@@ -2088,22 +2088,22 @@ export that region, otherwise export the entire body."
      (org-export-htmlize-output-type 'inline-css)
      ;; makes the replies with ">"s look nicer
      (org-export-preserve-breaks org-mime-preserve-breaks)
-	 ;; dvipng for inline latex because MathJax doesn't work in mail
-	 (org-html-with-latex 'dvipng)
+     ;; dvipng for inline latex because MathJax doesn't work in mail
+     (org-html-with-latex 'dvipng)
      ;; to hold attachments for inline html images
      (html-and-images
-     (org-mime-replace-images
-	  (org-export-string-as raw-body 'html t) tmp-file))
+      (org-mime-replace-images
+       (org-export-string-as raw-body 'html t) tmp-file))
      (html-images (unless arg (cdr html-and-images)))
      (html (org-mime-apply-html-hook
-        (if arg
-          (format org-mime-fixedwith-wrap body)
-         (car html-and-images)))))
-  (delete-region html-start html-end)
-  (save-excursion
-   (goto-char html-start)
-   (insert (org-mime-multipart
-	    body html (mapconcat 'identity html-images "\n"))))))
+	    (if arg
+		(format org-mime-fixedwith-wrap body)
+	      (car html-and-images)))))
+   (delete-region html-start html-end)
+   (save-excursion
+     (goto-char html-start)
+     (insert (org-mime-multipart
+	      body html (mapconcat 'identity html-images "\n"))))))
 
 (defun new-email-from-subtree-with-signature ()
  "Send the current org-mode heading as the body of an email, with headline as the subject.
@@ -2219,3 +2219,5 @@ subsequent sends."
 (package-initialize)
 
 (load-file "~/.emacs.d/alias.el")
+
+(setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3")

@@ -37,7 +37,7 @@
 (when (>= emacs-major-version 24)
   (require 'package)
   (package-initialize)
-  (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
+  (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
   )
 #+END_SRC
 * ????
@@ -3097,47 +3097,47 @@ doesn't work.
 
 #+BEGIN_SRC emacs-lisp
 
-(defun org-mime-htmlize (&optional arg)
-"Export a portion of an email body composed using `mml-mode' to
-html using `org-mode'. If called with an active region only
-export that region, otherwise export the entire body."
- (interactive "P")
- (require 'ox-org)
- (require 'ox-html)
- (let* ((region-p (org-region-active-p))
-     (html-start (or (and region-p (region-beginning))
-             (save-excursion
-              (goto-char (point-min))
-              (search-forward mail-header-separator)
-              (+ (point) 1))))
-     (html-end (or (and region-p (region-end))
-            ;; TODO: should catch signature...
-            (point-max)))
-     (raw-body (concat org-mime-default-header
-			  (buffer-substring html-start html-end)))
-     (tmp-file (make-temp-name (expand-file-name
-				  "mail" temporary-file-directory)))
-     (body (org-export-string-as raw-body 'org t))
-     ;; because we probably don't want to export a huge style file
-     (org-export-htmlize-output-type 'inline-css)
-     ;; makes the replies with ">"s look nicer
-     (org-export-preserve-breaks org-mime-preserve-breaks)
-	 ;; dvipng for inline latex because MathJax doesn't work in mail
-	 (org-html-with-latex 'dvipng)
-     ;; to hold attachments for inline html images
-     (html-and-images
-     (org-mime-replace-images
-	  (org-export-string-as raw-body 'html t) tmp-file))
-     (html-images (unless arg (cdr html-and-images)))
-     (html (org-mime-apply-html-hook
-        (if arg
-          (format org-mime-fixedwith-wrap body)
-         (car html-and-images)))))
-  (delete-region html-start html-end)
-  (save-excursion
-   (goto-char html-start)
-   (insert (org-mime-multipart
-	    body html (mapconcat 'identity html-images "\n"))))))
+  (defun org-mime-htmlize (&optional arg)
+  "Export a portion of an email body composed using `mml-mode' to
+  html using `org-mode'. If called with an active region only
+  export that region, otherwise export the entire body."
+   (interactive "P")
+   (require 'ox-org)
+   (require 'ox-html)
+   (let* ((region-p (org-region-active-p))
+       (html-start (or (and region-p (region-beginning))
+	       (save-excursion
+		(goto-char (point-min))
+		(search-forward mail-header-separator)
+		(+ (point) 1))))
+       (html-end (or (and region-p (region-end))
+	      ;; TODO: should catch signature...
+	      (point-max)))
+       (raw-body (concat org-mime-default-header
+			    (buffer-substring html-start html-end)))
+       (tmp-file (make-temp-name (expand-file-name
+				    "mail" temporary-file-directory)))
+       (body (org-export-string-as raw-body 'org t))
+       ;; because we probably don't want to export a huge style file
+       (org-export-htmlize-output-type 'inline-css)
+       ;; makes the replies with ">"s look nicer
+       (org-export-preserve-breaks org-mime-preserve-breaks)
+       ;; dvipng for inline latex because MathJax doesn't work in mail
+       (org-html-with-latex 'dvipng)
+       ;; to hold attachments for inline html images
+       (html-and-images
+	(org-mime-replace-images
+	 (org-export-string-as raw-body 'html t) tmp-file))
+       (html-images (unless arg (cdr html-and-images)))
+       (html (org-mime-apply-html-hook
+	      (if arg
+		  (format org-mime-fixedwith-wrap body)
+		(car html-and-images)))))
+     (delete-region html-start html-end)
+     (save-excursion
+       (goto-char html-start)
+       (insert (org-mime-multipart
+		body html (mapconcat 'identity html-images "\n"))))))
 #+END_SRC
 * new-email-from-subtree-with-signature 
 
@@ -3264,3 +3264,8 @@ subsequent sends."
 #+BEGIN_SRC emacs-lisp 
 (load-file "~/.emacs.d/alias.el")
 #+END_SRC
+
+* fixes melpa archive download error
+#+begin_SRC emacs-lisp 
+(setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3")
+#+end_SRC

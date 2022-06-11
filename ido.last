@@ -2,7 +2,14 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/trottar/Analysis/UTIL_KAONLT/scripts/" . "luminosity/")
+ ("/home/trottar/.config/" . "autostart/")
+ ("/opt/jlab_software/2.2/Linux__LinuxMint19.3-x86_64-gcc7/root/" . "6.18.04/")
+ ("/opt/jlab_software/2.2/Linux__LinuxMint19.3-x86_64-gcc7/" . "root/")
+ ("/opt/jlab_software/" . "2.2/")
+ ("/opt/" . "jlab_software/")
+ ("/home/trottar/Documents/fellowships/" . "JSA_2020/")
+ ("/opt/jlab_software/2.2/" . "ce/")
+ ("/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/" . "process/")
  ("/home/trottar/ResearchNP/JLEIC/USERS/" . "trottar/")
  ("/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/bin/python/" . "kaonlt/")
  ("/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/bin/" . "python/")
@@ -31,7 +38,7 @@
  ("/home/trottar/ResearchNP/gemc/my_plugins/" . "ejana/")
  ("/home/trottar/ResearchNP/JLEIC/USERS/trottar/archive/" . "4_20_20/")
  ("/home/trottar/bin/python/" . "archive/")
- ("/home/trottar/ResearchNP/JLEIC/USERS/trottar/" . "archive/")
+ ("/home/trottar/ResearchNP/JLEIC/USERS/trottar/" . "src/")
  ("/home/trottar/Analysis/hallc_replay_lt/DBASE/" . "COIN/")
  ("/home/trottar/ResearchNP/gemc/eic/g4e/g4e-dev/src/subdetectors/" . "ffi_RPOT_D3/")
  ("/home/trottar/ResearchNP/gemc/eic/g4e/g4e-dev/src/main_detectors/" . "jleic/")
@@ -74,19 +81,32 @@
  ("/home/trottar/ResearchNP/ROOTAnalysis/kaonlt_analysis/lumiscan/" . "scripts_Luminosity/")
  ("/home/trottar/Documents/books/Nine_Wreaths/" . "DRAFT_2/")
  ("/home/trottar/Documents/books/" . "Nine_Wreaths/")
- ("/home/trottar/Documents/" . "org_file/")
+ ("/home/trottar/Documents/" . "fellowships/")
  ("/home/trottar/Analysis/hallc_replay/" . "UTIL_KAONLT/")
  ("/etc/" . "ssh/")
- ("/" . "etc/")
+ ("/" . "opt/")
  ("/home/trottar/Analysis/" . "hallc_replay_lt/")
- ("/home/trottar/" . "Analysis/")
+ ("/home/trottar/" . "bin/")
  ("/home/trottar/Analysis/kaonlt_analysis/" . "lumiscan/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/trottar/Analysis/UTIL_KAONLT/scripts/online_kaon_physics/"
- "/home/trottar/Analysis/UTIL_KAONLT/scripts/luminosity/"
+ "/home/trottar/Documents/random/obscura/"
+ "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/process/"
+ "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/"
+ "/home/trottar/ResearchNP/JLEIC/USERS/trottar/"
+ "/home/trottar/Documents/papers/thesis/scattering/"
+ "/home/trottar/"
+ "/home/trottar/bin/"
+ "/home/trottar/.config/autostart/"
+ "/home/trottar/Programs/my_programs/customsearch/src/"
+ "/opt/jlab_software/2.2/ce/"
+ "/home/trottar/.emacs.d/"
+ "/home/trottar/Documents/fellowships/JSA_2020/"
+ "/home/trottar/Documents/fellowships/JSA_2019/"
+ "/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/"
+ "/home/trottar/ResearchNP/JLEIC/USERS/trottar/inputs/"
  "/home/trottar/Documents/org_file/"
  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/scripts/"
  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/archive/4_20_20/"
@@ -101,10 +121,7 @@
  "/home/trottar/bin/archive/"
  "/home/trottar/Analysis/kaonlt_analysis/lumiscan/"
  "/home/trottar/Documents/books/NW_book_2/"
- "/home/trottar/"
  "/home/trottar/bin/python/root2py/"
- "/home/trottar/ResearchNP/JLEIC/USERS/trottar/inputs/"
- "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/"
  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/scripts/archive/"
  "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts/luminosity/batch/"
  "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/PARAM/"
@@ -117,7 +134,6 @@
  "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts/pid/"
  "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/CUTS/run_type/test/"
  "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/"
- "/home/trottar/ResearchNP/JLEIC/USERS/trottar/"
  "/home/trottar/ResearchNP/gemc/escalate/escalate/ejana/ejana-dev/src/plugins/io/"
  "/home/trottar/ResearchNP/gemc/escalate/escalate/ejana/ejana-dev/"
  "/home/trottar/ResearchNP/gemc/escalate/escalate/ejana/ejana-dev/src/plugins/"
@@ -126,60 +142,91 @@
  "/home/trottar/ResearchNP/gemc/my_plugins/ejana/"
  "/home/trottar/ResearchNP/gemc/my_plugins/ejana/src/plugins/"
  "/home/trottar/ResearchNP/gemc/my_plugins/ejana/src/plugins/analysis/"
- "/home/trottar/ResearchNP/gemc/my_plugins/meson_structure/mstruct_general/"
- "/home/trottar/ResearchNP/gemc/my_plugins/meson_structure/"
- "/home/trottar/Downloads/"
- "/home/trottar/Analysis/hallc_replay_lt/DBASE/COIN/"
- "/home/trottar/Analysis/hallc_replay_lt/TEMPLATES/COIN/PRODUCTION/"
- "/home/trottar/ResearchNP/gemc/eic/g4e/g4e-dev/src/subdetectors/ffi_RPOT_D3/"
- "/home/trottar/ResearchNP/gemc/eic/g4e/g4e-dev/src/subdetectors/ffi_RPOT_D2/"
- "/home/trottar/ResearchNP/gemc/eic/g4e/g4e-dev/src/subdetectors/ffi_ZDC/"
- "/home/trottar/ResearchNP/gemc/eic/g4e/g4e-dev/src/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "kaon_prod_kinematic_analysis.sh"
- "replay_lumi.sh"
- "organizer.org"
- "plot_pion.py"
- "TDISMC_EICn.cpp"
- "TDISMC_EIC.cpp"
- "plot_MC.py"
- "run_plotMC.sh"
- "Lumi_8p2_Spring19"
- "Lumi_6p2_Spring19"
+ "ivan_dostoevsky.tex.tex"
+ "bindata.py"
+ "dict.py"
+ "binInputs.py"
+ "run_mesonMC.sh"
+ "fixed_collider_physics.pdf"
+ ".profile"
+ ".bash_profile"
+ "auto_mail.sh"
+ "mintwelcome.desktop"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/trottar/.emacs.d/" (25231 9085 185585 630000) "gnus.org" "session.10f8ff7d245bc9844f156157744980011800000017170064" "session.1039990a9a8952805f155399728158012900000020330089" "spacemacs-config.org" "ltximg/" "learning-emacs.org" "snippets/" "koma-letter-template.org" "fonts-and-themes.org" "session.104973d73d62861f0215708902763844200000012240071" "session.10f5b903282de84163157462710511577100000013810100" "session.10d9372ada6e6d7cca155623832813643800000021480065" "shared-functions.org" "lisp/" "org-plain-list-bug.org" "./" "tramp" "key-chord.org" ".gitignore" "plugins/" "cosmetics.org" "url/" "startinit.org" "serj-question.org" "requests.org" "startinit.tex" "lisp-files/" ".emacs.desktop" "hallc/" ".git/" "eric-got-it-working.org" "session.105a60f877c299622d157125397888847100000013730068" "insert/" "session.105a60f877c299622d157125398176886600000013730069" "ido.last" "alias.el" "session.10440bcf46e2f96c15155479414360572600000015440069" "startinit.el" "init.el" "ejana/" ".abbrev_defs" "session.10d9372ada6e6d7cca155623830449526300000021480064" "session.2e3a29e60-7cf1-4a34-ad84-0f481386f1a9" "chrome/" "auto-save-list/" "session.2fd9a0ae7-bd13-404b-8393-b0d3b19c9afd" "evil-leader.org" "eic/" "gnu-emacs-startup.org" "cosmetics.el" "emacs-nyc-test-file.org" "elpa/" ".emacs.desktop.lock" "session.105a60f877c299622d157125397563424800000013730067" "../" "hydras.org" "#ido.last#" "customsearch/")
+ ("/home/trottar/Documents/random/" (25250 51387 623608 115000) "DnD/" "Phillis.pdf" "conspiracy/" "./" "Steward.pdf" "testing_Grounds/" "roleplay_Steward.pdf" "obscura/" "xmas_bingo/" "fourforts/" "../")
 
- ("/home/trottar/Programs/" (25025 29982 903160 359000) "scimax.sh" "vc/" "get-pip.py" "manim_directories/" "Steam/" "auctex-12.1/" "./" "build/" "VMware-converter-en-6.2.0-8466193.exe" "GoogleDriveAPI/" "scimax/" "rootpy/" "NP_SummerStudents/" "clucene/" "anki-2.1.15-linux-amd64/" "julia-1.4.2/" "py2cairo/" "git-lfs-linux/" "node_modules/" "root/" "pa_stable_v190700_20210406.tgz" "pympler/" "Zotero_linux-x86_64/" "teamviewer_14.2.8352_amd64.deb" "tmp/" "my_programs/" "APK_files/" "tensorflow/" "valgrind-3.14.0/" "easyloggingpp-9.96.7/" "wc-mode/" "MultiMarkdown-6-6.5/" "bitnami-redmine-4.0.2-3-linux-x64-installer.run" "Anaconda3-2020.02-Linux-x86_64.sh" "cmake-3.13.2-Linux-x86_64/" "peg-multimarkdown/" "2020-04-08-eic-jlab/" "starfinder/" "clion-2019.3.4/" "root_numpy/" "Zotero/" "pdfsizeopt/" "bootstrap/" "npm-debug.log" "google-chrome-stable_current_amd64.deb" "Emacs-Settings-video/" "Android/" "LanguageTool-4.8/" "../" "Vbox/")
+ ("/home/trottar/Documents/random/obscura/" (25252 12535 857476 629000) "ivan_dostoevsky.org" "ivan_dostoevsky.toc" "ivan_dostoevsky.fdb_latexmk" "ivan_dostoevsky.tex" "ivan_dostoevsky.fls" "./" "ivan_dostoevsky.pdf" "ivan_dostoevsky.out" "ivan_dostoevsky.log" "ivan_dostoevsky.aux" "../")
 
- ("/home/trottar/Programs/my_programs/" (24979 40919 314141 540000) "B_R_PhysicsNights/" "physics_engine/" "./" "google_email/" "deepLearn/" "COVID-19/" "../" "customsearch/")
+ ("/home/trottar/.emacs.d/" (25252 8532 773898 242000) "gnus.org" "session.10f8ff7d245bc9844f156157744980011800000017170064" "session.1039990a9a8952805f155399728158012900000020330089" "spacemacs-config.org" "ltximg/" "learning-emacs.org" "snippets/" "koma-letter-template.org" "fonts-and-themes.org" "session.104973d73d62861f0215708902763844200000012240071" "session.10f5b903282de84163157462710511577100000013810100" "session.10d9372ada6e6d7cca155623832813643800000021480065" "shared-functions.org" "lisp/" "org-plain-list-bug.org" "./" "tramp" "key-chord.org" ".gitignore" "plugins/" "cosmetics.org" "url/" "startinit.org" "serj-question.org" "requests.org" "startinit.tex" "lisp-files/" ".emacs.desktop" "hallc/" ".git/" "eric-got-it-working.org" "bookmarks" "session.105a60f877c299622d157125397888847100000013730068" "insert/" "#startinit.el#" "session.105a60f877c299622d157125398176886600000013730069" "ido.last" "alias.el" "session.10440bcf46e2f96c15155479414360572600000015440069" "startinit.el" "init.el" "ejana/" ".abbrev_defs" "session.10d9372ada6e6d7cca155623830449526300000021480064" "session.2e3a29e60-7cf1-4a34-ad84-0f481386f1a9" "chrome/" "auto-save-list/" "session.2fd9a0ae7-bd13-404b-8393-b0d3b19c9afd" "evil-leader.org" "eic/" "gnu-emacs-startup.org" "cosmetics.el" "emacs-nyc-test-file.org" "elpa/" ".emacs.desktop.lock" "session.105a60f877c299622d157125397563424800000013730067" "../" "hydras.org" "#ido.last#" "customsearch/")
 
- ("/home/trottar/Programs/my_programs/customsearch/" (25025 42877 834646 151000) "./" "database/" ".gitignore" ".git/" "requirements.txt" "src/" "../")
+ ("/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/process/" (24972 2985 462130 17000) "run_test.sh" "root2py.py" "luminosity.py" "./" "function_progressbar.py" "__pycache__/" "cuts/" "dict.py" "bindata.py" "../" "datafiles/")
 
- ("/home/trottar/Programs/my_programs/customsearch/src/" (25214 37249 607354 493000) "pdf.py" "./" "database.py" "database/" "setgui.py" ".gitignore" "__pycache__/" "auto_mail.py" "assistant.py" "summary.py" "tools.py" "gmail/" "run_gui.sh" "searchfiles.py" "rss.py" "icons/" "log/" "models/" "youtube.py" "bookmarks.py" "LucenePlusPlus/" "Genius/" "../")
+ ("/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/" (25017 44879 203081 405000) "structure_functions/" "./" "cteq/" "functions/" "process/" "EIC_mesonMC_bare.cpp" "EIC_mesonMC.cpp" "#EIC_mesonMC_n.cpp#" "EIC_mesonMC_n.cpp" "mcInputs.py" "log/" "cteq-tbls/" "lib/" "EIC_mesonMC.h" "EIC_mesonMC_Sigma.cpp" "EIC_mesonMC_Lambda.cpp" "../" "binInputs.py")
 
- ("/home/trottar/" (25231 4638 923495 301000) ".texmf-var/" ".history.10990887" ".cinnamon/" ".wine/" ".gnome/" ".wget-hsts" ".history.9903607" ".history.3898716" ".history.9737420" ".history.5041426" ".bashrc" ".gtkrc-xfce" ".history.14567910" ".backups/" ".ICEauthority" ".rpmdb/" ".gtkrc-2.0" "pipwin/" ".history.8750225" ".history.6452507" "Downloads/" ".history.1142296" ".history.3415449" ".history.1403558" ".proof/" ".history.12267086" ".keras/" ".mozilla/" "./" "Pictures/" ".Xauthority" ".hplip/" ".nano/" ".history.8151327" ".history.4615809" ".gimp-2.8/" ".history.8233221" ".gksu.lock" ".history.14076267" ".xinputrc" "Public/" ".jupyter/" ".npm/" ".gdrive/" ".icons/" ".bash_history" ".history.7015208" ".java/" ".pki/" ".config/" ".history.7350673" ".dbus/" ".history" ".history.9645468" ".history.5145978" ".history.12956740" "test.pdf" ".history.7542655" ".profile" ".dmrc" ".history.9528753" ".history.11658630" ".history.1688236" ".gitconfig" ".history.4682781" ".bash_profile" ".selected_editor" "Templates/" ".sudo_as_admin_successful" ".history.13664537" ".emacs.d/" ".vnc/" "bin/" ".ssh/" ".conda/" ".pip/" ".history.2622507" ".aspell.en.pws" ".history.7688513" ".history.12711623" "Music/" "nltk_data/" ".aptitude/" "sendFile.sh" ".history.7868340" ".history.5171881" ".zoom/" ".pipwin" "Documents/" ".history.1661165" "Backup/" ".history.9916773" ".bash_logout" ".history.8982668" ".history.15925378" "Programs/" ".themes/" ".thumbnails/" ".history.7784846" ".yarn/" ".steam/" ".synaptic/" ".history.12209451" ".xscreensaver" ".gphoto/" ".elfeed/" ".xsession-errors" ".history.9987926" ".history.9258979" ".history.8731894" "pkglist" ".cache/" "seaborn-data/" ".history.14938672" ".history.10480931" ".history.11786345" ".CLion2019.3/" ".history.8961705" ".gnupg/" ".history.9322994" ".history.4911351" ".remmina/" ".python_history" ".history.6619426" ".history.91658" ".history.9856851" ".cmake/" ".gnome2_private/" "Analysis/" ".history.864539" ".ipython/" ".history.1765472" ".history.11949970" ".julia/" ".watershed/" ".gconf/" ".history.12772650" ".history.9752297" ".gnome2/" ".history.112937" ".history.5321713" ".dvisvgm/" ".root_hist" ".history.3161923" ".steampid" ".history.9537195" ".rnd" ".history.6348075" ".pulse-cookie" ".idea/" "Videos/" ".cshrc" "syncFiles.sh" ".zotero/" ".history.12192478" ".history.15885664" ".xsession-errors.old" "Desktop/" ".shutter/" ".history.15005775" ".history.7132260" "syncPackages.sh" "../" ".aspell.en.prepl" ".local/" "ResearchNP/" ".history.13576654" ".history.4560675" ".linuxmint/")
+ ("/home/trottar/ResearchNP/JLEIC/USERS/trottar/" (25017 46524 99709 661000) "./" "inputs/" "README.md" ".ipynb_checkpoints/" "src/" "analysis/" "run_mesonMC.sh" "OUTPUTS/" "../" "archive/")
 
- ("/home/trottar/Analysis/UTIL_KAONLT/scripts/online_kaon_physics/" (24909 1187 899087 14000) ".#PlotPionPhysics.py" "./" "PlotKaonPhysics_sw.py" ".PlotPionPhysics.py.swp" "Kinematics/" ".analysis_pions.sh.swp" "kaon_prod_kinematic_analysis.sh" "kaon_prod_replay_analysis_sw.sh" "kaon_prod_analysis_sw.py" "../")
+ ("/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/" (24972 2985 458129 969000) "./" "plot_test.py" "det_ana/" "interpGrids/" "archive-scripts/" "xsec/" "../")
 
- ("/home/trottar/Analysis/UTIL_KAONLT/scripts/luminosity/" (24908 58777 57430 955000) "./" "lumi_script.sh" "batch/" "src/" "README" "replay_lumi.sh" "OUTPUTS/" "../" "archive/")
+ ("/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/det_ana/" (25223 50335 822345 4000) "5on100_120000_IP6.root" "10on100_120000_IP8.root" "INPUTS/" "./" "5on41_120000_IP6.root" "5on100_120000_IP8.root" "run_plot.sh" "plot_Fun4all.py" "18on275_120000_IP6.root" "5on41_120000_IP8.root" "plot_Fun4all.py.AllQ" "10on100_120000_IP6.root" "plot_Fun4all_ecce.py" "OUTPUTS/" "../" "18on275_120000_IP8.root")
 
- ("/home/trottar/Analysis/UTIL_KAONLT/scripts/" (24908 58890 64329 162000) "fADC_SIDIS/" "replay/" "luminosity/" "online_kaon_physics/" "kaonyield/" "./" "optics/" "demo/" "CoinTimePeak/" "heep/" "runlist/" "pid/" "../")
+ ("/home/trottar/Documents/papers/thesis/scattering/" (25226 43824 875168 993000) "./" "fixed_collider_physics.org" "fixed_collider_physics.tex" "fixed_collider_physics.pdf" "../")
+
+ ("/home/trottar/bin/" (25214 38622 246755 196000) "cshrc" "findHost.csh" "python/" "./" "copyFiles.sh" "README.md" "profile" "bash_aliases" ".git/" "sendFile.sh" "quick_plot/" "nameTerm.csh" "log/" "help.csh" "pkglist" "gitcheck.sh" "shareDocker.sh" "bashrc" "upgradePython.sh" "physics_dict/" "run_server.csh" "syncFiles.sh" "../" "auto_mail.sh" "archive/")
+
+ ("/home/trottar/" (25214 37333 605208 544000) ".texmf-var/" ".history.10990887" ".cinnamon/" ".wine/" ".gnome/" ".wget-hsts" ".history.9903607" ".history.3898716" ".history.9737420" ".history.5041426" ".bashrc" ".gtkrc-xfce" ".history.14567910" ".backups/" ".ICEauthority" ".rpmdb/" ".gtkrc-2.0" "pipwin/" ".history.8750225" ".history.6452507" "Downloads/" ".history.1142296" ".history.3415449" ".history.1403558" ".proof/" ".history.12267086" ".keras/" ".mozilla/" "./" "Pictures/" ".Xauthority" ".hplip/" ".nano/" ".history.8151327" ".history.4615809" ".gimp-2.8/" ".history.8233221" ".gksu.lock" ".history.14076267" ".xinputrc" "Public/" ".jupyter/" ".npm/" ".gdrive/" ".icons/" ".bash_history" ".history.7015208" ".java/" ".pki/" ".config/" ".history.7350673" ".dbus/" ".history" ".history.9645468" ".history.5145978" ".history.12956740" ".history.7542655" ".profile" ".dmrc" ".history.9528753" ".history.11658630" ".history.1688236" ".gitconfig" ".history.4682781" ".bash_profile" ".selected_editor" "Templates/" ".sudo_as_admin_successful" ".history.13664537" ".emacs.d/" ".vnc/" "bin/" ".ssh/" ".conda/" ".pip/" ".history.2622507" ".aspell.en.pws" ".history.7688513" ".history.12711623" "Music/" "nltk_data/" ".aptitude/" "sendFile.sh" ".history.7868340" ".history.5171881" ".zoom/" ".pipwin" "Documents/" ".history.1661165" "Backup/" ".history.9916773" ".bash_logout" ".history.8982668" ".history.15925378" "Programs/" ".themes/" ".thumbnails/" ".history.7784846" ".yarn/" ".steam/" ".synaptic/" ".history.12209451" ".xscreensaver" ".gphoto/" ".elfeed/" ".xsession-errors" ".history.9987926" ".history.9258979" ".history.8731894" "pkglist" ".cache/" "seaborn-data/" ".history.14938672" ".history.10480931" ".history.11786345" ".CLion2019.3/" ".gnupg/" ".history.9322994" ".history.4911351" ".remmina/" ".python_history" ".history.6619426" ".history.91658" ".history.9856851" ".cmake/" ".gnome2_private/" "Analysis/" ".history.864539" ".ipython/" ".history.1765472" ".history.11949970" ".julia/" ".watershed/" ".gconf/" ".history.12772650" ".history.9752297" ".gnome2/" ".history.112937" ".history.5321713" ".dvisvgm/" ".root_hist" ".history.3161923" ".steampid" ".history.9537195" ".rnd" ".history.6348075" ".pulse-cookie" ".idea/" "Videos/" ".cshrc" "syncFiles.sh" ".zotero/" ".history.12192478" ".history.15885664" ".xsession-errors.old" "Desktop/" ".shutter/" ".history.15005775" ".history.7132260" "syncPackages.sh" "../" ".aspell.en.prepl" ".local/" "ResearchNP/" ".history.13576654" ".history.4560675" ".linuxmint/")
+
+ ("/home/trottar/Documents/books/Nine_Wreaths/DRAFT_3/" (25095 64207 24941 982000) "nine_wreaths.tex" "ltximg/" "nine_wreaths.lot" "./" "nine_wreaths.org" "nine_wreaths.lof" "nine_wreaths.pdf" "../")
+
+ ("/home/trottar/.config/autostart/" (25213 64408 995736 256000) "shutter.desktop" "mint-ctrl-alt-backspace.desktop" "./" "remmina-applet.desktop" "nvidia-prime.desktop" "lxrandr-autostart.desktop" "xfce-autostart-wm.desktop" "email.desktop" "LXinput-setup.desktop" "vino-server.desktop" "mintwelcome.desktop" "../")
+
+ ("/home/trottar/.config/" (25209 22971 57998 514000) "dconf/" "user-dirs.dirs" "glib-2.0/" "expressvpn/" "inkscape/" "QtProject/" "autostart/" "libreoffice/" "configstore/" "user-dirs.locale" "matplotlib/" "xfce4-session/" "./" "xviewer/" "htop/" "upstart/" "xed/" "spotify/" "yelp/" "vlc/" "pcmanfm/" "rootpy/" "xplayer/" "chromium/" "gtk-3.0/" "eog/" "marco/" "xfce4/" "xreader/" "monitors.xml" "evince/" "Thunar/" "mimeapps.list" "cef_user_data/" "cinnamon-session/" "menus/" "teamviewer/" "mate/" "qt5ct/" "gtk-2.0/" "QtProject.conf" "caja/" "pulse/" "freerdp/" "metacity/" "evolution/" "Unknown Organization/" "goa-1.0/" "nemo/" "Trolltech.conf" "libfm/" "muffin/" "enchant/" "BraveSoftware/" "update-notifier/" "zoomus.conf" "orage/" "hexchat/" "lxsession/" "google-chrome/" "../" "mintmenu/")
+
+ ("/home/trottar/Programs/my_programs/customsearch/src/" (25056 7072 813960 419000) "pdf.py" "./" "database.py" "setgui.py" ".gitignore" "__pycache__/" "assistant.py" "summary.py" "tools.py" "run_gui.sh" "searchfiles.py" "rss.py" "icons/" "log/" "models/" "youtube.py" "bookmarks.py" "LucenePlusPlus/" "Genius/" "../")
+
+ ("/opt/jlab_software/2.2/" (25017 35919 403153 796000) "doc/" "./" "printVersion.csh" ".gitignore" "Announcement" "README.md" "install/" "go_tar" "Linux__LinuxMint19.3-x86_64-gcc7/" "scons_bm/" "Linux__LinuxMint18.3-x86_64-gcc5.4.0/" "changelog" "ce/" "softenv.csh" "Linux__LinuxMint19.3-x86_64-gcc6.5.0/" "releaseScheme.key" "softenv.sh" "sbsInstall/" "Linux__LinuxMint19.2-x86_64-gcc7/" "go_reload" "../")
+
+ ("/opt/jlab_software/2.2/ce/" (24973 17443 255142 739000) "mysql.env" "ccdb.env" "xercesc.env" "checkSoftware.py" "evio.env" "./" "versions.env" "getVersion.py" "scons.env" "settings.xcconfig" "qt.env" "geant4.env" "mlibrary.env" "jana.env" "jlab.csh" "root.env" "clhep.env" "banks.env" "jlab.sh" "../" "osrelease.pl" "gemc.env")
+
+ ("/opt/jlab_software/2.2/Linux__LinuxMint19.3-x86_64-gcc7/root/6.18.04/" (24973 17965 80889 409000) "./" "build/" ".gitattributes" ".clang-tidy" ".mailmap" ".gitignore" "emacs/" "install/" ".git/" ".clang-format" ".github/" "src/" ".travis.yml" ".ci/" "../")
+
+ ("/opt/jlab_software/2.2/Linux__LinuxMint19.3-x86_64-gcc7/root/" (24921 29228 434868 683000) "6.22.00/" "./" "6.12.06/" "root-6.12.06-build/" "root-6.12.06/" "6.18.04/" "root_v6.12.06.source.tar.gz" "../")
+
+ ("/opt/jlab_software/" (23968 39908 98124 737000) "ceInstall_2.2.tar.gz" "./" "2.2/" "noarch/" "../")
+
+ ("/opt/" (24982 38505 964164 220000) "share/" "doc/" "VBoxGuestAdditions-6.0.6/" "google/" "./" "qt514/" "bin/" "drbl/" "containerd/" "teamviewer/" "jlab_software/" "lost+found/" "redmine-4.0.2-3/" "cmake/" "../" "man/" "zoom/")
+
+ ("/home/trottar/Documents/fellowships/JSA_2020/" (24973 14403 498643 98000) "FellApp2020.docx" "DRAFT2_fellowship_JSA_2020.pdf" "ResearchSupportLetter_2020.pdf" "DRAFT1_fellowship_JSA_2020.pdf" "./" "DRAFT3_fellowship_JSA_2020.pdf" "DuqTranscript.pdf" "fellowship_JSA_2020.pdf" "summary_JSA.org" "summary_JSA.tex" "cua_unofficial_2020.pdf" "../")
+
+ ("/home/trottar/Documents/fellowships/JSA_2019/" (24610 47682 282190 178000) "./" "CV_2019.pdf" "summary_JSA.pdf" "summary_JSA.org" "ResearchSupport-JSA.pdf" "summary_JSA.tex" "JSA_2019-Transcript.pdf" "fellowship_JSA-2019.odt" "FellApp2019.doc" "../")
+
+ ("/home/trottar/Documents/fellowships/" (24171 7636 431613 475000) "ltximg/" "./" "CV_2020_short.pdf" "fellowship_EIC.odt" "CV_2020.pdf" "JSA_2019/" "marcoJSA.doc" "FellApp2019.doc" "JSA_2020/" "../")
+
+ ("/home/trottar/Documents/" (24875 50549 372645 518000) "Jupyter_Notebooks/" "Downloads/" "./" "summer_programs/" "must-read/" "README.md" "papers/" "talks/" "StayFocusd_2020-02-05.json" ".git/" "notes/" "meetings/" "books/" "adulthood/" "runplans/" "misc/" "fellowships/" "../" "Backups/" "random/")
+
+ ("/opt/jlab_software/2.2/Linux__LinuxMint19.3-x86_64-gcc7/" (24069 8170 87002 294000) "ccdb/" "clhep/" "./" "banks/" "geant4/" "jana/" "root/" "gemc/" "evio/" "mlibrary/" "qt/" "../" "mysql/" "xercesc/")
+
+ ("/opt/jlab_software/2.2/Linux__LinuxMint19.3-x86_64-gcc7/root/6.22.00/" (24921 27026 730570 704000) "python3" "python" "./" "fonts/" "emacs/" "bin/" "tutorials/" "js/" "icons/" "LICENSE" "lib/" "README/" "config/" "macros/" "etc/" "geom/" "cmake/" "include/" "../" "man/")
+
+ ("/opt/jlab_software/2.2/Linux__LinuxMint19.3-x86_64-gcc7/root/6.22.00/bin/" (24294 24255 0 0) "rootnb.exe" "root-config" "rootbrowse" "rootcp" "g2root" "roots" "./" "prepareHistFactory" "rooteventselector" "hadd" "hist2workspace" "rootmv" "proofserv" "rootprint" "root.exe" "rootcint" "h2root" "rootls" "root" "thisroot.csh" "thisroot.sh" "proofserv.exe" "setxrd.csh" "genreflex" "xpdtest" "rmkdepend" "rootmkdir" "rootslimtree" "rootcling" "rootdrawtree" "rootn.exe" "memprobe" "roots.exe" "thisroot.fish" "rootrm" "setxrd.sh" "../")
+
+ ("/home/trottar/Analysis/" (24919 61389 188676 267000) "kaon-coin/" "./" "UTIL_PION/" "UTIL_BATCH/" "simc_gfortran/" "ROOTfiles/" "kaonlt/" "lambdaPlots/" "CherenkovScripts/" "UTIL_KAONLT/" "AerogelScripts/" "kaonlt_analysis/" "hallc_replay_lt/" "../")
+
+ ("/home/trottar/Analysis/AerogelScripts/" (24603 205 966094 485000) "CherenkovPlots_C_ACLiC_dict_rdict.pcm" "CherenkovPlots_C.d" "efficiencies.C" "./" "Cherenkov_Histos_Run7841.root" "CherenkovPlots.C" "CherenkovPlots.h" "CherenkovPlots_C.so" "ROOTfiles" "aero_eff_7841.png" "Cherenkov_Histos_Run5154.root" "run_CherenkovPlots.C" "aero_eff_7872.png" "efficiencies.h" "CherenkovPlotsHadron.h" "../" "CherenkovPlotsHadron.C")
+
+ ("/home/trottar/ResearchNP/JLEIC/USERS/trottar/inputs/" (24918 61023 422355 884000) "./" "kinematics.input" "../" "bins.input")
 
  ("/home/trottar/Documents/org_file/" (24875 49999 995858 700000) "ltximg/" "organizer.pdf" "./" "commands.txt" "organizer.org" "README.md" "commands.tex" "commands.pdf" "google_calendar/" "organizer.tex" "commands.org" "../")
-
- ("/home/trottar/Documents/" (24875 49850 419125 831000) "Jupyter_Notebooks/" "Downloads/" "./" "summer_programs/" "must-read/" "README.md" "papers/" "talks/" "StayFocusd_2020-02-05.json" ".git/" "org_file/" "notes/" "meetings/" "books/" "adulthood/" "runplans/" "fellowships/" "../" "Backups/" "random/")
 
  ("/home/trottar/Documents/books/" (24875 49828 66409 369000) "./" "NW2_Translucent_Skies/" "Nine_Wreaths/" "8-Step-Scene-Building-Worksheet.pdf" "../" "random/")
 
  ("/home/trottar/Documents/books/Nine_Wreaths/" (24634 49715 474921 165000) "./" "Summary/" "Chapters/" "DRAFT_3/" "DRAFT_2/" "clean_copy/" "DRAFT_1/" "../")
-
- ("/home/trottar/Documents/books/Nine_Wreaths/DRAFT_3/" (24661 34439 617914 564000) "nine_wreaths.tex" "ltximg/" "nine_wreaths.lot" "./" "nine_wreaths.org" "nine_wreaths.lof" "nine_wreaths.pdf" "../")
 
  ("/home/trottar/ResearchNP/org_file/" (24316 34590 98292 716000) "ltximg/" "organizer.pdf" "./" "commands.txt" "organizer.org" ".gitignore" "README.md" "commands.tex" "commands.pdf" "google_calendar/" ".git/" "organizer.tex" "commands.org" "../")
 
@@ -188,10 +235,6 @@
  ("/home/trottar/ResearchNP/JLEIC/" (24844 8368 963882 271000) "eic_SF/" "./" ".gitattributes" ".gitignore" "README.md" "mesonMC/" ".git/" "USERS/" "../")
 
  ("/home/trottar/ResearchNP/JLEIC/USERS/" (24144 10676 367999 434000) "hornt/" "./" "trottar/" "../")
-
- ("/home/trottar/ResearchNP/JLEIC/USERS/trottar/" (24844 10189 803981 951000) "./" "inputs/" "README.md" ".ipynb_checkpoints/" "src/" "analysis/" "run_mesonMC.sh" "OUTPUTS/" "../" "archive/")
-
- ("/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/" (24844 10187 559927 945000) "./" "plot_test.py" "interpGrids/" "archive-scripts/" "xsec/" "../")
 
  ("/home/trottar/ResearchNP/JLEIC/USERS/trottar/scripts/" (24720 22620 478907 127000) "theory_table_noyield_1.html" "theory_table_lowx_0.html" "values.npy" "theory_table_evts_0.csv" "points.npy" "theory_table_noyield_0.csv" "run_theorytable.sh" "./" "theory_table_noyield_0.htlm" "theory_table_lowx.html" "plot_kaonStructure.py" "theory_table_noyield_2.htlm" "theory_table_noyield_1.csv" "theory_table_evts_0.html" "xpiQ2.npy" "theory_table_lowx.csv" "theory_table_highx.html" "theory_table_0.html" "theory_table_noyield_2.csv" "plot_pion.py" "run_plots.sh" "plot_pionStructure.py" "theory_table_0.csv" "theory_table.py" "F2pi.npy" "theory_table.csv" "theory_table_1.csv" "plot_pionStructure.py.OLD" "theory_table.html" "OUTPUTS/" "theory_table_1.html" "theory_table_lowx_0.csv" "xsec/" "../" "archive/" "theory_table_highx.csv")
 
@@ -217,13 +260,9 @@
 
  ("/home/trottar/ResearchNP/JLEIC/eic_SF/" (24369 47653 278292 481000) "wim_kinematics/" "./" ".gitignore" "inputs/" "README.md" "g4e/" "run_g4e.sh" ".ipynb_checkpoints/" "src/" "README.ipynb" "intro_slides/" "run_mesonMC.sh" "OUTPUTS/" "scripts/" "../")
 
- ("/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/" (24489 60444 136084 316000) "TDISMC_EICn_cpp.d" "TDISMC_EICn_cpp_ACLiC_dict_rdict.pcm" "structure_functions/" "TDISMC_EIC_sigma_cpp.so" "./" "TDISMC_EIC_sigma_cpp_ACLiC_dict_rdict.pcm" "TDISMC_EIC_sigma.cpp" "cteq/" "TDISMC_EIC_lambda.cpp" "TDISMC_EIC_sigma_cpp.d" "TDISMC_EICn_cpp.so" "mcInputs.py" "TDISMC_EIC.cpp" "cteq-tbls/" "TDISMC_EICK.cpp" "TDISMC_EIC.h" "TDISMC_bare.cpp" "../" "TDISMC_EICn.cpp")
-
  ("/home/trottar/Analysis/hallc_replay_lt/DEF-files/COIN/PRODUCTION/CUTS/" (24175 55435 225870 987000) "./" "coin_reconstruct_cuts.def" "coin_production_cuts.def" "coin_rawdecode_cuts.def" "coin_production_ep_cuts.def" "coin_decode_cuts.def" "#coin_production_cuts.def#" "../")
 
  ("/home/trottar/Downloads/" (24426 5859 625011 370000) "qsq5p5_w3p02_loeps.pdf" "triggerTDCcuts.pdf" "errorband_lineplots.py" "Flash_KaonLTHallCTalk2019.pdf" "fpi_eic_mtg18.ppt" "P0_100k.png" "EIC-Update-Hall-C-28January2020-v2.pptx" "Mireille_Kaonlt_06_14.pptx" "analysis_notes_Yero.pdf" "SOLIDWORKS Data-20190304T045630Z-001.zip" "2020-01_Fast_simulation_tutorials.pptx" "Snapchat-735723540.jpg" "HallC_Analysis_Steps-Carlos.pdf" "KaonLT_Meeting_9_10.pdf" "runplan_6p2gev_scan.pdf" "KaonLTMeeting_4_29_20.pdf" "expressvpn_2.5.2.3-1_amd64.deb" "EIC_Meeting-8_26.pdf" "EIC_2-19.pdf" "output_ejana.txt" "EIC_t_dependence.pdf" "fpiPlot_xpi.pdf" "KaonLTMeeting_4_15_20.pdf" "TimeWindowPlots_Run6619.pdf" "KaonLTHallCTalk2019.pdf" "gas.pdf" "l&r-card.jpg" "freetrial.png" "TPResidentialLease3316Trotta_Spilker.pdf" "temp.jpg" "HallC_Software_Workshop-Carlos.pdf" "EICMeeting_5_11_20.pdf" "(PDF)Assembly_CrystalGrow_MC&RT_v1-20190304T045705Z-001.zip" "Kinematics_centerQ2p115W2p95-highe.pdf" "Laura-25-Front.pdf" "RTF_TemplateContributed.rtf" "qsq3p0_w2p32_loeps.pdf" "KaonLT_DNPTalk2019.pdf" "mesonSF_EIC_Pavia.pdf" "invite.ics" "studfent loan form.pdf" "sieve_6p2.pdf" "UPDATEDresume.docx" "KaonLT-Outline_6-14.pdf" "Phys787-IntroQCD-28August2019.pdf" "KaonLT_Meeting_9_24.pdf" "kaon_runplan_19mar11.ods" "fellowship_JSA_Vijay.pdf" "registration.pdf" "Computing_tools-tricks-Jun2018.pdf" "Temperature Distributions-20190304T045348Z-001.zip" "KaonLT_SK_14_05_19.pdf" "UTF-8%27%27How%2520to%2520Access%2520EHRTutor_Spring2019.docx" "eic_f2piPlot_overview.pdf" "MG_7_13_KaonRecap.pdf" "Irradiation January 2017-20190304T045854Z-001.zip" "LumiScans_1-24-19.pdf" "Kaon LT_Meeting_2-4.pdf" "Absorption Coeficient-20190304T045753Z-001.zip" "lumi_6p2.pdf" "com.android.vending_20.0.15-all_0_PR_309479531-82001500_minAPI16(armeabi,armeabi-v7a,mips,mips64,x86,x86_64)(nodpi)_apkmirror.com.apk" "tcoin.param" "KaonLTHallCWinterTalk2020_trottar.pdf" "ptracking.param" "Laura-25-Front-left.pdf" "QI_CasimirEffect.pdf" "cua.pdf" "KaonLT_Meeting_11_26.pdf" "KaonLT-Outline.pdf" "5171893 Comm Loan Adjustment Worksheet.pdf" "qsq2p115_w2p95_loeps.pdf" "lease2019.pdf" "DiracQuantuCondition_ 9-20-17.pdf" "20191016_134838.jpg" "KaonLTMeeting_5_13_20.pdf" "EIC-4_23.pdf" "EIC tPrime_dependence.pdf" "KaonLTMeeting12_10.pdf" "KaonLTMeeting_5-21.pdf" "stylus-dark-shadowfox.user.js" "zoom_amd64.deb" "README.html" "mesonSF_t_dep_7_20_20.md" "KaonLT_ColloquiumTalk2019.pdf" "hodocalib.pptx" "fpi_estimate.pdf" "KaonLTDNP2019-Abstract.pdf" "Laura-25.pdf" "expressvpn_2.6.3.3-1_amd64.deb" "protonMass_NuclearClass.pdf" "Profile_Link.png" "KaonLTAPS2019-Abstract.docx" "expressvpn_2.5.0.505-1_amd64.deb" "Kinematics_centerQ2p115W2p95-lowe.pdf" "runplan_10p6gev_scan.pdf" "TransmittanceCode-20190304T045217Z-001.zip" "slides_R.ppt" "20191016_134837.jpg" "Luminosity_table.pdf" "stephen_cua_detector.docx" "mesonSF_EIC_Pavia_DRAFT2.pdf" "KaonLTMeeting_6-4.pdf" "SK_KaonLT_Meeting_01_04_20.pdf" "EIC_MC_Overview.pdf" "README.asciidoc" "heep_8p2.pdf" "global-dark-style-changes-everything-to-dark.user.js" "Document Cloud.zip" "DC_Calib_Runlist.xlsx" "KaonLTMeeting_8-26.pdf" "Kinematics_centerQ4p4W2p74-highe.pdf" "EIC_Meeting-8_26.odp" "qsq4p4_w2p74_loeps.pdf" "Laura-25-right-back.pdf" "EICMC_refFrames.jpg" "QI_Uncer.pdf" "tmp.pptx" "Richard-Trotta-employment-verification.pdf" "GoT_DeadPool.pdf" "Kaon LTMeeting1_8_20.pdf" "KaonLT Hall C Talk 2019.odp" "Profile_Link.jpg" "KaonLTMeeting_4-30.pdf" "htracking.param" "heep_6p2.pdf" "Kaonlt_calibrations_mireille.pptx" "stochasticf_QM_2020.pdf" "20191016_134846.jpg" "KaonLT_PhysicsSettings_106.ods" "RichardTrotta-VoterRegistration.pdf" "KaonLT_SK_21_05_19.pdf" "DC_Cal_Calib.pdf" "Untitled document.zip" "KaonLT_PhysicsSettings_82-62.ods" "KaonLT Hall C Talk June2019-THedit.pptx" "Lettter of Recommendation - Laura Spilker.doc" "Lumi_Scans 2-7-19.pdf" "sieve_8p2.pdf" "KaonLTMeeting_5-14.pdf" "lumi_8p2.pdf" "mesonSF_CFNS.pdf" "physics_list.pdf" "google-clean-dark.user.js" "EICMeeting_3_30.pdf" "EICMeeting_4_13.pdf" "qsq3p0_w3p14_loeps.pdf" "mesonSF_EIC_Pavia_DRAFT1.pdf" "EICMeeting_4_27.pdf" "runplan_8p2gev_scan.pdf" "tanja_certificate.pdf" "CrystalGrow_MC&RT_v1-20190304T045800Z-001.zip" "../" "./")
-
- ("/home/trottar/ResearchNP/JLEIC/USERS/trottar/inputs/" (24424 44506 696281 422000) "./" "kinematics.input" "../")
 
  ("/home/trottar/bin/python/root2py/" (24415 36083 821109 532000) "__init__.py" "root2py.py" "./" "__pycache__/" "root2py.pyc" "__init__.pyc" "../")
 
@@ -273,17 +312,11 @@
 
  ("/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts/luminosity/batch/" (24353 34696 407539 157000) "run_batch_replay_lumi_coin_offline.sh" "./" ".gitignore" "inputRuns" "run_batch_lumi_script.sh" "../" "inputRuns.tmp")
 
- ("/home/trottar/Analysis/" (24353 34496 807577 25000) "kaon-coin/" "./" "hallc_replay/" "UTIL_BATCH/" "UTIL_KAONLT_sk/" "ROOTfiles/" "kaonlt/" "lambdaPlots/" "kaonlt_analysis/" "hallc_replay_lt/" "hcana/" "../")
-
  ("/home/" (23966 11219 894455 101000) "./" "trottar/" "../")
-
- ("/home/trottar/Documents/random/" (24348 23393 690462 720000) "DnD/" "LauraResume.pdf" "LauraResume.org" "./" "LauraResume.odt" "signedlease_4th.pdf" "LauraResume.tex" "../")
 
  ("/home/trottar/Documents/random/DnD/" (24348 31579 484886 740000) "./" "tellifer.org" "tellifer_sheet.pdf" "tellifer.png" "../")
 
  ("/home/trottar/ResearchNP/org_file/google_calendar/" (24140 13161 15824 387000) "./" "update_calendar.sh" "google_calendar.ics" "google_calendar.org" "../")
-
- ("/home/trottar/bin/" (24261 41151 670753 494000) "cshrc" "findHost.csh" "python/" "./" "copyFiles.sh" "README.md" "profile" "bash_aliases" ".git/" "sendFile.sh" "quick_plot/" "nameTerm.csh" "help.csh" "pkglist" "shareDocker.sh" "bashrc" "upgradePython.sh" "physics_dict/" "run_server.csh" "syncFiles.sh" "../" "archive/")
 
  ("/home/trottar/.emacs.d/lisp-files/" (24156 41594 286980 736000) "org-mouse.el" "gnugol.el" "grammarly.el" "send-message-without-bullets.el" "email.el" "./" "ox-koma-letter.el" "helm-org-rifle.el" "edit-server.el" "hacker-typer.el" "jay-osx.el" "lively.el" "zones.el" "hydras.el" "profile-dotemacs.el" "poetry_JD.el" "spacemacs-config.el" "prelude-key-chord.el" "clean-modeline.el" "edit-server-htmlize.el" "highlight-tail.el" "ivy-smex.el" "forecast.el" "mu4e-send-delay.el" "book-functions.el" "mure-headers.el" "jay-org-in-item-p.el" "key-seq.el" "spell-number.el" "fiverr-koma.el" "skeletons.el" "secret-codes.el" "sdcv-mode.el" "emacs_friends.el" "define-word.el" "autoinsert.el" "eshell-autojump.el" "xmlgen.el" "wn-org.el" "org-image.el" "export-to-text-expander.el" "../" "reveal-in-finder.el" "mu4e-context.el")
 
@@ -326,32 +359,6 @@
  ("/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts/" (24198 10863 47774 206000) "replay/" "luminosity/" "summaries/" "kaonyield/" "./" "kinematics/" "pid/" "../")
 
  ("/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/" (24233 42549 941296 586000) "./" "batch/" "README.md" "OUTPUT/" "bin/" "ROOTfiles/" "DB/" "REPORT_OUTPUT/" "online_archive/" "README" "HISTOGRAMS/" "config/" "scripts/" "../")
-
- ("/home/trottar/ResearchNP/gemc/my_plugins/meson_structure/" (24240 27074 655058 680000) "eicMC_g4e.py" "mstruct_general/" "./" ".gitignore" "g4e_analysis.py" "README.md" "mstruct_lambda/" ".git/" "CMakeLists.txt" ".ipynb_checkpoints/" "MC_OUTPUTS/" "cmake-build-debug/" "mstruct_trottar/" "CMakeFiles/" "OUTPUTS/" "scripts/" "../")
-
- ("/home/trottar/ResearchNP/gemc/my_plugins/meson_structure/mstruct_general/" (24242 55890 82117 412000) "MesonStructureProcessor.cc" "MesonStructureRootOutput.h" "meson_structure.cc" "MesonStructureProcessor.h" "./" "mstruct_general.so" "README.md" "cmake_install.cmake" "CMakeLists.txt" "cmake-build/" "CMakeFiles/" "Makefile" "cmake/" "../")
-
- ("/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/CUTS/" (24236 24636 989700 241000) "./" "general/" "run_type/" "../")
-
- ("/home/trottar/bin/python/" (24240 45278 87698 799000) "__init__.py" "./" "upgradePython.py" "kaonlt/" "../" "archive/" "root2py/")
-
- ("/home/trottar/ResearchNP/JLEIC/USERS/trottar/scripts/archive/" (24207 23546 580280 479000) "getTDISpionHisto.py" "./" "plotTDISpionHisto.py" "plot_PhaseSpace.py" "plot_yield.py" "../")
-
- ("/home/trottar/ResearchNP/gemc/escalate/escalate/ejana/ejana-dev/src/include/ejana/" (24197 17049 124313 125000) "EServicePool.h" "EJanaRootApplication.h" "./" "README.md" "EStringHelpers.h" "TextEventFileReader.h" "EventSourceControl.h" "MainOutputRootFile.h" "../")
-
- ("/home/trottar/ResearchNP/gemc/escalate/escalate/ejana/ejana-dev/src/include/" (24197 17049 124313 125000) "./" "dis/" "ejana/" "RecoModel/" "MinimalistModel/" "../")
-
- ("/home/trottar/ResearchNP/gemc/escalate/escalate/ejana/" (24197 17048 183790 124000) "./" "ejana-dev/" "../")
-
- ("/home/trottar/ResearchNP/gemc/escalate/escalate/" (24239 13206 650479 44000) ".ejpm_data/" "delphes/" "genfit/" "escalate.csh" "miniconda/" "./" "acts/" "eigen3/" "setup_jupyterlab.sh" "escalate.sh" "jana/" "install_ejana_g4e.sh" "pythia8/" "rave/" "vgm/" "g4e/" "dire/" "easy-profiler/" "ejana/" "fastjet/" "setup_conda.sh" "workspace/" "eic-smear/" "jupyter_extensions/" "lhapdf6/" "../")
-
- ("/home/trottar/ResearchNP/gemc/escalate/" (24229 58654 310922 707000) "./" "install_escalate.py" "escalate/" "../")
-
- ("/home/trottar/ResearchNP/gemc/escalate/escalate/ejana/ejana-dev/" (24197 17083 575425 432000) "doc/" "./" ".gitignore" "README.md" ".git/" "CMakeLists.txt" "src/" "cmake-build-debug/" ".gitlab-ci.yml" ".idea/" "scripts/" "cmake/" "../" "compiled/" ".vscode/")
-
- ("/home/trottar/ResearchNP/gemc/escalate/escalate/ejana/ejana-dev/src/" (24197 17049 136319 799000) "tests/" "./" ".gitignore" "plugins/" "executables/" "external/" "lib/" "include/" "../")
-
- ("/home/trottar/ResearchNP/gemc/escalate/escalate/ejana/ejana-dev/src/plugins/" (24197 17049 136319 799000) "io/" "./" "utils/" "examples/" "reco/" "CMakeLists.txt" "analysis/" "../")
 )
 
 ;; ----- ido-unc-hosts-cache -----

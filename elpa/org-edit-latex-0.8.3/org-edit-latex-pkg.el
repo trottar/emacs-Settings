@@ -1,1 +1,0 @@
-(define-package "org-edit-latex" "0.8.3" "Edit embedded LaTeX in a dedicated buffer" '((emacs "24.4") (auctex "11.90")) :commit "39cbc9a99acb030f537c7269ab93958187321871" :keywords '("org" "latex") :authors '(("James Wong" . "jianwang.academic@gmail.com")) :maintainer '("James Wong" . "jianwang.academic@gmail.com") :url "https://github.com/et2010/org-edit-latex")

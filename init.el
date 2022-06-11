@@ -102,17 +102,13 @@
  '(org-startup-truncated nil)
  '(org-startup-with-latex-preview t)
  '(org-support-shift-select (quote always))
- '(package-archives
-   (quote
-    (("gnu" . "http://elpa.gnu.org/packages/")
-     ("org" . "http://orgmode.org/elpa/")
-     ("melpa" . "https://stable.melpa.org/packages/"))))
  '(package-selected-packages
    (quote
-    (markdown-mode+ gmail-message-mode langtool ox-pandoc define-word all auto-correct guide-key org-redmine org-ref olivetti writeroom-mode writegood-mode auctex ox-json org-agenda-property visual-fill-column smooth-scroll orgtbl-show-header org-pdfview org-gcal org-edit-latex org-bullets org-beautify-theme literate-elisp latex-unicode-math-mode latex-math-preview latex-extra elpy common-lisp-snippets calfw-org avy autopair auto-yasnippet auctex-latexmk angular-snippets)))
+    (org let-alist company-math company-lua company-c-headers company-bibtex company-auctex company-jedi org-ac auto-org-md anki-vocabulary anki-editor anki-connect toc-org markdown-mode+ gmail-message-mode langtool ox-pandoc define-word all auto-correct guide-key org-redmine org-ref olivetti writeroom-mode writegood-mode auctex ox-json org-agenda-property visual-fill-column smooth-scroll orgtbl-show-header org-pdfview org-gcal org-edit-latex org-bullets org-beautify-theme literate-elisp latex-unicode-math-mode latex-math-preview latex-extra elpy common-lisp-snippets calfw-org avy autopair auto-yasnippet auctex-latexmk angular-snippets)))
  '(python-indent-guess-indent-offset nil)
  '(python-indent-offset 4)
  '(server-mode t)
+ '(setq package-archives t)
  '(term-scroll-to-bottom-on-output t)
  '(tool-bar-mode nil)
  '(truncate-lines nil)
@@ -126,9 +122,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(default ((t (:inherit nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 113 :width normal :foundry "unknown" :family "DejaVu Sans Mono"))))
- '(company-scrollbar-bg ((t (:background "deep sky blue"))))
- '(company-scrollbar-fg ((t (:background "dark cyan"))))
  '(company-tooltip ((t (:background "cyan" :foreground "black"))))
+ '(company-tooltip-scrollbar-thumb ((t (:background "dark cyan"))))
+ '(company-tooltip-scrollbar-track ((t (:background "deep sky blue"))))
  '(company-tooltip-selection ((t (:background "dim gray"))))
  '(custom-button ((t (:background "black" :foreground "white smoke" :box (:line-width 2 :color "black" :style released-button))))))
 ;;; init.el ends here
