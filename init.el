@@ -104,7 +104,7 @@
  '(org-support-shift-select (quote always))
  '(package-selected-packages
    (quote
-    (org let-alist company-math company-lua company-c-headers company-bibtex company-auctex company-jedi org-ac auto-org-md anki-vocabulary anki-editor anki-connect toc-org markdown-mode+ gmail-message-mode langtool ox-pandoc define-word all auto-correct guide-key org-redmine org-ref olivetti writeroom-mode writegood-mode auctex ox-json org-agenda-property visual-fill-column smooth-scroll orgtbl-show-header org-pdfview org-gcal org-edit-latex org-bullets org-beautify-theme literate-elisp latex-unicode-math-mode latex-math-preview latex-extra elpy common-lisp-snippets calfw-org avy autopair auto-yasnippet auctex-latexmk angular-snippets)))
+    (tramp org let-alist company-math company-lua company-c-headers company-bibtex company-auctex company-jedi org-ac auto-org-md anki-vocabulary anki-editor anki-connect toc-org markdown-mode+ gmail-message-mode langtool ox-pandoc define-word all auto-correct guide-key org-redmine org-ref olivetti writeroom-mode writegood-mode auctex ox-json org-agenda-property visual-fill-column smooth-scroll orgtbl-show-header org-pdfview org-gcal org-edit-latex org-bullets org-beautify-theme literate-elisp latex-unicode-math-mode latex-math-preview latex-extra elpy common-lisp-snippets calfw-org avy autopair auto-yasnippet auctex-latexmk angular-snippets)))
  '(python-indent-guess-indent-offset nil)
  '(python-indent-offset 4)
  '(server-mode t)
