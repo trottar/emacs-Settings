@@ -2,62 +2,110 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Tue Sep  6 01:05:43 2022
+;; Created Sat Mar 25 11:20:05 2023
 ;; Desktop file format version 208
 ;; Emacs version 25.2.2
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (25366 54567 85728 80000) (desktop . "208") "trottar@trottar" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "red") (sticky) (environment) (frameset--id . "12C6-426B-EC0A-0CCE") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (visibility . t) (user-size . t) (height . 58) (width . 207) (left . 40) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 36) (min-pixel-width-ignore . 36) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1880) (pixel-height . 1037) (total-width . 208) (total-height . 57) (normal-height . 1.0) (normal-width . 1.0) (buffer "EIC_mesonMC_n.cpp" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 2387) (start . 2285))))])
+(setq desktop-saved-frameset [frameset 1 (25631 4389 848149 517000) (desktop . "208") "trottar@trottar" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "red") (sticky) (environment) (frameset--id . "12C6-426B-EC0A-0CCE") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (visibility . t) (user-size . t) (fullscreen-restore . maximized) (height . 48) (width . 171) (left . 40) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 36) (min-pixel-width-ignore . 36) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1560) (pixel-height . 857) (total-width . 173) (total-height . 47) (normal-height . 1.0) (normal-width . 1.0) (buffer "run_mesonMC.sh" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 2414) (start . 2370))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("text" "set_z" "x" "cmap" "3d" "hist" "hist3d" "delta_t_t_Q2" "tree" "xpi" "tree-" "proctree" "eee_inc" "Branch" "Bra" "ttree"))
+(setq search-ring '("EIC" "branch" "pex_inc" "kincident_vertex" "branch" "froot" "tree" "branch" "tree" "fill" "e_inc" "branch" "to_numpy" "tdata" "indatafilename" "tdata"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("~/.emacs.d/hallc/" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/process/bindata.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/process/dict.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/binInputs.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/run_mesonMC.sh" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/det_ana/plot_Fun4all.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/det_ana/plot_Fun4all_ecce.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/det_ana/run_plot.sh" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/run_mesonMC.sh" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/plot_test.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/det_ana/run_plot.sh" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/inputs/kinematics.input" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/det_ana/run_plot.sh" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/run_mesonMC.sh" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/det_ana/run_plot.sh" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/det_ana/plot_Fun4all.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/functions/sf.h" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/run_mesonMC.sh" "/home/trottar/ResearchNP/analysis/run_plot.sh" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/process/luminosity.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/EIC_mesonMC_n.cpp" "/home/trottar/ResearchNP/analysis/plot_Fun4all.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/inputs/bins.input" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/process/bindata.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/archive-scripts/plot_pion.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/plot_test.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/process/bindata.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/run_mesonMC.sh" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/process/dict.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/EIC_mesonMC.h" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/run_mesonMC.sh" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/inputs/kinematics.input" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/EIC_mesonMC_n.cpp" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/run_mesonMC.sh" "/home/trottar/.cshrc" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/process/luminosity.py" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "/home/trottar/ResearchNP/JLEIC_old/USERS/trottar/inputs/kinematics.input" "/home/trottar/ResearchNP/JLEIC_old/USERS/trottar/scripts/run_plots.sh" "~/.emacs.d/eic/" "/home/trottar/Analysis/AerogelScripts/run_CherenkovPlots.C" "/home/trottar/Analysis/AerogelScripts/run_CherenkovEff.C" "/home/trottar/Analysis/AerogelScripts/CherenkovPlotsHadron.C" "/home/trottar/Analysis/AerogelScripts/efficiencies.C" "/home/trottar/Analysis/AerogelScripts/CherenkovPlots.h" "~/.emacs.d/hallc/" "~/.emacs.d/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/inputRuns" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/Lumi_6p2_Spring19" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/inputRuns" "~/.emacs.d/hallc/" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/copy_lumi.sh" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "/media/trottar/Backup Plus/Pass1/REPORT_FILES/replay_coin_Lumi_5158_-1.report" "/media/trottar/Backup Plus/Pass1/REPORT_FILES/replay_coin_Lumi_5157_-1.report" "/media/trottar/Backup Plus/Pass1/REPORT_FILES/replay_coin_Lumi_5156_-1.report" "/media/trottar/Backup Plus/Pass1/REPORT_FILES/replay_coin_Lumi_5155_-1.report" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts/luminosity/OUTPUTS/lumi_data.csv" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/report" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/Lumi_ALL" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/Lumi_8p2_Spring19" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/Lumi_6p2_Spring19" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/report" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/ResearchNP/kaonlt_analysis/lumiscan/" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/Lumi_10p6_Autumn18" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/Lumi_6p2_Spring19" "/home/trottar/bin/copyFiles.sh" "/home/trottar/.cshrc" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/copy_lumi.sh" "/home/trottar/Analysis/hallc_replay_lt/UTIL_BATCH/batch_scripts/run_batch_CalCalib.sh" "/home/trottar/.emacs.d/startinit.el" "/home/trottar/.emacs.d/startinit.org" "~/.emacs.d/eic/" "~/.emacs.d/" "~/.emacs.d/eic/" "~/.emacs.d/ejana/" "~/.emacs.d/eic/" "/home/trottar/.emacs.d/startinit.org" "/home/trottar/Documents/meetings/EIC_meetings/7_20_20/mesonSF_t_dep_7_20_20.md" "~/.emacs.d/eic/" "~/.emacs.d/ejana/" "~/.emacs.d/eic/"))
+(setq file-name-history '("/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/det_ana/run_plot.sh" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/functions/sf.h" "~/ResearchNP/JLEIC/USERS/trottar/src/EIC_mesonMC_n.cpp" "~/ResearchNP/JLEIC/USERS/trottar/src/EIC_mesonMC_Lambda.cpp" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/EIC_mesonMC_Lambda.cpp" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/plot_test.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/EIC_mesonMC_Lambda.cpp" "~/ResearchNP/JLEIC/USERS/trottar/src/EIC_mesonMC_Lambda.cpp" "~/ResearchNP/JLEIC/USERS/trottar/src/EIC_mesonMC_n.cpp" "/home/trottar/ResearchNP/JLEIC/.gitignore" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/inputs/kinematics.input" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/run_mesonMC.sh" "~/.emacs.d/hallc/" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/process/bindata.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/process/dict.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/binInputs.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/run_mesonMC.sh" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/det_ana/plot_Fun4all.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/det_ana/plot_Fun4all_ecce.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/det_ana/run_plot.sh" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/run_mesonMC.sh" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/plot_test.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/det_ana/run_plot.sh" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/inputs/kinematics.input" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/det_ana/run_plot.sh" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/run_mesonMC.sh" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/det_ana/run_plot.sh" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/det_ana/plot_Fun4all.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/functions/sf.h" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/run_mesonMC.sh" "/home/trottar/ResearchNP/analysis/run_plot.sh" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/process/luminosity.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/EIC_mesonMC_n.cpp" "/home/trottar/ResearchNP/analysis/plot_Fun4all.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/inputs/bins.input" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/process/bindata.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/archive-scripts/plot_pion.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/plot_test.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/process/bindata.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/run_mesonMC.sh" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/process/dict.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/EIC_mesonMC.h" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/run_mesonMC.sh" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/inputs/kinematics.input" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/EIC_mesonMC_n.cpp" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/run_mesonMC.sh" "/home/trottar/.cshrc" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/process/luminosity.py" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "/home/trottar/ResearchNP/JLEIC_old/USERS/trottar/inputs/kinematics.input" "/home/trottar/ResearchNP/JLEIC_old/USERS/trottar/scripts/run_plots.sh" "~/.emacs.d/eic/" "/home/trottar/Analysis/AerogelScripts/run_CherenkovPlots.C" "/home/trottar/Analysis/AerogelScripts/run_CherenkovEff.C" "/home/trottar/Analysis/AerogelScripts/CherenkovPlotsHadron.C" "/home/trottar/Analysis/AerogelScripts/efficiencies.C" "/home/trottar/Analysis/AerogelScripts/CherenkovPlots.h" "~/.emacs.d/hallc/" "~/.emacs.d/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/inputRuns" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/Lumi_6p2_Spring19" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/inputRuns" "~/.emacs.d/hallc/" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/copy_lumi.sh" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "/media/trottar/Backup Plus/Pass1/REPORT_FILES/replay_coin_Lumi_5158_-1.report" "/media/trottar/Backup Plus/Pass1/REPORT_FILES/replay_coin_Lumi_5157_-1.report" "/media/trottar/Backup Plus/Pass1/REPORT_FILES/replay_coin_Lumi_5156_-1.report" "/media/trottar/Backup Plus/Pass1/REPORT_FILES/replay_coin_Lumi_5155_-1.report" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts/luminosity/OUTPUTS/lumi_data.csv" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/report" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/Lumi_ALL" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/Lumi_8p2_Spring19" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/Lumi_6p2_Spring19" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/report" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/ResearchNP/kaonlt_analysis/lumiscan/" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/Lumi_10p6_Autumn18" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/Lumi_6p2_Spring19" "/home/trottar/bin/copyFiles.sh" "/home/trottar/.cshrc" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/copy_lumi.sh" "/home/trottar/Analysis/hallc_replay_lt/UTIL_BATCH/batch_scripts/run_batch_CalCalib.sh"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
-  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/EIC_mesonMC_n.cpp"
-  "EIC_mesonMC_n.cpp"
+  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/run_mesonMC.sh"
+  "run_mesonMC.sh"
+  'sh-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  2414
+  '(2420 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (2203 2196 2196 2219 743 15 15 2417 2420 2414))))
+
+(desktop-create-buffer 208
+  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/EIC_mesonMC_Lambda.cpp"
+  "EIC_mesonMC_Lambda.cpp"
   'c++-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  2387
-  '(7059 nil)
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  1011
+  '(7189 nil)
   nil
   nil
-  '((buffer-file-coding-system . utf-8-unix) (truncate-lines))
-  '((mark-ring (1 7281 1 8044 1 8009 8006 1 48271 9875 9867 1 9033 9026 1 6535))))
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (1 2733 1 8628 8621 1 7285 7269 1 36260 6263 1 39815 39810 6249 6259))))
 
 (desktop-create-buffer 208
   "/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/det_ana/plot_Fun4all.py"
   "plot_Fun4all.py"
   'python-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  33291
-  '(32835 nil)
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  30955
+  '(918 nil)
   nil
   nil
   '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines))
-  '((mark-ring (32822 32876 31623 31622 32110 32124 32619 534 31552 32857 25711 24412 20 25338 24395 1))))
+  '((mark-ring (1 1314 13335 923 918 949 949 424 950 1 13304 13299 1 32939 33313 33324))))
 
 (desktop-create-buffer 208
-  "/home/trottar/.emacs.d/ido.last"
-  "ido.last"
+  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/inputs/kinematics.input"
+  "kinematics.input"
   'fundamental-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  44472
-  '(nil nil)
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  226
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/home/trottar/ResearchNP/JLEIC/.gitignore"
+  ".gitignore"
+  'fundamental-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  175
+  '(138 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (135 138 138 138 175))))
+
+(desktop-create-buffer 208
+  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/EIC_mesonMC.h"
+  "EIC_mesonMC.h"
+  'c-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  2027
+  '(25322 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (2222 177 177 1 2249 177 177 177 177 177 177 177 177 177 177 1))))
+
+(desktop-create-buffer 208
+  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/EIC_mesonMC_n.cpp"
+  "EIC_mesonMC_n.cpp"
+  'c++-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  1
+  '(51004 nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix) (truncate-lines))
-  '((mark-ring nil)))
+  '((mark-ring (16883 16638 14126 1 50756 48635 16648 1 50754 50754 49195 49195 49434 49410 49410 45749))))
 
 (desktop-create-buffer 208
   "/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/det_ana/plot_Fun4all_ecce.py"
   "plot_Fun4all_ecce.py"
   'python-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
   10792
   '(27722 nil)
   nil
@@ -66,38 +114,26 @@
   '((mark-ring (28053 28039 27675 28270 1 38368 35482 39585 35639 35482 1 39626 39611 35482 35482 39585))))
 
 (desktop-create-buffer 208
-  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/src/EIC_mesonMC.h"
-  "EIC_mesonMC.h"
-  'c-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  732
-  '(25322 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines))
-  '((mark-ring (2222 177 177 1 2249 177 177 177 177 177 177 177 177 177 177 1))))
-
-(desktop-create-buffer 208
-  "/home/trottar/ResearchNP/JLEIC/USERS/trottar/inputs/kinematics.input"
-  "kinematics.input"
-  'fundamental-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  212
-  '(258 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines))
-  '((mark-ring (258 107 251 160 160 160 258 166 160 160 1 258 160 258 104 55))))
-
-(desktop-create-buffer 208
   "/home/trottar/ResearchNP/JLEIC/USERS/trottar/inputs/bins.input"
   "bins.input"
   'fundamental-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
   45
   '(nil nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-dos) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/trottar/.emacs.d/ido.last"
+  "ido.last"
+  'fundamental-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  45767
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines))
   '((mark-ring nil)))
 

@@ -2,26 +2,74 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Tue Sep  6 00:06:21 2022
+;; Created Mon Apr 17 11:11:30 2023
 ;; Desktop file format version 208
 ;; Emacs version 25.2.2
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (25366 51005 11021 945000) (desktop . "208") "trottar@trottar" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "red") (sticky) (environment) (frameset--id . "8F4F-6A0E-EC5F-D842") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (visibility . t) (height . 58) (width . 207) (left . 40) (top . 0)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 72) (min-pixel-width . 180) (min-pixel-height-ignore . 36) (min-pixel-width-ignore . 72) (min-pixel-height-safe . 18) (min-pixel-width-safe . 36)) hc (pixel-width . 1880) (pixel-height . 1037) (total-width . 209) (total-height . 57) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 944) (pixel-height . 1037) (total-width . 105) (total-height . 57) (normal-height . 1.0) (normal-width . 0.5) (buffer "startinit.org" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1) (start . 1))) (leaf (last . t) (pixel-width . 936) (pixel-height . 1037) (total-width . 104) (total-height . 57) (normal-height . 1.0) (normal-width . 0.5) (buffer "*Warnings*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 233) (start . 1)))))])
+(setq desktop-saved-frameset [frameset 1 (25661 24994 724452 405000) (desktop . "208") "trottar@trottar" nil nil ((((tty-type . "xterm-256color") (tty . "/dev/tty") (display-type . color) (background-mode . dark) (foreground-color . "#e1e1e0") (cursor-color . "red") (background-color . "#3a3a3a") (menu-bar-lines . 0) (tool-bar-lines . 0) (font . "tty") (height . 30) (width . 54) (modeline . t) (unsplittable) (frameset--id . "43AB-C243-D2B3-50C9") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 54) (pixel-height . 29) (total-width . 54) (total-height . 29) (normal-height . 1.0) (normal-width . 1.0) (buffer ".gitignore|scrivener-latex" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1037) (start . 1037))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("org" "org-si" "mel" "melp" "milk" "auto-org" "melp" "melpa" "auto-org" "melpa" "org" "melpa" "org" "Org" "anki" "Org"))
+(setq search-ring '("setsp" "org" "org-si" "mel" "melp" "milk" "auto-org" "melp" "melpa" "auto-org" "melpa" "org" "melpa" "org" "Org" "anki"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "/home/trottar/.emacs.d/init.el" "~/.emacs.d/chrome/" "/home/trottar/.emacs.d/init.el" "~/.emacs.d/eic/" "~/.emacs.d/bookmarks" "/gdrive:papatrott@gmail.com:/" "~/.emacs.d/hallc/" "/etc/anacrontab" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "/home/trottar/Analysis/simc_gfortran/src/trg_field_map.dat" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "/home/trottar/Programs/my_programs/customsearch/src/clucene/src/core/CLucene/index/IndexModifier.h" "/home/trottar/Programs/my_programs/customsearch/src/clucene/src/test/index/IndexWriter4Test.h" "/home/trottar/Programs/my_programs/customsearch/src/youtube.py" "~/Programs/my_programs/customsearch/src/bookmarks.py" "~/Programs/my_programs/customsearch/src/database.py" "~/Programs/my_programs/customsearch/src/requirements.txt" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "/opt/jlab_software/2.2/ce/root.env" "/opt/jlab_software/2.2/ce/versions.env" "/opt/jlab_software/2.2/ce/checkSoftware.py" "/opt/jlab_software/2.2/ce/osrelease.pl" "/opt/jlab_software/2.2/ce/root.env" "/opt/jlab_software/2.2/ce/checkSoftware.py" "/opt/jlab_software/2.2/ce/getVersion.py" "/opt/jlab_software/2.2/ce/jlab.csh" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/" "~/test.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/plot_test.py" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "/home/trottar/ResearchNP/JLEIC_old/USERS/trottar/inputs/kinematics.input" "/home/trottar/ResearchNP/JLEIC_old/USERS/trottar/scripts/run_plots.sh" "~/.emacs.d/eic/" "/home/trottar/Analysis/AerogelScripts/run_CherenkovPlots.C" "/home/trottar/Analysis/AerogelScripts/run_CherenkovEff.C" "/home/trottar/Analysis/AerogelScripts/CherenkovPlotsHadron.C" "/home/trottar/Analysis/AerogelScripts/efficiencies.C" "/home/trottar/Analysis/AerogelScripts/CherenkovPlots.h" "~/.emacs.d/hallc/" "~/.emacs.d/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/inputRuns" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/Lumi_6p2_Spring19" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/inputRuns" "~/.emacs.d/hallc/" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/copy_lumi.sh" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "/media/trottar/Backup Plus/Pass1/REPORT_FILES/replay_coin_Lumi_5158_-1.report" "/media/trottar/Backup Plus/Pass1/REPORT_FILES/replay_coin_Lumi_5157_-1.report" "/media/trottar/Backup Plus/Pass1/REPORT_FILES/replay_coin_Lumi_5156_-1.report" "/media/trottar/Backup Plus/Pass1/REPORT_FILES/replay_coin_Lumi_5155_-1.report" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts/luminosity/OUTPUTS/lumi_data.csv" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/report" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/Lumi_ALL" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/Lumi_8p2_Spring19" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/Lumi_6p2_Spring19" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/report" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/ResearchNP/kaonlt_analysis/lumiscan/" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/Lumi_10p6_Autumn18" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/Lumi_6p2_Spring19"))
+(setq file-name-history '("~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "/usr/local/bin/touchpad-on" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "/home/trottar/.emacs.d/init.el" "~/.emacs.d/chrome/" "/home/trottar/.emacs.d/init.el" "~/.emacs.d/eic/" "~/.emacs.d/bookmarks" "/gdrive:papatrott@gmail.com:/" "~/.emacs.d/hallc/" "/etc/anacrontab" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "/home/trottar/Analysis/simc_gfortran/src/trg_field_map.dat" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "/home/trottar/Programs/my_programs/customsearch/src/clucene/src/core/CLucene/index/IndexModifier.h" "/home/trottar/Programs/my_programs/customsearch/src/clucene/src/test/index/IndexWriter4Test.h" "/home/trottar/Programs/my_programs/customsearch/src/youtube.py" "~/Programs/my_programs/customsearch/src/bookmarks.py" "~/Programs/my_programs/customsearch/src/database.py" "~/Programs/my_programs/customsearch/src/requirements.txt" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "/opt/jlab_software/2.2/ce/root.env" "/opt/jlab_software/2.2/ce/versions.env" "/opt/jlab_software/2.2/ce/checkSoftware.py" "/opt/jlab_software/2.2/ce/osrelease.pl" "/opt/jlab_software/2.2/ce/root.env" "/opt/jlab_software/2.2/ce/checkSoftware.py" "/opt/jlab_software/2.2/ce/getVersion.py" "/opt/jlab_software/2.2/ce/jlab.csh" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/" "~/test.py" "/home/trottar/ResearchNP/JLEIC/USERS/trottar/analysis/plot_test.py" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "/home/trottar/ResearchNP/JLEIC_old/USERS/trottar/inputs/kinematics.input" "/home/trottar/ResearchNP/JLEIC_old/USERS/trottar/scripts/run_plots.sh" "~/.emacs.d/eic/" "/home/trottar/Analysis/AerogelScripts/run_CherenkovPlots.C" "/home/trottar/Analysis/AerogelScripts/run_CherenkovEff.C" "/home/trottar/Analysis/AerogelScripts/CherenkovPlotsHadron.C" "/home/trottar/Analysis/AerogelScripts/efficiencies.C" "/home/trottar/Analysis/AerogelScripts/CherenkovPlots.h" "~/.emacs.d/hallc/" "~/.emacs.d/" "~/.emacs.d/eic/" "~/.emacs.d/chrome/" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/inputRuns" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/Lumi_6p2_Spring19" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/inputRuns" "~/.emacs.d/hallc/" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/copy_lumi.sh" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "/media/trottar/Backup Plus/Pass1/REPORT_FILES/replay_coin_Lumi_5158_-1.report" "/media/trottar/Backup Plus/Pass1/REPORT_FILES/replay_coin_Lumi_5157_-1.report" "/media/trottar/Backup Plus/Pass1/REPORT_FILES/replay_coin_Lumi_5156_-1.report" "/media/trottar/Backup Plus/Pass1/REPORT_FILES/replay_coin_Lumi_5155_-1.report" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts/luminosity/OUTPUTS/lumi_data.csv" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/report" "/home/trottar/ResearchNP/kaonlt_analysis/lumiscan/Lumi_ALL"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/trottar/Programs/my_programs/scrivener-latex/.gitignore"
+  ".gitignore"
+  'fundamental-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  1037
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/trottar/Programs/my_programs/starfinder/.gitignore"
+  ".gitignore"
+  'fundamental-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  49
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/trottar/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  573
+  '(3916 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix) (truncate-lines))
+  '((mark-ring (3916 3879 3879 4867 4867 3916 3876 3916 3876 1 1 5774 1373 5774 1 573))))
+
+(desktop-create-buffer 208
+  "/home/trottar/.config/google-chrome/Default/Bookmarks"
+  "Bookmarks"
+  'fundamental-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  325
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
 (desktop-create-buffer 208
   "/home/trottar/.emacs.d/startinit.org"
   "startinit.org"
   'org-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
   1
   '(101366 nil)
   nil
@@ -30,26 +78,50 @@
   '((mark-ring (687 748 1 101300 101242 101242 101301 101301 766 1 1341 1 101356 101356 101229 101238))))
 
 (desktop-create-buffer 208
+  "/home/trottar/Programs/my_programs/customsearch/src/youtube.py"
+  "youtube.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/trottar/Analysis/ltsep/ltsep.py"
+  "ltsep.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode smerge-mode TeX-PDF-mode)
+  105
+  '(148 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (103))))
+
+(desktop-create-buffer 208
+  "/home/trottar/Programs/my_programs/scrivener-latex/main.tex"
+  "main.tex"
+  'latex-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  531
+  '(553 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (553 532 427 427 508 507 553 553))))
+
+(desktop-create-buffer 208
   "/home/trottar/.emacs.d/startinit.el"
   "startinit.el"
   'emacs-lisp-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
   13624
   '(1 nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix) (truncate-lines))
   '((mark-ring (6645 1 64489 1 23367 658 629 232 13624))))
-
-(desktop-create-buffer 208
-  "/home/trottar/.emacs.d/init.el"
-  "init.el"
-  'emacs-lisp-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  4106
-  '(3916 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . prefer-utf-8-unix) (truncate-lines))
-  '((mark-ring (3916 3879 3879 4867 4867 3916 3876 3916 3876 1 1 5774 1373 5774 1 5700))))
 

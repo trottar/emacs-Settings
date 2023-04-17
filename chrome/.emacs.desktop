@@ -2,37 +2,268 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Tue Sep  6 01:05:45 2022
+;; Created Mon Apr 17 11:16:58 2023
 ;; Desktop file format version 206
 ;; Emacs version 25.2.2
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (25366 54569 632163 326000) (desktop . "208") "trottar@trottar" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (frameset--id . "7314-8D8C-4D51-7988") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (visibility . t) (user-size . t) (fullscreen-restore . maximized) (height . 58) (width . 207) (left . 40) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 36) (min-pixel-width-ignore . 36) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1880) (pixel-height . 1037) (total-width . 208) (total-height . 57) (normal-height . 1.0) (normal-width . 1.0) (buffer ".cshrc" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 2809) (start . 2769))))])
+(setq desktop-saved-frameset [frameset 1 (25661 25322 483041 947000) (desktop . "208") "trottar@trottar" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (frameset--id . "7314-8D8C-4D51-7988") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (visibility . t) (user-size . t) (fullscreen-restore . maximized) (height . 48) (width . 171) (left . 40) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 36) (min-pixel-width-ignore . 36) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1560) (pixel-height . 857) (total-width . 173) (total-height . 47) (normal-height . 1.0) (normal-width . 1.0) (buffer "prompts.json" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 4462) (start . 3051))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("replay_ka" "story" "ignoran" "I" "note 4" "appa" "stopped her" "II" "jgr" "plague" "the subc" "stopped her" "book st" "tramp" "gdr" "goo"))
+(setq search-ring '("." "join" "* " "return" "md_to_pdf" "out_f" "summaries" "return" "out_f" "mail" "progres" "progr" "randint" "must read" "database" "databas"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("/home/trottar/.cshrc" "/home/trottar/Heep_HMS_10p6.inp" "/home/trottar/.emacs.d/init.el" "/home/trottar/.emacs.d/startinit.org" "/gdrive:papatrott@gmail.com:/" "/gdrive" "/home/trottar/.emacs.d/init.el" "/home/trottar/.emacs.d/startinit.org" "/home/trottar/.cshrc" "/home/trottar/Documents/papers/thesis/conferences/dnp_2022.pdf" "~/Documents/papers/thesis/conferences/dnp_2022.org" "/home/trottar/.emacs.d/startinit.org" "~/.emacs.d/elpa/org-9.5.4/ox-latex.el" "/home/trottar/.emacs.d/startinit.org" "~/.emacs.d/elpa/org-9.5.4/ox-latex.el" "~/.emacs.d/init.el" "~/.emacs.d/elpa/auctex-latexmk-20170618.1636/auctex-latexmk.el" "/home/trottar/.emacs.d/elpa/auctex-latexmk-20170618.1636/auctex-latexmk.el" "/home/trottar/.emacs.d/elpa/auctex-latexmk-20170618.1636/auctex-latexmk-pkg.el" "/home/trottar/.emacs.d/elpa/org-9.5.4/ob-latex.el" "~/.emacs.d/init.el" "~/.emacs.d/elpa/auctex-latexmk-20170618.1636/auctex-latexmk.el" "/home/trottar/.emacs.d/elpa/auctex-latexmk-20170618.1636/auctex-latexmk.el" "/home/trottar/.emacs.d/elpa/auctex-latexmk-20170618.1636/auctex-latexmk-pkg.el" "/home/trottar/.emacs.d/elpa/auctex-latexmk-20170618.1636/auctex-latexmk-autoloads.el" "~/.emacs.d/elpa/org-9.5.4/ox-latex.el" "~/.emacs.d/init.el" "/home/trottar/.emacs.d/elpa/org-edit-latex-20170908.1522/org-edit-latex.el" "~/.emacs.d/init.el" "/home/trottar/.emacs.d/elpa/org-9.5.4/ob-latex.el" "/home/trottar/Documents/random/obscura/ivan_dostoevsky.tex" "/home/trottar/.emacs.d/elpa/org-9.5.4/ox-latex.el" "/home/trottar/.emacs.d/elpa/org-20210929/ob-latex.el" "/home/trottar/Documents/random/obscura/ivan_dostoevsky.tex" "/home/trottar/.emacs.d/elpa/org-20210929/ox-latex.el" "/home/trottar/.emacs.d/elpa/org-edit-latex-20170908.1522/org-edit-latex.el" "/home/trottar/.emacs.d/elpa/org-edit-latex-20170908.1522/org-edit-latex-pkg.el" "/home/trottar/.emacs.d/elpa/org-edit-latex-20170908.1522/org-edit-latex-autoloads.el" "/home/trottar/.emacs.d/elpa/org-edit-latex-20170908.1522/org-edit-latex-pkg.el" "/home/trottar/Documents/random/obscura/ivan_dostoevsky.pdf" "/home/trottar/.emacs.d/elpa/org-20210929/ox-latex.el" "/home/trottar/.emacs.d/elpa/org-20210929/oc-biblatex.el" "/home/trottar/.emacs.d/elpa/org-20210929/ob-latex.el" "/home/trottar/Documents/random/obscura/ivan_dostoevsky.org" "~/Documents/random/obscura/vladimir_dostoevsky.org" "/home/trottar/.cshrc" "/home/trottar/bin/auto_mail.sh" "/home/trottar/.cshrc" "/home/trottar/.emacs.d/startinit.org" "/home/trottar/.emacs.d/init.el" "/home/trottar/.emacs.d/startinit.el" "~/.emacs.d/alias.el" "/home/trottar/.emacs.d/startinit.el" "/home/trottar/.emacs.d/init.el" "/home/trottar/.emacs.d/startinit.el" "~/.emacs.d/lisp/tramp.el" "/home/trottar/.emacs.d/startinit.el" "/home/trottar/.gdrive/token_v2.json" "/gdrive:papatrott@gmail.com:/" "/home/trottar/Documents/papers/thesis/scattering/fixed_collider_physics.pdf" "~/bin/set_env.sh" "/home/trottar/.profile" "/home/trottar/.bash_profile" "/home/trottar/bin/auto_mail.sh" "/etc/profile.d/01-locale-fix.sh" "/etc/profile.d/apps-bin-path.sh" "/etc/profile.d/auto_mail.sh" "/etc/profile.d/01-locale-fix.sh" "/home/trottar/.config/autostart/email.desktop" "/home/trottar/.profile" "/home/trottar/.config/autostart/mintwelcome.desktop" "/home/trottar/.config/autostart/email.desktop" "/home/trottar/.profile" "/home/trottar/.bash_profile" "/home/trottar/.profile" "/home/trottar/Documents/papers/thesis/dissertation/phd_thesis.org" "~/Documents/papers/thesis/scattering/fixed_collider_physics.org" "/home/trottar/.cshrc" "/home/trottar/Documents/misc/shiftsummary_template.txt" "~/Documents/misc/shiftsummary_template.txt" "/home/trottar/.cshrc" "/opt/jlab_software/2.2/ce/versions.env" "/opt/jlab_software/2.2/ce/qt.env" "/home/trottar/.cshrc" "/opt/jlab_software/2.2/ce/versions.env" "/opt/jlab_software/2.2/ce/jlab.csh" "/opt/jlab_software/2.2/ce/checkSoftware.py" "/opt/jlab_software/2.2/ce/xercesc.env" "/opt/jlab_software/2.2/ce/versions.env" "/opt/jlab_software/2.2/ce/osrelease.pl" "/opt/jlab_software/2.2/ce/scons.env" "/opt/jlab_software/2.2/ce/xercesc.env" "/opt/jlab_software/2.2/ce/settings.xcconfig" "/opt/jlab_software/2.2/ce/checkSoftware.py" "/home/trottar/.cshrc" "/opt/jlab_software/2.2/ce/versions.env" "/opt/jlab_software/2.2/ce/getVersion.py" "/opt/jlab_software/2.2/ce/qt.env" "/opt/jlab_software/2.2/ce/versions.env" "/opt/jlab_software/2.2/ce/osrelease.pl"))
+(setq file-name-history '("/home/trottar/Programs/my_programs/scrivener-latex/.gitignore" "/home/trottar/Prod_Coin_Q5p5W3p02right_highe.root" "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_3/nine_wreaths.org" "/home/trottar/Documents/Notes/note_KaonLT_2023-03-23.org" "/home/trottar/bin/python/gpt/prompts.json" "/home/trottar/bin/python/notes/notes.py" "/home/trottar/bin/python/gpt/chatgpt.py" "/home/trottar/bin/python/notes/notes.py" "/home/trottar/Documents/Notes/note_Carlos_2023-03-21.org" "/home/trottar/bin/python/gmail/summarize_zotero.py" "/home/trottar/Programs/my_programs/pdf_summary/run_convert.sh" "/home/trottar/bin/python/gmail/summarize_text.py" "/home/trottar/bin/python/gmail/pdf_to_text.py" "/home/trottar/Programs/my_programs/pdf_summary/src/summarize_zotero.py" "/home/trottar/bin/python/gmail/summarize_zotero.py" "/home/trottar/Programs/my_programs/pdf_summary/src/summarize_zotero.py" "/home/trottar/bin/python/gmail/tools.py" "/home/trottar/bin/python/gmail/rss.py" "/home/trottar/bin/python/gmail/auto_mail.py" "/home/trottar/bin/python/gmail/searchfiles.py" "/home/trottar/bin/.gitignore" "/home/trottar/Programs/my_programs/customsearch/src/auto_mail.py" "/home/trottar/bin/auto_mail.sh" "~/bin/python/kde/kdeconnect.py" "/home/trottar/Programs/my_programs/pdf_summary/src/pdf_to_text.py" "/home/trottar/Programs/my_programs/pdf_summary/src/summarize_zotero.py" "/home/trottar/Programs/my_programs/pdf_summary/src/general_summary.py" "/home/trottar/Programs/my_programs/pdf_summary/run_convert.sh" "/home/trottar/Programs/my_programs/pdf_summary/src/summarize_zotero.py" "~/Programs/my_programs/pdf_summary/src/general.py" "/home/trottar/Programs/my_programs/pdf_summary/src/summarize_zotero.py" "/home/trottar/Programs/my_programs/pdf_summary/run_convert.sh" "/home/trottar/Programs/my_programs/pdf_summary/src/summarize_text.py" "/home/trottar/bin/python/notes/notes.py" "/home/trottar/.cshrc" "/home/trottar/bin/python/notes/notes.py" "/home/trottar/.cshrc" "/home/trottar/bin/python/gpt/saved/.gitignore" "/home/trottar/bin/python/notes/notes.py" "/home/trottar/Documents/Notes/note_KaonLT_2023-03-16.org" "~/Documents/.gitignore" "/home/trottar/.cshrc" "/home/trottar/bin/notes.sh" "/home/trottar/.cshrc" "/home/trottar/bin/notes.sh" "~/bin/python/notes/notes.py" "/home/trottar/Programs/my_programs/pdf_summary/src/summarize_zotero.py" "/home/trottar/Programs/my_programs/pdf_summary/src/summarize_text.py" "/home/trottar/Programs/my_programs/bookmarkconverter/src/GetBookmarks.py" "/home/trottar/Programs/my_programs/bookmarkconverter/src/CreateEvernote.py" "/home/trottar/Programs/my_programs/bookmarkconverter/src/evernote_test.py" "/home/trottar/Programs/my_programs/bookmarkconverter/src/SummarizeLink.py" "/home/trottar/.cshrc" "~/bin/python/gpt/saved/.gitignore" "~/Analysis/simc_gfortran/.gitignore" "/home/trottar/bin/.gitignore" "/home/trottar/.bash_profile" "~/bin/python/gpt/saved/" "/home/trottar/bin/chat.sh" "/home/trottar/bin/python/gpt/prompts.json" "~/bin/python/gpt/prompts/prompts.json" "/home/trottar/bin/python/gpt/chatgpt.py" "/home/trottar/.cshrc" "/home/trottar/Programs/my_programs/pdf_summary/src/summarize_zotero.py" "/home/trottar/Programs/my_programs/pdf_summary/src/summarize_text.py" "/home/trottar/bin/python/gpt/chatgpt.py" "/home/trottar/Programs/my_programs/pdf_summary/src/summarize_text.py" "/home/trottar/Programs/my_programs/pdf_summary/run_convert.sh" "/home/trottar/Programs/my_programs/pdf_summary/src/summarize_zotero.py" "/home/trottar/Programs/my_programs/pdf_summary/src/summarize_text.py" "/home/trottar/Programs/my_programs/pdf_summary/src/combined_text_file.txt" "/home/trottar/Programs/my_programs/pdf_summary/run_convert.sh" "/home/trottar/bin/chat.sh" "/home/trottar/bin/python/gpt/chatgpt.py" "/home/trottar/Programs/my_programs/pdf_summary/src/summarize_text.py" "/home/trottar/bin/python/gpt/chatgpt.py" "~/Programs/my_programs/pdf_summary/src/finetune_gpt.py" "~/Programs/my_programs/pdf_summary/.gitignore" "/home/trottar/Programs/my_programs/pdf_summary/run_convert.sh" "/home/trottar/Programs/my_programs/pdf_summary/src/summarize_text.py" "/home/trottar/Programs/my_programs/pdf_summary/src/summarize_zotero.py" "/home/trottar/Programs/my_programs/pdf_summary/.gitignore" "/home/trottar/Programs/my_programs/pdf_summary/src/summarize_text.py" "/home/trottar/.bash_profile" "/home/trottar/Programs/my_programs/pdf_summary/src/summarize_text.py" "~/Programs/my_programs/pdf_summary/src/grab_zotero_file.py" "/home/trottar/.bash_profile" "/home/trottar/Programs/my_programs/pdf_summary/.gitignore" "~/bin/.gitignore" "/home/trottar/.cshrc" "~/bin/python/gpt/chatgpt.py" "~/bin/chat.sh" "~/Programs/my_programs/pdf_summary/.gitignore" "/home/trottar/Programs/my_programs/pdf_summary/text_files/.gitignore" "/home/trottar/Programs/my_programs/pdf_summary/summaries/.gitignore" "/home/trottar/Programs/my_programs/pdf_summary/summaries/summary_Reece2016_Continuouswavesuperconductingradiofrequency.txt" "/home/trottar/Programs/my_programs/bookmarkconverter/src/.gitignore" "/home/trottar/Programs/my_programs/bookmarkconverter/src/evernote_test.py" "/home/trottar/Programs/my_programs/bookmarkconverter/src/CreateEvernote.py" "/home/trottar/Programs/my_programs/starfinder/src/main.py"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
-  "/home/trottar/.cshrc"
-  ".cshrc"
+  "/home/trottar/bin/python/gpt/prompts.json"
+  "prompts.json"
+  'js-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  4462
+  '(4462 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/bin/python/gpt/chatgpt.py"
+  "chatgpt.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  4449
+  '(4442 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/bin/auto_mail.sh"
+  "auto_mail.sh"
   'sh-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  2809
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  533
+  '(494 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/bin/python/gmail/auto_mail.py"
+  "auto_mail.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  3525
+  '(3848 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/bin/python/kde/kdeconnect.py"
+  "kdeconnect.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  600
+  '(296 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Documents/papers/thesis/dissertation/phd_thesis.org"
+  "phd_thesis.org"
+  'org-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  919
   '(1 nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
 
 (desktop-create-buffer 206
+  "/home/trottar/average_kinematics.f"
+  "average_kinematics.f"
+  'fortran-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  7
+  '(6997 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-dos) (fill-column . 72) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/average_ratios.f"
+  "average_ratios.f"
+  'fortran-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  4171
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-dos) (fill-column . 72) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Programs/my_programs/bookmarkconverter/src/UpdateEvernote.py"
+  "UpdateEvernote.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  2144
+  '(2337 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/opt/jlab_software/2.2/ce/versions.env"
+  "versions.env"
+  'fundamental-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  543
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Programs/my_programs/customsearch/src/bookmarks.py"
+  "bookmarks.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  542
+  '(296 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/syncFiles.sh"
+  "syncFiles.sh"
+  'sh-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  2759
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Programs/my_programs/scrivener-latex/PhDThesis.md"
+  "PhDThesis.md"
+  'markdown-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  142
+  '(69 nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . utf-8-dos) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_3/nine_wreaths.pdf"
+  "nine_wreaths.pdf"
+  'doc-view-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  1
+  '(1 nil)
+  t
+  '((page . 87) (slice))
+  '((buffer-file-coding-system . no-conversion) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/opt/jlab_software/2.2/ce/jlab.csh"
+  "jlab.csh"
+  'sh-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  931
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Programs/my_programs/starfinder/src/voicebot/commands/general.py"
+  "general.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  4359
+  '(217 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Programs/my_programs/starfinder/src/voicebot/audiocontroller.py"
+  "audiocontroller.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  10155
+  '(10089 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/syncPackages.sh"
+  "syncPackages.sh"
+  'sh-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  537
+  '(439 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Programs/my_programs/starfinder/src/voicebot/commands/palpatine.py"
+  "palpatine.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  1165
+  '(1165 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Programs/my_programs/starfinder/src/voicebot/commands/music.py"
+  "music.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  8610
+  '(8547 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Programs/my_programs/starfinder/src/voicebot/playlist.py"
+  "playlist.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  1277
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Programs/my_programs/starfinder/src/voicebot/plugins/button.py"
+  "button.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
+  62
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
   "/home/trottar/Documents/books/NW2_Translucent_Skies/translucent_skies.org"
   "translucent_skies.org"
   'org-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
   5216
   '(8126 nil)
   nil
@@ -40,21 +271,10 @@
   '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
 
 (desktop-create-buffer 206
-  "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_3/nine_wreaths.org"
-  "nine_wreaths.org"
-  'org-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  110
-  '(95325 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
   "/home/trottar/.emacs.d/startinit.org"
   "startinit.org"
   'org-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
   101904
   '(4285 nil)
   nil
@@ -62,21 +282,10 @@
   '((buffer-file-coding-system . utf-8-unix) (truncate-lines)))
 
 (desktop-create-buffer 206
-  "/home/trottar/Documents/books/random/ThoughtsofSanity.org"
-  "ThoughtsofSanity.org"
-  'org-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  10212
-  '(10212 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
   "/home/trottar/bin/physics_dict/physics_dict.py"
   "physics_dict.py"
   'python-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
   12723
   '(13847 nil)
   nil
@@ -87,7 +296,7 @@
   "/home/trottar/Programs/my_programs/physics_engine/src/physics_calc/physics_rules.py"
   "physics_rules.py"
   'python-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
   1789
   '(1953 nil)
   nil
@@ -98,7 +307,7 @@
   "/home/trottar/Documents/papers/thesis/scattering/fixed_collider_physics.pdf"
   "fixed_collider_physics.pdf"
   'doc-view-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
   1
   '(1 nil)
   t
@@ -109,76 +318,10 @@
   "/home/trottar/Documents/papers/thesis/scattering/fixed_collider_physics.org"
   "fixed_collider_physics.org"
   'org-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode TeX-PDF-mode)
   4574
   '(3647 nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Documents/books/Nine_Wreaths/DRAFT_3/nine_wreaths.pdf"
-  "nine_wreaths.pdf"
-  'doc-view-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  386792
-  '(1 nil)
-  t
-  '((page . 40) (slice))
-  '((buffer-file-coding-system . no-conversion) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Documents/papers/thesis/dissertation/phd_thesis.org"
-  "phd_thesis.org"
-  'org-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  839
-  '(47 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/opt/jlab_software/2.2/ce/versions.env"
-  "versions.env"
-  'fundamental-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  543
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/syncFiles.sh"
-  "syncFiles.sh"
-  'sh-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  2759
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/opt/jlab_software/2.2/ce/jlab.csh"
-  "jlab.csh"
-  'sh-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  931
-  '(1 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/syncPackages.sh"
-  "syncPackages.sh"
-  'sh-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  537
-  '(439 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
 
