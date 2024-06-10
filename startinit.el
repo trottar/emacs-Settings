@@ -2000,8 +2000,8 @@ t)
 
 ;;   ("s-O" . prelude-open-with)))
 
-(setq user-mail-address "trotta@cua.edu")
-(setq user-full-name "Richard Trotta")
+(setq user-mail-address "trottar.iii@gmail.com")
+(setq user-full-name "Richard L. Trotta")
 (setq gnus-always-read-dribble-file t)
 (setq gnus-select-method '(nnml ""))
 (setq gnus-select-method '(nnimap "gmail"
@@ -2235,3 +2235,5 @@ subsequent sends."
   (cond ((looking-at "\\s(") (forward-list 1) (backward-char 1))
         ((looking-at "\\s)") (forward-char 1) (backward-list 1))
         (t (self-insert-command (or arg 1)))))
+
+(load-file "~/.emacs.d/lisp-files/read-aloud.el")
