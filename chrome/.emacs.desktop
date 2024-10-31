@@ -2,42 +2,130 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Thu Jun  6 20:01:15 2024
+;; Created Thu Oct 31 14:50:55 2024
 ;; Desktop file format version 206
 ;; Emacs version 25.2.2
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (26210 19915 187048 339000) (desktop . "208") "trottar@trottar" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (frameset--id . "7314-8D8C-4D51-7988") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (visibility . t) (user-size . t) (fullscreen-restore . maximized) (height . 58) (width . 207) (left . 40) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 36) (min-pixel-width-ignore . 36) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1880) (pixel-height . 1037) (total-width . 208) (total-height . 57) (normal-height . 1.0) (normal-width . 1.0) (buffer ".cshrc" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 3709) (start . 1984))))])
+(setq desktop-saved-frameset [frameset 1 (26403 53647 576640 603000) (desktop . "208") "trottar@trottar" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (frameset--id . "7314-8D8C-4D51-7988") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (visibility . t) (user-size . t) (fullscreen-restore . maximized) (height . 58) (width . 207) (left . 40) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 36) (min-pixel-width-ignore . 36) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1880) (pixel-height . 1037) (total-width . 208) (total-height . 57) (normal-height . 1.0) (normal-width . 1.0) (buffer "scratch.txt" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 27040) (start . 25312))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("jlab" "e" "." "e" "." "allev" "embed" "https" "jexit" "jgrab" "cs" "jexi" "=" "jnb" "min_events_per_bin" "jpur"))
+(setq search-ring '("most_common_combination" "most_common" "chosen" "quadra" "1.1" "chosen" "comm" "tmp" "###" "flat" "lin" "lin_cu" "lin" "Fits for" "lin" "w_bounds"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("/home/trottar/.ssh/config" "/home/trottar/.bash_profile" "/home/trottar/.ssh/config" "~/Programs/my_programs/tmp/beamtest_dir/requirements.txt" "~/Programs/my_programs/tmp/beamtest_dir/commit_docker.sh" "~/Programs/my_programs/tmp/beamtest_dir/run_docker.sh" "/home/trottar/Programs/my_programs/tmp/beamtest_dir/Dockerfile" "/home/trottar/.ssh/config" "~/Programs/my_programs/test/tbin_loop.py" "/home/trottar/.ssh/config" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/certificate.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/abstract.tex" "/home/trottar/Programs/my_programs/scrivener-latex/references.bib" "/home/trottar/Programs/my_programs/scrivener-latex/main.tex" "/home/trottar/Programs/my_programs/scrivener-latex/references.bib" "/home/trottar/Programs/my_programs/scrivener-latex/bib/references.bib" "/home/trottar/Programs/my_programs/scrivener-latex/references.bib" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/abstract.tex" "/home/trottar/.ssh/config" "/home/trottar/.bash_profile" "/home/trottar/bin/python/gmail/auto_mail.py" "/home/trottar/.bash_profile" "/home/trottar/.emacs.d/insert/template.sh" "/home/trottar/.emacs.d/insert/template.py" "/home/trottar/.emacs.d/insert/template.org" "/home/trottar/.emacs.d/insert/template.h" "/home/trottar/.emacs.d/insert/template.C" "/home/trottar/.emacs.d/startinit.org" "/home/trottar/.emacs.d/init.el" "/home/trottar/.emacs.d/startinit.org" "/home/trottar/.emacs.d/cosmetics.el" "/home/trottar/.emacs.d/alias.el" "/home/trottar/bin/python/gmail/auto_mail.py" "/home/trottar/Documents/books/NW2_Translucent_Skies/translucent_skies.org" "/home/trottar/.ssh/config" "/home/trottar/.cshrc" "/home/trottar/.ssh/config" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/acknowledgment.tex" "/home/trottar/Programs/my_programs/scrivener-latex/references.bib" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/title_page.tex" "/home/trottar/Programs/my_programs/scrivener-latex/references.bib" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/abstract.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/title_page.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/acknowledgment.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/title_page.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/abstract.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/title_page.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/copyrights.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/certificate.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/acknowledgment.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/abstract.tex" "/home/trottar/Programs/my_programs/scrivener-latex/styles/fltpage.sty" "/home/trottar/Programs/my_programs/scrivener-latex/helpers/bib.tex" "/home/trottar/Programs/my_programs/scrivener-latex/styles/fltpage.sty" "/home/trottar/Programs/my_programs/scrivener-latex/PhDThesis.tex" "/home/trottar/Programs/my_programs/scrivener-latex/temp.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/abstract.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/certificate.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/title_page.tex" "/home/trottar/Programs/my_programs/scrivener-latex/styles/fltpage.sty" "/home/trottar/Programs/my_programs/scrivener-latex/helpers/bib.tex" "/home/trottar/Programs/my_programs/scrivener-latex/references.bib" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/abstract.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/acknowledgment.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/abstract.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/certificate.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/title_page.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/abstract.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/copyrights.tex" "/home/trottar/Programs/my_programs/scrivener-latex/main.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/copyrights.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/title_page.tex" "/home/trottar/.ssh/config" "/home/trottar/Programs/my_programs/test/x_sep.pl_Q30W232.dat" "/home/trottar/Programs/my_programs/test/x_sep.pl_Q44W274.dat" "/home/trottar/Programs/my_programs/test/x_sep.pl_Q55W302.dat" "/home/trottar/Programs/my_programs/test/x_sep.pl_Q44W274.dat" "/home/trottar/Programs/my_programs/test/x_sep.pl_Q30W314.dat" "/home/trottar/Programs/my_programs/scrivener-latex/convert_md.sh" "/home/trottar/Programs/my_programs/test/x_sep.pl_Q30W314.dat" "/home/trottar/Programs/my_programs/test/unsep_xsect_calc.py" "/home/trottar/Programs/my_programs/scrivener-latex/appendix/appendix_A.tex" "/home/trottar/Programs/my_programs/test/x_sep.pl_Q21W295.dat" "~/Programs/my_programs/test/unsep_xsect_calc.py" "/home/trottar/Programs/my_programs/scrivener-latex/main.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/abstract.tex" "/home/trottar/Programs/my_programs/scrivener-latex/main.tex" "/home/trottar/Programs/my_programs/scrivener-latex/references.bib" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/copyrights.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/certificate.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/abstract.tex" "/home/trottar/Programs/my_programs/scrivener-latex/helpers/bib.tex" "/home/trottar/Programs/my_programs/scrivener-latex/bib/references.bib" "/home/trottar/Programs/my_programs/scrivener-latex/references.bib" "/home/trottar/Programs/my_programs/scrivener-latex/bib/2-0_ref.bib" "~/Programs/my_programs/scrivener-latex/bib/references.bib" "/home/trottar/Programs/my_programs/scrivener-latex/helpers/bib.tex" "/home/trottar/Programs/my_programs/scrivener-latex/bib/2-0_ref.bib" "/home/trottar/Programs/my_programs/scrivener-latex/main.tex" "/home/trottar/Programs/my_programs/scrivener-latex/log/scrivener_md_pdf.log"))
+(setq file-name-history '("/home/trottar/Programs/my_programs/test/find_avg_t.py" "~/Programs/my_programs/test/find_avg_t.py" "/home/trottar/Analysis/uva/a1n_analysis/utility.py" "~/Analysis/lt_analysis/src/plotting/Wfactor_dep.py" "/home/trottar/Analysis/lt_analysis/src/plotting/Q2_W_dep.py" "/home/trottar/.ssh/config" "~/Analysis/uva/a1n_analysis/utility.py" "~/Analysis/uva/a1n_analysis/fitting.py" "/home/trottar/bin/python/notes/notes.py" "/home/trottar/.ssh/config" "~/Analysis/uva/a1n_analysis/3He_visualization.py" "/home/trottar/Analysis/uva/a1n_analysis/data/g1f1_comb.csv" "~/Analysis/uva/a1n_analysis/functions.py" "/home/trottar/Analysis/uva/a1n_analysis/3He_visualization.py" "/home/trottar/Analysis/uva/a1n_analysis/.gitignore" "~/Programs/my_programs/test/ratio_check.py" "/home/trottar/Programs/my_programs/customsearch/src/database.py" "/home/trottar/.ssh/config" "~/.emacs.d/hallc/" "~/Programs/my_programs/test/root_to_csv.py" "~/Programs/my_programs/test/ratio_compare.py" "/home/trottar/.bashrc" "/home/trottar/Programs/my_programs/test/table_3He_JAM_smeared_no_QE_ipol1IA14_SF23_AC11.csv" "/home/trottar/Programs/my_programs/test/XZ_table_3He_JAM_smeared_kpsv_onshell_ipol1_ipolres1_IA14_SF23_AC11.csv" "/home/trottar/.ssh/known_hosts" "~/Programs/my_programs/test/test_4.py" "/home/trottar/Programs/my_programs/test/test_3.py" "/home/trottar/Programs/my_programs/test/test.py" "~/.local/share/applications/thunderbird.desktop" "/home/trottar/.ssh/config" "/home/trottar/.bashrc" "/home/trottar/.bash_profile" "/home/trottar/.ssh/config" "/home/trottar/.bash_profile" "/home/trottar/.ssh/config" "~/Programs/my_programs/tmp/beamtest_dir/requirements.txt" "~/Programs/my_programs/tmp/beamtest_dir/commit_docker.sh" "~/Programs/my_programs/tmp/beamtest_dir/run_docker.sh" "/home/trottar/Programs/my_programs/tmp/beamtest_dir/Dockerfile" "/home/trottar/.ssh/config" "~/Programs/my_programs/test/tbin_loop.py" "/home/trottar/.ssh/config" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/certificate.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/abstract.tex" "/home/trottar/Programs/my_programs/scrivener-latex/references.bib" "/home/trottar/Programs/my_programs/scrivener-latex/main.tex" "/home/trottar/Programs/my_programs/scrivener-latex/references.bib" "/home/trottar/Programs/my_programs/scrivener-latex/bib/references.bib" "/home/trottar/Programs/my_programs/scrivener-latex/references.bib" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/abstract.tex" "/home/trottar/.ssh/config" "/home/trottar/.bash_profile" "/home/trottar/bin/python/gmail/auto_mail.py" "/home/trottar/.bash_profile" "/home/trottar/.emacs.d/insert/template.sh" "/home/trottar/.emacs.d/insert/template.py" "/home/trottar/.emacs.d/insert/template.org" "/home/trottar/.emacs.d/insert/template.h" "/home/trottar/.emacs.d/insert/template.C" "/home/trottar/.emacs.d/startinit.org" "/home/trottar/.emacs.d/init.el" "/home/trottar/.emacs.d/startinit.org" "/home/trottar/.emacs.d/cosmetics.el" "/home/trottar/.emacs.d/alias.el" "/home/trottar/bin/python/gmail/auto_mail.py" "/home/trottar/Documents/books/NW2_Translucent_Skies/translucent_skies.org" "/home/trottar/.ssh/config" "/home/trottar/.cshrc" "/home/trottar/.ssh/config" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/acknowledgment.tex" "/home/trottar/Programs/my_programs/scrivener-latex/references.bib" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/title_page.tex" "/home/trottar/Programs/my_programs/scrivener-latex/references.bib" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/abstract.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/title_page.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/acknowledgment.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/title_page.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/abstract.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/title_page.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/copyrights.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/certificate.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/acknowledgment.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/abstract.tex" "/home/trottar/Programs/my_programs/scrivener-latex/styles/fltpage.sty" "/home/trottar/Programs/my_programs/scrivener-latex/helpers/bib.tex" "/home/trottar/Programs/my_programs/scrivener-latex/styles/fltpage.sty" "/home/trottar/Programs/my_programs/scrivener-latex/PhDThesis.tex" "/home/trottar/Programs/my_programs/scrivener-latex/temp.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/abstract.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/certificate.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/title_page.tex" "/home/trottar/Programs/my_programs/scrivener-latex/styles/fltpage.sty" "/home/trottar/Programs/my_programs/scrivener-latex/helpers/bib.tex" "/home/trottar/Programs/my_programs/scrivener-latex/references.bib" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/abstract.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/acknowledgment.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/abstract.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/certificate.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/title_page.tex" "/home/trottar/Programs/my_programs/scrivener-latex/front_matter/abstract.tex"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
-(desktop-create-buffer 206
-  "/home/trottar/.cshrc"
-  ".cshrc"
-  'sh-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  3709
-  '(1 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
 (desktop-create-buffer 206
   "/home/trottar/scratch.txt"
   "scratch.txt"
   'text-mode
   '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  13401
-  '(12511 nil)
+  27040
+  '(27040 nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/.cshrc"
+  ".cshrc"
+  'sh-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  5178
+  '(1349 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Programs/my_programs/test/find_avg_t.py"
+  "find_avg_t.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  511
+  '(444 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Analysis/uva/a1n_analysis/utility.py"
+  "utility.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  2534
+  '(1244 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Analysis/uva/a1n_analysis/3He_visualization.py"
+  "3He_visualization.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  1
+  '(49301 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Analysis/uva/a1n_analysis/functions.py"
+  "functions.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  19
+  '(1684 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Analysis/uva/a1n_analysis/.gitignore"
+  ".gitignore"
+  'fundamental-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  169
+  '(151 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Programs/my_programs/test/ratio_check.py"
+  "ratio_check.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  5907
+  '(5896 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Programs/my_programs/test/ratio_compare.py"
+  "ratio_compare.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  6445
+  '(5704 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Programs/my_programs/test/root_to_csv.py"
+  "root_to_csv.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  1298
+  '(1650 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
 
 (desktop-create-buffer 206
   "/home/trottar/Programs/my_programs/tmp/beamtest_dir/Dockerfile"
@@ -115,4 +203,15 @@
   nil
   nil
   '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/.emacs.d/ido.last"
+  "ido.last"
+  'fundamental-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  65558
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8) (truncate-lines)))
 

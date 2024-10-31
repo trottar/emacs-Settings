@@ -2,27 +2,60 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Fri May 31 21:19:01 2024
+;; Created Thu Oct 31 06:24:52 2024
 ;; Desktop file format version 206
 ;; Emacs version 25.2.2
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (26202 30469 793596 371000) (desktop . "208") "trottar@trottar" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars . t) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 16) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (frameset--id . "CA4D-3D9F-4FA0-8908") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (visibility . t) (user-size . t) (fullscreen-restore . maximized) (height . 57) (width . 206) (left . 40) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 36) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1880) (pixel-height . 1037) (total-width . 209) (total-height . 58) (normal-height . 1.0) (normal-width . 1.0) (buffer "xfit_in_t.py" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars nil 0 t nil 1 t) (vscroll . 0) (dedicated) (point . 1630) (start . 740))))])
+(setq desktop-saved-frameset [frameset 1 (26403 23284 773385 746000) (desktop . "208") "trottar@trottar" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars . t) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 16) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (frameset--id . "CA4D-3D9F-4FA0-8908") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (visibility . t) (user-size . t) (fullscreen-restore . maximized) (height . 57) (width . 206) (left . 40) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 36) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1880) (pixel-height . 1037) (total-width . 209) (total-height . 58) (normal-height . 1.0) (normal-width . 1.0) (buffer "Q3p0W3p14.model" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars nil 0 t nil 1 t) (vscroll . 0) (dedicated) (point . 655) (start . 1))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("deb" "numtbins" "subpro" "tmin" "xse" "numtbins" "numtb" "check_bins" "numtbins" "changed" "check_bins" "find_bins" "numtbins" "run_x" "plot_x" "numtbins"))
+(setq search-ring '("ratio" "except (typeerror or zerodivisionerror) as e:" "TT" "== 2" "best_params" "best_param" "== 1" "extract_values" "th_cm" "optimiz" "err_sets" "chi2_sets" "err_sets" "/ (" "TT" "th_cm"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("/home/trottar/Analysis/lt_analysis/run_xsect.sh" "/home/trottar/Analysis/lt_analysis/src/cuts/rand_sub.py" "/home/trottar/Analysis/lt_analysis/src/cuts/background_fit.py" "/home/trottar/Analysis/uva/RadCor/plot_radcor3.py" "/home/trottar/Analysis/uva/RadCor/CAnalyzer-master/src/CRadCorr.cpp" "/home/trottar/Analysis/uva/RadCor/CAnalyzer-master/src/CExpData.cpp" "/home/trottar/Analysis/uva/RadCor/CAnalyzer-master/example/rad_corr.C" "/home/trottar/Analysis/uva/RadCor/run_RadCorr.sh" "/home/trottar/Analysis/lt_analysis/src/binning/ave_per_bin.py" "/home/trottar/Analysis/lt_analysis/src/models/lt_2D_fit.py" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts/luminosity/src/lumiyield.py" "/home/trottar/Analysis/lt_analysis/src/utility/utility.py" "~/Analysis/lt_analysis/src/plotting/Q2_W_dep.py" "/home/trottar/Analysis/lt_analysis/src/binning/find_bins.py" "/home/trottar/Analysis/lt_analysis/input/kaon/Prod_Coin_Q2p1W2p95left_lowe.inp" "/home/trottar/Analysis/lt_analysis/input/kaon/Prod_Coin_Q2p1W2p95center_lowe.inp" "/home/trottar/Analysis/lt_analysis/src/models/xfit_in_t.py" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/run_list/KaonLT/Q2p1W2p95center_highe" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/run_list/KaonLT/Q2p12W2p05right_lowe" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/run_list/KaonLT/Q2p12W2p05left_lowe" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/run_list/KaonLT/Q2p12W2p05center_lowe" "/home/trottar/Analysis/lt_analysis/remove_replays.sh" "/home/trottar/Analysis/lt_analysis/all_applyCuts_Prod.sh" "/home/trottar/Analysis/simc_gfortran/recon_hcana/recon_hcana.C" "/home/trottar/Analysis/hallc_replay_lt/PARAM/SHMS/GEN/KaonLT_PARAM/shmsflags.param" "/home/trottar/Analysis/lt_analysis/src/plotting/iter_check.py" "/home/trottar/Analysis/lt_analysis/src/simc_ana/compare_simc_iter.py" "/home/trottar/Analysis/lt_analysis/src/models/param_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/simc_ana/iter_weight.py" "/home/trottar/Analysis/lt_analysis/src/models/xfit_in_t.py" "/home/trottar/Analysis/lt_analysis/src/main_iter.py" "/home/trottar/Analysis/lt_analysis/src/models/lt_2D_fit.py" "/home/trottar/Analysis/lt_analysis/src/models/xfit_in_t.py" "/home/trottar/Analysis/lt_analysis/src/models/lt_2D_fit.py" "/home/trottar/Analysis/lt_analysis/src/models/par_pl_Q21W295" "/home/trottar/Analysis/lt_analysis/run_xsect.sh" "/home/trottar/Analysis/lt_analysis/src/average_kinematics.f" "/home/trottar/Analysis/lt_analysis/src/average_kinematics.expect" "/home/trottar/Analysis/lt_analysis/run_xsect.sh" "/home/trottar/Analysis/lt_analysis/src/physics_lists.py" "/home/trottar/Analysis/lt_analysis/src/plotting/binned.py" "/home/trottar/Analysis/lt_analysis/src/binning/calculate_ratio.py" "/home/trottar/Analysis/lt_analysis/src/binning/ave_per_bin.py" "/home/trottar/Analysis/lt_analysis/src/binning/calculate_yield.py" "/home/trottar/Analysis/lt_analysis/src/plotting/data_vs_simc.py" "/home/trottar/Analysis/lt_analysis/src/normalize/get_eff_charge.py" "/home/trottar/Analysis/lt_analysis/src/utility/utility.py" "/home/trottar/Analysis/lt_analysis/src/binning/find_bins.py" "/home/trottar/Analysis/lt_analysis/src/simc_ana/compare_simc.py" "/home/trottar/Analysis/lt_analysis/src/cuts/rand_sub.py" "/home/trottar/Analysis/lt_analysis/src/cuts/apply_cuts.py" "/home/trottar/Analysis/lt_analysis/src/cuts/diamond.py" "/home/trottar/Analysis/lt_analysis/src/setup/mergeRootFiles.py" "/home/trottar/Analysis/lt_analysis/run_HeeP_Analysis.sh" "/home/trottar/Analysis/lt_analysis/src/setup/Analysed_Prod.py" "/home/trottar/Analysis/lt_analysis/applyCuts_Prod.sh" "/home/trottar/Analysis/lt_analysis/check_offsets.sh" "/home/trottar/Analysis/lt_analysis/set_ProdInput.sh" "/home/trottar/Analysis/lt_analysis/set_HeepInput.sh" "/home/trottar/Analysis/lt_analysis/set_SymLinks.sh" "/home/trottar/Analysis/lt_analysis/src/models/par_pl_Q21W295" "/home/trottar/Analysis/lt_analysis/src/models/par_pl_Q30W314" "/home/trottar/Analysis/lt_analysis/src/plotting/plot_xsects.py" "/home/trottar/Analysis/lt_analysis/src/plotting/plot_xsects.py.OLD" "/home/trottar/Analysis/lt_analysis/src/binning/ave_per_bin.py" "/home/trottar/Analysis/lt_analysis/src/setup/Analysed_Prod.py" "/home/trottar/Analysis/lt_analysis/src/utility/utility.py" "/home/trottar/Analysis/lt_analysis/src/binning/ave_per_bin.py" "/home/trottar/Analysis/lt_analysis/src/utility/utility.py" "/home/trottar/Analysis/lt_analysis/src/plotting/data_vs_simc.py" "/home/trottar/Analysis/lt_analysis/src/plotting/plot_xsects.py" "/home/trottar/Analysis/lt_analysis/src/binning/find_bins.py" "/home/trottar/Analysis/uva/RadCor/YoniCode_Retry_4Dave_2/Carter/xs_gen_dis6" "/home/trottar/Analysis/uva/RadCor/plot_radcor3.py" "/home/trottar/Analysis/uva/RadCor/set_Model.sh" "/home/trottar/Analysis/uva/RadCor/run_RadCorr.sh" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/bin/python/ltsep/ltsep.py" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/bin/python/ltsep/pathing.py" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/bin/python/ltsep/PATH_TO_DIR/kaonlt_online_farm.path" "/home/trottar/Analysis/uva/RadCor/CAnalyzer-master/include/ConfigObject.h" "/home/trottar/Analysis/uva/RadCor/CAnalyzer-master/src/CExpData.cpp" "/home/trottar/Analysis/uva/RadCor/CAnalyzer-master/Makefile" "/home/trottar/Analysis/uva/RadCor/CAnalyzer-master/include/CExpData.h" "/home/trottar/Analysis/simc_gfortran/recon_hcana/recon_hcana.h" "/home/trottar/Analysis/simc_gfortran/recon_hcana/recon_hcana.C" "/home/trottar/Analysis/uva/RadCor/CAnalyzer-master/Makefile" "/home/trottar/Analysis/uva/RadCor/CAnalyzer-master/include/CExpData.h" "/home/trottar/Analysis/uva/RadCor/CAnalyzer-master/example/rad_corr.C" "/home/trottar/Analysis/lt_analysis/src/setup/run_simc_tree" "/home/trottar/Analysis/uva/RadCor/CAnalyzer-master/example/rad_corr.C" "/home/trottar/Analysis/lt_analysis/run_HeeP_Analysis.sh" "/home/trottar/Analysis/lt_analysis/src/setup/run_simc_tree" "~/Analysis/uva/RadCor/run_analyzer.sh" "/home/trottar/Analysis/lt_analysis/src/HeeP/COIN/Analysed_COIN.py" "/home/trottar/Analysis/lt_analysis/all_applyCuts_Prod.sh" "/home/trottar/Analysis/lt_analysis/run_HeeP_Analysis.sh" "/home/trottar/Analysis/lt_analysis/src/HeeP/COIN/heep_ratio.py" "/home/trottar/Analysis/lt_analysis/set_HeepInput.sh" "/home/trottar/Analysis/simc_gfortran/recon_hcana/recon_hcana.C" "/home/trottar/Analysis/lt_analysis/input/Heep_Coin_3p8_Offset.inp"))
+(setq file-name-history '("/home/trottar/Analysis/lt_analysis/src/models/sep_xsect_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/average_ratios.f" "/home/trottar/Analysis/lt_analysis/src/models/param_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/models/xfit_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/models/sep_xsect_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/models/xmodel_kaon_pl.f" "/home/trottar/Analysis/lt_analysis/src/calc_xsect.f" "/home/trottar/Analysis/lt_analysis/src/models/xmodel_kaon_pl.f" "/home/trottar/Analysis/lt_analysis/src/average_ratios.f" "/home/trottar/Analysis/lt_analysis/src/models/physics_iterate.f" "/home/trottar/Analysis/lt_analysis/src/models/param_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/calc_xsect.f" "/home/trottar/Analysis/lt_analysis/src/average_ratios.f" "/home/trottar/Analysis/lt_analysis/src/models/xfit_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/models/param_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/models/xfit_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/models/sep_xsect_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/models/param_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/models/xfit_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/models/sep_xsect_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/models/param_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/models/lt_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/calc_xsect.f" "/home/trottar/Analysis/lt_analysis/src/setup/set_sig_fortran.py" "/home/trottar/Analysis/lt_analysis/src/utility/utility.py" "/home/trottar/Analysis/lt_analysis/src/setup/set_sig_fortran.py" "/home/trottar/Analysis/lt_analysis/src/models/xmodel_kaon_pl.f" "/home/trottar/Analysis/lt_analysis/src/calc_xsect.f" "/home/trottar/Analysis/lt_analysis/src/calc_xsect.expect" "/home/trottar/Analysis/lt_analysis/src/eps_n_theta.f" "/home/trottar/Analysis/lt_analysis/src/models/xmodel_kaon_pl.f" "/home/trottar/Analysis/lt_analysis/src/calc_xsect.f" "/home/trottar/Analysis/lt_analysis/src/setup/set_sig_fortran.py" "/home/trottar/Analysis/lt_analysis/src/calc_xsect.f" "/home/trottar/Analysis/lt_analysis/src/models/xmodel_kaon_pl.f" "/home/trottar/Analysis/lt_analysis/src/calc_xsect.f" "/home/trottar/Analysis/lt_analysis/src/utility/utility.py" "/home/trottar/Analysis/lt_analysis/src/simc_ana/compare_simc.py" "/home/trottar/Analysis/lt_analysis/src/simc_ana/compare_simc_iter.py" "/home/trottar/Analysis/lt_analysis/src/plotting/data_vs_simc.py" "/home/trottar/Analysis/lt_analysis/src/models/sep_xsect_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/plotting/iter_check.py" "/home/trottar/Analysis/lt_analysis/src/average_ratios.f" "/home/trottar/Analysis/lt_analysis/src/utility/utility.py" "/home/trottar/Analysis/lt_analysis/src/average_ratios.f" "/home/trottar/Analysis/lt_analysis/src/calc_xsect.f" "/home/trottar/Analysis/lt_analysis/src/models/sep_xsect_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/utility/utility.py" "/home/trottar/Analysis/lt_analysis/src/models/xfit_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/models/sep_xsect_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/models/lt_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/simc_ana/iter_weight.py" "/home/trottar/Analysis/lt_analysis/src/models/param_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/models/xmodel_kaon_pl.f" "/home/trottar/Analysis/lt_analysis/src/simc_ana/iter_weight.py" "/home/trottar/Analysis/lt_analysis/src/models/param_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/simc_ana/iter_weight.py" "/home/trottar/Analysis/lt_analysis/src/models/param_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/plotting/iter_check.py" "/home/trottar/Analysis/lt_analysis/src/models/xfit_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/models/param_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/models/xfit_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/models/lt_2D_fit.py" "/home/trottar/Analysis/lt_analysis/src/models/param_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/models/xfit_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/models/xfit_fit_finder.py.OLD" "/home/trottar/Analysis/lt_analysis/src/models/lt_2D_fit.py" "/home/trottar/Analysis/lt_analysis/src/models/lt_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/models/lt_2D_fit.py" "/home/trottar/Analysis/lt_analysis/src/utility/utility.py" "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/bin/python/ltsep/ltsep.py" "/home/trottar/Analysis/lt_analysis/src/models/xfit_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/utility/utility.py" "/home/trottar/Analysis/lt_analysis/src/models/lt_2D_fit.py" "/home/trottar/Analysis/lt_analysis/src/models/xfit_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/models/lt_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/models/lt_2D_fit.py" "/home/trottar/Analysis/lt_analysis/src/models/xmodel_kaon_pl.f" "/home/trottar/Analysis/lt_analysis/src/calc_xsect.f" "/home/trottar/Analysis/lt_analysis/src/models/xfit_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/utility/utility.py" "/home/trottar/Analysis/lt_analysis/src/models/xfit_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/utility/utility.py" "/home/trottar/Analysis/lt_analysis/src/models/xfit_in_t.py" "/home/trottar/Analysis/lt_analysis/src/models/xfit_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/utility/utility.py" "/home/trottar/Analysis/lt_analysis/src/models/xfit_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/utility/utility.py" "/home/trottar/Analysis/lt_analysis/src/models/xfit_kaon_pl.py" "/home/trottar/Analysis/lt_analysis/src/models/xfit_fit_finder.py" "/home/trottar/Analysis/lt_analysis/src/models/Q4p4W2p74.model" "/home/trottar/Analysis/lt_analysis/src/models/Q2p1W2p95.model" "/home/trottar/Analysis/lt_analysis/.gitignore" "/home/trottar/Analysis/lt_analysis/src/kaon/kindata/.gitignore" "/home/trottar/Analysis/lt_analysis/src/kaon/averages/.gitignore" "/home/trottar/Analysis/lt_analysis/src/models/Q3p0W2p32.model" "/home/trottar/Analysis/lt_analysis/src/models/Q4p4W2p74.model" "/home/trottar/Analysis/lt_analysis/src/models/Q3p0W2p32.model" "/home/trottar/Analysis/lt_analysis/src/models/Q2p1W2p95.model" "/home/trottar/Analysis/lt_analysis/src/utility/utility.py"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/trottar/Analysis/lt_analysis/src/models/Q3p0W3p14.model"
+  "Q3p0W3p14.model"
+  'fundamental-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  655
+  '(2204 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Analysis/lt_analysis/src/utility/utility.py"
+  "utility.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  38292
+  '(36865 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
 (desktop-create-buffer 206
   "/home/trottar/Analysis/lt_analysis/src/models/xfit_in_t.py"
   "xfit_in_t.py"
   'python-mode
   '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  1630
+  1287
+  '(1263 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/trottar/Analysis/lt_analysis/src/models/xfit_fit_finder.py"
+  "xfit_fit_finder.py"
+  'python-mode
+  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
+  94169
   '(1 nil)
   nil
   nil
@@ -33,162 +66,85 @@
   "run_Prod_Analysis.sh"
   'sh-mode
   '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  29737
-  '(3835 nil)
+  32869
+  '(32845 nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
 
 (desktop-create-buffer 206
-  "/home/trottar/Analysis/uva/RadCor/CAnalyzer-master/src/CRadCorr.cpp"
-  "CRadCorr.cpp"
-  'c++-mode
+  "/home/trottar/Analysis/lt_analysis/src/models/Q4p4W2p74.model"
+  "Q4p4W2p74.model"
+  'fundamental-mode
   '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  28105
-  '(5578 nil)
+  1278
+  '(6778 nil)
   nil
   nil
-  '((buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
 
 (desktop-create-buffer 206
   "/home/trottar/Analysis/lt_analysis/src/main.py"
   "main.py"
   'python-mode
   '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode smerge-mode)
-  27329
-  '(1 nil)
+  17364
+  '(17165 nil)
   nil
   nil
   '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
 
 (desktop-create-buffer 206
-  "/home/trottar/Analysis/lt_analysis/src/main_iter.py"
-  "main_iter.py"
-  'python-mode
+  "/home/trottar/Analysis/lt_analysis/src/models/Q2p1W2p95.model"
+  "Q2p1W2p95.model"
+  'fundamental-mode
   '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  28507
-  '(28357 nil)
+  1
+  '(6556 nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
 
 (desktop-create-buffer 206
-  "/home/trottar/Analysis/lt_analysis/src/plotting/plot_xsects.py"
-  "plot_xsects.py"
-  'python-mode
+  "/home/trottar/Analysis/lt_analysis/src/models/Q3p0W2p32.model"
+  "Q3p0W2p32.model"
+  'fundamental-mode
   '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  924
-  '(841 nil)
+  1578
+  '(6542 nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
 
 (desktop-create-buffer 206
   "/home/trottar/Analysis/lt_analysis/src/binning/find_bins.py"
   "find_bins.py"
   'python-mode
   '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  13469
-  '(13160 nil)
+  6160
+  '(6108 nil)
   nil
   nil
   '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
 
 (desktop-create-buffer 206
-  "/home/trottar/Analysis/lt_analysis/src/cuts/background_fit.py"
-  "background_fit.py"
+  "/home/trottar/Analysis/lt_analysis/src/cuts/hgcer_hole.py"
+  "hgcer_hole.py"
   'python-mode
   '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  1338
-  '(1354 nil)
+  1121
+  '(373 nil)
   nil
   nil
   '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
 
 (desktop-create-buffer 206
-  "/home/trottar/Analysis/uva/RadCor/run_RadCorr.sh"
-  "run_RadCorr.sh"
-  'sh-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  4278
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/lt_analysis/src/models/xfit_kaon_pl.py"
-  "xfit_kaon_pl.py"
+  "/home/trottar/Analysis/lt_analysis/src/setup/mergeRootFiles.py"
+  "mergeRootFiles.py"
   'python-mode
   '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  2650
-  '(1954 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/uva/RadCor/CAnalyzer-master/src/CExpData.cpp"
-  "CExpData.cpp"
-  'c++-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/uva/RadCor/CAnalyzer-master/example/rad_corr.C"
-  "rad_corr.C"
-  'c++-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  23
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/lt_analysis/src/binning/ave_per_bin.py"
-  "ave_per_bin.py"
-  'python-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  13347
-  '(nil nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/lt_analysis/src/models/lt_2D_fit.py"
-  "lt_2D_fit.py"
-  'python-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  1970
-  '(5634 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/lt_analysis/src/plotting/Q2_W_dep.py"
-  "Q2_W_dep.py"
-  'python-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  18906
-  '(1 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/scripts/luminosity/src/lumiyield.py"
-  "lumiyield.py"
-  'python-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  39743
-  '(39609 nil)
+  964
+  '(952 nil)
   nil
   nil
   '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
@@ -198,108 +154,20 @@
   "all_applyCuts_Prod.sh"
   'sh-mode
   '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  4016
-  '(2524 nil)
+  4023
+  '(3953 nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
 
 (desktop-create-buffer 206
-  "/home/trottar/Analysis/lt_analysis/remove_replays.sh"
-  "remove_replays.sh"
-  'sh-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  2378
-  '(14 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/lt_analysis/src/cuts/apply_cuts.py"
-  "apply_cuts.py"
+  "/home/trottar/Analysis/lt_analysis/src/cuts/background_fit.py"
+  "background_fit.py"
   'python-mode
   '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  6226
-  '(3830 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/lt_analysis/set_ProdInput.sh"
-  "set_ProdInput.sh"
-  'sh-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  2572
-  '(544 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/lt_analysis/src/models/sep_xsect_kaon_pl.py"
-  "sep_xsect_kaon_pl.py"
-  'python-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  1220
-  '(2242 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/lt_analysis/src/models/xmodel_kaon_pl.f"
-  "xmodel_kaon_pl.f"
-  'fortran-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  2482
-  '(33 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (fill-column . 72) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/lt_analysis/src/cuts/particle_subtraction.py"
-  "particle_subtraction.py"
-  'python-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  19064
-  '(1 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/CUTS/general/pid.cuts"
-  "pid.cuts"
-  'fundamental-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  4458
-  '(4458 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/Analysis/hallc_replay_lt/UTIL_KAONLT/DB/CUTS/run_type/coin_prod.cuts"
-  "coin_prod.cuts"
-  'fundamental-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  1
+  4777
   '(nil nil)
   nil
   nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
-
-(desktop-create-buffer 206
-  "/home/trottar/.emacs.d/ido.last"
-  "ido.last"
-  'fundamental-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  59689
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8) (truncate-lines)))
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
 

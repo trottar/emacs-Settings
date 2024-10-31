@@ -2,42 +2,30 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Mon Jun 10 12:59:27 2024
+;; Created Mon Oct 28 09:07:39 2024
 ;; Desktop file format version 208
 ;; Emacs version 25.2.2
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (26215 12527 585389 754000) (desktop . "208") "trottar@trottar" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "red") (sticky) (environment) (frameset--id . "203D-58BB-4817-C8BF") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (visibility . t) (height . 58) (width . 207) (left . 40) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 36) (min-pixel-width-ignore . 36) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1880) (pixel-height . 1037) (total-width . 209) (total-height . 57) (normal-height . 1.0) (normal-width . 1.0) (buffer "userChrome.css" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 8257) (start . 8140))))])
+(setq desktop-saved-frameset [frameset 1 (26399 35995 193092 498000) (desktop . "208") "trottar@trottar" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "red") (sticky) (environment) (frameset--id . "0B02-5D42-354D-FE32") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (visibility . t) (height . 58) (width . 207) (left . 40) (top . 0)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 72) (min-pixel-width . 180) (min-pixel-height-ignore . 36) (min-pixel-width-ignore . 72) (min-pixel-height-safe . 18) (min-pixel-width-safe . 36)) hc (pixel-width . 1880) (pixel-height . 1037) (total-width . 209) (total-height . 57) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 944) (pixel-height . 1037) (total-width . 105) (total-height . 57) (normal-height . 1.0) (normal-width . 0.5) (buffer "startinit.org" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 372) (start . 1))) (leaf (last . t) (pixel-width . 936) (pixel-height . 1037) (total-width . 104) (total-height . 57) (normal-height . 1.0) (normal-width . 0.5) (buffer "*Warnings*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 233) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
 (setq search-ring nil)
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("~/.emacs.d/chrome/" "/home/trottar/.emacs.d/startinit.org" "~/.emacs.d/eic/" "~/.emacs.d/chrome/"))
+(setq file-name-history '("~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/eic/" "~/.emacs.d/hallc/" "~/.emacs.d/chrome/" "/home/trottar/.emacs.d/startinit.org" "~/.emacs.d/eic/" "~/.emacs.d/chrome/"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
-(desktop-create-buffer 208
-  "/home/trottar/.mozilla/firefox/79ek66dm.default-1678263885535/chrome/userChrome.css"
-  "userChrome.css"
-  'css-mode
-  '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  8257
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines))
-  '((mark-ring nil)))
-
 (desktop-create-buffer 208
   "/home/trottar/.emacs.d/startinit.org"
   "startinit.org"
   'org-mode
   '(abbrev-mode visual-line-mode global-auto-revert-mode company-mode)
-  1
-  '(nil nil)
+  372
+  '(348 nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix) (truncate-lines))
-  '((mark-ring nil)))
+  '((mark-ring (372))))
 
